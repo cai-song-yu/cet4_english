@@ -13698,5 +13698,4736 @@ window.ARTICLES = [
         }
       ]
     }
+  },
+{
+    id: 41,
+    slug: '041-the-language-of-numbers',
+    title: 'The Language of Numbers',
+    titleCn: '数字的语言',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 520 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/041.jpg',
+    coverCredit: 'Photo: RDNE Stock project / Pexels',
+    body: [
+      'Numbers look like the most honest thing on a page: they read the same in every language. Yet one <span class="w-cet4" data-cn="数字、数值">figure</span> can support two opposite stories. <span class="w-sentence">A number is never wrong on its own; it is the question around it that decides what we see.</span>',
+      'Start with the <span class="w-rev">average</span>. A company of ten people pays nine workers 3,000 a month and the owner 30,000: on average the ten earn 5,700 each, and almost everyone earns less. <span class="w-sentence">The one number for the whole group hides the distance between the top and the bottom without lying.</span> The <span class="w-cet4" data-cn="中位数">median</span> <span class="w-cet4" data-cn="收入">income</span>, the middle value, is 3,000 and describes the <span class="w-rev">typical</span> worker better. One <span class="w-synonym" data-cn="＝ very large 的替换词">enormous</span> value drags the average up: the number is <span class="w-cet4" data-cn="精确的">precise</span>, the picture is not.',
+      'Percentages can be <span class="w-rev">misleading</span> in the same way, because a <span class="w-cet4" data-cn="百分比">percentage</span> without its base is only half a sentence. If a shop sells two coats one week and three the next, sales are up 50 per cent: a headline hiding one extra coat, <span class="w-rev">likely</span> to travel further than the correction. <span class="w-sentence">Ask how large the number was at the start, because doubling something very small still leaves something very small.</span>',
+      'Charts can <span class="w-cet4" data-cn="夸大、夸张">exaggerate</span> even when the numbers are correct. If a bar chart starts at zero, the rise is <span class="w-synonym" data-cn="＝ almost not 的替换词">barely</span> visible; <span class="w-cet4" data-cn="调整">adjust</span> the axis to start below the smallest value, and the same rise looks like a jump. <span class="w-sentence">Nothing on the chart has changed; only the starting point moved, and the shape of the line does the arguing.</span> The <span class="w-cet4" data-cn="刻度、比例">scale</span> of the axis <span class="w-rev">distorts</span> the story: read the <span class="w-cet4" data-cn="范围、幅度">range</span> first.',
+      'Every <span class="w-cet4" data-cn="调查">survey</span> rests on a <span class="w-cet4" data-cn="样本">sample</span>, and someone chose that sample: this is where <span class="w-cet4" data-cn="偏差、偏倚">bias</span> enters. A hundred students in a library cannot <span class="w-cet4" data-cn="代表">represent</span> a whole city, and a leading question pushes people towards ‘yes’. Honest researchers <span class="w-phrase" data-cn="指出">point out</span> how the sample was picked; <span class="w-synonym" data-cn="＝ a lot of 的替换词">plenty of</span> others do not. Then comes the <span class="w-cet4" data-cn="选择性的、挑挑拣拣的">selective</span> report: of a number of results, only the one that rose is announced.',
+      '<span class="w-writing" data-cn="说句公道话……">To be fair,</span> numbers are still the best tool we have. A story can be forgotten; a carefully <span class="w-rev">measured</span> <span class="w-cet4" data-cn="统计数字">statistic</span> <span class="w-phrase" data-cn="至少">at least</span> shows where a <span class="w-rev">trend</span> began and where it is going, and it is the strongest <span class="w-rev">evidence</span> we have. <span class="w-phrase" data-cn="表面上看">On the surface</span>, the <span class="w-cet4" data-cn="大多数">majority</span> of charts are not lies; they show only the part of the truth that supports their <span class="w-cet4" data-cn="主张、论断">claim</span>.',
+      '<span class="w-writing" data-cn="在我看来……">In my view,</span> three habits are enough. First, ask what a number <span class="w-phrase" data-cn="以……为依据">is based on</span>: the base of a percentage, the size of a sample. Second, <span class="w-rev">compare</span> the figure with last year and keep an eye on the median. Third, <span class="w-phrase" data-cn="把……记在心里">keep the context in mind</span>: a number <span class="w-phrase" data-cn="脱离语境、被断章取义">taken out of context</span> means something else. <span class="w-sentence">Do not ask only what the number says; ask what it leaves out and who chose to leave it out.</span>',
+      'Numbers do not lie, but they rarely speak on their own. In other words, two honest people can look at the same table and <span class="w-cet4" data-cn="得出结论">conclude</span> differently. <span class="w-phrase" data-cn="乍一看">At first glance</span> the answer is <span class="w-rev">obvious</span>; the second glance is worth more. That, <span class="w-writing" data-cn="在我看来">in my view</span>, is what this language asks: read slowly, and let every number explain itself.'
+    ],
+    translation: [
+      '数字看上去是纸面上最诚实的东西：无论哪种语言，读起来都一样。然而同一个数字可以支撑两个相反的故事。数字本身从不出错；决定我们看到什么的，是围绕它的问题。',
+      '先从平均数说起。一家十个人的公司，给九名工人每月三千，给老板三万：平均下来每人挣五千七，可几乎人人都没挣到这个数。那个用来概括整群人的数字，把最高和最低之间的差距藏了起来，而且并没有说谎。中位数收入，也就是排在中间的那个数，是三千，它更能说明普通工人的处境。一个极大的数值把平均数拉了上去：数字很精确，画面却不是那么回事。',
+      '百分比也会以同样安静的方式误导人，因为没有基数的百分比只是半句话。如果一家店这周卖出两件大衣、下周卖出三件，销售额就上涨了百分之五十：一个标题藏起了仅仅多卖出的那一件大衣，却比后来的更正更可能广为流传。要问这个数字起初有多大，因为把一个很小的数翻倍，得到的仍然很小。',
+      '即使每个数字都对，图表也可以把事情夸大。如果柱状图从零开始，涨幅几乎看不出来；把坐标轴的起点调到最小值之下，同样的涨幅看上去就像一次猛涨。图表上的东西一点没变，只是起点挪了位置，而线条的形状替人把话说完了。坐标轴的刻度歪曲了故事：先看取值范围。',
+      '每个调查都建立在一个样本之上，而样本是人选出来的：偏差就是在这里进来的。图书馆里的一百个学生代表不了一整座城市，而一个诱导性的问题会把人推向「是」。诚实的研究者会指出样本是怎么挑出来的；更多人则不会。接着是选择性汇报：一大堆结果里，只有上涨的那一个被公布。',
+      '说句公道话，数字仍然是我们手里最好的工具。一个故事会被忘记；一个认真测量过的统计数字至少能显示趋势从哪里开始、走向哪里，它是我们最有力的证据。从表面上看，大多数图表都不是谎言；它们只是展示了真相中支持其主张的那一部分。',
+      '在我看来，三个习惯就够了。第一，问一个数字依据什么而来：百分比的基数、样本的大小。第二，把这个数字和去年的做比较，并留意中位数。第三，把语境记在心里：脱离语境的数字会变成另一个意思。不要只问数字说了什么；要问它省略了什么，又是谁选择把它省略掉的。',
+      '数字不会说谎，但它们很少独自开口。换句话说，两个诚实的人看同一张表，可能得出不同的结论。乍一看答案显而易见；再看一眼才更值钱。在我看来，这正是这门语言对我们的要求：读得慢一点，让每一个数字自己解释自己。'
+    ],
+    vocabulary: [
+      {
+        w: 'figure',
+        ph: '/ˈfɪɡə(r)/',
+        pos: 'n.',
+        cn: '数字、数值',
+        col: 'a sales figure — 一个销售数字；the latest figures — 最新数据',
+        ex: 'One figure can support two opposite stories.'
+      },
+      {
+        w: 'median',
+        ph: '/ˈmediən/',
+        pos: 'n./adj.',
+        cn: '中位数（的）',
+        col: 'the median income — 中位数收入；the median value — 中位数',
+        ex: 'The median describes the typical worker better than the average.'
+      },
+      {
+        w: 'income',
+        ph: '/ˈɪnkʌm/',
+        pos: 'n.',
+        cn: '收入',
+        col: 'monthly income — 月收入；income from a job — 工作收入',
+        ex: 'The median income here is 3,000 a month.'
+      },
+      {
+        w: 'precise',
+        ph: '/prɪˈsaɪs/',
+        pos: 'adj.',
+        cn: '精确的',
+        col: 'a precise figure — 精确的数字；to be precise — 确切地说',
+        ex: 'The number is precise, but the picture is not.'
+      },
+      {
+        w: 'percentage',
+        ph: '/pəˈsentɪdʒ/',
+        pos: 'n.',
+        cn: '百分比',
+        col: 'a large percentage of … — ……中的很大比例；express the result as a percentage — 用百分比表示结果',
+        ex: 'A percentage without its base is only half a sentence.'
+      },
+      {
+        w: 'exaggerate',
+        ph: '/ɪɡˈzædʒəreɪt/',
+        pos: 'v.',
+        cn: '夸大、夸张',
+        col: 'exaggerate the problem — 夸大问题；exaggerate the rise — 夸大涨势',
+        ex: 'Charts can exaggerate even when the numbers are correct.'
+      },
+      {
+        w: 'adjust',
+        ph: '/əˈdʒʌst/',
+        pos: 'v.',
+        cn: '调整',
+        col: 'adjust the scale — 调整刻度；adjust to … — 适应……',
+        ex: 'Adjust the axis and the same rise looks like a jump.'
+      },
+      {
+        w: 'scale',
+        ph: '/skeɪl/',
+        pos: 'n.',
+        cn: '刻度、比例',
+        col: 'the scale of the axis — 坐标轴的刻度；on a large scale — 大规模地',
+        ex: 'The scale of the axis distorts the story.'
+      },
+      {
+        w: 'range',
+        ph: '/reɪndʒ/',
+        pos: 'n.',
+        cn: '范围、幅度',
+        col: 'a wide range of … — 各种各样的……；the range of the axis — 坐标轴的取值范围',
+        ex: 'Read the range first, then read the line.'
+      },
+      {
+        w: 'survey',
+        ph: '/ˈsɜːveɪ/',
+        pos: 'n./v.',
+        cn: '调查',
+        col: 'carry out a survey — 开展一次调查；survey 200 people — 调查两百人',
+        ex: 'Every survey rests on a sample.'
+      },
+      {
+        w: 'sample',
+        ph: '/ˈsɑːmpl/',
+        pos: 'n./v.',
+        cn: '样本；抽样',
+        col: 'a sample of 100 people — 一百人的样本；sample the water — 抽取水样',
+        ex: 'Someone chose that sample, so bias enters.'
+      },
+      {
+        w: 'bias',
+        ph: '/ˈbaɪəs/',
+        pos: 'n.',
+        cn: '偏差、偏倚',
+        col: 'a small bias — 一点偏差；show bias towards … — 对……有偏向',
+        ex: 'Every sample carries a little bias.'
+      },
+      {
+        w: 'represent',
+        ph: '/ˌreprɪˈzent/',
+        pos: 'vt.',
+        cn: '代表、表示',
+        col: 'represent the whole group — 代表整个群体；represent the data — 表示这些数据',
+        ex: 'A hundred students cannot represent a whole city.'
+      },
+      {
+        w: 'selective',
+        ph: '/sɪˈlektɪv/',
+        pos: 'adj.',
+        cn: '选择性的、挑挑拣拣的',
+        col: 'selective reporting — 选择性汇报；be selective about … — 对……挑挑拣拣',
+        ex: 'Then comes the selective report.'
+      },
+      {
+        w: 'statistic',
+        ph: '/stəˈtɪstɪk/',
+        pos: 'n.',
+        cn: '统计数字',
+        col: 'an official statistic — 官方统计数字；statistics show … — 统计数据显示……',
+        ex: 'A carefully measured statistic shows where a trend began.'
+      },
+      {
+        w: 'majority',
+        ph: '/məˈdʒɒrəti/',
+        pos: 'n.',
+        cn: '大多数',
+        col: 'the majority of … — ……的大多数；a large majority — 绝大多数',
+        ex: 'The majority of charts are not lies.'
+      },
+      {
+        w: 'claim',
+        ph: '/kleɪm/',
+        pos: 'n./v.',
+        cn: '主张、声称',
+        col: 'make a claim — 提出一个主张；claim that … — 声称……',
+        ex: 'Charts often show only the part that supports their claim.'
+      },
+      {
+        w: 'conclude',
+        ph: '/kənˈkluːd/',
+        pos: 'v.',
+        cn: '得出结论',
+        col: 'conclude from … — 从……得出结论；conclude that … — 断定……',
+        ex: 'Two honest people can conclude differently from the same table.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'on average',
+        cn: '平均而言（新）',
+        ex: 'On average, the ten people earn 5,700 each.'
+      },
+      {
+        en: 'be taken out of context',
+        cn: '脱离语境、被断章取义（新）',
+        ex: 'A number taken out of context means something else.'
+      },
+      {
+        en: 'at first glance',
+        cn: '乍一看（复现第 32 篇）',
+        ex: 'At first glance the answer is obvious.'
+      },
+      {
+        en: 'point out',
+        cn: '指出（复现第 33 篇）',
+        ex: 'Honest researchers point out how the sample was picked.'
+      },
+      {
+        en: 'keep … in mind',
+        cn: '把……记在心里（复现第 27 篇）',
+        ex: 'Keep the context in mind when you read a number.'
+      },
+      {
+        en: 'be based on',
+        cn: '以……为依据（复现第 28 篇）',
+        ex: 'Ask what a number is based on.'
+      },
+      {
+        en: 'on the surface',
+        cn: '表面上看（复现第 34 篇）',
+        ex: 'On the surface, the chart is not a lie.'
+      },
+      {
+        en: 'at least',
+        cn: '至少（复现第 24 篇）',
+        ex: 'A statistic at least shows where a trend began.'
+      },
+      {
+        en: 'a number of',
+        cn: '若干、一些（复现第 34 篇）',
+        ex: 'Of a number of results, only the one that rose is announced.'
+      },
+      {
+        en: 'in other words',
+        cn: '换句话说（复现第 33 篇）',
+        ex: 'In other words, numbers rarely speak on their own.'
+      },
+      {
+        en: 'keep an eye on',
+        cn: '留意、盯着（复现第 22 篇）',
+        ex: 'Keep an eye on the median when people talk about income.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'In my view, ...',
+        cn: '在我看来……',
+        meaning: '在给出结论前先亮明立场，提醒读者后面是「我的判断」而不是公认事实，议论类文章最常用的开路句式。',
+        context: '第七段第一句，后面直接给出作者的三条建议；结尾段还可以在句中再用一次收束。',
+        alts: [
+          {
+            t: 'From my point of view, ...',
+            n: '更强调「站在我的角度」'
+          },
+          {
+            t: 'I would argue that ...',
+            n: '更书面、带论证口气'
+          },
+          {
+            t: 'The way I see it, ...',
+            n: '更口语'
+          }
+        ],
+        register: '中性，议论、说明都适用。',
+        example: 'In my view, three habits are enough.'
+      },
+      {
+        expr: 'To be fair, ...',
+        cn: '说句公道话……',
+        meaning: '让步句式：先承认对方或反面的合理之处，再引出自己的主张，让论证显得公允而不偏激。',
+        context: '第六段第一句，前面讲了各种误导手法，这里先承认数字本身仍然有用。',
+        alts: [
+          {
+            t: 'Admittedly, ...',
+            n: '更书面的让步'
+          },
+          {
+            t: 'To some extent, ...',
+            n: '让步更温和'
+          },
+          {
+            t: 'It is true that ..., but ...',
+            n: '展开成让步 + 转折两句'
+          }
+        ],
+        register: '中性偏书面，常与 but, yet, still 呼应。',
+        example: 'To be fair, numbers are still the best tool we have.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'A number is never wrong on its own; it is the question around it that decides what we see.',
+        points: [
+          '<b>主干</b>：前后两个分句用分号连接 —— 前句 A number is never wrong on its own，后句 it is the question around it that decides what we see，一否定一强调。',
+          '<b>强调句</b>：it is … that … 强调主语 the question around it；把强调框架去掉后句子依然成立：the question around it decides what we see。判断强调句最简单的办法就是「去掉 it is / that 试试」。',
+          '<b>decide 的宾语</b>是 what we see 这个 <b>what 引导的宾语从句</b>，what 同时作 see 的宾语。',
+          '<b>为什么值得学</b>：这句话是全文的论点 —— 数字不会错，错的是提问的方式；写作里用强调句点出论点，比平铺直叙更有力量。',
+          '<b>常见变体</b>：It is the way you ask that changes the answer.'
+        ]
+      },
+      {
+        text: 'The one number for the whole group hides the distance between the top and the bottom without lying.',
+        points: [
+          '<b>主干</b>：The one number … hides the distance …，主语中心词是 number，for the whole group 是介词短语作后置定语，one 在这里是「唯一的、单单一个」。',
+          '<b>介词搭配</b>：the distance between A and B 表示「甲乙之间的差距」；between 后接两个并列的对比项 the top and the bottom。',
+          '<b>without lying</b> 是 <b>without + 动名词</b>结构，表示「在不撒谎的情况下」；英语里这种「做某事而不做另一件事」的表达非常地道。',
+          '<b>为什么值得学</b>：这句话把「平均数的问题」说得极准 —— 它没有造假，只是没说全；论证里区分「说谎」和「说不全」是很高级的一层。',
+          '<b>写作迁移</b>：The map hides the distance between the city and the village without lying.'
+        ]
+      },
+      {
+        text: 'Ask how large the number was at the start, because doubling something very small still leaves something very small.',
+        points: [
+          '<b>主干</b>：前半句是<b>祈使句</b> Ask …，宾语是 how large the number was 这个 <b>how 引导的宾语从句</b>（要用陈述语序：how large the number was，不是 how large was the number）。',
+          '<b>because</b> 引导<b>原因状语从句</b>，主语是动名词短语 <b>doubling something very small</b>，谓语是 still leaves，宾语 something very small —— 形容词修饰不定代词要<b>后置</b>。',
+          '<b>at the start</b> 表示「在起点、在一开始」，问「基数有多大」是看百分比的第一步。',
+          '<b>为什么值得学</b>：先给动作（去问基数），再解释理由，是劝说类段落最好用的顺序；同时这句话示范了「小基数翻倍仍然很小」这个常识性论证。',
+          '<b>注意点</b>：leave 在这里是「留下、剩下」，不是「离开」。'
+        ]
+      },
+      {
+        text: 'Nothing on the chart has changed; only the starting point moved, and the shape of the line does the arguing.',
+        points: [
+          '<b>主干</b>：三个分句并列 —— Nothing on the chart has changed / only the starting point moved / the shape of the line does the arguing，用分号和 and 连接。',
+          '<b>省略与倒装感</b>：only + 名词开头的分句读起来像强调，相当于「唯一动过的只有起点」；only 修饰主语时<b>不倒装</b>，这点和 only + 状语不同。',
+          '<b>拟人</b>：does the arguing（替人把架吵了）把线条写成会说话的人，比 says something 更生动；do the + 动名词 是地道搭配（do the talking / do the cleaning）。',
+          '<b>为什么值得学</b>：这句话点破「图表误导」的本质 —— 数据没改，改的是呈现方式；适合用在「现象没变、说法变了」的论证里。',
+          '<b>常见变体</b>：Nothing in the data changed; only the title did the work.'
+        ]
+      },
+      {
+        text: 'Do not ask only what the number says; ask what it leaves out and who chose to leave it out.',
+        points: [
+          '<b>主干</b>：两个<b>祈使句</b>并列（Do not ask … ; ask …），一正一反，节奏对仗，适合放在段落或文章结尾。',
+          '<b>宾语从句</b>：what the number says 与 what it leaves out 都是 <b>what 引导的宾语从句</b>；第二个祈使句还有一个并列的 <b>who 引导的宾语从句</b> who chose to leave it out。',
+          '<b>choose to do sth.</b> 表示「选择做某事」，leave … out 表示「把……漏掉、不写进去」，两个搭配都值得背。',
+          '<b>为什么值得学</b>：读数据的两问 —— 它说了什么、它没说什么、谁决定不说 —— 是全文的方法论收口，也是批判性阅读的通用问句。',
+          '<b>写作迁移</b>：Do not ask only what the book says; ask what it leaves out and who decided to leave it out.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about the nine workers in the company example?',
+        cn: '从文中公司的例子可以推出，那九名工人的处境是怎样的？',
+        ans: 'They each earn less than the average income of the ten people in the company.',
+        ansCn: '他们每个人的收入都低于公司十个人的平均收入。'
+      },
+      {
+        en: 'What can we infer about a chart whose axis starts just below the smallest value?',
+        cn: '从文中可以推出，坐标轴起点设在最小值之下的图表会产生什么效果？',
+        ans: 'It makes a small rise look like a big jump, although no number on the chart has been changed.',
+        ansCn: '它会让小小的上涨看起来像一次猛涨，尽管图表上的数字一个都没改。'
+      },
+      {
+        en: 'What is the writer’s view: should we trust numbers less after reading this?',
+        cn: '作者的观点是什么：读完之后我们是否应该少信数字？',
+        ans: 'No. The writer thinks we should not trust numbers less, but read them with more care and ask what they are based on and what they leave out.',
+        ansCn: '不该。作者认为不是要少信数字，而是要更仔细地读：问它依据什么、又省略了什么。'
+      },
+      {
+        en: 'How is the passage developed?',
+        cn: '这篇文章是怎样展开的？',
+        ans: 'It shows first how averages, percentages and charts can mislead, then how surveys can be misused, then admits that numbers are still our best tool, and finally gives three habits for reading them.',
+        ansCn: '文章先讲平均数、百分比和图表如何误导，再讲调查如何被滥用，接着承认数字仍然是最好的工具，最后给出读数字的三个习惯。'
+      },
+      {
+        en: 'Why does the writer mention a shop that sold two coats one week and three the next?',
+        cn: '作者为什么提到一家一周卖出两件大衣、下周卖出三件的店？',
+        ans: 'To show that a percentage can sound large while the real change is very small, because the base of the percentage is missing.',
+        ansCn: '为了说明百分比听上去很大，实际变化却很小，因为百分比的基数不见了。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about a number you saw in an advertisement or a news story, and explain how you would check it.',
+      hints: [
+        'Last week I saw a figure that said ...',
+        'On the surface, the number seems to ...',
+        'What the number does not show is ...',
+        'Before I believe a figure like this, I ...'
+      ],
+      hintCn: '分三段写：先复述你看到的那个数字和它的说法，再指出它没有说明的基数、样本或坐标轴，最后写你会用哪两三步去核对它；结尾可用 In my view, … 收束。',
+      req: '至少使用 3 个本篇学过的词或搭配（percentage / median / sample / on average / keep … in mind / at first glance）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: should ordinary people learn to read data?',
+        'One reason and one example with a real number',
+        'One counterargument — ‘numbers are for experts’ — and your answer to it',
+        'One sentence to close'
+      ],
+      pointCn: '一点五分钟到两分钟里讲完「观点 → 原因 → 例子 → 反驳 → 收尾」；例子里要有一个具体数字，反驳要先复述对方的理由，再给出你的回应。',
+      skeleton: 'In my view, ordinary people should ... The reason is that ... For example, one chart showed ... , and it turned out that ... Some people may say that numbers are for experts; however, ... To sum up, ...'
+    },
+    focus: [
+      '<b>新授核心词 18 个</b>：<span class=\'en\'>figure, median, income, precise, percentage, exaggerate, adjust, scale, range, survey, sample, bias, represent, selective, statistic, majority, claim, conclude</span> —— <b>median</b> 是「中位数」，和 <span class=\'en\'>average</span>（平均数）成对记，谈收入、价格时先想中位数；<b>income</b> 多作不可数名词，说「一份收入」用 an income 也可以；<b>percentage</b> 一定要带着基数（base）才有意义；<b>adjust / scale / range</b> 三个词在图表场景里固定搭配：adjust the scale、the range of the axis；<b>sample / survey / bias</b> 是调查三件套；<b>claim</b> 作名词是「主张」，作动词是「声称」；<b>conclude</b> 后接 that 从句或 from 短语。',
+      '<b>本篇复现的旧词</b>：第 29 篇的 <span class=\'en\'>average</span>（本文的主角之一）、第 11 篇的 <span class=\'en\'>typical</span>、第 34 篇的 <span class=\'en\'>misleading</span>、第 6 篇的 <span class=\'en\'>likely</span>、第 31 篇的 <span class=\'en\'>distort</span> 与 <span class=\'en\'>evidence</span>、第 30 篇的 <span class=\'en\'>measure → measured</span> 与 <span class=\'en\'>obvious</span>、第 22 篇的 <span class=\'en\'>trend</span>、第 4 篇的 <span class=\'en\'>compare</span>；短语复现另有第 32 篇的 <span class=\'en\'>at first glance</span>、第 33 篇的 <span class=\'en\'>point out / in other words</span>、第 27 篇的 <span class=\'en\'>keep … in mind</span>、第 28 篇的 <span class=\'en\'>be based on</span>、第 34 篇的 <span class=\'en\'>on the surface / a number of</span>、第 24 篇的 <span class=\'en\'>at least</span>、第 22 篇的 <span class=\'en\'>keep an eye on</span>。',
+      '<b>五处长难句覆盖五种结构</b>：强调句（<span class=\'en\'>it is the question around it that decides …</span>）、名词短语主干 + without 动名词（<span class=\'en\'>… hides the distance … without lying</span>）、祈使句 + 原因从句 + 动名词主语（<span class=\'en\'>Ask how large … , because doubling … leaves …</span>）、分号并列 + 拟人（<span class=\'en\'>the shape of the line does the arguing</span>）、平行宾语从句（<span class=\'en\'>ask what it leaves out and who chose to leave it out</span>）—— 每句都在长难句解析里拆开了，挑两句仿写。',
+      '<b>议论文三件套：观点 + 证据 + 让步</b>：观点用 <span class=\'en\'>In my view, …</span>，证据用具体数字（九个工人三千、老板三万、两件大衣变三件），让步用 <span class=\'en\'>To be fair, …</span> 先承认对方合理之处再回到主张。读数据的三步问句：<span class=\'en\'>what is it based on → what does it leave out → who chose to leave it out</span>。',
+      '<b>全文逻辑线与题型提醒</b>：数字看似诚实 → 平均数藏差距 → 百分比缺基数 → 图表动刻度 → 调查的样本与措辞 → 让步（数字仍是最好的工具）→ 三个阅读习惯 → 收束（让数字自己解释自己）。推断题抓「例子背后的结论」（九个工人 vs 平均收入、坐标轴起点 vs 涨幅）；作者观点题注意作者<b>并不反对数字</b>，反对的是不问基数就相信；结构题按「三类误导 → 一种工具的让步 → 三条建议」数段落；「作者为什么提到某例」的题，答案一律落在「小变化被说成大变化」这一层。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五开篇：阅读题 5 题对 ≥ 4 · 18 个核心词遮住中文说出 ≥ 14 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟带反驳口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 18 个核心词中的 14 个（median、percentage、sample、claim、conclude …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（point out、keep … in mind、on the surface、at first glance …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（强调句 / without 动名词 / 祈使句加原因从句 / 省略与拟人 / 平行宾语从句），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 5 题要说出卖大衣的例子证明的是哪一层意思',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 In my view, … 或 To be fair, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 原因 → 例子 → 反驳 → 收尾」，例子里要有一个具体数字',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 10 处灰点旧词，说出其中 8 个的意思与来源篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 42,
+    slug: '042-how-cities-keep-cool',
+    title: 'How Cities Keep Cool',
+    titleCn: '城市如何降温',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 535 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '4 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/042.jpg',
+    coverCredit: 'Photo: TonyNojmanSK / Pexels',
+    body: [
+      'On a <span class="w-synonym" data-cn="＝ extremely hot 的替换词">scorching</span> afternoon in midsummer, a thermometer in a city centre reads several degrees higher than one outside town. This is the <span class="w-cet4" data-cn="城市的、都市的">urban</span> heat island: the built-up world stays warm long after dark, and the streets <span class="w-phrase" data-cn="降温、变凉">cool down</span> far more slowly than the fields around it.',
+      'Cities <span class="w-cet4" data-cn="困住、滞留（热量）">trap</span> heat for simple reasons. <span class="w-cet4" data-cn="混凝土">Concrete</span>, brick and dark roofs <span class="w-rev">absorb</span> sunlight all day, while tall buildings <span class="w-rev">block</span> the wind. Traffic <span class="w-phrase" data-cn="释放出、散发">gives off</span> heat, and vehicle <span class="w-cet4" data-cn="废气、尾气">exhaust</span> adds more. <span class="w-cet4" data-cn="湿度">Humidity</span> makes a still evening worse. <span class="w-sentence">When the sun beats down for hours, the heat that dark roofs and roads have stored all day is released into the evening, when the wind has died down.</span>',
+      'A mature tree gives <span class="w-rev">shade</span> to the <span class="w-cet4" data-cn="路面、人行道">pavement</span> and <span class="w-cet4" data-cn="释放、放出">releases</span> water vapour; under a full canopy the <span class="w-rev">temperature</span> is several degrees lower than over concrete. <span class="w-sentence">A street lined with mature trees can be several degrees cooler in the afternoon than a street of the same width that has no trees at all.</span> A large park works the same way, its air <span class="w-synonym" data-cn="＝ noticeably 的替换词">markedly</span> cooler than the streets around it, and <span class="w-cet4" data-cn="植被（总称）">vegetation</span> helps a city lose heat faster.',
+      'Materials matter too: a dark roof can heat its <span class="w-cet4" data-cn="表面">surface</span> to sixty degrees, a <span class="w-cet4" data-cn="浅色的、淡色的">pale</span> one far cooler. Light surfaces <span class="w-cet4" data-cn="反射（光与热）">reflect</span> sunlight before it turns into heat, and porous material lets rain sink in, not run to the <span class="w-cet4" data-cn="排水管、下水道">drain</span>. <span class="w-sentence">What makes a green roof worth its cost is not only cooler top floors, but also the rain it holds back and the heat it takes off the roof.</span> Soil and plants <span class="w-cet4" data-cn="使缓和、使不那么极端">moderate</span> the temperature and need little to <span class="w-rev">maintain</span>.',
+      '<span class="w-writing" data-cn="的确，……（让步）">It is true that</span> young trees will not cool a street this summer: a canopy takes a <span class="w-cet4" data-cn="十年">decade</span> to grow. Green space also <span class="w-phrase" data-cn="占据（空间、面积）">takes up</span> land that a crowded district cannot spare. Yet this is an argument for starting early: a <span class="w-rev">local</span> council can <span class="w-cet4" data-cn="扩大、扩展">expand</span> its tree cover, <span class="w-cet4" data-cn="资助、提供资金">fund</span> the work, and <span class="w-cet4" data-cn="安装、设置">install</span> fixes that work in one summer.',
+      '<span class="w-writing" data-cn="的确，……（让步）">It is true that</span> pale roads can throw reflected heat towards the people walking on them. <span class="w-sentence">The problem is not that any single measure is perfect, but that a city which depends on only one will fail on the hottest days, when every degree of cooling matters.</span> Researchers <span class="w-phrase" data-cn="指出">point out</span> that the hottest districts are <span class="w-rev">likely</span> to be the ones with the fewest trees, and <span class="w-rev">increasingly</span> where families can least <span class="w-rev">afford</span> cooling. As a result, cooling is a fairness issue too.',
+      'Air conditioning follows the same pattern: it cools one room and pushes hot air into the street, which gets hotter in turn. The electricity it <span class="w-cet4" data-cn="消耗、耗费">consumes</span> is often produced far away. That is why strong plans <span class="w-phrase" data-cn="应对、处理">deal with</span> heat at its source and keep it under control: more trees, lighter roofs, and buildings the wind can pass through.',
+      '<span class="w-writing" data-cn="真正重要的是……">What really matters is</span> that cooling a city is not one big machine but a number of small decisions, repeated street by street: a lighter roof, a row of trees, a park. None of them works <span class="w-phrase" data-cn="单靠它自己、独自">by itself</span>, yet each is <span class="w-rev">practical</span> somewhere, and over time they add up and <span class="w-rev">reduce</span> the <span class="w-rev">impact</span> of the hottest days. In the long run, the coolest city is the one designed this year.'
+    ],
+    translation: [
+      '盛夏一个酷热的午后，市中心的温度计读数能比城外的高出好几度。这就是城市热岛效应：入夜很久之后，建起来的世界依然温热，街上的降温速度也比周围的田野慢得多。',
+      '城市把热量留住，原因并不复杂。混凝土、砖块和深色屋顶整天吸收阳光，而高楼挡住了风。汽车在散热，车辆尾气又添了一层。湿度让无风的夜晚更难受。当太阳连续烤上几个小时，深色屋顶和路面白天积蓄的热量会一直释放到傍晚——那时风已经停了。',
+      '成年的大树给路面遮阴，又释放出水汽；完整树冠下的温度比混凝土表面低好几度。一条绿树成荫的街道，下午可以比同样宽度却没有一棵树的街道凉爽好几度。大公园起着同样的作用：它上空的空气明显比周围的街道更凉，而植被能帮一座城市更快散热。',
+      '材料同样重要：深色屋顶能把表面烤到六十度，而浅色屋顶则凉快得多。浅色表面在阳光变成热量之前就把它反射回去，多孔材料还能让雨水渗入，而不是直接流进下水道。绿色屋顶做得更进一步：除了顶层更凉爽，它还能留住雨水，把屋顶本身的热量也带走。土壤和植物让温度变得不那么极端，而且几乎不需要维护。',
+      '的确，小树今年夏天不会让一条街凉下来：完整的树冠需要十年才能长成。绿地也要占用地块，拥挤的街区总觉得腾不出来。但这恰恰是趁早动手的理由：地方上可以扩大树木覆盖、出资推进这项工作，并装上那些一个夏天就能见效的办法。',
+      '的确，浅色路面会把反射的热量抛向走在上面的人。问题不在于哪一种措施完美，而在于只依赖其中一种的城市，会在最热的那几天失手，那几天里每一度降温都至关重要。研究者指出，最热的街区往往正是树最少的街区，而这些地方越来越是那些连降温都最花不起钱的地方。因此，降温也是公平问题。',
+      '空调走的是同一条路：它冷却一个房间，却把热气推进街道，接着这条街就更热了。它消耗的电力常常在远处生产。正因如此，有力度的方案会从源头处理热量、把它控制住：更多的树、更浅的屋顶，以及让风能穿过的建筑布局。',
+      '真正重要的是：给城市降温不是一台大机器，而是一连串小小的决定，在一条街又一条街上重复：更浅的屋顶、一排树、一座公园。它们没有一样能单靠自己奏效，却每一样都能在某个地方派上用场；随着时间推移，这些选择会叠加起来，共同削弱最热的那几天。从长远看，最凉爽的城市正是今年正在被设计的那座。'
+    ],
+    vocabulary: [
+      {
+        w: 'urban',
+        ph: '/ˈɜːbən/',
+        pos: 'adj.',
+        cn: '城市的、都市的',
+        col: 'urban areas — 城市地区；urban life — 城市生活',
+        ex: 'Urban areas often feel hotter than the countryside around them.'
+      },
+      {
+        w: 'trap',
+        ph: '/træp/',
+        pos: 'v./n.',
+        cn: '困住、使滞留',
+        col: 'trap heat — 使热量滞留；fall into a trap — 掉进陷阱',
+        ex: 'Tall buildings and dark roofs trap the heat of the day.'
+      },
+      {
+        w: 'concrete',
+        ph: '/ˈkɒŋkriːt/',
+        pos: 'n./adj.',
+        cn: '混凝土；确实的',
+        col: 'a concrete floor — 混凝土地面；concrete evidence — 确凿的证据',
+        ex: 'Concrete stores heat and gives it back slowly after sunset.'
+      },
+      {
+        w: 'exhaust',
+        ph: '/ɪɡˈzɔːst/',
+        pos: 'n./v.',
+        cn: '废气、尾气；耗尽',
+        col: 'vehicle exhaust — 车辆尾气；exhaust fumes — 排出的废气',
+        ex: 'Traffic exhaust adds heat as well as pollution.'
+      },
+      {
+        w: 'humidity',
+        ph: '/hjuːˈmɪdəti/',
+        pos: 'n.',
+        cn: '湿度',
+        col: 'high humidity — 高湿度；humidity in the air — 空气中的湿度',
+        ex: 'High humidity makes a hot evening feel even heavier.'
+      },
+      {
+        w: 'surface',
+        ph: '/ˈsɜːfɪs/',
+        pos: 'n.',
+        cn: '表面',
+        col: 'roof surface — 屋顶表面；the surface temperature — 表面温度',
+        ex: 'The surface of a dark roof can heat to sixty degrees on a sunny day.'
+      },
+      {
+        w: 'release',
+        ph: '/rɪˈliːs/',
+        pos: 'v./n.',
+        cn: '释放、放出',
+        col: 'release heat — 散出热量；release water vapour — 释放水汽',
+        ex: 'At night the walls and roads release the heat they stored.'
+      },
+      {
+        w: 'reflect',
+        ph: '/rɪˈflekt/',
+        pos: 'v.',
+        cn: '反射（光与热）',
+        col: 'reflect sunlight — 反射阳光；reflect heat away — 把热量反射开',
+        ex: 'A pale wall reflects sunlight before it turns into heat.'
+      },
+      {
+        w: 'pavement',
+        ph: '/ˈpeɪvmənt/',
+        pos: 'n.',
+        cn: '路面、人行道',
+        col: 'hot pavement — 发烫的路面；walk on the pavement — 走人行道',
+        ex: 'Trees keep the pavement cool in the afternoon.'
+      },
+      {
+        w: 'moderate',
+        ph: '/ˈmɒdəreɪt/',
+        pos: 'v./adj.',
+        cn: '使缓和、使不那么极端；温和的',
+        col: 'moderate the temperature — 使温度不那么极端；a moderate climate — 温和的气候',
+        ex: 'A layer of soil and plants moderates the temperature of a roof.'
+      },
+      {
+        w: 'pale',
+        ph: '/peɪl/',
+        pos: 'adj.',
+        cn: '浅色的；苍白的',
+        col: 'pale colours — 浅色；pale blue — 浅蓝色',
+        ex: 'A pale roof stays far cooler than a dark one.'
+      },
+      {
+        w: 'decade',
+        ph: '/ˈdekeɪd/',
+        pos: 'n.',
+        cn: '十年',
+        col: 'for a decade — 长达十年；over the past decade — 过去十年间',
+        ex: 'A full tree canopy takes a decade to grow.'
+      },
+      {
+        w: 'expand',
+        ph: '/ɪkˈspænd/',
+        pos: 'v.',
+        cn: '扩大、扩展',
+        col: 'expand tree cover — 扩大树木覆盖；expand a programme — 扩大一项计划',
+        ex: 'The city plans to expand its tree cover this year.'
+      },
+      {
+        w: 'fund',
+        ph: '/fʌnd/',
+        pos: 'v./n.',
+        cn: '资助、提供资金；基金',
+        col: 'fund a project — 资助一个项目；raise funds — 筹集资金',
+        ex: 'Local councils fund the planting of street trees.'
+      },
+      {
+        w: 'install',
+        ph: '/ɪnˈstɔːl/',
+        pos: 'vt.',
+        cn: '安装、设置',
+        col: 'install equipment — 安装设备；install shade sails — 架起遮阳篷',
+        ex: 'Some fixes can be installed within a single summer.'
+      },
+      {
+        w: 'consume',
+        ph: '/kənˈsjuːm/',
+        pos: 'vt.',
+        cn: '消耗、耗费',
+        col: 'consume electricity — 消耗电力；consume energy — 消耗能量',
+        ex: 'Air conditioners consume a great deal of electricity in July.'
+      },
+      {
+        w: 'vegetation',
+        ph: '/ˌvedʒəˈteɪʃn/',
+        pos: 'n.',
+        cn: '植被（总称）',
+        col: 'plenty of vegetation — 充足的植被；vegetation cover — 植被覆盖',
+        ex: 'A city with plenty of vegetation cools down faster after sunset.'
+      },
+      {
+        w: 'drain',
+        ph: '/dreɪn/',
+        pos: 'n./v.',
+        cn: '排水管、下水道；排干',
+        col: 'run to the drain — 流进下水道；drain away — 排走、流光',
+        ex: 'Rain runs to the drain instead of staying in the soil.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'cool down',
+        cn: '降温、凉下来（新）',
+        ex: 'The streets cool down slowly after a hot day.'
+      },
+      {
+        en: 'give off',
+        cn: '释放出、散发（新）',
+        ex: 'Machines and cars give off heat all day long.'
+      },
+      {
+        en: 'take up',
+        cn: '占据（空间、面积）（复现第 28 篇）',
+        ex: 'Green space takes up land in a crowded district.'
+      },
+      {
+        en: 'point out',
+        cn: '指出（复现第 36 篇）',
+        ex: 'Researchers point out that tree cover is lowest where the heat is worst.'
+      },
+      {
+        en: 'deal with',
+        cn: '应对、处理（复现第 35 篇）',
+        ex: 'A good plan deals with heat at its source.'
+      },
+      {
+        en: 'by itself',
+        cn: '单靠它自己、独自（复现第 27 篇）',
+        ex: 'No single measure works by itself.'
+      },
+      {
+        en: 'as a result',
+        cn: '结果、因此（复现第 26 篇）',
+        ex: 'The district has few trees, and as a result its streets stay hot at night.'
+      },
+      {
+        en: 'keep … under control',
+        cn: '使……得到控制（复现第 27 篇）',
+        ex: 'Trees and light roofs keep the heat under control.'
+      },
+      {
+        en: 'a number of',
+        cn: '若干、一些（复现第 26 篇）',
+        ex: 'A number of cities now plant trees before the problem gets worse.'
+      },
+      {
+        en: 'over time',
+        cn: '随着时间推移（复现第 35 篇）',
+        ex: 'Small cooling choices add up over time.'
+      },
+      {
+        en: 'in turn',
+        cn: '反过来、继而（新）',
+        ex: 'Hot streets push up the use of air conditioning, which in turn heats the street again.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远看（复现第 39 篇）',
+        ex: 'In the long run, planting today is cheaper than cooling tomorrow.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'It is true that ...',
+        cn: '的确，……（让步）',
+        meaning: '先承认对方说得有道理的一点，再补上自己的立场，是议论里最稳的让步句式：让步不是认输，而是把反方最强的一条摆出来，后面的反驳才有力。',
+        context: '正文第五、六段的段首各让一步，后面分别接「Yet …」和「The problem is not …」的反驳。',
+        alts: [
+          {
+            t: 'Admittedly, ...',
+            n: '更书面'
+          },
+          {
+            t: 'It cannot be denied that ...',
+            n: '语气更强的让步'
+          },
+          {
+            t: 'While this is true, ...',
+            n: '让步与反驳合在一句'
+          }
+        ],
+        register: '中性偏书面，议论文的标准让步句式。',
+        example: 'It is true that young trees will not cool a street this summer.'
+      },
+      {
+        expr: 'What really matters is ...',
+        cn: '真正重要的是……',
+        meaning: '收束全文时把读者的注意力从细节拉回到核心判断，避免结尾喊口号；后面接一个名词性从句或并列结构，用来概括全文立场。',
+        context: '正文最后一段的第一句，前面已经摆完证据与让步，这里给出作者的结论。',
+        alts: [
+          {
+            t: 'What counts is ...',
+            n: '更简短'
+          },
+          {
+            t: 'The point is not ... but ...',
+            n: '用「不是……而是……」收尾'
+          },
+          {
+            t: 'Ultimately, ...',
+            n: '换成副词开路'
+          }
+        ],
+        register: '中性偏书面，语气沉稳，适合结论段。',
+        example: 'What really matters is that cooling a city is not one big machine but a number of small decisions.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'When the sun beats down for hours, the heat that dark roofs and roads have stored all day is released into the evening, when the wind has died down.',
+        points: [
+          '<b>主干</b>：the heat is released into the evening —— 主语 the heat 后面带一个 <b>that 定语从句</b> that dark roofs and roads have stored all day，把「哪种热」说清楚，主句其实很短。',
+          '<b>句首</b>是 <b>when 引导的时间状语从句</b> When the sun beats down for hours；beat down 常用来形容阳光「直烤下来」，比 shines 更有压迫感。',
+          '<b>句尾的 when 从句</b>不是单纯的时间，而是<b>补充说明傍晚的处境</b>：风已经停了 —— 相当于一个用逗号隔开的解释性从句。',
+          '<b>被动语态</b> is released 强调「热被放出来」，说明文里描写物理过程时常用被动，主语是承受者。',
+          '<b>为什么值得学</b>：一句话里有「时间从句 + 定语从句 + 被动 + 二次 when 从句」四层结构，先抓 the heat is released，其余按层补，是拆长句的通用办法。'
+        ]
+      },
+      {
+        text: 'A street lined with mature trees can be several degrees cooler in the afternoon than a street of the same width that has no trees at all.',
+        points: [
+          '<b>主干</b>：A street can be several degrees cooler than a street —— 一个比较结构：A 比 B 低几度，several degrees 是<b>程度状语</b>，放在比较级 cooler 前。',
+          '<b>lined with mature trees</b> 是<b>过去分词短语作后置定语</b>，修饰 A street，相当于省略了 which is lined with …；line with 表示「沿……排成一排」。',
+          '<b>比较对象要对得上</b>：than a street of the same width（同样宽度的一条街）—— 把比较的前提写清楚，结论才可信，这是数据类写作的常识。',
+          '<b>句尾 that 定语从句</b>修饰比较对象：that has no trees at all；at all 加强否定，读作「连一棵树都没有」。',
+          '<b>常见变体</b>：A room facing north can be several degrees cooler in summer than a room of the same size facing the street.'
+        ]
+      },
+      {
+        text: 'What makes a green roof worth its cost is not only cooler top floors, but also the rain it holds back and the heat it takes off the roof.',
+        points: [
+          '<b>主干</b>：What makes a green roof worth its cost is … —— 主语是 <b>what 引导的名词性从句</b>，表语由 not only A but also B 并列三项：cooler top floors、the rain、the heat。',
+          '<b>句型</b> make + 宾语 + 宾补（worth its cost）：make a green roof worth its cost「让绿色屋顶值回成本」；worth 后接名词或动名词。',
+          '<b>两个省略关系代词的定语从句</b>：the rain (that) it holds back 与 the heat (that) it takes off the roof；hold back「拦住（雨水）」，take off「减去、带走」。',
+          '<b>为什么值得学</b>：not only … but also … 一口气给出三项收益，是论证「一个东西值不值」最好用的句型；三项里第二、三项都是名词短语，节奏比三个句子更紧凑。',
+          '<b>注意点</b>：it 引导的两个定语从句共用先行词前的动词短语结构，读的时候先抓 hold back 与 take off 两个动词，再补宾语。'
+        ]
+      },
+      {
+        text: 'The problem is not that any single measure is perfect, but that a city which depends on only one will fail on the hottest days, when every degree of cooling matters.',
+        points: [
+          '<b>主干</b>：The problem is not … but … —— 用 not A but B 纠正读者的期待：问题不在于「措施不完美」，而在于「只靠一种措施」。',
+          '<b>not that … but that …</b> 后接两个 <b>that 表语从句</b>，that 不作成分、只起连接作用，去掉后句子仍通顺，这是判断 that 从句性质的常用办法。',
+          '<b>第二个表语从句里</b>又有两层：which depends on only one 是 <b>which 定语从句</b>修饰 a city；句尾 when every degree of cooling matters 是修饰 the hottest days 的<b>非限制性定语从句</b>。',
+          '<b>为什么值得学</b>：这是让步段的反驳句 —— 先承认对方的质疑成立，再指出真正的风险在哪里，是「观点 + 证据 + 让步」型议论文的核心句式。',
+          '<b>常见变体</b>：The problem is not that the plan is expensive, but that it starts too late.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about a district with wide dark roads, tall buildings and very few trees?',
+        cn: '从「宽阔的深色路面、高楼、几乎没有树」的街区可以推出什么？',
+        ans: 'Its streets will stay warm long after dark, and its residents will need more cooling and pay more for it.',
+        ansCn: '这样的街道入夜很久依然温热，居民需要更多降温，也要为此多花钱。'
+      },
+      {
+        en: 'What can we infer about a city that waits until its streets are unbearable before it plants trees?',
+        cn: '从「等到街道热得受不了才开始种树」的城市可以推出什么？',
+        ans: 'It will spend its hottest years without the cooling it could have had, because a full canopy takes a decade to grow.',
+        ansCn: '它会在最热的那些年里失去本可以拥有的清凉，因为完整的树冠要十年才能长成。'
+      },
+      {
+        en: 'What is the writer’s view on the best way to cool a city?',
+        cn: '作者对「城市怎样降温最好」持什么看法？',
+        ans: 'No single measure is enough; a city should combine trees and parks, lighter roofs and road materials, and better building layout, and it should start early.',
+        ansCn: '任何单一措施都不够；城市应把树木与公园、更浅色的屋顶与路面材料、更好的建筑布局结合起来，并且趁早动手。'
+      },
+      {
+        en: 'How does the passage develop its argument?',
+        cn: '本文是如何展开论证的？',
+        ans: 'It first explains why cities heat up, then tests greening, roof and road materials and air conditioning one by one with their limits, and ends by arguing for a combined, early start.',
+        ansCn: '先解释城市为什么变热，再逐项检验绿化、屋顶与路面材料、空调并指出各自的局限，最后主张组合施策、趁早开始。'
+      },
+      {
+        en: 'Why does the writer mention an air conditioner pushing hot air into the street?',
+        cn: '作者为什么提到空调把热气吹到街上这件事？',
+        ans: 'To show that cooling a single room can make the street hotter, so heat has to be dealt with at the level of the whole city.',
+        ansCn: '为了说明只给单个房间降温会让街道更热，所以降温必须在整个城市的层面上解决。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about how your neighbourhood or your city could keep cool in summer.',
+      hints: [
+        'In my view, the biggest problem in my area is ...',
+        'It is true that ..., but ...',
+        'What really matters is ...'
+      ],
+      hintCn: '写成三段：第一段点出你所在街区夏天最热的问题；第二段用「It is true that …」让步一次，再给出两条具体做法（种树、浅色屋顶、透水路面、遮阳设施任选）；第三段用「What really matters is …」收尾，说明这件事为什么值得现在就做。',
+      req: '至少使用 3 个本篇学过的词或搭配（urban / reflect / pavement / moderate / cool down / take up / point out / It is true that …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: what should your city do first to keep cool?',
+        'One reason, with a number or a comparison in it',
+        'One example from a street, a campus or a city you know',
+        'One counterargument (too expensive, too slow) and your reply'
+      ],
+      pointCn: '1.5–2 分钟讲完「观点 → 一个理由 → 一个例子 → 一个反驳」；理由里要有一个数字或对比，反驳要先复述对方的质疑（比如「种树太慢」），再用本文的证据回一句。',
+      skeleton: 'In my view, ... should come first. The main reason is that ... For example, ... Some people may argue that ... However, ... That is why ...'
+    },
+    focus: [
+      '<b>新授核心词 18 个</b>：<span class=\'en\'>urban, trap, concrete, exhaust, humidity, surface, release, reflect, pavement, moderate, pale, decade, expand, fund, install, consume, vegetation, drain</span> —— 这批词按「成因 → 材料 → 行动」三组记：<b>成因组</b>（trap 热量、concrete 与 surface 蓄热、exhaust 与 humidity 加重体感）；<b>材料组</b>（pale 与 reflect 是一对因果——色浅才反光，pavement 与 drain 讲路面与水）；<b>行动组</b>（expand 绿化、fund 出钱、install 快招、moderate 温度、consume 要省）。注意 <b>release</b> 名动两用，「释放热量」说 release heat；<b>vegetation</b> 是「植被」总称，不可数；<b>decade</b> 与数字搭配：a decade（十年）、two decades（几十年）。',
+      '<b>本篇复现的旧词</b>：第 31 篇的 <span class=\'en\'>absorb</span>（深色表面吸热）、第 36 篇的 <span class=\'en\'>block</span>（楼挡住风）与 <span class=\'en\'>increasingly</span>、第 37 篇的 <span class=\'en\'>shade</span>、第 32 篇的 <span class=\'en\'>temperature</span>、第 26 篇的 <span class=\'en\'>maintain</span> 与 <span class=\'en\'>practical</span>、第 6 篇的 <span class=\'en\'>likely</span>、第 1 篇的 <span class=\'en\'>afford</span>、第 8 篇的 <span class=\'en\'>reduce</span>、第 30 篇的 <span class=\'en\'>impact</span>、第 25 篇的 <span class=\'en\'>local</span>；短语复现另有第 28 篇的 <span class=\'en\'>take up</span>、第 36 篇的 <span class=\'en\'>point out</span>、第 35 篇的 <span class=\'en\'>deal with / over time</span>、第 27 篇的 <span class=\'en\'>by itself / keep … under control</span>、第 26 篇的 <span class=\'en\'>as a result / a number of</span>、第 39 篇的 <span class=\'en\'>in the long run</span>。正文共 12 处灰点，读到灰点先想出处，再想意思。',
+      '<b>让步与反驳的对称句式</b>：<span class=\'en\'>It is true that …</span> 在第五、六段各出现一次，一次让「树长得慢」，一次让「浅色路面会反热」，后面分别接 <span class=\'en\'>Yet …</span> 与 <span class=\'en\'>The problem is not that … but that …</span> 反击——这是阶段五议论文「观点 + 证据 + 让步」的骨架，写作时可以照搬这个节奏：让步一句、反驳一句、证据两句。',
+      '<b>全文逻辑线</b>：热岛是什么（入夜仍不降温）→ 为什么热（吸热、挡风、机器散热、水被排走）→ 绿化怎么降温（遮阴 + 蒸腾 + 公园）→ 材料怎么降温（浅色、反光、透水、绿色屋顶）→ 两条让步（树长得慢、浅色路面反热）→ 空调为什么不是出路（屋里冷、街上热）→ 结论（组合施策、趁早开始）。',
+      '<b>题型提醒</b>：推断题抓「只种树会怎样」「等热得受不了再种会怎样」这类条件句，答案落在作者没直说的后果上；作者观点题看最后一段的 <span class=\'en\'>What really matters is …</span>；篇章结构题按「现象 → 原因 → 三类办法 → 各自局限 → 组合结论」数段落；「作者为什么提到 X」题只答「为了证明哪一条观点」，不要复述例子本身。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五议论文首篇：5 题对 ≥ 4 · 18 个核心词遮住中文说出 ≥ 14 · 拆开 4 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 18 个核心词中的 14 个（urban、reflect、pavement、moderate、vegetation …），并说清 release 与 reflect 的搭配对象',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '12 个高频搭配掌握 9 个，能各造一句（cool down、give off、take up、point out、in the long run …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 4 处长难句各自的结构（时间从句 + 定语从句 / 比较结构 + 分词定语 / 主语从句 + not only … but also … / not … but … 反驳句），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 4 题要说出全文「现象 → 原因 → 三类办法 → 局限 → 组合结论」的展开顺序',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 It is true that … 或 What really matters is …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳」，理由里带一个数字或对比，反驳要先复述对方质疑',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 12 处灰点旧词，说出其中 9 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 43,
+    slug: '043-the-person-behind-the-menu',
+    title: 'The Person Behind the Menu',
+    titleCn: '菜单背后的人',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 550 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.7%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/043.jpg',
+    coverCredit: 'Photo: Mahoney Fotos / Pexels',
+    body: [
+      'Open a menu: you see a <span class="w-rev">dish</span> and a price. What you do not see is the person behind it: a <span class="w-rev">cook</span> with a family story, and the long road that story travelled. Most <span class="w-rev">ordinary</span> home dishes look <span class="w-cet4" data-cn="简朴的、不起眼的">humble</span> — a stew that has <span class="w-cet4" data-cn="用文火慢炖、煨">simmered</span> all afternoon, a bowl of noodles, a plate of small pies. <span class="w-sentence">Yet behind almost every dish people cook at home stands a history of migration.</span>',
+      'A family that moves cannot pack a whole life into one bag. They carry seeds, tools and habits as well as one technique: how to turn a <span class="w-rev">cheap</span> cut tender and how to season with what the market offers. For the first <span class="w-cet4" data-cn="移民、外来定居者">immigrants</span>, a plain <span class="w-cet4" data-cn="主食、主打之物">staple</span> — bread, rice, a thick soup — was dinner and comfort. <span class="w-sentence">The dish that crossed the sea with them was written in no book, yet it survived every move.</span> Every <span class="w-cet4" data-cn="迁徙、移居">migration</span> leaves its mark.',
+      'In a new city the dish <span class="w-cet4" data-cn="调整以适应">adapts</span>. On the surface little remains of the original: rice gives way to a <span class="w-rev">local</span> grain, a spice is replaced by a cheaper <span class="w-cet4" data-cn="替代品；替代">substitute</span> <span class="w-phrase" data-cn="而不是、代替">instead of</span> the one from home, and the <span class="w-cet4" data-cn="味道、风味">flavour</span> <span class="w-synonym" data-cn="＝ changes slowly 的替换词">drifts</span> with the stove and the market. <span class="w-writing" data-cn="一个现成的例子就是……">A case in point</span> is the everyday stew in a city kitchen: it is <span class="w-phrase" data-cn="以……为基础">based on</span> the old one, but no two families end up cooking it the same way. This is how a home dish takes root.',
+      'Some people say a dish changed this way is no longer <span class="w-cet4" data-cn="地道的、正宗的">authentic</span>: the only <span class="w-synonym" data-cn="＝ genuine 的替换词">real</span> version, they argue, is the one cooked where it began. <span class="w-writing" data-cn="说句公道话……">To be fair,</span> a <span class="w-rev">recipe</span> can be simplified until its <span class="w-cet4" data-cn="起源、源头">origin</span> is lost, and with it part of a family’s <span class="w-cet4" data-cn="传统、文化遗产">heritage</span>. <span class="w-sentence">What looks like a fixed recipe is in fact a record of small changes that each generation made without noticing.</span> In other words, food has never stood still.',
+      'Behind the menu stands someone who learned by watching. A cook may spend years keeping one dish alive, adjusting the <span class="w-cet4" data-cn="技法、手法">technique</span> to deal with a new kitchen and new <span class="w-rev">ingredients</span>. The result is a <span class="w-cet4" data-cn="融合、混合">blend</span> of two <span class="w-rev">cultures</span>: a method from one shore, a vegetable from another. <span class="w-sentence">Dishes that move with people do not survive by being copied exactly; they survive because they are allowed to change.</span> Good cooks <span class="w-rev">adopt</span> whatever helps — a new pan, a new shortcut — and so the dish <span class="w-cet4" data-cn="演变、进化">evolves</span>.',
+      'So what is a home recipe worth? <span class="w-sentence">Not much as a set of instructions, but a great deal as a record of a family’s journey across borders and years.</span> That is why it pays to <span class="w-cet4" data-cn="保存、保留下来">preserve</span> one while the old cooks are around. <span class="w-writing" data-cn="一个现成的例子就是……">A case in point</span> is the way a family <span class="w-phrase" data-cn="把……一代代传下去">passes down</span> its <span class="w-rev">memory</span>: someone watches and <span class="w-phrase" data-cn="把……写下来">writes down</span> the steps, and years later the next generation can <span class="w-rev">discover</span> where it began by <span class="w-cet4" data-cn="追溯、追踪">tracing</span> one dish.',
+      'Not every dish hides a long story; some meals are simply fast and cheap. But <span class="w-cet4" data-cn="怀旧之情">nostalgia</span> has its place, and going back to a perfect past is not the aim: each new cook comes up with one <span class="w-cet4" data-cn="新花样、别出心裁的改动">twist</span>, and the dish keeps moving <span class="w-phrase" data-cn="随着时间推移">over time</span>. If you want to know where a family came from, ask what they cook on a cold evening. <span class="w-phrase" data-cn="……的核心、关键处在……">At the heart of</span> every menu is a person, and that person is still writing.'
+    ],
+    translation: [
+      '打开一份菜单：你看到的是一道菜和一个价格。你没看到的，是菜背后的那个人：一个厨师，一段家事，和那段家事走过的漫漫长路。大多数再普通不过的家常菜看上去都很不起眼——一锅炖了一下午的炖菜、一碗面、一盘小饼。然而，几乎每一道家常菜的背后，都站着一部迁徙史。',
+      '一个不得不搬家的家庭，没法把整段生活塞进一只行李袋。他们随身带走的，是种子、工具和习惯，还有一样技法：怎么把一块便宜的肉炖得软烂，怎么用市场上买得到的东西调味。对最早一批移民来说，一样朴素的主食——面包、米饭、一碗浓汤——既是晚饭，也是安慰。那道跟着他们漂洋过海的菜，没有写进任何书里，却活过了每一次搬迁。每一次迁徙，都会在菜上留下痕迹。',
+      '到了新城市，这道菜就开始调整。表面上，原来的影子几乎一点不剩：米换成了当地的谷物，香料被更便宜的替代品取代，而不是家乡的那一种，味道也随着炉灶和市场一点点漂移。一个现成的例子，就是城市厨房里的那道家常炖菜：它脱胎于从前的做法，可没有两家人最后做出来的是同一个味道。家常菜就是这样扎下根来的。',
+      '有人说，被改成这样的菜就不再地道了：他们主张，唯一真正的版本，只存在于它最初诞生的地方。说句公道话，一份食谱确实可能被简化到看不出源头，随之失去的还有这个家庭的一部分传承。所谓「固定不变的食谱」，其实是一份记录，记下每一代人不曾留意却做过的小小改动。换句话说，食物从来没有真正停下过脚步。',
+      '菜单背后，往往站着一个靠看学会做菜的人。一个厨师可能花上好几年，只为把一道菜守住，把技法一点点调整到能应付新的厨房和新的食材。结果便是两种文化的融合：一边来的做法，另一边来的蔬菜。跟着人走的菜，照原样复制是活不下来的；它们能活下来，是因为它们被允许改变。好的厨师会吸收一切有用的东西——一口新锅、一条新捷径——菜也就随之演变。',
+      '那么，一份家常食谱到底值多少？作为一串步骤，它不值什么；作为一个家庭跨越国境与岁月的记录，它价值连城。所以，趁老一辈还在，把它保存下来是划算的。一个现成的例子，是家庭把记忆传下去的方式：有人看着做，把步骤写下来，多年以后，下一代就能借着一道菜追溯，弄清这个家从哪里来。',
+      '当然，不是每道菜背后都有很长的故事；有些饭菜就是又快又便宜。但怀旧自有它的位置，回到某个完美从前也不是目的：每一代掌勺的人都会添一点新花样，菜就随着时间一路往前走。如果你想知道一个家庭从哪里来，别去问纸面的材料，问问他们天冷时做的是什么菜。每份菜单的核心都是一个人，而这个人，还在往下写。'
+    ],
+    vocabulary: [
+      {
+        w: 'migration',
+        ph: '/maɪˈɡreɪʃn/',
+        pos: 'n.',
+        cn: '迁徙、移居',
+        col: 'a history of migration — 一段迁徙史；migration patterns — 迁徙的路线与规律',
+        ex: 'Every migration leaves a mark on the food people carry.'
+      },
+      {
+        w: 'immigrant',
+        ph: '/ˈɪmɪɡrənt/',
+        pos: 'n.',
+        cn: '移民、外来定居者',
+        col: 'the first immigrants — 最早一批移民；an immigrant family — 移民家庭',
+        ex: 'The first immigrants in the city cooked the food they had grown up with.'
+      },
+      {
+        w: 'adapt',
+        ph: '/əˈdæpt/',
+        pos: 'v.',
+        cn: '调整以适应',
+        col: 'adapt to a new place — 适应新地方；adapt a recipe — 调整一份食谱',
+        ex: 'A home dish adapts when the cook moves to a new city.'
+      },
+      {
+        w: 'authentic',
+        ph: '/ɔːˈθentɪk/',
+        pos: 'adj.',
+        cn: '地道的、正宗的',
+        col: 'authentic food — 正宗的食物；the authentic version — 地道的原版',
+        ex: 'Some people say a changed dish is no longer authentic.'
+      },
+      {
+        w: 'heritage',
+        ph: '/ˈherɪtɪdʒ/',
+        pos: 'n.',
+        cn: '传统、文化遗产',
+        col: 'family heritage — 家庭传统；cultural heritage — 文化遗产',
+        ex: 'A simplified recipe can take a family’s heritage with it.'
+      },
+      {
+        w: 'technique',
+        ph: '/tekˈniːk/',
+        pos: 'n.',
+        cn: '技法、手法',
+        col: 'a cooking technique — 一道烹饪技法；learn a technique — 学会一门手法',
+        ex: 'People carry one technique with them: how to make a cheap cut tender.'
+      },
+      {
+        w: 'origin',
+        ph: '/ˈɒrɪdʒɪn/',
+        pos: 'n.',
+        cn: '起源、源头',
+        col: 'the origin of a dish — 一道菜的起源；lose its origin — 看不出源头',
+        ex: 'The origin of the dish is hard to see after a hundred years of small changes.'
+      },
+      {
+        w: 'blend',
+        ph: '/blend/',
+        pos: 'n./v.',
+        cn: '融合、混合',
+        col: 'a blend of two cultures — 两种文化的融合；blend two styles — 把两种风格融在一起',
+        ex: 'The dish is a quiet blend of a method from one shore and a vegetable from another.'
+      },
+      {
+        w: 'preserve',
+        ph: '/prɪˈzɜːv/',
+        pos: 'vt.',
+        cn: '保存、保留下来',
+        col: 'preserve a tradition — 保留一项传统；preserve food — 保存食物',
+        ex: 'It pays to preserve the recipe while the old cooks are still around.'
+      },
+      {
+        w: 'humble',
+        ph: '/ˈhʌmbl/',
+        pos: 'adj.',
+        cn: '简朴的、不起眼的',
+        col: 'a humble dish — 一道不起眼的菜；humble beginnings — 简陋的起点',
+        ex: 'The most humble dishes often carry the longest stories.'
+      },
+      {
+        w: 'staple',
+        ph: '/ˈsteɪpl/',
+        pos: 'n.',
+        cn: '主食、主打之物',
+        col: 'a staple food — 一种主食；a household staple — 家家必备的东西',
+        ex: 'For the first immigrants, bread or rice was both staple and comfort.'
+      },
+      {
+        w: 'substitute',
+        ph: '/ˈsʌbstɪtjuːt/',
+        pos: 'n./v.',
+        cn: '替代品；替代',
+        col: 'a cheap substitute — 廉价替代品；substitute A for B — 用甲替代乙',
+        ex: 'In the new city the cook used a cheaper substitute for the old spice.'
+      },
+      {
+        w: 'evolve',
+        ph: '/ɪˈvɒlv/',
+        pos: 'vi.',
+        cn: '演变、进化',
+        col: 'evolve over time — 随时间演变；a dish evolves — 一道菜会演变',
+        ex: 'A dish that moves with people evolves instead of standing still.'
+      },
+      {
+        w: 'trace',
+        ph: '/treɪs/',
+        pos: 'vt./n.',
+        cn: '追溯、追踪',
+        col: 'trace a story back to … — 把一段故事追溯到……；trace the origin — 追溯源头',
+        ex: 'Years later you can trace where the family began by cooking one dish.'
+      },
+      {
+        w: 'simmer',
+        ph: '/ˈsɪmə(r)/',
+        pos: 'v.',
+        cn: '用文火慢炖、煨',
+        col: 'simmer for hours — 炖上几个小时；let it simmer — 让它慢慢煨着',
+        ex: 'The stew has simmered all afternoon, and the whole house smells of it.'
+      },
+      {
+        w: 'flavour',
+        ph: '/ˈfleɪvə(r)/',
+        pos: 'n.',
+        cn: '味道、风味',
+        col: 'the flavour of home — 家乡的味道；a strong flavour — 浓郁的味道',
+        ex: 'The flavour drifts as the stove, the water and the market change.'
+      },
+      {
+        w: 'nostalgia',
+        ph: '/nɒˈstældʒə/',
+        pos: 'n.',
+        cn: '怀旧之情、念旧',
+        col: 'a wave of nostalgia — 一阵怀旧之情；nostalgia for … — 对……的怀念',
+        ex: 'Nostalgia has its place, but it cannot freeze a dish in the past.'
+      },
+      {
+        w: 'twist',
+        ph: '/twɪst/',
+        pos: 'n./v.',
+        cn: '新花样、别出心裁的改动',
+        col: 'a new twist on … — 在……上的新花样；add a twist — 加一点新意',
+        ex: 'Each new cook adds one twist, and the dish keeps moving forward.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'instead of',
+        cn: '而不是、代替（复现第 10 篇）',
+        ex: 'The cook used a cheap substitute instead of the spice from home.'
+      },
+      {
+        en: 'be based on',
+        cn: '以……为基础（复现第 29 篇）',
+        ex: 'The new dish is based on the one the grandmother used to make.'
+      },
+      {
+        en: 'pass down',
+        cn: '把……一代代传下去（复现第 14 篇）',
+        ex: 'A family passes down its memory along with the recipe.'
+      },
+      {
+        en: 'write down',
+        cn: '把……写下来（复现第 2 篇）',
+        ex: 'Someone watches the old cook and writes down the steps.'
+      },
+      {
+        en: 'over time',
+        cn: '随着时间推移（复现第 35 篇）',
+        ex: 'Over time the flavour of a home dish drifts.'
+      },
+      {
+        en: 'at the heart of',
+        cn: '……的核心、关键处在……（复现第 36 篇）',
+        ex: 'At the heart of every menu is a person with a story.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '最后（做某事）、到头来（复现第 22 篇）',
+        ex: 'Two families can end up cooking the same dish in very different ways.'
+      },
+      {
+        en: 'on the surface',
+        cn: '表面上、从外表看（复现第 23 篇）',
+        ex: 'On the surface little is left of the original dish.'
+      },
+      {
+        en: 'as well as',
+        cn: '以及、除了……还（复现第 36 篇）',
+        ex: 'They carry seeds and tools as well as one cooking technique.'
+      },
+      {
+        en: 'in other words',
+        cn: '换句话说（复现第 33 篇）',
+        ex: 'In other words, food has never stood still.'
+      },
+      {
+        en: 'take root',
+        cn: '扎下根来（复现第 36 篇）',
+        ex: 'A home dish takes root in the place where the family finally settles.'
+      },
+      {
+        en: 'come up with',
+        cn: '想出、拿出（办法、主意）（复现第 17 篇）',
+        ex: 'Each new cook comes up with one twist of their own.'
+      },
+      {
+        en: 'deal with',
+        cn: '应对、处理（复现第 33 篇）',
+        ex: 'The cook adjusted the technique to deal with a new kitchen.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'A case in point',
+        cn: '一个现成的例子就是……',
+        meaning: '先抛观点，再用 A case in point is … 引出一个具体例子，比直接写 For example 更有论证感，读者一眼看到「观点—例证」的对应关系。',
+        context: '第三段和第六段各用一次：前一次举家常炖菜，后一次举家庭传食谱的做法。',
+        alts: [
+          {
+            t: 'For example, …',
+            n: '最通用，语气中性'
+          },
+          {
+            t: 'Take … as an example.',
+            n: '把例子提到句首时用'
+          },
+          {
+            t: 'This is clear in the case of …',
+            n: '更书面，语气更郑重'
+          }
+        ],
+        register: '中性偏书面，议论与说明文都好用。',
+        example: 'A case in point is the everyday stew in a city kitchen.'
+      },
+      {
+        expr: 'To be fair, ...',
+        cn: '说句公道话……',
+        meaning: '让步的信号词：先承认对方说得有理的部分，再转折回自己的立场，让论证显得公允而不软弱。',
+        context: '第四段中间，先引出「有人嫌它不正宗」的质疑，再用它承认这份担心有道理，随后给出回应。',
+        alts: [
+          {
+            t: 'Admittedly, …',
+            n: '更书面，让步语气更强'
+          },
+          {
+            t: 'To be honest, …',
+            n: '更口语，常用于日常表达'
+          },
+          {
+            t: 'It is true that …, but …',
+            n: '拆成两半，转折更明显'
+          }
+        ],
+        register: '中性，口语书面都自然。',
+        example: 'To be fair, a recipe can be simplified until its origin is lost.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'Yet behind almost every dish people cook at home stands a history of migration.',
+        points: [
+          '<b>主干</b>：a history of migration stands behind almost every dish。句首的介词短语 behind almost every dish 整体前置，句子随之<b>完全倒装</b>：谓语 stands 提到主语 a history of migration 之前。',
+          '<b>为什么倒装</b>：英语习惯把「已知信息」放句前、「新信息」放句末。这里读者刚想到「家常菜」，所以把菜放在前面，把真正要说的「迁徙史」压到句尾，落点更重。',
+          '<b>定语从句省略</b>：people cook at home 是修饰 dish 的定语从句，省略了关系代词 that（the dish that people cook at home）；读长句时先把它括起来，主干立刻清楚。',
+          '<b>注意点</b>：倒装后谓语动词的单复数仍看主语——a history 是单数，所以用 stands，不看紧挨着的 dish。',
+          '<b>常见变体</b>：Behind every simple dish lies a long journey.（把 stands 换成 lies，同样是倒装。）'
+        ]
+      },
+      {
+        text: 'The dish that crossed the sea with them was written in no book, yet it survived every move.',
+        points: [
+          '<b>主干</b>：The dish was written in no book, yet it survived every move。两个并列分句由 <b>yet</b> 连接，表示「虽然如此，却……」的转折，比 but 更书面。',
+          '<b>定语从句</b>：that crossed the sea with them 修饰 The dish，先行词是物，关系代词用 that 也可以用 which；从句谓语 crossed 是过去式，说明这是过去的迁徙。',
+          '<b>否定表达</b>：was written in no book ＝ was not written in any book，用 no 的否定比 not … any 语气更强，也更地道。',
+          '<b>为什么值得学</b>：一句话里同时有「限定信息（跟他们漂洋过海）」和「转折（没写进书却活了下来）」，正是「观点 + 让步」类文章最常用的句式。',
+          '<b>写作迁移</b>：The habit that came with them was never written down, yet it survived three generations.'
+        ]
+      },
+      {
+        text: 'What looks like a fixed recipe is in fact a record of small changes that each generation made without noticing.',
+        points: [
+          '<b>主干</b>：What looks like a fixed recipe is a record of small changes。<b>What 引导主语从句</b>，what 同时作从句的主语，整个从句当单数主语用。',
+          '<b>插入成分</b>：in fact 是插入语，起「说实话、其实」的强调作用，去掉后句子结构不受影响。',
+          '<b>两层修饰</b>：that each generation made 是修饰 changes 的定语从句；without noticing 是「介词 + 动名词」结构，说明这些改动是<b>不知不觉</b>发生的。',
+          '<b>为什么值得学</b>：把「表面」和「实质」放在一句话里对照（看起来是固定食谱，其实是变化记录），是反驳类论证最有力的句型。',
+          '<b>常见变体</b>：What looks like luck is in fact years of quiet practice.'
+        ]
+      },
+      {
+        text: 'Dishes that move with people do not survive by being copied exactly; they survive because they are allowed to change.',
+        points: [
+          '<b>主干</b>：两个并列分句用<b>分号</b>连接：分号前是「照原样复制活不下来」，分号后是「允许变化才能活下来」，前后对照，中间不用连词。',
+          '<b>介词 + 动名词</b>：by being copied exactly 中 by 表示「通过某种方式」，being copied 是被动的动名词；被动嵌在介词后面，是长句里常见的一层。',
+          '<b>原因状语从句</b>：because they are allowed to change 用<b>被动语态</b>（are allowed to）表示「被允许」，比 people allow them to change 更突出菜本身。',
+          '<b>为什么值得学</b>：分号 + 前后对照，是议论文里「让步—回应」之后做小结的好办法，比用 but 更有节奏。',
+          '<b>注意点</b>：exactly 修饰 copied，说明「一丝不差地照抄」；删掉它句子照样成立，但说服力会弱一些。'
+        ]
+      },
+      {
+        text: 'Not much as a set of instructions, but a great deal as a record of a family’s journey across borders and years.',
+        points: [
+          '<b>省略句</b>：完整形式是 It is not worth much as a set of instructions, but it is worth a great deal as a record …，承前省略了 it is / it is worth，只留两个介词短语做对照，读起来短促有力。',
+          '<b>对照结构</b>：not much … but a great deal … 是一对反义数量词，用 as a set of instructions 和 as a record of … 两个角度把「值多少」拆开回答。',
+          '<b>介词串</b>：a record of a family’s journey across borders and years 里 of、across 一层层往后挂，读的时候按意群停顿：a record / of a family’s journey / across borders and years。',
+          '<b>为什么值得学</b>：自问自答（So what is it worth? — Not much …, but …）是说明文里最有节奏的一问一答，读者几乎不会走神。',
+          '<b>注意点</b>：a great deal 作副词性用语，表示「很大程度上、很多」，不能写成 a great deal of（那是「大量的」，后接名词）。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about the “real version” of a dish that some people talk about?',
+        cn: '从文中可以推出，一些人口中某道菜「真正的版本」是怎样的？',
+        ans: 'It is hard to point to one, because the dish has kept changing at every stop and food has never stood still.',
+        ansCn: '很难指得出一个，因为这道菜在每一站都在变，食物从来没有真正停在原处。'
+      },
+      {
+        en: 'What can we infer about cooks who are quick to adopt whatever helps?',
+        cn: '从文中可以推出，那些乐于吸收一切有用东西的厨师是怎样的？',
+        ans: 'They change small things in the kitchen or in the way the food is sold, so that the dish can go on living in a new place.',
+        ansCn: '他们会在厨房里、也会在卖法上做小改动，好让这道菜在新地方继续活下去。'
+      },
+      {
+        en: 'What is the writer’s view on a dish that changes as it moves with people?',
+        cn: '作者对「跟着人走、不断改变」的菜持什么看法？',
+        ans: 'Change is normal and is what keeps the dish alive; the point is to keep its thread, not to freeze it in the past.',
+        ansCn: '改变很正常，而且正是改变让菜活了下来；要紧的是留住它的那根线，而不是把它冻在过去。'
+      },
+      {
+        en: 'How does the writer develop the article?',
+        cn: '作者是怎样展开这篇文章的？',
+        ans: 'From the menu in front of the reader to the history behind it: what people carried, how the dish changed, an objection about authenticity, the cook behind the dish, and a closing call to look again at ordinary food.',
+        ansCn: '从读者面前的菜单写到菜单背后的历史：人们带走了什么、菜怎么变、对「不正宗」的质疑、菜背后的厨师，最后请大家重新看看家常饭。'
+      },
+      {
+        en: 'Why does the writer mention the everyday stew in a city kitchen?',
+        cn: '作者为什么提到如今城市厨房里做的那道家常炖菜？',
+        ans: 'To give a case in point of how a dish stays based on the old one while no two families end up cooking it the same way.',
+        ansCn: '为了给出一个现成的例子，说明一道菜如何脱胎于旧做法，却没有两家人最后做出同一个味道。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about one dish from your family or your hometown and the story behind it.',
+      hints: [
+        'The dish I want to talk about is …',
+        'It came to my family when …',
+        'A case in point is the way we …',
+        'To be fair, … , but the dish keeps moving.'
+      ],
+      hintCn: '分三段写：第一段点出是哪道菜、家里谁在做；第二段讲它跟着家人走过哪些地方、换过哪些食材；第三段用一次让步（To be fair, …）承认它已经不完全是原来的样子，再收一句自己的看法。',
+      req: '至少使用 3 个本篇学过的词或搭配（humble / adapt / substitute / heritage / trace / a case in point / to be fair / pass down）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: should a family dish stay exactly the same, or change?',
+        'One reason for that view',
+        'One example with a person, a place or a number',
+        'One counterargument and your short answer to it'
+      ],
+      pointCn: '一点五到两分钟里讲完「观点 → 原因 → 例子 → 反方观点 → 回应」五步；例子要有人物、地点或数字，回应反方时先复述对方的理由（Some people may say …），再说自己为什么不接受。',
+      skeleton: 'In my view, a family dish should … The main reason is that … For example, my … once … , and the dish has changed … Some people may say that … I understand this, but …'
+    },
+    focus: [
+      '<b>新授核心词 18 个</b>：<span class=\'en\'>migration, immigrant, adapt, authentic, heritage, technique, origin, blend, preserve, humble, staple, substitute, evolve, trace, simmer, flavour, nostalgia, twist</span> —— <b>migration / immigrant</b> 是同一家族的名词（迁徙 / 移民的人），一起记；<b>adapt</b> 可以是不及物（adapt to a new place）也可以是及物（adapt a recipe），两种用法都常用；<b>substitute A for B</b> 是「用甲代替乙」，别按中文语序写反；<b>trace</b> 常与 back to 连用（trace the story back to …）；<b>flavour</b> 是英式拼法，美式写作 flavor；<b>twist</b> 常用搭配是 a new twist on …；<b>humble</b> 说菜是「不起眼、家常」，说人是「谦虚」，本篇只用前一个意思。',
+      '<b>本篇复现的旧词</b>：第 7 篇的 <span class=\'en\'>cook / ingredient → ingredients</span>、第 4 篇的 <span class=\'en\'>cheap</span>、第 15 篇的 <span class=\'en\'>dish / recipe</span>、第 25 篇的 <span class=\'en\'>local</span>、第 26 篇的 <span class=\'en\'>ordinary</span>、第 11 篇的 <span class=\'en\'>discover</span>、第 14 篇的 <span class=\'en\'>memory</span>、第 37 篇的 <span class=\'en\'>adopt</span>、第 40 篇的 <span class=\'en\'>culture → cultures</span>，正文共 11 处灰点；短语复现另有第 10 篇的 <span class=\'en\'>instead of</span>、第 29 篇的 <span class=\'en\'>be based on</span>、第 14 篇的 <span class=\'en\'>pass down</span>、第 2 篇的 <span class=\'en\'>write down</span>、第 35 篇的 <span class=\'en\'>over time</span>、第 36 篇的 <span class=\'en\'>at the heart of / take root / as well as</span>、第 33 篇的 <span class=\'en\'>in other words / deal with</span>、第 23 篇的 <span class=\'en\'>on the surface</span>、第 22 篇的 <span class=\'en\'>end up doing sth.</span>、第 17 篇的 <span class=\'en\'>come up with</span>。',
+      '<b>五处长难句各练一种结构</b>：介词短语前置的完全倒装（<span class=\'en\'>Yet behind almost every dish … stands a history of migration</span>）、that 定语从句 + yet 转折（<span class=\'en\'>The dish that crossed the sea … yet it survived every move</span>）、what 主语从句 + 定语从句（<span class=\'en\'>What looks like a fixed recipe is … a record of small changes</span>）、分号并列 + 被动（<span class=\'en\'>do not survive by being copied exactly; they survive because …</span>）、承前省略句（<span class=\'en\'>Not much as …, but a great deal as …</span>）—— 读长句先抓主干，再补修饰。',
+      '<b>论证骨架：观点 + 证据 + 让步</b>：观点（家常菜里有迁徙史）→ 证据一（人们带走的是种子、技法和习惯）→ 证据二（菜在新城市里怎么变）→ 让步（有人嫌它不正宗）→ 回应（食物从来没有停在原处）→ 证据三（守着菜的人）→ 收束。写作时先亮观点、再给例子、最后让一步再回应，比一路说到底更有说服力；「作者为什么提到某物」的题，答案永远是「为了证明哪一句观点」，本文的家常炖菜证明的是「没有两家人做出同一个味道」。',
+      '<b>全文逻辑线与词形搭配提示</b>：菜单前的你 → 一家人带走什么 → 菜在新城市怎么变 → 「不正宗」的质疑与回应 → 菜单背后的人 → 为什么要留下食谱 → 收束（每份菜单的核心还是人）。搭配上多留心 <span class=\'en\'>adapt to</span>（适应）与 <span class=\'en\'>adapt … for</span>（为……改写）的区别、<span class=\'en\'>a blend of</span> 后接复数名词、<span class=\'en\'>take root</span> 用主动形式说菜「扎下根」，以及 <span class=\'en\'>a case in point</span> 后直接接 is … 的句式。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五第 43 篇：阅读题 5 题对 ≥ 4 · 18 个核心词遮住中文说出 ≥ 14 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 18 个核心词中的 14 个（migration、heritage、substitute、trace、nostalgia …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '13 个高频搭配掌握 9 个，能各造一句（pass down、instead of、over time、at the heart of …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（完全倒装 / 定语从句加转折 / what 主语从句 / 分号并列 / 承前省略），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；篇章结构题要能复述全文的推进顺序',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 A case in point 或 To be fair, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 原因 → 例子 → 反方观点 → 回应」，例子要有人物、地点或数字',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 11 处灰点旧词，说出其中 8 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 44,
+    slug: '044-attention-in-the-age-of-distraction',
+    title: 'Attention in the Age of Distraction',
+    titleCn: '分心时代的注意力',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 560 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.7%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/044.jpg',
+    coverCredit: 'Photo: Andrea Piacquadio / Pexels',
+    body: [
+      'Most people who complain about their <span class="w-rev">focus</span> describe a modern room: a phone within reach, one more message from an app, a mind that <span class="w-cet4" data-cn="走神、游移">wanders</span> every few minutes. <span class="w-sentence">My view is that attention is not a gift given to a lucky few but a resource that can be trained, which is why an age of distraction makes training it more necessary, not less.</span>',
+      'The cost of a broken hour is easy to miss: one message can <span class="w-cet4" data-cn="打碎、使碎片化">fragment</span> an afternoon. <span class="w-sentence">When the mind has to find the thread again, the work does not restart at full speed, and the minutes lost this way never appear in any record.</span> Office studies show the same pattern: <span class="w-rev">distracted</span> minds report lower <span class="w-rev">mental</span> <span class="w-cet4" data-cn="清晰、条理清楚">clarity</span> at day’s end, and some <span class="w-cet4" data-cn="下降、衰退">decline</span> is <span class="w-synonym" data-cn="＝ hard to avoid 的替换词">inevitable</span>. <span class="w-writing" data-cn="这意味着……">What this means is that</span> a broken day costs more than it looks.',
+      'If attention is a resource, it has two sides: the <span class="w-cet4" data-cn="容量、承载力">capacity</span> we hold at once, and how well we use it. <span class="w-sentence">Because both sides can be trained, an hour of practice does more than an hour of worry — a mind that stays with one task wastes less of its capacity and returns faster after it breaks.</span> The training is <span class="w-cet4" data-cn="刻意的、有意为之的">deliberate</span>, not heroic: read a long text without looking up, and <span class="w-phrase" data-cn="把注意力放在……上">pay attention to</span> how often the <span class="w-cet4" data-cn="诱惑">temptation</span> to switch arrives.',
+      'Deep work is simply this <span class="w-rev">habit</span> pushed further. Choose one task, <span class="w-phrase" data-cn="留出（时间）">set aside</span> ninety minutes, and put the phone in another room before you start. <span class="w-cet4" data-cn="锚定、固定住">Anchor</span> the hour with an <span class="w-cet4" data-cn="意图、打算">intention</span> you write down: what will be finished when the time ends. This is <span class="w-cet4" data-cn="自律、自我约束">discipline</span> as kindness, not punishment; single-tasking feels slow at first and then like relief.',
+      '<span class="w-writing" data-cn="诚然……">Admittedly,</span> none of this works on willpower alone: under <span class="w-rev">pressure</span> it breaks first, and ten hours of pure focus is unrealistic. This is where the other half comes in: <span class="w-rev">balance</span>. A serious morning holds three hours of deep work, not ten. The aim is not to <span class="w-cet4" data-cn="抵抗、抵制">resist</span> every distraction by force but to make the good choice easy, so you <span class="w-phrase" data-cn="向……让步、屈服于">give in to</span> the <span class="w-rev">urge</span> less often.',
+      'Rest is not the enemy of focus; it is half the work. <span class="w-sentence">When the mind has been pulled one way for hours, what restores it is not another screen but a change of pace — a walk, a stretch, five minutes of nothing.</span> <span class="w-cet4" data-cn="疲劳、疲乏">Fatigue</span> turns a small message into a two-hour scroll; <span class="w-cet4" data-cn="浅层的、不深入的">shallow</span> rest never refills what a hard task <span class="w-cet4" data-cn="消耗、耗尽">drains</span>. The lift from scrolling is <span class="w-synonym" data-cn="＝ not lasting long 的替换词">short-lived</span>; the break that works asks you to <span class="w-phrase" data-cn="暂时离开……">step away from</span> the screen and <span class="w-cet4" data-cn="恢复精力、重新充电">recharge</span>.',
+      'In the morning, protect the two hardest hours; when <span class="w-rev">energy</span> falls in the afternoon, <span class="w-cet4" data-cn="分配">allocate</span> the easy work. Keep the phone out of sight <span class="w-phrase" data-cn="而不是">instead of</span> testing your self-control; let the <span class="w-rev">routine</span> decide. At night, write one line about what pulled you away: a written record is <span class="w-synonym" data-cn="＝ very important 的替换词">crucial</span>, showing your <span class="w-cet4" data-cn="倾向、习性">tendency</span> more honestly than memory. <span class="w-writing" data-cn="这意味着……">What this means is that</span> the record remembers for you. A <span class="w-cet4" data-cn="留心的、专注当下的">mindful</span> pause between tasks can reset the hour.',
+      'None of this promises a quiet mind by Monday. <span class="w-sentence">What it promises is slower growth in the right direction: the honest measure is not one perfect day but a month of better ones.</span> Each hour you protect <span class="w-cet4" data-cn="加强、强化">strengthens</span> the skill. <span class="w-phrase" data-cn="从长远来看">In the long run</span>, attention is the resource our age keeps asking for and keeps training away; the way back is small and deliberate.'
+    ],
+    translation: [
+      '大多数抱怨自己注意力不集中的人，其实是在描述一间现代的房间：手机伸手可及，某个应用又发来一条消息，心神每隔几分钟就飘走。我的看法是：注意力不是少数幸运儿的天赋，而是一种可以训练的资源；正因为身处在分心的时代，训练它才比过去更加必要。',
+      '一个被打碎的小时，代价很容易被忽略：一条消息就能打碎一个下午。当心神不得不重新找回原来的思路，工作不会立刻恢复全速，而这样丢掉的分钟数从来不会出现在任何记录里。对办公室工作的研究呈现出同样的模式：被反复打断的人，一天结束时自述思路更不清晰，出现一些下滑几乎不可避免。这意味着，破碎的一天付出的代价比看起来更大。',
+      '如果注意力是一种资源，它就有两个侧面：一次能握住的容量，以及我们使用它的效率。既然两个侧面都能训练，一小时的练习就比一小时的焦虑更有用——能守住一件事的心神，浪费的容量更少，中断后回到任务也更快。这种训练是刻意的，而不是逞英雄：读一篇长文中途不抬头，并留意「想切换」的冲动多久来一次。',
+      '深度工作不过是把这个习惯再往前推一步。选定一件事，留出九十分钟，开始之前把手机放到另一个房间。用一句写下来的意图给这一小时抛下锚点：时间结束时要完成什么。这是把自律当作善意，而不是惩罚；单任务一开始显得慢，之后却像一种解脱。',
+      '诚然，这一切只靠意志力是撑不住的：压力一上来它最先垮掉，而十小时的纯粹专注并不现实。这就轮到另一半出场了：平衡。一个认真的上午能装下三小时深度工作，装不下十小时。目标不是靠蛮力抵抗每一种诱惑，而是让好的选择变得容易起来，这样向冲动让步的次数就会变少。',
+      '休息不是专注的敌人，而是工作的一半。当心神朝同一个方向被拉扯了几个小时，能修复它的不是又一块屏幕，而是节奏的改变——走一走、伸个懒腰、发五分钟呆。疲劳是把一条小消息变成两小时刷屏的原因，而浅层休息永远补不上一件难事消耗掉的那部分。刷屏带来的提神是短命的；真正有效的休息，要你暂时离开屏幕，重新充满电。',
+      '上午，守住最难的两个小时；下午精力下滑时，把轻松的活儿分配进去。与其整天考验自己的自制力，不如让手机离开视线，让习惯替你做决定。晚上写一行：是什么把你拉走了。一份写下来的记录至关重要，它比记忆更诚实地呈现你的倾向。这意味着记录替你记住。在两个任务之间留一次有意识的停顿，往往就足以把这一小时重新归零。',
+      '这一切并不承诺周一就能拥有安静的心神。它承诺的是朝正确方向更慢地生长：诚实的度量不是完美的一天，而是一个月里更好一些的日子。你守住的每一个小时，都会让这门技能更结实。从长远看，注意力正是这个时代不断索取、又不断训练我们失去的资源；而回去的路很小，也很刻意。'
+    ],
+    vocabulary: [
+      {
+        w: 'capacity',
+        ph: '/kəˈpæsəti/',
+        pos: 'n.',
+        cn: '容量、承载力',
+        col: 'capacity for … — ……的容量；the capacity to do sth. — 做某事的能力',
+        ex: 'Attention is a capacity that grows with practice.'
+      },
+      {
+        w: 'deliberate',
+        ph: '/dɪˈlɪbərət/',
+        pos: 'adj.',
+        cn: '刻意的、有意为之的',
+        col: 'a deliberate choice — 刻意的选择；deliberate practice — 刻意练习',
+        ex: 'Focus improves through deliberate practice, not through luck.'
+      },
+      {
+        w: 'wander',
+        ph: '/ˈwɒndə(r)/',
+        pos: 'vi.',
+        cn: '走神、游移',
+        col: 'the mind wanders — 心神游移；wander off — 走开、偏离主题',
+        ex: 'The mind wanders every few minutes when a phone is within reach.'
+      },
+      {
+        w: 'decline',
+        ph: '/dɪˈklaɪn/',
+        pos: 'n./v.',
+        cn: '下降、衰退',
+        col: 'a slow decline — 缓慢下滑；decline sharply — 急剧下降',
+        ex: 'Some decline in quality is inevitable in a day broken into pieces.'
+      },
+      {
+        w: 'fragment',
+        ph: '/ˈfræɡment/',
+        pos: 'v.',
+        cn: '打碎、使碎片化',
+        col: 'fragment an hour — 把一小时打碎；fragmented time — 碎片化的时间',
+        ex: 'One message can fragment a whole afternoon.'
+      },
+      {
+        w: 'resist',
+        ph: '/rɪˈzɪst/',
+        pos: 'v.',
+        cn: '抵抗、抵制',
+        col: 'resist temptation — 抵制诱惑；resist the urge to do sth. — 忍住做某事的冲动',
+        ex: 'You cannot resist every distraction by force.'
+      },
+      {
+        w: 'discipline',
+        ph: '/ˈdɪsəplɪn/',
+        pos: 'n.',
+        cn: '自律、约束',
+        col: 'self-discipline — 自律；discipline as kindness — 把约束当作善意',
+        ex: 'Deep work is discipline as kindness rather than punishment.'
+      },
+      {
+        w: 'drain',
+        ph: '/dreɪn/',
+        pos: 'v.',
+        cn: '消耗、耗尽',
+        col: 'drain one’s energy — 消耗精力；drain away — 一点点流失',
+        ex: 'Every extra task drains the same pool of attention.'
+      },
+      {
+        w: 'fatigue',
+        ph: '/fəˈtiːɡ/',
+        pos: 'n.',
+        cn: '疲劳、疲乏',
+        col: 'mental fatigue — 精神疲劳；fight fatigue — 对抗疲劳',
+        ex: 'Fatigue turns a small message into a two-hour scroll.'
+      },
+      {
+        w: 'recharge',
+        ph: '/ˌriːˈtʃɑːdʒ/',
+        pos: 'v.',
+        cn: '恢复精力、重新充电',
+        col: 'recharge the afternoon — 让下半天恢复状态；recharge one’s batteries — 养精蓄锐',
+        ex: 'A real break recharges the afternoon better than scrolling does.'
+      },
+      {
+        w: 'shallow',
+        ph: '/ˈʃæləʊ/',
+        pos: 'adj.',
+        cn: '浅层的、不深入的',
+        col: 'shallow rest — 浅层休息；shallow work — 浅层工作',
+        ex: 'Shallow rest never refills what a hard task drains.'
+      },
+      {
+        w: 'anchor',
+        ph: '/ˈæŋkə(r)/',
+        pos: 'v.',
+        cn: '锚定、固定住',
+        col: 'anchor the hour — 给这一小时定下锚点；anchor … to … — 把……固定在……上',
+        ex: 'Anchor the hour with an intention you write down.'
+      },
+      {
+        w: 'clarity',
+        ph: '/ˈklærəti/',
+        pos: 'n.',
+        cn: '清晰、条理清楚',
+        col: 'mental clarity — 思路清晰；with clarity — 清楚地',
+        ex: 'Distracted minds report lower mental clarity at day’s end.'
+      },
+      {
+        w: 'strengthen',
+        ph: '/ˈstreŋθn/',
+        pos: 'v.',
+        cn: '加强、强化',
+        col: 'strengthen a skill — 强化技能；strengthen the habit — 巩固习惯',
+        ex: 'Each hour you protect strengthens the skill.'
+      },
+      {
+        w: 'mindful',
+        ph: '/ˈmaɪndfl/',
+        pos: 'adj.',
+        cn: '留心的、专注当下的',
+        col: 'a mindful pause — 有意识的停顿；be mindful of … — 留意……',
+        ex: 'A mindful pause between two tasks can reset the hour.'
+      },
+      {
+        w: 'allocate',
+        ph: '/ˈæləkeɪt/',
+        pos: 'v.',
+        cn: '分配',
+        col: 'allocate time to … — 把时间分配给……；allocate the work — 分配工作',
+        ex: 'When energy falls, allocate the easy work.'
+      },
+      {
+        w: 'temptation',
+        ph: '/ˌtempˈteɪʃn/',
+        pos: 'n.',
+        cn: '诱惑',
+        col: 'give in to temptation — 向诱惑让步；the temptation to do sth. — 做某事的诱惑',
+        ex: 'Watch how often the temptation to switch arrives.'
+      },
+      {
+        w: 'intention',
+        ph: '/ɪnˈtenʃn/',
+        pos: 'n.',
+        cn: '意图、打算',
+        col: 'with the intention of … — 抱着……的意图；good intentions — 好的初衷',
+        ex: 'Write down one intention before the hour begins.'
+      },
+      {
+        w: 'tendency',
+        ph: '/ˈtendənsi/',
+        pos: 'n.',
+        cn: '倾向、习性',
+        col: 'a tendency to do sth. — 做某事的倾向；show a tendency — 显示出一种倾向',
+        ex: 'A written record shows your tendency better than memory.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'pay attention to',
+        cn: '把注意力放在……上（复现第 1 篇）',
+        ex: 'Pay attention to how often the urge to switch arrives.'
+      },
+      {
+        en: 'set aside',
+        cn: '留出（时间、钱）（复现第 29 篇）',
+        ex: 'Set aside ninety minutes and put the phone in another room.'
+      },
+      {
+        en: 'instead of',
+        cn: '而不是、代替（复现第 10 篇）',
+        ex: 'Keep the phone out of sight instead of testing your self-control all day.'
+      },
+      {
+        en: 'give in to',
+        cn: '向……让步、屈服于（复现第 27 篇）',
+        ex: 'Make the good choice easy, so you give in to the urge less often.'
+      },
+      {
+        en: 'step away from …',
+        cn: '暂时离开……（新）',
+        ex: 'The break that works asks you to step away from the screen.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远来看（复现第 21 篇）',
+        ex: 'In the long run, small hours of focus add up.'
+      },
+      {
+        en: 'get used to doing sth.',
+        cn: '习惯于做某事（复现第 17 篇）',
+        ex: 'Your mind gets used to staying with one task.'
+      },
+      {
+        en: 'cut down on',
+        cn: '减少（复现第 29 篇）',
+        ex: 'Cut down on the number of apps that can reach you.'
+      },
+      {
+        en: 'run out of',
+        cn: '用完、耗尽（复现第 7 篇）',
+        ex: 'By four o’clock the mind runs out of room for anything new.'
+      },
+      {
+        en: 'be worth doing sth.',
+        cn: '值得做某事（复现第 26 篇）',
+        ex: 'A quiet hour is worth protecting.'
+      },
+      {
+        en: 'keep … under control',
+        cn: '把……控制住（复现第 27 篇）',
+        ex: 'Keep the phone under control before it starts keeping you.'
+      },
+      {
+        en: 'take up',
+        cn: '占据（时间、空间）（复现第 18 篇）',
+        ex: 'Messages can take up the whole morning if you let them.'
+      },
+      {
+        en: 'keep a record of',
+        cn: '把……记录下来（复现第 10 篇）',
+        ex: 'Keep a record of what pulled you away from the task.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'Admittedly, ...',
+        cn: '诚然……',
+        meaning: '先承认对方或读者的疑虑有道理，再引出自己的补充；让步段这样开头，读起来像讲道理，不像认输。',
+        context: '让步段的第一句，后面写「承认什么」，再用一句转折把话题交回主线。',
+        alts: [
+          {
+            t: 'It is true that ...',
+            n: '更平实'
+          },
+          {
+            t: 'To be fair, ...',
+            n: '更口语，带「说句公道话」的意味'
+          },
+          {
+            t: 'Granted, ...',
+            n: '更简短、更书面'
+          }
+        ],
+        register: '偏书面，议论文与评论常用。',
+        example: 'Admittedly, none of this works on willpower alone.'
+      },
+      {
+        expr: 'What this means is that ...',
+        cn: '这意味着……',
+        meaning: '把前面的证据或例子翻译成一句结论，读者不用自己猜你想说什么。',
+        context: '证据之后、结论之前，一句话把上文收拢。',
+        alts: [
+          {
+            t: 'In other words, ...',
+            n: '换句话说'
+          },
+          {
+            t: 'The implication is that ...',
+            n: '更书面'
+          },
+          {
+            t: 'So the lesson is that ...',
+            n: '强调「教训」'
+          }
+        ],
+        register: '中性，说明文与议论文通用。',
+        example: 'What this means is that the record remembers for you.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'My view is that attention is not a gift given to a lucky few but a resource that can be trained, which is why an age of distraction makes training it more necessary, not less.',
+        points: [
+          '<b>主干</b>：My view is that …，that 引导<b>表语从句</b>，把作者立场放在句首，是议论文亮观点最常用的开头结构。',
+          '<b>表语从句内部</b>是 not A but B 的对举：not a gift given to a lucky few but a resource that can be trained；<b>given</b> 是过去分词短语作后置定语，修饰 gift。',
+          '<b>which</b> 引导非限制性定语从句，指代前面一整件事（注意力可以训练）；从句里又嵌一个 why 引导的表语从句 … which is why …，表示「这就是……的原因」。',
+          '<b>注意点</b>：句末的 not less 是补充说明，意思是「反而更必要」，不是「更不必要」，读的时候要和 makes training it more necessary 连起来。',
+          '<b>常见变体</b>：My view is that sleep is not a luxury but a tool that can be trained.'
+        ]
+      },
+      {
+        text: 'When the mind has to find the thread again, the work does not restart at full speed, and the minutes lost this way never appear in any record.',
+        points: [
+          '<b>主干</b>：句子由 <b>and</b> 连接两个并列分句：the work does not restart at full speed 与 the minutes never appear in any record；When 引导<b>时间状语从句</b>统领前半句。',
+          '<b>lost this way</b> 是过去分词短语作后置定语，修饰 the minutes，相当于 the minutes that are lost this way。',
+          '<b>find the thread again</b> 用的是「找回线头」的比喻，指思路断了以后重新接上，比说「再想一遍」形象。',
+          '<b>为什么值得学</b>：先写「不会立刻恢复全速」，再写「记录里看不见」，两步递进把「隐性成本」讲清楚，适合写分析类段落。',
+          '<b>注意点</b>：at full speed 里 at 不换成 in；this way 指代前半句的做法，不必改写成 in this way，免得句子变长。'
+        ]
+      },
+      {
+        text: 'Because both sides can be trained, an hour of practice does more than an hour of worry — a mind that stays with one task wastes less of its capacity and returns faster after it breaks.',
+        points: [
+          '<b>主干</b>：Because 引导<b>原因状语从句</b>，主句是比较结构 an hour of practice does more than an hour of worry，用「一小时练习 > 一小时焦虑」把抽象道理变成算术。',
+          '<b>破折号后</b>是解释说明：a mind that stays with one task …，其中 that stays with one task 是定语从句，修饰 a mind。',
+          '<b>并列谓语</b>：wastes less of its capacity and returns faster，两个动词共用主语 a mind，由 and 连接，句式对称好记。',
+          '<b>after it breaks</b> 是时间状语从句，it 指前面的 mind；break 在此指「注意力断掉」，不是「坏掉」。',
+          '<b>为什么值得学</b>：「比较 + 破折号解释」是议论文说明机制的高效句式，写作时可把 worry 换成别的名词再练一遍。'
+        ]
+      },
+      {
+        text: 'When the mind has been pulled one way for hours, what restores it is not another screen but a change of pace — a walk, a stretch, five minutes of nothing.',
+        points: [
+          '<b>主干</b>：what restores it is not another screen but a change of pace；<b>what</b> 引导主语从句，表语又是 not A but B 结构，与第一句同款但位置不同。',
+          '<b>When 从句</b>用现在完成时的被动 has been pulled，强调「被拉扯了几个小时」这一持续结果，比 is pulled 更有时间感。',
+          '<b>破折号后</b>是同位性质的<b>列举</b>：a walk, a stretch, five minutes of nothing，用三个名词短语把 a change of pace 具体化。',
+          '<b>为什么值得学</b>：抽象名词（change of pace）后跟具体例子，是让读者立刻明白的标准写法，写作的举例段可直接照搬。',
+          '<b>注意点</b>：what 不能换成 that；another screen 里的 another 表示「又一块」，暗示刷屏只是「假休息」。'
+        ]
+      },
+      {
+        text: 'What it promises is slower growth in the right direction: the honest measure is not one perfect day but a month of better ones.',
+        points: [
+          '<b>主干</b>：What it promises 是<b>主语从句</b>，表语是 slower growth；冒号后补充说明这份承诺如何衡量。',
+          '<b>冒号后</b>again 用 not A but B：not one perfect day but a month of better ones，ones 指代 days，避免重复名词。',
+          '<b>in the right direction</b> 是介词短语作定语，修饰 growth；growth 不可数，前面不加 a。',
+          '<b>为什么值得学</b>：结尾句把「衡量标准」从一天拉长到一个月，收得克制又具体，正好示范「结尾不喊口号」。',
+          '<b>常见变体</b>：What it promises is slow progress, and the honest measure is a month of better weeks.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about people who keep their phone on the desk while working?',
+        cn: '从文中可以推出，工作时把手机放在桌上的人会怎样？',
+        ans: 'Their day is likely to be broken into pieces, and some loss of work quality is almost inevitable.',
+        ansCn: '他们的一天很可能被打碎成碎片，工作质量出现一些下滑几乎不可避免。'
+      },
+      {
+        en: 'What can we infer about the minutes lost to interruptions?',
+        cn: '从文中可以推出，被打断而损失的时间有什么特点？',
+        ans: 'They never appear in any record, so people easily miss the real cost of a broken hour.',
+        ansCn: '这些时间从来不会出现在任何记录里，所以人们很容易忽略一个破碎小时的真实代价。'
+      },
+      {
+        en: 'What is the writer’s view of attention?',
+        cn: '作者对注意力的看法是什么？',
+        ans: 'Attention is not a fixed gift but a resource that can be trained, and training it is more necessary in an age of distraction.',
+        ansCn: '注意力不是天生固定的天赋，而是一种可以训练的资源；在分心的时代，训练它反而更加必要。'
+      },
+      {
+        en: 'What does the fifth paragraph do in the argument?',
+        cn: '第五段在整篇论证中起什么作用？',
+        ans: 'It makes a concession — admitting that willpower and ten hours of pure focus are unrealistic — and then brings in the other half, balance.',
+        ansCn: '它作了一步让步——承认只靠意志力、以及十小时纯粹专注都不现实——然后引出另一半：平衡。'
+      },
+      {
+        en: 'Why does the writer mention writing one line at night about what pulled you away?',
+        cn: '作者为什么提到晚上写一行记录「是什么把你拉走了」？',
+        ans: 'To show that a written record reveals your real tendency more honestly than memory, so the record can remember for you.',
+        ansCn: '为了说明写下来的记录比记忆更能呈现你的真实倾向，从而让记录替你记住。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about how you would train your attention over a month: what you will change, when you will practise, and how you will rest.',
+      hints: [
+        'My view is that attention is ...',
+        'In the morning, I ... ; in the afternoon, I ...',
+        'Admittedly, ... , which is why ...',
+        'In the long run, ...'
+      ],
+      hintCn: '写三段：第一段亮观点（注意力是可训练的资源），第二段给一周的具体安排（深度工作时段、手机放在哪里、几点离开屏幕），第三段用 Admittedly, … 让步后收束，最后一句用 In the long run, …。',
+      req: '至少使用 3 个本篇学过的词或搭配（deliberate / capacity / recharge / set aside / give in to / in the long run）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: is attention trainable, or is it fixed?',
+        'One reason and one example with a number or a time',
+        'One counterargument someone might raise',
+        'Your answer to that counterargument'
+      ],
+      pointCn: '1.5–2 分钟里讲完「观点 → 理由 + 例子 → 反驳 → 回应」四步；反驳要具体（例如「有人觉得靠意志力就够了」），回应时用上本篇的 balance 或 deliberate。',
+      skeleton: 'In my view, attention is ... The main reason is that ... For example, last week I ... Of course, some people would argue that ... That is partly true, but ...'
+    },
+    focus: [
+      '<b>新授核心词 19 个</b>：<span class=\'en\'>capacity, deliberate, wander, decline, fragment, resist, discipline, drain, fatigue, recharge, shallow, anchor, clarity, strengthen, mindful, allocate, temptation, intention, tendency</span> —— <b>decline</b> 名动同形（a slow decline / decline sharply）；<b>capacity</b> 常接 for 或 to do；<b>drain</b> 多作及物动词，用 drain one’s energy 记；<b>recharge</b> 前缀 re- 表「重新」，和「充电、蓄电」一起记；<b>tendency</b> 后接 to do 或 to doing，别写成 tendance；<b>deliberate</b> 重音在第二个音节，是「刻意的」不是「故意使坏」。',
+      '<b>本篇复现的旧词</b>：第 6 篇的 <span class=\'en\'>focus</span>、<span class=\'en\'>balance</span> 与 <span class=\'en\'>distract → distracted</span>、第 8 篇的 <span class=\'en\'>energy</span>、第 17 篇的 <span class=\'en\'>routine</span>、第 23 篇的 <span class=\'en\'>pressure</span>、第 24 篇的 <span class=\'en\'>mental</span>、第 26 篇的 <span class=\'en\'>habit</span>、第 27 篇的 <span class=\'en\'>urge</span>，共 9 处灰点；短语复现另有第 1 篇的 <span class=\'en\'>pay attention to</span>、第 10 篇的 <span class=\'en\'>instead of</span> 与 <span class=\'en\'>keep a record of</span>、第 29 篇的 <span class=\'en\'>set aside</span>、第 27 篇的 <span class=\'en\'>give in to</span>、第 21 篇的 <span class=\'en\'>in the long run</span>。',
+      '<b>句型</b>：让步—推进的三步走 <span class=\'en\'>Admittedly, … → This is where … comes in → The aim is not to … but to …</span>；证据之后用 <span class=\'en\'>What this means is that …</span> 收拢结论；全文反复出现 <b>not A but B</b>（not a gift … but a resource … / not another screen but a change of pace …），是议论文辨析概念最顺手的骨架。',
+      '<b>搭配与用法</b>：<span class=\'en\'>set aside + 时间</span>（留出时间）；<span class=\'en\'>give in to + 名词</span>（向……让步，to 是介词）；<span class=\'en\'>step away from</span>（暂时离开）；<span class=\'en\'>instead of + 名词或动名词</span>（而不是）；<span class=\'en\'>in the long run</span> 放句首时后面加逗号。',
+      '<b>全文逻辑线与题型提醒</b>：现象（注意力被切碎）→ 隐性代价（切换成本）→ 观点（注意力是可训练的资源）→ 方法（深度工作）→ 让步（只靠意志力不行，需要平衡）→ 主动休息 → 一周方案 → 收束（不喊口号）。推断题抓「手机放在桌上会怎样」「损失的时间为什么不被察觉」；作者观点题看第一段的 <span class=\'en\'>My view</span>；结构题看第五段的让步功能；「作者为什么提到 X」要答出例子支撑的是哪一句观点。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 19 个核心词遮住中文说出 ≥ 15 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 19 个核心词中的 15 个（capacity、deliberate、anchor、recharge、tendency …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '13 个高频搭配掌握 10 个，能各造一句（set aside、give in to、step away from、in the long run …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（表语从句 / 后置定语 / 比较结构 / 主语从句 / not A but B），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 4 题要说出第五段在论证中的让步作用',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 Admittedly, … 与 What this means is that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 + 例子 → 反驳 → 回应」，反驳要具体',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 9 处灰点旧词，说出其中 7 个的出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 45,
+    slug: '045-what-i-learned-from-a-month-without-music',
+    title: 'What I Learned from a Month Without Music',
+    titleCn: '一个月不听音乐的收获',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 580 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.5%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/045.jpg',
+    coverCredit: 'Photo: Akheel Ahamed / Pexels',
+    body: [
+      'I fill almost every quiet minute with music: walking to class, cooking, even falling asleep. Last month I decided to run a small experiment: for thirty days I would <span class="w-phrase" data-cn="没有……也过得去">go without</span> music completely. I expected <span class="w-cet4" data-cn="无聊、厌倦">boredom</span>, long <span class="w-synonym" data-cn="＝ dull and depressing 的替换词">grey</span> evenings, and a worse <span class="w-rev">mood</span>. I told my friends one thing: I wanted to know whether the <span class="w-rev">habit</span> was mine or owned by the music.',
+      'The first week was the hardest. On the morning walk I <span class="w-phrase" data-cn="伸手去拿">reached for</span> my earphones <span class="w-phrase" data-cn="出于习惯">out of habit</span> several times a day, with a small <span class="w-cet4" data-cn="强烈的渴望、瘾头">craving</span> each time. <span class="w-sentence">It was not the music I missed, but the quiet company of a voice that never asked me anything.</span> When the craving began to <span class="w-cet4" data-cn="逐渐消退、变淡">fade</span>, I saw what the music had been: an <span class="w-cet4" data-cn="逃避（念头或现实）">escape</span> from my thoughts.',
+      'By the second week, <span class="w-rev">silence</span> stopped feeling empty. <span class="w-writing" data-cn="我没想到的是……">What I did not expect was</span> how much I could hear: the tap in the kitchen, rain on the window. <span class="w-sentence">The more I listened to the quiet, the more I noticed how much of my day was not mine at all.</span> I began to <span class="w-cet4" data-cn="观察、留意">observe</span> my <span class="w-cet4" data-cn="周围环境">surroundings</span> <span class="w-phrase" data-cn="而不是、代替">instead of</span> covering them with <span class="w-cet4" data-cn="背景的、衬底的">background</span> noise at full <span class="w-cet4" data-cn="音量">volume</span>, and to <span class="w-cet4" data-cn="反思、深入思考">reflect</span> on my days.',
+      'The change showed up in my work first. <span class="w-sentence">Without music in the background, an hour of reading felt slower, yet I could remember far more of what I had read.</span> I <span class="w-phrase" data-cn="把……记录下来">kept a record of</span> my sessions: with music I stopped every few minutes; in silence I finished one task at a time. My <span class="w-rev">focus</span> lasted longer, my mind did not <span class="w-cet4" data-cn="走神、飘走">drift</span> away, and the <span class="w-cet4" data-cn="清晰、清明">clarity</span> of my thoughts surprised me.',
+      '<span class="w-writing" data-cn="这并不是说……（让步）">That is not to say that</span> music is the enemy. On hard days, when the <span class="w-rev">pressure</span> of exams rises, one song can lift a <span class="w-synonym" data-cn="＝ boring 的替换词">dull</span> day. The <span class="w-cet4" data-cn="不利之处、缺点">downside</span> is not the music; it is my reason for turning it on: not joy, but to <span class="w-rev">avoid</span> my thoughts. <span class="w-sentence">I told myself I was listening to music, but I was hiding inside it, because silence asked questions I did not want to answer.</span>',
+      'My decision to <span class="w-cet4" data-cn="停止、戒掉">quit</span> music for thirty days did not make me stronger. <span class="w-rev">Willpower</span> is a poor plan: you fight the same <span class="w-rev">impulse</span> twenty times a day. <span class="w-sentence">What worked was changing the setup: no earphones in the bag, no speakers in the bedroom, and a rule that the first walk stays silent.</span> It was a <span class="w-cet4" data-cn="刻意的、有意的">deliberate</span> move with one <span class="w-cet4" data-cn="意图、打算">intention</span>: to see my days clearly. <span class="w-writing" data-cn="我没想到的是……">What I did not expect was</span> how quickly the impulse faded: after a week it <span class="w-cet4" data-cn="几乎不、勉强">barely</span> appeared, and silence was a <span class="w-cet4" data-cn="轻松、解脱感">relief</span>.',
+      'A month later I turned the music back on, though not the old way. At first I had to <span class="w-cet4" data-cn="调整、适应">adjust</span> my timetable; silence felt strange while studying. Now I play it <span class="w-phrase" data-cn="特意、有意地">on purpose</span>: to lift a heavy day before a run, or to <span class="w-phrase" data-cn="打发时间">pass the time</span> while cleaning. The rest of the day stays silent; that small <span class="w-rev">routine</span> is easy to keep. I enjoy music more now: I chose it instead of swallowing it all day.',
+      'The month taught me something I did not go looking for. Silence is not empty; it is where thinking happens. In the <span class="w-cet4" data-cn="没有、不存在">absence</span> of sound, my own voice became <span class="w-synonym" data-cn="＝ able to be heard 的替换词">audible</span> again, and I could tell what I wanted from what I reached for. That was the <span class="w-rev">outcome</span> I cared about. I still love music and still play it, but the silence is mine to use, and the most <span class="w-rev">valuable</span> days were the quiet ones.'
+    ],
+    translation: [
+      '我几乎把每一个安静的片刻都填上音乐：上课路上、做饭时，甚至入睡时。上个月我决定做一个小小的实验：整整三十天，完全不听音乐。我预料会无聊，会有一整个灰蒙蒙的晚上，心情也会更差。我只跟朋友说了一句话：我想弄清楚这个习惯到底是我自己的，还是属于音乐。',
+      '第一周是最难熬的。早晨走路时，我会出于习惯好几次伸手去拿耳机，每次都带着一阵小小的渴望。我怀念的不是音乐，而是那个从不向我提问的声音所带来的安静陪伴。当那阵渴望开始消退，我才看清音乐到底是什么：一次对我自己念头的逃避。',
+      '到了第二周，安静不再显得空荡。我没想到的是，我能听见这么多：厨房里的水龙头、窗上的雨。我越是听这份安静，就越发现自己的日子有多少根本不由自己做主。我开始观察周围的一切，而不是用满格音量的背景噪音把它们盖住，也开始反思自己是怎么过日子的。',
+      '变化最先出现在我的学习上。没有背景音乐时，读一小时的书感觉更慢，可读完之后，我能记住的内容多得多。我把每一次学习都记录下来：有音乐时，我每隔几分钟就停下来；安静时，我能把一件事一次做完。专注的时间更长了，思绪也不会飘走，而自己思路的清晰程度也让我吃了一惊。',
+      '这并不是说音乐是敌人。难熬的日子里，考试的压力一上来，一首歌就能点亮沉闷的一天。不利之处不在音乐本身，而在我打开它的理由：不是为了快乐，而是为了逃避自己的念头。我告诉自己我在听音乐，其实我是躲在音乐里面，因为安静会问出我不想回答的问题。',
+      '我决定戒掉音乐三十天，这并没有让我变得更强大。意志力是个糟糕的方案：你一天要和同一种冲动交手二十次。真正管用的是改变设置：包里不放耳机，卧室不放音箱，再加一条规矩——每天的第一段路保持安静。这是一个刻意的举动，只有一个意图：看清自己的日子。我没想到的是，那股冲动消退得那么快：一周之后它几乎不再出现，安静本身就是一种轻松。',
+      '一个月之后，我把音乐打开了，但已不是从前的样子。起初我得调整时间表：在安静里学习让人不太习惯。现在我听音乐是特意的：在跑步前点亮沉重的一天，或者在打扫时打发时间。剩下的时间保持安静；这个小小的例行安排很容易坚持。我现在更享受音乐了：是我选择了它，而不是整天把它硬吞下去。',
+      '这个月教会了我一件我并未刻意去寻找的事。安静不是空的；思考恰恰发生在那里。在没有声响的日子里，我自己的声音重新变得听得见，我也能分清自己真正想要的，和只是随手去抓的。那才是我在意的结果。我依然热爱音乐，也依然会听；但安静现在归我使用，而最珍贵的日子，正是那些安静的日子。'
+    ],
+    vocabulary: [
+      {
+        w: 'boredom',
+        ph: '/ˈbɔːdəm/',
+        pos: 'n.',
+        cn: '无聊、厌倦',
+        col: 'boredom with … — 对……的厌倦；fight boredom — 对抗无聊',
+        ex: 'I expected boredom, but the first week was busier than I thought.'
+      },
+      {
+        w: 'craving',
+        ph: '/ˈkreɪvɪŋ/',
+        pos: 'n.',
+        cn: '强烈的渴望、瘾头',
+        col: 'a craving for … — 对……的强烈渴望；fight a craving — 克制渴望',
+        ex: 'Each time I walked past the shop I felt a craving for something sweet.'
+      },
+      {
+        w: 'fade',
+        ph: '/feɪd/',
+        pos: 'v.',
+        cn: '逐渐消退、变淡',
+        col: 'fade away — 逐渐消失；fade slowly — 慢慢消退',
+        ex: 'After a few days the craving began to fade.'
+      },
+      {
+        w: 'escape',
+        ph: '/ɪˈskeɪp/',
+        pos: 'v./n.',
+        cn: '逃避（念头或现实）',
+        col: 'an escape from … — 从……中的逃避；escape from reality — 逃避现实',
+        ex: 'Music became an escape from my own thoughts.'
+      },
+      {
+        w: 'observe',
+        ph: '/əbˈzɜːv/',
+        pos: 'vt.',
+        cn: '观察、留意',
+        col: 'observe the surroundings — 观察周围环境；observe carefully — 仔细观察',
+        ex: 'Without earphones I began to observe the street on my way to class.'
+      },
+      {
+        w: 'surroundings',
+        ph: '/səˈraʊndɪŋz/',
+        pos: 'n.',
+        cn: '周围环境',
+        col: 'notice one’s surroundings — 留意周围环境；quiet surroundings — 安静的环境',
+        ex: 'In silence you notice your surroundings far more quickly.'
+      },
+      {
+        w: 'background',
+        ph: '/ˈbækɡraʊnd/',
+        pos: 'n./adj.',
+        cn: '背景（的）、衬底（的）',
+        col: 'background noise — 背景噪音；in the background — 在背景中',
+        ex: 'Background music can hide the sound of your own thinking.'
+      },
+      {
+        w: 'volume',
+        ph: '/ˈvɒljuːm/',
+        pos: 'n.',
+        cn: '音量',
+        col: 'turn the volume down — 把音量调低；at full volume — 以最大音量',
+        ex: 'He plays music at full volume while he cooks.'
+      },
+      {
+        w: 'reflect',
+        ph: '/rɪˈflekt/',
+        pos: 'v.',
+        cn: '反思、深入思考',
+        col: 'reflect on one’s life — 反思自己的生活；take time to reflect — 花时间反思',
+        ex: 'A quiet walk gives me time to reflect on the week.'
+      },
+      {
+        w: 'clarity',
+        ph: '/ˈklærəti/',
+        pos: 'n.',
+        cn: '清晰、清明',
+        col: 'with clarity — 清楚地；clarity of thought — 思路的清晰',
+        ex: 'The silence brought a clarity that surprised me.'
+      },
+      {
+        w: 'drift',
+        ph: '/drɪft/',
+        pos: 'v./n.',
+        cn: '走神、飘走',
+        col: 'drift away — 思绪飘走；drift off — 走神、睡着',
+        ex: 'In a loud room my mind drifts away every few minutes.'
+      },
+      {
+        w: 'downside',
+        ph: '/ˈdaʊnsaɪd/',
+        pos: 'n.',
+        cn: '不利之处、缺点',
+        col: 'the downside is … — 不利之处在于……；a downside of … — ……的缺点',
+        ex: 'The downside of silence is that it can feel uncomfortable at first.'
+      },
+      {
+        w: 'quit',
+        ph: '/kwɪt/',
+        pos: 'v.',
+        cn: '停止、戒掉',
+        col: 'quit doing sth. — 停止做某事；quit for a month — 戒掉一个月',
+        ex: 'I decided to quit music for thirty days.'
+      },
+      {
+        w: 'deliberate',
+        ph: '/dɪˈlɪbərət/',
+        pos: 'adj.',
+        cn: '刻意的、有意的',
+        col: 'a deliberate choice — 刻意的选择；deliberate practice — 有意识的练习',
+        ex: 'Silence now is a deliberate choice, not an accident.'
+      },
+      {
+        w: 'intention',
+        ph: '/ɪnˈtenʃn/',
+        pos: 'n.',
+        cn: '意图、打算',
+        col: 'with one intention — 抱着一个意图；have no intention of … — 无意做……',
+        ex: 'I started the month with one intention: to see my own habits clearly.'
+      },
+      {
+        w: 'barely',
+        ph: '/ˈbeəli/',
+        pos: 'adv.',
+        cn: '几乎不、勉强',
+        col: 'barely appear — 几乎不出现；barely enough — 勉强够',
+        ex: 'After a week the urge to reach for my earphones barely appeared.'
+      },
+      {
+        w: 'relief',
+        ph: '/rɪˈliːf/',
+        pos: 'n.',
+        cn: '轻松、解脱感',
+        col: 'to my relief — 让我松了口气；feel relief — 感到解脱',
+        ex: 'The silence felt like relief rather than punishment.'
+      },
+      {
+        w: 'adjust',
+        ph: '/əˈdʒʌst/',
+        pos: 'v.',
+        cn: '调整、适应',
+        col: 'adjust the timetable — 调整时间表；adjust to … — 适应……',
+        ex: 'It took me a week to adjust to studying in silence.'
+      },
+      {
+        w: 'absence',
+        ph: '/ˈæbsəns/',
+        pos: 'n.',
+        cn: '没有、不存在',
+        col: 'in the absence of … — 在没有……的情况下；absence of noise — 没有噪音',
+        ex: 'In the absence of background sound, small details come back.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'go without (sth.)',
+        cn: '没有……也过得去、戒掉（新）',
+        ex: 'For thirty days I went without music completely.'
+      },
+      {
+        en: 'reach for',
+        cn: '伸手去拿（新）',
+        ex: 'He reaches for his earphones before he even opens the door.'
+      },
+      {
+        en: 'out of habit',
+        cn: '出于习惯（新）',
+        ex: 'I checked my phone out of habit, not because anyone had written.'
+      },
+      {
+        en: 'instead of',
+        cn: '而不是、代替（复现第 10 篇）',
+        ex: 'I listen to the street instead of covering it with noise.'
+      },
+      {
+        en: 'keep a record of',
+        cn: '把……记录下来（复现第 10 篇）',
+        ex: 'Keep a record of each study session for one week and compare them.'
+      },
+      {
+        en: 'on purpose',
+        cn: '特意、有意地（新）',
+        ex: 'Now I play music on purpose, for a reason I can name.'
+      },
+      {
+        en: 'pass the time',
+        cn: '打发时间（新）',
+        ex: 'Music helps me pass the time while I clean the room.'
+      },
+      {
+        en: 'take in',
+        cn: '感受、吸收（新）',
+        ex: 'A slow walk helps you take in the quiet around you.'
+      },
+      {
+        en: 'push through',
+        cn: '顶过去、挺过去（新）',
+        ex: 'The first three days are the hardest; push through them.'
+      },
+      {
+        en: 'for the time being',
+        cn: '暂时、眼下（新）',
+        ex: 'For the time being, I keep the rule about no music before bed.'
+      },
+      {
+        en: 'used to do sth.',
+        cn: '过去常常做某事（复现第 1 篇）',
+        ex: 'I used to fall asleep with a song still playing in my head.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远来看（复现第 21 篇）',
+        ex: 'In the long run, choosing silence is easier than fighting noise.'
+      },
+      {
+        en: 'stick to',
+        cn: '坚持、信守（复现第 8 篇）',
+        ex: 'The rules are simple, so they are easy to stick to.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'What I did not expect was ...',
+        cn: '我没想到的是……',
+        meaning: '先承认预期，再翻出真正发生的事，是「实验类」记叙文最自然的转折句；它同时完成了「观点 + 证据」的过渡。',
+        context: '用在观察段或结论段的开头，后面接一个 how / that 从句写真正发生的变化。',
+        alts: [
+          {
+            t: 'What surprised me was ...',
+            n: '更口语'
+          },
+          {
+            t: 'I had not expected ...',
+            n: '书面、简洁'
+          },
+          {
+            t: 'Little did I know that ...',
+            n: '强调事后才知道'
+          }
+        ],
+        register: '中性，记叙与议论都好用。',
+        example: 'What I did not expect was how quickly the craving faded.'
+      },
+      {
+        expr: 'That is not to say that ...',
+        cn: '这并不是说……（让步）',
+        meaning: '先把可能的误解挡回去，再给出自己的真实立场，让观点不至于绝对化；这是「观点 + 让步」最省力的连接。',
+        context: '用在观点句之后，先让一步（音乐不是敌人），再转折回来写真正的问题。',
+        alts: [
+          {
+            t: 'This does not mean that ...',
+            n: '更平实'
+          },
+          {
+            t: 'I am not saying that ...',
+            n: '更口语'
+          },
+          {
+            t: 'Admittedly, ...',
+            n: '直接承认对方有理'
+          }
+        ],
+        register: '中性偏书面，适合议论文。',
+        example: 'That is not to say that music is the enemy; it is my reason for turning it on.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'It was not the music I missed, but the quiet company of a voice that never asked me anything.',
+        points: [
+          '<b>主干</b>：It was not A but B 的<b>对比强调结构</b>：被否定的是 the music I missed，真正想说的在 but 之后 —— the quiet company of a voice。朗读时重音落在 but 后面。',
+          '<b>定语从句</b>：that never asked me anything 修饰 a voice，先行词是物，关系代词用 that 即可；注意 <b>quiet company</b> 里 company 指「陪伴」，不可数，前面不能加 a。',
+          '<b>省略的定语从句</b>：the music I missed 省略了关系代词 that（the music that I missed），口语和书面都很常见。',
+          '<b>为什么值得学</b>：写「我怀念的其实不是甲，而是乙」这一类翻转句，not A but B 比 however 更有力量，适合放在段首或段尾立观点。',
+          '<b>常见变体</b>：It was not the prize I wanted, but the hours I spent with my team.'
+        ]
+      },
+      {
+        text: 'The more I listened to the quiet, the more I noticed how much of my day was not mine at all.',
+        points: [
+          '<b>主干</b>：<b>the more …, the more …</b> 的比较结构：前半句是<b>比较状语从句</b>，后半句是主句，两边都用「the + 比较级」，且比较级前的 the 不能省。',
+          '<b>宾语从句</b>：how much of my day was not mine at all 整个作 noticed 的宾语；how much 同时修饰 of my day，表示「多大一部分」。',
+          '<b>固定搭配</b>：<b>not … at all</b> 是「一点也不」，语气比单用 not 强；mine 在这里相当于 my day / my time，避免重复。',
+          '<b>为什么值得学</b>：写「越……越……」的观察，这个结构自带递进感，比 I began to realize … 更有节奏，常用于实验类或调查类文章的转折处。',
+          '<b>常见变体</b>：The more I read, the more I see how little I know.'
+        ]
+      },
+      {
+        text: 'Without music in the background, an hour of reading felt slower, yet I could remember far more of what I had read.',
+        points: [
+          '<b>主干</b>：an hour of reading felt slower；<b>feel + 形容词</b> 是系表结构，felt slower 写「读起来更慢」的感受，不是动作。',
+          '<b>句首状语</b>：Without music in the background 是介词短语作<b>条件性背景状语</b>，交代对比前提；去掉后主句仍成立。',
+          '<b>转折连词</b>：yet 连接两个并列分句，语气比 but 更书面，常用于「看似不利、其实有利」的让步对比。',
+          '<b>时态</b>：what I had read 用<b>过去完成时</b>，表示「读完之后回头看已读过的内容」，动作先于 could remember。',
+          '<b>为什么值得学</b>：一句话里同时有比较、转折和宾语从句，是「证据段」最好用的句型：先写感受，再用 yet 给出反直觉的结果。'
+        ]
+      },
+      {
+        text: 'I told myself I was listening to music, but I was hiding inside it, because silence asked questions I did not want to answer.',
+        points: [
+          '<b>主干</b>：I told myself (that) I was listening to music but I was hiding inside it；<b>tell oneself (that) …</b> 表示「说服自己、自我安慰」，比 say to myself 更强调自欺。',
+          '<b>时态选择</b>：两处<b>进行时</b>（was listening / was hiding）写的是那一个月里持续的状态，而不是某一次动作，这是进行时最典型的用法之一。',
+          '<b>原因从句</b>：because silence asked questions I did not want to answer，其中 questions 后是<b>省略关系代词的定语从句</b>（questions that I did not want to answer）。',
+          '<b>为什么值得学</b>：先摆出自己的旧想法（I told myself），再用 but 拆穿它，最后用 because 给出真正的原因 —— 三层一口气说完，是自省类文章的核心句式。',
+          '<b>注意点</b>：inside it 的 it 指 music，不要理解成 silence。'
+        ]
+      },
+      {
+        text: 'What worked was changing the setup: no earphones in the bag, no speakers in the bedroom, and a rule that the first walk stays silent.',
+        points: [
+          '<b>主干</b>：<b>What worked</b> 是 what 引导的<b>主语从句</b>，表语是动名词短语 changing the setup；What worked = 有效的东西，比 The useful thing that worked 更简洁。',
+          '<b>冒号后的同位说明</b>：三个并列的名词短语（no earphones … / no speakers … / a rule …）把「setup」具体展开，写方法类段落时可以照抄这个结构。',
+          '<b>同位语从句</b>：that the first walk stays silent 说明 rule 的内容，that 不作成分、只起连接作用，不能换成 which。',
+          '<b>句式要点</b>：「改环境」比「靠意志」更好写 —— 这句话先给结论（What worked），再给三个可操作的细节，读者能直接照做。',
+          '<b>常见变体</b>：What worked was changing the order: reading first, messages later, and a fixed time for questions.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'Why did the writer keep reaching for his earphones during the first week?',
+        cn: '第一周里，作者为什么总是一次次伸手去拿耳机？',
+        ans: 'Because reaching for music had become automatic, and he used it to avoid being alone with his own thoughts rather than simply for pleasure.',
+        ansCn: '因为伸手拿耳机已经成了下意识动作，他用音乐来逃避和自己的念头独处，而不只是因为喜欢听歌。'
+      },
+      {
+        en: 'What does the writer suggest about relying on willpower alone to change a habit?',
+        cn: '关于只靠意志力来改变一个习惯，作者有什么看法？',
+        ans: 'It is a poor plan, because the same impulse returns many times a day; changing the setup works far better.',
+        ansCn: '那是个糟糕的方案，因为同一种冲动一天会回来很多次；改变环境设置才真正管用。'
+      },
+      {
+        en: 'What is the writer’s view of music after the month without it?',
+        cn: '一个月不听音乐之后，作者对音乐持什么看法？',
+        ans: 'Music is not the enemy and can lift a hard day; the real problem was using it to hide from his own thoughts, so he now plays it on purpose and keeps some silence.',
+        ansCn: '音乐不是敌人，还能点亮难熬的一天；真正的问题是拿它来逃避自己的念头，所以他现在有意地听音乐，同时保留安静。'
+      },
+      {
+        en: 'How is the article organized?',
+        cn: '这篇文章是怎样组织的？',
+        ans: 'It opens with the decision and the difficult first week, moves through what he heard and the evidence from his study sessions, gives a concession about music, and closes with the rules he kept and what the month taught him.',
+        ansCn: '开头写做决定和难熬的第一周，中间写他听见的东西与学习记录里的证据，然后对音乐做让步，最后写他保留的规则和这一个月的收获。'
+      },
+      {
+        en: 'Why does the writer mention keeping a record of his study sessions?',
+        cn: '作者为什么提到自己把每一次学习都记录下来？',
+        ans: 'To give concrete evidence that silence improved his work: with music he stopped every few minutes, while in silence he finished one task at a time.',
+        ansCn: '为了拿出具体证据，说明安静确实让学习变好：有音乐时他每隔几分钟就停，安静时却能把一件事一次做完。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about a comfort you gave up for a period of time: what you expected, what actually changed, and what you decided to keep.',
+      hints: [
+        'For … days I decided to go without …',
+        'What I did not expect was …',
+        'The downside is not …; it is …',
+        'That is not to say that …; on hard days …'
+      ],
+      hintCn: '用三段写一次「戒掉」小实验：第一段交代时间线和预期，第二段写观察和证据（最好给出一个具体数字的对比），第三段先让步再收束立意。120–150 词里至少出现一个具体天数或数字。',
+      req: '至少使用 3 个本篇学过的词或搭配（quit / craving / deliberate / downside / keep a record of / What I did not expect was … / That is not to say that …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: is giving up a comfort for a month worth it?',
+        'One reason for that view, with one piece of evidence',
+        'One example with a time, a place or a number',
+        'One counterargument and your answer to it'
+      ],
+      pointCn: '1.5–2 分钟里讲完「观点 → 理由 → 例子 → 反驳」四步；例子要带具体的时间、数字或场景，反驳要先复述对方的理由再回应，不能只说「有人不同意」。',
+      skeleton: 'In my view, giving up one comfort for a month is worth it. The reason is that … For example, when I … for … days, I … Some people may say that … , but I would answer that … To sum up, ...'
+    },
+    focus: [
+      '<b>新授核心词 19 个</b>：<span class=\'en\'>boredom, craving, fade, escape, observe, surroundings, background, volume, reflect, clarity, drift, downside, quit, deliberate, intention, barely, relief, adjust, absence</span> —— <b>quit</b> 后接动名词表示「戒掉某事」（quit doing sth.）；<b>surroundings</b> 常用复数，指「周围的一切」；<b>volume</b> 表「音量」时说 turn the volume up / down；<b>absence</b> 最常用的搭配是 in the absence of …；<b>deliberate</b> 重音在第二个音节，副词为 deliberately；<b>escape</b> 可作动词也可作名词（an escape from …）；<b>downside</b> 是口语高频词，常以 the downside is … 开头；<b>boredom</b> 不可数，别和 boring 混用。',
+      '<b>本篇复现的旧词（共 11 处灰点）</b>：第 16 篇的 <span class=\'en\'>silence</span>、第 8 篇的 <span class=\'en\'>mood</span>、第 26 篇的 <span class=\'en\'>habit</span>、第 6 篇的 <span class=\'en\'>focus</span>、第 27 篇的 <span class=\'en\'>impulse</span>、第 17 篇的 <span class=\'en\'>routine</span>、第 38 篇的 <span class=\'en\'>willpower</span>、第 23 篇的 <span class=\'en\'>pressure</span>、第 21 篇的 <span class=\'en\'>avoid</span>、第 40 篇的 <span class=\'en\'>outcome</span>、第 14 篇的 <span class=\'en\'>valuable</span>；短语复现另有第 10 篇的 <span class=\'en\'>instead of / keep a record of</span>，以及 <span class=\'en\'>used to do sth. / stick to / in the long run</span> 这些早期学过的搭配。',
+      '<b>五处长难句覆盖阶段五要求的结构</b>：对比强调 <span class=\'en\'>It was not A but B</span> 加定语从句（第一处）、<span class=\'en\'>the more …, the more …</span> 加宾语从句（第二处）、句首介词短语加 <span class=\'en\'>yet</span> 转折加过去完成时（第三处）、自我对话 <span class=\'en\'>told myself … but … because …</span> 三层叠加（第四处）、<span class=\'en\'>What worked was …</span> 主语从句加冒号同位说明加同位语从句（第五处）——五句都拆在长难句解析里，仿写时优先练第一处和第五处。',
+      '<b>观点 + 证据 + 让步的三层写法</b>：观点句用 <span class=\'en\'>The downside is not …; it is …</span>；证据用 <span class=\'en\'>keep a record of</span> 得到的数字对比（有音乐每隔几分钟就停 / 安静里能把一件事一次做完）；让步用 <span class=\'en\'>That is not to say that …</span> 先退一步；转折惊喜用 <span class=\'en\'>What I did not expect was …</span>。这四句可以整段搬进写作任务。',
+      '<b>全文逻辑线与题型提醒</b>：做决定 → 第一周的反复（伸手拿耳机）→ 听见周围 → 学习里的证据 → 让步（音乐不是敌人）→ 方法（改设置优于拼意志力）→ 回归并立新规矩 → 收束（安静是可以使用的东西）。推断题抓「行为背后的真正原因」；作者观点题重点看让步段前后的转折句；篇章结构题按「实验 → 观察 → 证据 → 让步 → 结论」数段落功能；「作者为什么提到 X」的题，回到例子前面找它支撑的那句观点。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五中段：阅读题 5 题对 ≥ 4 · 19 个核心词遮住中文说出 ≥ 14 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 19 个核心词中的 14 个（observe、deliberate、downside、absence、craving …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '13 个高频搭配掌握 10 个，能各造一句（reach for、go without、out of habit、keep a record of …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（对比强调 / the more 比较句 / yet 转折句 / 三层复合句 / 主语从句加同位说明），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 5 题要说出作者提到学习记录是为了证明哪一层意思',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 What I did not expect was … 或 That is not to say that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳」，反驳要先复述对方理由再回应',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 11 处灰点旧词，说出其中 9 个的意思和出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 46,
+    slug: '046-the-true-cost-of-cheap',
+    title: 'The True Cost of Cheap',
+    titleCn: '便宜的真实成本',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 595 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '4 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/046.jpg',
+    coverCredit: 'Photo: Gioele Gatto / Pexels',
+    body: [
+      'A <span class="w-rev">cheap</span> thing feels like a win: low <span class="w-rev">price</span>, easy choice. Yet the tag is not the whole bill. Whoever made it must be paid, the waste must go somewhere, and <span class="w-phrase" data-cn="迟早、总有一天">sooner or later</span> the thing must be replaced. <span class="w-sentence">The real question is not how much you pay at the counter today, but who pays the rest of the bill, and when.</span> Cheap is not the problem; the <span class="w-rev">hidden</span> bill is.',
+      '<span class="w-writing" data-cn="说句公道话……">To be fair,</span> the rest of the bill is easy to miss: it is paid far away, years later. A <span class="w-cet4" data-cn="供应商">supplier</span> who must sell very cheaply has few places to cut: <span class="w-phrase" data-cn="偷工减料">cut corners</span> on materials, pay a lower <span class="w-cet4" data-cn="工资">wage</span>, or pass the cost of <span class="w-cet4" data-cn="污染">pollution</span> on to the town where the goods are <span class="w-cet4" data-cn="制造">manufactured</span>. A <span class="w-synonym" data-cn="＝ buy 的正式替换词">purchase</span> that looks like a bargain is often someone else’s bill.',
+      '<span class="w-writing" data-cn="人们很容易以为……">It is easy to assume that</span> the cheapest product is the cheapest to own. It rarely is, and you can <span class="w-cet4" data-cn="计算、核算">calculate</span> why: <span class="w-phrase" data-cn="每次使用成本">cost per use</span>, the price divided by the number of times you use it. A coat that costs half as much but <span class="w-phrase" data-cn="穿坏、用坏">wears out</span> in one season is not cheap; you end up buying it twice. A <span class="w-cet4" data-cn="耐用的">durable</span> kettle with a five-year <span class="w-cet4" data-cn="保修、保修期">warranty</span> lasts; one that breaks down in a year does not. A short <span class="w-cet4" data-cn="使用寿命">lifespan</span> turns a low price into a deposit.',
+      '<span class="w-sentence">The bill does not stop at money, because an item that fails early charges you again in time and patience.</span> You buy again and throw it away. Cheap objects are rarely worth repairing, so they are <span class="w-cet4" data-cn="丢弃、抛弃">discarded</span> long before they are used up. These small charges <span class="w-phrase" data-cn="积少成多、累积起来">add up</span>, and they land as <span class="w-cet4" data-cn="麻烦、烦扰">hassle</span>: the irritation of owning something never meant to last. <span class="w-synonym" data-cn="＝ in the end 的书面替换词">Ultimately</span>, the hours you lose are the part nobody writes down.',
+      '<span class="w-writing" data-cn="说句公道话……">To be fair,</span> the cheap version is often the sensible one. For something used a handful of times, a long life is worth nothing, and paying twice is <span class="w-rev">waste</span>, not virtue. <span class="w-cet4" data-cn="偶尔的、偶尔用的">Occasional</span> items are where the low price wins. Nor is it fair to blame people who buy cheap: when the family <span class="w-rev">budget</span> is tight, money today is real and next year’s saving is a promise, and many cannot <span class="w-rev">afford</span> to pay more now. Buying cheap is a <span class="w-cet4" data-cn="折中、妥协">compromise</span>, not a moral failure.',
+      'Seen this way, buying well is a <span class="w-cet4" data-cn="权衡、取舍">trade-off</span> you make item by item. For daily items, <span class="w-rev">quality</span> pays: a little <span class="w-cet4" data-cn="保养、维护">maintenance</span>, one <span class="w-rev">repair</span> instead of a new purchase, and <span class="w-phrase" data-cn="从长远来看">in the long run</span> the better-made item is <span class="w-cet4" data-cn="划算的、经济的">economical</span> even when its <span class="w-cet4" data-cn="前期的、预先的">upfront</span> price hurts. For twice-a-year items, cheap is <span class="w-synonym" data-cn="＝ only 的书面替换词">merely</span> sensible. <span class="w-sentence">What changes the calculation is time: the longer an item stays useful, the less often the low price can win.</span>',
+      'A <span class="w-rev">consumer</span> culture that treats objects as <span class="w-rev">disposable</span> pushes the bill towards workers, towns and bins. A <span class="w-rev">brand</span> name is no guarantee; what matters is the bill, not the label. <span class="w-cet4" data-cn="总体的、总体上">Overall</span>, a good deal is often a delayed invoice, and buying the same thing three times is hard to <span class="w-cet4" data-cn="证明……合理">justify</span>. The convenience of the cheap shelf rarely <span class="w-cet4" data-cn="比……更重要、大于">outweighs</span> the cost somebody else carries.',
+      'Before the next bargain feels clever, ask two questions: how often will I use it, and who pays for what I cannot see? <span class="w-sentence">Only when you see the whole bill does a low price tell you anything at all.</span> If the answers hold up, buy it; if not, paying a little more is often <span class="w-phrase" data-cn="花得值的钱">money well spent</span>. Think twice, and the price becomes a decision instead of a surprise. Cheap is not the enemy; the cost you never agreed to is.'
+    ],
+    translation: [
+      '便宜的东西总让人觉得赚到了：价格低，选择轻松。但标签不是全部账单。做东西的人总得有人付钱，垃圾总得有地方去，而东西本身迟早要换新。真正的问题不是你今天在收银台付了多少，而是剩下的账单由谁来付、什么时候付。便宜不是问题；没人拿给你看的那张账单才是。',
+      '说句公道话，剩下的那部分账单很容易被忽略：它付在很远的地方，而且是很多年之后。一个必须把价格压得很低的供应商，能下手的地方只有几处：在材料上偷工减料，压低工资，或者把污染的成本转嫁到商品产地的那座小镇头上。一笔看起来捡了便宜的买卖，往往是别人头上的一张账单。',
+      '人们很容易以为，最便宜的产品就是用起来最便宜的那个。事实很少如此，一算就明白：每次使用成本，也就是价格除以你使用它的次数。一件价钱只有一半、却一个季度就穿坏的外套根本不便宜；你会买上两次。一把带五年保修的耐用的水壶能用很久；一个一年就坏掉的就不行。寿命一短，低价就成了你垫付的押金。',
+      '这张账单不止是钱，因为一件早早坏掉的东西，还会再次向你收取时间和耐心的费用。你只好再买一次，把坏的扔掉。便宜的东西很少值得修，于是它们远远没被用完就被丢弃。这些小花费积少成多，最后化成麻烦：拥有一件从没打算用久的东西，那种反复的恼火。到头来，你损失的时间才是没人写下来的那一部分。',
+      '说句公道话，便宜的那个版本常常才是明智之选。对一件只用几次的东西，长寿毫无意义，付两次钱是浪费，不是美德。偶尔用一次的东西，恰恰是低价货赢的地方。责怪买便宜货的人也不公平：家庭预算紧张时，今天的钱是实实在在的，明年的节省只是一句承诺，很多人眼下拿不出更多的钱。买便宜货是一种折中，而不是道德上的失败。',
+      '这样看来，会买东西是你逐件做出的权衡。对每天用的东西，质量是划算的：一点保养，一次维修而不是重新买一个，从长远看，做工更好的那件更经济，哪怕它的前期价格让人肉疼。对一年只用两次的东西，便宜就只是合理。真正改变这笔计算的是时间：一件东西保持可用的时间越长，低价就越难占上风。',
+      '一个把物品当成一次性用品的消费文化，只是把账单推向工人、小城和垃圾桶。品牌名字同样不是保证；要紧的是账单，而不是标签。总体来看，所谓捡到的便宜常常只是一张延迟寄来的发票，同一件东西买三次，很难说得过去。便宜货架带来的便利，很少大得过别人要承担的那部分代价。',
+      '下一次觉得某个便宜捡得聪明之前，先问两个问题：我会用它几次？我看不见的那部分由谁来付？只有当你看见整张账单，低价才真正说明问题。如果答案经得起推敲，就买下它；如果经不起，多花一点钱往往才是花得值的钱。多想一想，价格就成了一个决定，而不是一次意外。便宜不是敌人；你从未答应承担的那部分代价才是。'
+    ],
+    vocabulary: [
+      {
+        w: 'supplier',
+        ph: '/səˈplaɪə(r)/',
+        pos: 'n.',
+        cn: '供应商',
+        col: 'a reliable supplier — 可靠的供应商；supplier and buyer — 供应商与买家',
+        ex: 'A supplier who sells too cheaply has to cut somewhere.'
+      },
+      {
+        w: 'wage',
+        ph: '/weɪdʒ/',
+        pos: 'n.',
+        cn: '工资',
+        col: 'a low wage — 低工资；wage levels — 工资水平',
+        ex: 'Part of a very low price is often a lower wage.'
+      },
+      {
+        w: 'pollution',
+        ph: '/pəˈluːʃn/',
+        pos: 'n.',
+        cn: '污染',
+        col: 'air pollution — 空气污染；cause pollution — 造成污染',
+        ex: 'The cost of pollution is easy to pass on to a nearby town.'
+      },
+      {
+        w: 'manufacture',
+        ph: '/ˌmænjuˈfæktʃə(r)/',
+        pos: 'vt.',
+        cn: '制造、生产',
+        col: 'manufacture goods — 制造商品；manufactured abroad — 在国外制造',
+        ex: 'The town where the goods are manufactured also pays part of the bill.'
+      },
+      {
+        w: 'calculate',
+        ph: '/ˈkælkjuleɪt/',
+        pos: 'v.',
+        cn: '计算、核算',
+        col: 'calculate the cost — 核算成本；hard to calculate — 难以算清',
+        ex: 'You can calculate the real cost of a coat in one minute.'
+      },
+      {
+        w: 'durable',
+        ph: '/ˈdjʊərəbl/',
+        pos: 'adj.',
+        cn: '耐用的',
+        col: 'durable material — 耐用材料；prove durable — 证明耐用',
+        ex: 'A durable kettle costs more and lasts far longer.'
+      },
+      {
+        w: 'warranty',
+        ph: '/ˈwɒrənti/',
+        pos: 'n.',
+        cn: '保修、保修期',
+        col: 'a five-year warranty — 五年保修；under warranty — 在保修期内',
+        ex: 'Check the warranty before you pay for a cheap machine.'
+      },
+      {
+        w: 'lifespan',
+        ph: '/ˈlaɪfspæn/',
+        pos: 'n.',
+        cn: '使用寿命',
+        col: 'a short lifespan — 寿命短；the lifespan of a product — 一件产品的寿命',
+        ex: 'A short lifespan turns a low price into a deposit.'
+      },
+      {
+        w: 'discard',
+        ph: '/dɪsˈkɑːd/',
+        pos: 'vt.',
+        cn: '丢弃、抛弃',
+        col: 'discard an old item — 丢掉旧物；be discarded early — 很早就被扔掉',
+        ex: 'Cheap objects are discarded long before they are used up.'
+      },
+      {
+        w: 'hassle',
+        ph: '/ˈhæsl/',
+        pos: 'n.',
+        cn: '麻烦、烦扰',
+        col: 'a real hassle — 真麻烦；save yourself the hassle — 免去这份麻烦',
+        ex: 'The worst part of a broken cheap product is the hassle.'
+      },
+      {
+        w: 'occasional',
+        ph: '/əˈkeɪʒənl/',
+        pos: 'adj.',
+        cn: '偶尔的、偶尔用的',
+        col: 'occasional use — 偶尔使用；an occasional guest — 偶尔来的客人',
+        ex: 'Occasional items are where the cheap version wins.'
+      },
+      {
+        w: 'compromise',
+        ph: '/ˈkɒmprəmaɪz/',
+        pos: 'n./v.',
+        cn: '折中、妥协',
+        col: 'reach a compromise — 达成折中；compromise on quality — 在质量上将就',
+        ex: 'Buying cheap can be a compromise, not a failure.'
+      },
+      {
+        w: 'justify',
+        ph: '/ˈdʒʌstɪfaɪ/',
+        pos: 'vt.',
+        cn: '证明……合理、为……辩护',
+        col: 'justify a purchase — 为一次购买辩解；hard to justify — 很难说得过去',
+        ex: 'It is hard to justify buying the same thing three times.'
+      },
+      {
+        w: 'outweigh',
+        ph: '/ˌaʊtˈweɪ/',
+        pos: 'vt.',
+        cn: '比……更重要、大于',
+        col: 'benefits outweigh costs — 收益大于成本；outweigh the risk — 大过风险',
+        ex: 'The convenience rarely outweighs the cost somebody else carries.'
+      },
+      {
+        w: 'upfront',
+        ph: '/ˌʌpˈfrʌnt/',
+        pos: 'adj.',
+        cn: '预先的、前期的',
+        col: 'upfront cost — 前期花费；an upfront payment — 预付款',
+        ex: 'An upfront price hurts today; a long lifespan pays you back.'
+      },
+      {
+        w: 'trade-off',
+        ph: '/ˈtreɪdɒf/',
+        pos: 'n.',
+        cn: '权衡、取舍',
+        col: 'a trade-off between A and B — 甲与乙之间的取舍；make a trade-off — 做一次权衡',
+        ex: 'Every purchase is a trade-off between price and lifespan.'
+      },
+      {
+        w: 'maintenance',
+        ph: '/ˈmeɪntənəns/',
+        pos: 'n.',
+        cn: '保养、维护',
+        col: 'regular maintenance — 定期保养；maintenance costs — 维护费用',
+        ex: 'A little maintenance keeps a good item useful for years.'
+      },
+      {
+        w: 'economical',
+        ph: '/ˌiːkəˈnɒmɪkl/',
+        pos: 'adj.',
+        cn: '划算的、经济的',
+        col: 'an economical choice — 划算的选择；economical to run — 用起来省',
+        ex: 'The better-made item is often the economical one.'
+      },
+      {
+        w: 'overall',
+        ph: '/ˌəʊvərˈɔːl/',
+        pos: 'adj./adv.',
+        cn: '总体的、总体上',
+        col: 'overall cost — 总成本；the overall picture — 总体情况',
+        ex: 'Overall, a good deal is often a delayed invoice.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'cost per use',
+        cn: '每次使用成本（新）',
+        ex: 'Cost per use is the price divided by the number of times you use it.'
+      },
+      {
+        en: 'cut corners',
+        cn: '偷工减料、走捷径（新）',
+        ex: 'A supplier with a very low price has to cut corners somewhere.'
+      },
+      {
+        en: 'wear out',
+        cn: '穿坏、用坏（新）',
+        ex: 'A coat that wears out after one season is not a real bargain.'
+      },
+      {
+        en: 'break down',
+        cn: '出故障、坏掉（新）',
+        ex: 'The cheap kettle broke down in its second winter.'
+      },
+      {
+        en: 'pass … on to …',
+        cn: '把（成本、责任）转嫁给……（新）',
+        ex: 'The factory passes the cost of pollution on to the town.'
+      },
+      {
+        en: 'money well spent',
+        cn: '花得值的钱（新）',
+        ex: 'A durable bag is money well spent if you carry it every day.'
+      },
+      {
+        en: 'add up',
+        cn: '积少成多、加起来（复现第 27 篇）',
+        ex: 'Small charges add up faster than most people expect.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远来看（复现第 21 篇）',
+        ex: 'In the long run, the better-made item is the cheaper one.'
+      },
+      {
+        en: 'think twice',
+        cn: '多想一想再决定（复现第 13 篇）',
+        ex: 'Think twice before you hand over the money.'
+      },
+      {
+        en: 'throw … away',
+        cn: '把……扔掉（复现第 4 篇）',
+        ex: 'Cheap objects are thrown away before they are used up.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '到头来（做了）……（复现第 6 篇）',
+        ex: 'Buy the cheap coat and you end up buying it twice.'
+      },
+      {
+        en: 'be worth doing sth.',
+        cn: '值得做……（复现第 22 篇）',
+        ex: 'A cheap object is rarely worth repairing.'
+      },
+      {
+        en: 'sooner or later',
+        cn: '迟早、总有一天（复现第 17 篇）',
+        ex: 'Sooner or later the thing itself must be replaced.'
+      },
+      {
+        en: 'pay for sth.',
+        cn: '为……付钱、为……付出代价（复现第 27 篇）',
+        ex: 'Ask who pays for the part of the bill you cannot see.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To be fair, …',
+        cn: '说句公道话……',
+        meaning: '让步开路：先承认另一方有道理，再补上自己的转折，后面的判断更容易被接受；写议论文的让步段几乎必备。',
+        context: '第 2 段开头（承认账单看不见）与第 5 段开头（承认便宜货常常是对的）。',
+        alts: [
+          {
+            t: 'Admittedly, …',
+            n: '更书面'
+          },
+          {
+            t: 'In fairness, …',
+            n: '更口语一点'
+          },
+          {
+            t: 'It is true that …, but …',
+            n: '展开成两句'
+          }
+        ],
+        register: '中性，语气诚恳，不卑不亢。',
+        example: 'To be fair, the cheap version is often the sensible one.'
+      },
+      {
+        expr: 'It is easy to assume that …',
+        cn: '人们很容易以为……',
+        meaning: '先说出多数人的默认想法，下一句再指出它站不住，比开门见山反驳更顺，读者不会觉得被教训。',
+        context: '第 3 段开头，引出「最便宜的产品用起来最便宜」这个误解。',
+        alts: [
+          {
+            t: 'Many people assume that …',
+            n: '直接点出人群'
+          },
+          {
+            t: 'It is tempting to think that …',
+            n: '强调「诱人但不成立」'
+          },
+          {
+            t: 'The common belief is that …',
+            n: '更书面'
+          }
+        ],
+        register: '中性偏书面，议论与说明都能用。',
+        example: 'It is easy to assume that the cheapest product is the cheapest one to own.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'The real question is not how much you pay at the counter today, but who pays the rest of the bill, and when.',
+        points: [
+          '<b>主干</b>：The real question is not A but B —— 表语用 <b>not … but …</b> 并列两个成分：A 是 how much 引导的名词性从句，B 是 who 引导的名词性从句，前后结构对称。',
+          '<b>and when</b> 挂在 who 从句之后，把「谁付」和「何时付」两个追问一次问完；口语里也常说 Who pays, and when?，写作里用并列追问收束更有力度。',
+          '<b>注意点</b>：not … but … 连接的两个成分必须同形，这里都是疑问词引导的从句，不能一边用从句、一边用名词短语。',
+          '<b>为什么值得学</b>：议论文开头最好用的「换一个问题」句式：先承认读者真正关心的（今天付多少），再换上更根本的问题（谁在什么时候付），全文论点由此立住。',
+          '<b>常见变体</b>：The question is not whether we can afford it, but who pays for it in the end.'
+        ]
+      },
+      {
+        text: 'The bill does not stop at money, because an item that fails early charges you again in time and patience.',
+        points: [
+          '<b>主干</b>：The bill does not stop at money —— stop at 表示「止步于」，not stop at … 意思是「不止于」。',
+          '<b>原因从句</b>：because an item that fails early charges you again …，其中 that fails early 是<b>定语从句</b>修饰 an item；charges you 是<b>拟人</b>写法，把商品写成会开账单的人。',
+          '<b>介词搭配</b>：charge somebody <b>in</b> time and patience —— 用「时间与耐心」当作货币来收费，是英语里常见的换算写法。',
+          '<b>为什么值得学</b>：把「金钱之外的成本」说得具体又不夸张；写成本类、影响类作文可直接套用 X does not stop at …, because … charges you again in …。',
+          '<b>常见变体</b>：The cost does not stop at the ticket price, because the journey charges you again in hours.'
+        ]
+      },
+      {
+        text: 'What changes the calculation is time: the longer an item stays useful, the less often the low price can win.',
+        points: [
+          '<b>主干</b>：What changes the calculation is time —— <b>what 引导的主语从句</b>（相当于 the thing that changes the calculation），表语是 time；冒号后解释「为什么是时间」。',
+          '<b>the + 比较级 …, the + 比较级 …</b>：越……越……；两个分句都是「the + 比较级」放句首、主谓保持正常语序（the longer an item stays useful），不要写成 does an item stay。',
+          '<b>词义</b>：win 在这里指「在比较中胜出」，stay useful 表示「保持有用」，比 last 更强调功能没有退化。',
+          '<b>为什么值得学</b>：把「长期成本」的算法压成一句格言式结论，放在段尾或结尾前最有分量。',
+          '<b>常见变体</b>：The more you use it, the more the quality pays.'
+        ]
+      },
+      {
+        text: 'Only when you see the whole bill does a low price tell you anything at all.',
+        points: [
+          '<b>主干</b>：A low price tells you anything at all only when you see the whole bill；<b>only + 状语从句</b>提到句首，主句<b>部分倒装</b>：助动词 does 提到主语 a low price 之前。',
+          '<b>倒装范围</b>：只有主句倒装，when 引导的从句仍用正常语序；若 only 后直接跟主语（Only the price is low …），则不倒装，这是最常见的分界。',
+          '<b>词尾强调</b>：at all 用在肯定句里加强「任何一点」的语气，常和 only 呼应。',
+          '<b>为什么值得学</b>：倒装句自带结论感，放在结尾段开头，把全文判断一次立住，比平铺直叙有力。',
+          '<b>常见变体</b>：Only after you use it ten times does the price mean anything.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about a coat that costs half as much but wears out after one season?',
+        cn: '从文中可以推出，一件价钱只有一半、却穿一个季度就坏的外套是怎样的？',
+        ans: 'It is not really cheaper at all, because the buyer ends up buying the same thing twice.',
+        ansCn: '它其实一点也不便宜，因为买家到头来要把同一件东西买两次。'
+      },
+      {
+        en: 'What can we infer about people who buy cheap things week after week?',
+        cn: '从文中可以推出，每周都买便宜货的人是怎样的处境？',
+        ans: 'Their choice is a real compromise between paying now and paying later, not a moral failure, because money today is real and next year’s saving is only a promise.',
+        ansCn: '他们的选择是在「现在付」和「以后付」之间的真实折中，而不是道德上的失败，因为今天的钱是实实在在的，明年的节省只是一句承诺。'
+      },
+      {
+        en: 'What is the writer’s view of cheap goods?',
+        cn: '作者对便宜商品持什么看法？',
+        ans: 'Cheap goods are not the enemy; the real problem is the hidden bill, so buyers should look at the whole cost before they pay.',
+        ansCn: '便宜货不是敌人；真正的问题是那张看不见的账单，所以买之前要把全部成本看清楚。'
+      },
+      {
+        en: 'How does the essay develop its argument?',
+        cn: '这篇文章是怎样展开论证的？',
+        ans: 'It moves from the hidden bill behind a low price, to the buyer’s own cost per use and the costs in time, then concedes when the cheap version is sensible, and closes with two questions to ask before paying.',
+        ansCn: '它先写低价背后那张看不见的账单，再写买家自己的每次使用成本和时间上的代价，接着让步说明便宜版本何时才是对的，最后以买前要问的两个问题收尾。'
+      },
+      {
+        en: 'Why does the writer mention a durable kettle with a five-year warranty?',
+        cn: '作者为什么提到一把带五年保修的耐用水壶？',
+        ans: 'To show that an item with a longer lifespan can cost less per use than a cheap one that breaks down early.',
+        ansCn: '为了说明寿命更长的东西，每次使用成本反而低于早早坏掉的便宜货。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about a cheap purchase that turned out expensive, or a good item that paid for itself over time.',
+      hints: [
+        'It is easy to assume that ...',
+        'What it really cost me was ...',
+        'To be fair, ... , but ...',
+        'If I calculate the cost per use, ...'
+      ],
+      hintCn: '用 6–8 句话写一次购物经历：先写你当时以为省了多少钱，再写后来实际付出的金钱、时间或麻烦，然后用「To be fair, …」让步一句，最后写你现在判断「值不值」的标准。',
+      req: '至少使用 3 个本篇学过的词或搭配（cost per use / durable / lifespan / warranty / hassle / in the long run / To be fair, … / It is easy to assume that …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: when is a cheap product a good buy?',
+        'One reason built on cost per use or lifespan',
+        'One example from your own experience',
+        'One counterargument and your reply to it'
+      ],
+      pointCn: '一点五分钟到两分钟内讲完「观点 → 理由 → 例子 → 反驳」四步；回应反方时先复述对方的理由（比如「有人会说便宜货让手头紧的人也用得上」），再给出你的回答，不要直接跳过对方。',
+      skeleton: 'In my view, a cheap product is a good buy when ... The reason is that ... For example, I once ... . Some people would say that ... , but I would answer that ... .'
+    },
+    focus: [
+      '<b>新授核心词 19 个</b>：<span class=\'en\'>supplier, wage, pollution, manufacture, calculate, durable, warranty, lifespan, discard, hassle, occasional, compromise, justify, outweigh, upfront, trade-off, maintenance, economical, overall</span> —— <b>durable / lifespan / warranty</b> 三个词绑在一起记，都是「一件东西能用多久」这条线；<b>manufacture</b> 是动词「制造」，正文里用被动 are manufactured；<b>justify</b> 后接名词或 doing（justify buying …）；<b>outweigh</b> 常用「好处 outweigh 坏处」的语序；<b>economical</b> 是「划算的」，别和「经济（大范围）」那个形容词混；<b>trade-off</b> 写作里常配 between A and B。',
+      '<b>本篇复现的旧词（11 处灰点）</b>：第 4 篇的 <span class=\'en\'>cheap / price / brand</span>、第 1 篇的 <span class=\'en\'>afford / quality</span>、第 6 篇的 <span class=\'en\'>waste</span>、第 19 篇的 <span class=\'en\'>repair</span>、第 22 篇的 <span class=\'en\'>consumer</span>、第 26 篇的 <span class=\'en\'>disposable</span>、第 29 篇的 <span class=\'en\'>budget</span>、第 40 篇的 <span class=\'en\'>hidden</span>（第 40 篇教的是 hide，这里是过去分词）；短语复现另有第 27 篇的 <span class=\'en\'>add up / pay for sth.</span>、第 21 篇的 <span class=\'en\'>in the long run</span>、第 13 篇的 <span class=\'en\'>think twice</span>、第 4 篇的 <span class=\'en\'>throw … away</span>、第 6 篇的 <span class=\'en\'>end up doing sth.</span>、第 22 篇的 <span class=\'en\'>be worth doing sth.</span>、第 17 篇的 <span class=\'en\'>sooner or later</span>。',
+      '<b>议论文骨架：观点 → 证据 → 让步 → 反驳</b>：开头用 <span class=\'en\'>The real question is not … but …</span> 换一个更根本的问题立论；第 2 段证据一（谁替你付账）由 <span class=\'en\'>To be fair, …</span> 让步引入；第 3 段证据二用 <span class=\'en\'>It is easy to assume that …</span> 先说出流行误解再拆掉；第 5 段整段让步（便宜货常常是对的、预算紧是现实、买便宜是折中不是错），语气要诚恳；最后两段把判断拉回读者的两次发问。让步段写三到四句就够，不要让步到把论点让没了。',
+      '<b>两笔账的算法</b>：第一笔是「谁在付」——<span class=\'en\'>cut corners / wage / pollution / pass … on to …</span> 这条链说明低价由别人垫付；第二笔是「每次使用成本」——<span class=\'en\'>cost per use</span>（每次使用成本）＝ 价格除以你使用它的次数，配 <span class=\'en\'>durable / lifespan / warranty / wear out / break down</span> 记忆。判据一句话：<span class=\'en\'>in the long run</span> 哪个数字更小。四类长难句结构在本篇各出现一次：not … but … 并列从句、because + 定语从句 + 拟人、what 主语从句 + the + 比较级、only 倒装。',
+      '<b>全文逻辑线与题型提醒</b>：低价像赚到 → 没人给你看的账单 → 供应商那头谁垫付 → 每次使用成本 → 时间与麻烦也是成本 → 让步：偶尔用、预算紧怎么办 → 逐件权衡的做法 → 结尾两问（用几次、谁付）。推断题抓「便宜外套」和「每周买便宜货」两处的言外之意；作者观点题看结尾那句「便宜不是敌人」；篇章结构题按「隐藏账单 → 自己的账 → 让步 → 两问」四步数；「作者为什么提到水壶」＝ 证明寿命长的东西每次使用成本更低。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '议论文全要素一篇打通：5 题阅读对 ≥ 4 · 19 个核心词遮住中文说出 ≥ 15 · 拆开 4 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 19 个核心词中的 15 个（durable、lifespan、warranty、trade-off …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '14 个高频搭配掌握 10 个，能各造一句（cost per use、cut corners、in the long run、money well spent …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 4 处长难句各自的结构（not … but … 并列从句、原因 + 定语从句、what 主语从句 + the + 比较级、only 倒装），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 5 题要说出水壶的例子证明的是哪一条观点',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 To be fair, … 或 It is easy to assume that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳」，反驳要先复述对方的理由再回应',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点出正文里 11 处灰点旧词，说出其中 8 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 47,
+    slug: '047-when-machines-write',
+    title: 'When Machines Write',
+    titleCn: '当机器开始写作',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 615 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.5%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/047.jpg',
+    coverCredit: 'Photo: Ludmi Ledesma / Pexels',
+    body: [
+      'A teacher read an essay and could not tell who wrote it: a student or a machine. <span class="w-sentence">What unsettled her was not the quality of the piece but a question she had taken for granted: who is speaking here?</span> Tools that <span class="w-cet4" data-cn="生成、产生">generate</span> <span class="w-cet4" data-cn="流利的、通顺的">fluent</span> text sit in classrooms now, so the question is no longer “can a machine write?” but “what is writing worth?”',
+      'Give a good tool a <span class="w-cet4" data-cn="提示词、指令">prompt</span> and it returns a <span class="w-cet4" data-cn="草稿；起草">draft</span> before your coffee cools: an opening, a structure, a tidy <span class="w-rev">summary</span>. For the <span class="w-cet4" data-cn="枯燥乏味的">tedious</span> part of the job — the notice, the minutes, the same message — this is a real gain. <span class="w-phrase" data-cn="在某种程度上">To some extent</span> the machine takes the boring thirty percent; nobody writes them <span class="w-phrase" data-cn="为了……起见">for the sake of</span> the craft.',
+      '<span class="w-sentence">Fluency is not understanding: a tool that has read millions of pages can write a smooth next sentence without knowing whether it is true.</span> Asked for a study, it may <span class="w-cet4" data-cn="编造">fabricate</span> a name, a date and a number, while it <span class="w-cet4" data-cn="模仿">mimic</span>s the shape of <span class="w-rev">evidence</span> without any. Readers <span class="w-rev">assume</span> smooth means <span class="w-rev">accurate</span>; a wrong answer in a <span class="w-synonym" data-cn="＝ seem reasonable 的替换词">plausible</span> and <span class="w-cet4" data-cn="有说服力的">persuasive</span> style is worse than a clumsy one. Every claim must be <span class="w-cet4" data-cn="核实、查证">verified</span>: at first glance few can <span class="w-phrase" data-cn="分辨、区分">tell the two apart</span>.',
+      'Good writing has something at stake; a machine has no childhood, no loss, no deadline. Its pages can be <span class="w-synonym" data-cn="＝ not deep 的替换词">shallow</span>: it arranges ideas without owning any. <span class="w-writing" data-cn="诚然、不错……">Granted,</span> a text with <span class="w-cet4" data-cn="实质、有内容">substance</span> — a real street, a real loss — comes from a life, not a database; a tool can only <span class="w-rev">distort</span> it into something <span class="w-cet4" data-cn="空洞的">hollow</span>. A <span class="w-rev">genuine</span> voice is hard to fake.',
+      '<span class="w-sentence">A learner who always asks for the final sentence finishes the task and misses the training, because the struggle to phrase an idea is where memory is built.</span> For language learners, though, the tool is <span class="w-cet4" data-cn="有能力的">capable</span> of being a patient partner: it answers at midnight and gives <span class="w-rev">feedback</span> in seconds. The <span class="w-cet4" data-cn="局限">limitation</span> is simple — it offers three <span class="w-synonym" data-cn="＝ easy to believe 的替换词">convincing</span> ways to say it but cannot figure out what you mean; there is always a version to <span class="w-phrase" data-cn="退而依靠、退一步用">fall back on</span>.',
+      'At work the pattern repeats. The <span class="w-rev">effort</span> once spent on routine reports now goes to checking: a fast wrong page is worse than a slow right one. The people who gain most treat it as the <span class="w-cet4" data-cn="捷径">shortcut</span> it is — they keep the <span class="w-cet4" data-cn="批判性的、审慎的">critical</span> part for themselves and never send a report that is supposed to be out at five without reading it first. They are kept for judgment rather than typing; speed <span class="w-phrase" data-cn="以……为代价">at the expense of</span> care is a poor trade.',
+      '<span class="w-writing" data-cn="诚然、不错……">Granted,</span> a lazy student can hand in machine text and end up learning nothing. The answer is to ask what it cannot fake: the choice of example, the <span class="w-cet4" data-cn="细微差别">nuance</span> of a local <span class="w-rev">context</span>, why you care. <span class="w-sentence">If the same tool writes for everyone, style becomes cheap and attention moves to the questions behind the words.</span> The <span class="w-cet4" data-cn="原创的">original</span> part of the work moves back to ideas; <span class="w-cet4" data-cn="精致的、打磨完美的">polished</span> sentences become cheap. Honest writers give <span class="w-cet4" data-cn="署名、认可">credit</span> for help and <span class="w-rev">revise</span> until the voice is theirs.',
+      '<span class="w-writing" data-cn="问题在于……">The trouble is that</span> machine text makes bad writing look finished and gives a <span class="w-rev">misleading</span> calm: no one checks. Some say the tools will make writers lazy and kill style. That fear makes sense, but tools have always changed the craft. In the end it <span class="w-phrase" data-cn="归根结底是、归结为">boils down to</span> trust: who checked these words, and who will point out the wrong number? <span class="w-sentence">Only when the reader knows where the words come from does the text deserve trust.</span>',
+      'Writing tools are neither magic nor a monster: the fastest apprentices the <span class="w-cet4" data-cn="手艺；精心创作">craft</span> has had. The point is not whether machines can write, but whether you have something worth saying.'
+    ],
+    translation: [
+      '一位老师读了一篇文章，却分不清是谁写的：学生，还是机器。让她不安的不是文章的质量，而是一个她一直想当然的问题：这些话是谁说的？能生成通顺文字的工具如今已坐进教室，于是问题不再是「机器会写作吗」，而是「写作还值什么」。',
+      '给一个好工具一句提示，你的咖啡还没凉，它就交出一份草稿：一个开头、一套结构、一篇利落的摘要。对工作中枯燥的那一部分——通知、会议纪要、同一封消息——这确实是实实在在的好处。在某种程度上，机器接管了最无聊的那三成；没有人是为了手艺才写这些消息的。',
+      '流利不等于理解：一个读过几百万页内容的工具，能写出一个通顺的下一句，却不知道这一句是真是假。让它找一项研究，它可能编出一个人名、一个日期和一个数字，同时模仿着证据的样子，其实什么证据也没有。读者会以为通顺就等于准确；一个裹着看似可信、甚至很有说服力外衣的错误答案，比一个笨拙的错误更危险。所以每个说法都必须核实：乍一看，很少有人能把两者分辨开。',
+      '好的写作必须有真正在乎的东西；机器没有童年、没有失去，也没有截稿时间。它的文字可能是浅的：它只是把观点摆好，却并不拥有其中任何一个。诚然，一篇有实质内容的文章——一条真实的街、一次真实的失去——来自生活，而不是来自数据库；工具只能把它摆弄一番，或者把它扭曲成空洞的东西。真实的语气很难伪造。',
+      '一个总是让别人给出最终句子的学习者，会完成任务，却错过训练，因为把想法变成措辞的挣扎，正是记忆形成的地方。不过对语言学习者来说，工具也能成为一个耐心的伙伴：它半夜也回答，反馈几秒钟就到。它的局限也很简单——它能给出三种同样有说服力的说法，却弄不明白你的意思；当你词穷时，总还有一个版本可以退回去用。',
+      '工作里也出现同样的情形。从前花在例行报告上的精力，现在转向检查：一页又快又错的纸，比一页又慢又对的更糟。获益最多的人，把工具当成它真正擅长的那条捷径——需要判断力的部分留给自己，五点就该发出去的报告，不读一遍绝不发出。他们被留下，靠的是判断力而不是打字速度；用细心去换速度，对谁都不是一笔好买卖。',
+      '诚然，懒学生可以把机器写的文字直接交上去，最后一无所获。答案是去要它伪造不了的部分：例子怎么选、本地情境里细微的差别、你为什么在乎。如果同一个工具为所有人写作，精致的文风就变得廉价，注意力会转到文字背后的问题上。实际上，工作中原创的部分回到了观点，而漂亮的句子变得廉价。诚实的写作者会说明帮助来自哪里，并不断修改，直到语气是自己的。',
+      '问题在于，机器生成的文字让糟糕的写作看起来像已经完成，并带来一种虚假的平静：没有人去检查。有人说这些工具会让人变懒，彻底杀死文风。这种担心听起来有道理，但工具一直在改变手艺。说到底，问题归结为信任：谁检查过这些文字？又有谁愿意指出那个错的数字？只有当读者知道这些话从哪里来，这篇文章才配得到信任。',
+      '写作工具既不是魔法，也不是怪兽；它们是这门手艺有过的最快的学徒。重点不在于机器会不会写作，而在于你是否有值得说的东西。'
+    ],
+    vocabulary: [
+      {
+        w: 'generate',
+        ph: '/ˈdʒenəreɪt/',
+        pos: 'v.',
+        cn: '生成、产生',
+        col: 'generate a draft — 生成一份草稿；generate ideas — 产生想法',
+        ex: 'A good tool can generate a first draft in seconds.'
+      },
+      {
+        w: 'draft',
+        ph: '/drɑːft/',
+        pos: 'n./v.',
+        cn: '草稿；起草',
+        col: 'a first draft — 初稿；draft a letter — 起草一封信',
+        ex: 'She kept the first draft and rewrote it twice.'
+      },
+      {
+        w: 'prompt',
+        ph: '/prɒmpt/',
+        pos: 'n./v.',
+        cn: '提示词、指令；促使',
+        col: 'a clear prompt — 一句清楚的提示；prompt sb. to do sth. — 促使某人做某事',
+        ex: 'A vague prompt usually gives you a vague answer.'
+      },
+      {
+        w: 'fluent',
+        ph: '/ˈfluːənt/',
+        pos: 'adj.',
+        cn: '流利的、通顺的',
+        col: 'fluent English — 流利的英语；a fluent style — 通顺的文风',
+        ex: 'His English is fluent, but his ideas are not always clear.'
+      },
+      {
+        w: 'tedious',
+        ph: '/ˈtiːdiəs/',
+        pos: 'adj.',
+        cn: '枯燥乏味的',
+        col: 'tedious work — 枯燥的工作；a tedious task — 乏味的任务',
+        ex: 'Filling in the same form is tedious, which is why we let machines help.'
+      },
+      {
+        w: 'fabricate',
+        ph: '/ˈfæbrɪkeɪt/',
+        pos: 'vt.',
+        cn: '编造、捏造',
+        col: 'fabricate a story — 编造故事；fabricate a number — 捏造数字',
+        ex: 'A tool may fabricate a name without meaning to lie.'
+      },
+      {
+        w: 'mimic',
+        ph: '/ˈmɪmɪk/',
+        pos: 'vt.',
+        cn: '模仿',
+        col: 'mimic a style — 模仿一种文风；mimic human speech — 模仿人说话',
+        ex: 'The tool mimics the shape of a real report.'
+      },
+      {
+        w: 'verify',
+        ph: '/ˈverɪfaɪ/',
+        pos: 'vt.',
+        cn: '核实、查证',
+        col: 'verify the facts — 核实事实；verify a claim — 查证一个说法',
+        ex: 'Verify every number before you send the report.'
+      },
+      {
+        w: 'persuasive',
+        ph: '/pəˈsweɪsɪv/',
+        pos: 'adj.',
+        cn: '有说服力的',
+        col: 'a persuasive argument — 有说服力的论证；sound persuasive — 听起来有说服力',
+        ex: 'A wrong answer can sound strangely persuasive.'
+      },
+      {
+        w: 'substance',
+        ph: '/ˈsʌbstəns/',
+        pos: 'n.',
+        cn: '实质、有内容',
+        col: 'a speech of substance — 有内容的讲话；have substance — 言之有物',
+        ex: 'An essay needs substance, not just good sentences.'
+      },
+      {
+        w: 'hollow',
+        ph: '/ˈhɒləʊ/',
+        pos: 'adj.',
+        cn: '空洞的',
+        col: 'a hollow promise — 空洞的承诺；sound hollow — 听起来空洞',
+        ex: 'The ending felt hollow because nothing was at stake.'
+      },
+      {
+        w: 'capable',
+        ph: '/ˈkeɪpəbl/',
+        pos: 'adj.',
+        cn: '有能力的',
+        col: 'capable of doing sth. — 有能力做某事；a capable writer — 有能力的写作者',
+        ex: 'Used well, the tool is capable of being a patient partner.'
+      },
+      {
+        w: 'limitation',
+        ph: '/ˌlɪmɪˈteɪʃn/',
+        pos: 'n.',
+        cn: '局限、限制',
+        col: 'know one’s limitations — 了解自身局限；a clear limitation — 明显的局限',
+        ex: 'The main limitation is that it cannot know what you mean.'
+      },
+      {
+        w: 'shortcut',
+        ph: '/ˈʃɔːtkʌt/',
+        pos: 'n.',
+        cn: '捷径',
+        col: 'take a shortcut — 走捷径；a shortcut to success — 成功的捷径',
+        ex: 'The tool is a useful shortcut for routine messages.'
+      },
+      {
+        w: 'critical',
+        ph: '/ˈkrɪtɪkl/',
+        pos: 'adj.',
+        cn: '批判性的、审慎的',
+        col: 'critical thinking — 批判性思维；a critical reader — 审慎的读者',
+        ex: 'Be a critical reader of anything a machine writes.'
+      },
+      {
+        w: 'nuance',
+        ph: '/ˈnjuːɑːns/',
+        pos: 'n.',
+        cn: '细微差别',
+        col: 'catch the nuance — 抓住细微差别；a subtle nuance — 一处微妙的差别',
+        ex: 'A machine rarely catches the nuance of a local situation.'
+      },
+      {
+        w: 'original',
+        ph: '/əˈrɪdʒənl/',
+        pos: 'adj.',
+        cn: '原创的、独创的',
+        col: 'original work — 原创作品；an original idea — 独到的见解',
+        ex: 'The original part of the work is the question you ask.'
+      },
+      {
+        w: 'polished',
+        ph: '/ˈpɒlɪʃt/',
+        pos: 'adj.',
+        cn: '精致的、打磨完美的',
+        col: 'a polished style — 精致的文风；a polished performance — 精致的表演',
+        ex: 'The text is polished, but the idea is thin.'
+      },
+      {
+        w: 'credit',
+        ph: '/ˈkredɪt/',
+        pos: 'n.',
+        cn: '署名、认可',
+        col: 'give credit to — 说明（帮助）来自谁；take the credit — 受到肯定',
+        ex: 'Always give credit when a tool helped with the draft.'
+      },
+      {
+        w: 'craft',
+        ph: '/krɑːft/',
+        pos: 'n./v.',
+        cn: '手艺；精心创作',
+        col: 'the craft of writing — 写作的手艺；craft a sentence — 精心写好一个句子',
+        ex: 'Writing is a craft before it is a career.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'to some extent',
+        cn: '在某种程度上（新）',
+        ex: 'To some extent, the tool has taken over the boring part of writing.'
+      },
+      {
+        en: 'for the sake of',
+        cn: '为了……起见（新）',
+        ex: 'Nobody writes a hundred routine messages for the sake of the craft.'
+      },
+      {
+        en: 'tell … apart',
+        cn: '分辨、区分（新）',
+        ex: 'Few readers can tell the two reports apart.'
+      },
+      {
+        en: 'fall back on',
+        cn: '退而依靠、退一步用（新）',
+        ex: 'Keep one clear sentence to fall back on when your own words run out.'
+      },
+      {
+        en: 'at the expense of',
+        cn: '以……为代价（新）',
+        ex: 'Speed at the expense of care is a poor trade.'
+      },
+      {
+        en: 'boil down to',
+        cn: '归根结底是、归结为（新）',
+        ex: 'In the end, the question boils down to trust.'
+      },
+      {
+        en: 'rather than',
+        cn: '而不是（复现第 32 篇）',
+        ex: 'They are kept for judgment rather than for typing.'
+      },
+      {
+        en: 'make sense',
+        cn: '说得通、有道理（复现第 38 篇）',
+        ex: 'That fear makes sense at first, but it does not hold up.'
+      },
+      {
+        en: 'point out',
+        cn: '指出（复现第 33 篇）',
+        ex: 'Who is ready to point out the one number that is wrong?'
+      },
+      {
+        en: 'figure out',
+        cn: '弄明白、想清楚（复现第 31 篇）',
+        ex: 'The tool cannot figure out what you mean.'
+      },
+      {
+        en: 'at first glance',
+        cn: '乍一看（复现第 31 篇）',
+        ex: 'At first glance those numbers look real.'
+      },
+      {
+        en: 'no longer',
+        cn: '不再（复现第 1 篇）',
+        ex: 'The question is no longer whether a machine can write.'
+      },
+      {
+        en: 'be supposed to do sth.',
+        cn: '应该做某事（复现第 39 篇）',
+        ex: 'The report is supposed to be ready at five.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '最终落得做某事（复现第 22 篇）',
+        ex: 'A lazy student can hand in machine text and end up learning nothing.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'Granted, ...',
+        cn: '诚然、不错……',
+        meaning: '先让一步承认对方或读者的顾虑有道理，再给出自己的主张；让步在前，反驳才站得住。',
+        context: '两处让步段的开头：一处承认「有实质的文章来自生活」，一处承认「懒学生会钻空子」，后面都接作者的正面主张。',
+        alts: [
+          {
+            t: 'Admittedly, ...',
+            n: '更书面'
+          },
+          {
+            t: 'It is true that ...',
+            n: '语气更缓'
+          },
+          {
+            t: 'To be fair, ...',
+            n: '更口语'
+          }
+        ],
+        register: '中性偏书面，议论文让步段必备。',
+        example: 'Granted, a lazy student can hand in machine text and end up learning nothing.'
+      },
+      {
+        expr: 'The trouble is that ...',
+        cn: '问题在于……',
+        meaning: '用一句话点出某件事的弊端所在，比 the problem is that 更口语、更有现场感，适合引出全文最担心的一点。',
+        context: '倒数第二段开头，前面已经讲完工具的好处，这里转折指出读者会因此放松警惕。',
+        alts: [
+          {
+            t: 'The problem is that ...',
+            n: '最常用'
+          },
+          {
+            t: 'What worries me is that ...',
+            n: '强调个人立场'
+          },
+          {
+            t: 'One risk is that ...',
+            n: '更冷静、书面'
+          }
+        ],
+        register: '中性，议论与日常讨论都能用。',
+        example: 'The trouble is that machine text makes bad writing look finished.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'What unsettled her was not the quality of the piece but a question she had taken for granted: who is speaking here?',
+        points: [
+          '<b>主干</b>：What unsettled her was not the quality of the piece but a question —— 主语是 <b>what</b> 引导的名词性从句，表语用 <b>not A but B</b> 并列：让她不安的不是……而是一个问题。',
+          '<b>定语从句</b>：a question 后面的 she had taken for granted 省略了关系代词 that；<b>take … for granted</b> 表示「想当然、视为理所当然」，take 的宾语就是被省略的关系代词。',
+          '<b>冒号后</b>的 who is speaking here? 是对 a question 的<b>同位说明</b>，直接用疑问句形式，像作者替读者自问。',
+          '<b>为什么值得学</b>：先抛一个反常场景（老师看不出谁写的），再用一句话立起全文要问的问题，是议论文开头最稳的写法。',
+          '<b>常见变体</b>：What surprises us is not the price but the question we never asked.'
+        ]
+      },
+      {
+        text: 'Fluency is not understanding: a tool that has read millions of pages can write a smooth next sentence without knowing whether it is true.',
+        points: [
+          '<b>主干</b>：Fluency is not understanding —— 主语和表语都是<b>抽象名词</b>，一句话完成「流利 ≠ 理解」的判断，读起来像格言。',
+          '<b>冒号后</b>解释理由：主语 a tool 带 <b>that 定语从句</b> that has read millions of pages，谓语是 can write，<b>without + doing</b> 表示「在不做某事的情况下」。',
+          '<b>宾语从句</b>：whether it is true 作 knowing 的宾语；whether 与 if 在动词后常可换用，但 whether 还能直接接 or not，语气更正式。',
+          '<b>为什么值得学</b>：抽象名词下定义 + 冒号展开，是观点句的高级写法，比用 I think that … 更有分量。',
+          '<b>注意点</b>：fluency 在这里刻意与 understanding 对立——说得顺不等于想得清，这正是全文的核心区分。'
+        ]
+      },
+      {
+        text: 'A learner who always asks for the final sentence finishes the task and misses the training, because the struggle to phrase an idea is where memory is built.',
+        points: [
+          '<b>主干</b>：A learner … finishes the task and misses the training —— 主语 a learner 后接 <b>who 定语从句</b>，谓语是 finishes … and misses … 两个并列动作。',
+          '<b>原因从句</b>：because 引导，其中主语是 the struggle to phrase an idea，表语是 <b>where 引导的表语从句</b> where memory is built，动词用被动。',
+          '<b>phrase 在此作动词</b>，表示「找到措辞、用语言表达」，比 say 更强调「把想法说成话」的那番挣扎。',
+          '<b>为什么值得学</b>：把「完成任务」和「得到训练」拆成两个动词形成对照，是讨论学习类话题的常用对立：完成 ≠ 学会。',
+          '<b>写作迁移</b>：A student who always copies the answer finishes the test and misses the point.'
+        ]
+      },
+      {
+        text: 'Only when the reader knows where the words come from does the text deserve trust.',
+        points: [
+          '<b>主干</b>：正常语序是 The text deserves trust only when the reader knows where the words come from；<b>only + 状语从句</b>提到句首，主句要<b>部分倒装</b>：助动词 does 提到主语 the text 之前。',
+          '<b>倒装范围</b>：只有主句倒装，when 引导的从句内部不倒装；另外 <b>only + 主语</b> 不倒装（Only the writer knows …），这是最容易错的分界。',
+          '<b>宾语从句</b>：where the words come from 作 knows 的宾语，介词 from 留在句尾，疑问词 where 同时作 from 的宾语。',
+          '<b>为什么值得学</b>：倒装自带强调语气，放在结论前把「信任」这个落点顶到最前面，一句话收住整段论证。',
+          '<b>常见变体</b>：Only after the check does the number deserve to be printed.'
+        ]
+      },
+      {
+        text: 'If the same tool writes for everyone, style becomes cheap and attention moves to the questions behind the words.',
+        points: [
+          '<b>主干</b>：条件句 If the same tool writes for everyone + 主句 style becomes cheap and attention moves to …，两个结果用 and 并列，讲清「供给变了，价值就转移」的因果。',
+          '<b>the same … for everyone</b> 强调「人人都一样」，是讨论同质化的常用起点；写成 everyone uses the same tool 就平淡得多。',
+          '<b>move to</b> 表示「转移到」，attention moves to … 是科技类议论文的高频搭配，也可以换成 focus shifts to …。',
+          '<b>为什么值得学</b>：条件句 + 并列结果，一句话讲完「当风格人人都有，价值就回到观点」的推理链，适合放在让步段之后做转折。',
+          '<b>注意点</b>：cheap 在这里指「廉价、不值钱」，不是「便宜划算」，含贬义。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What will probably happen to a learner who always asks for the final sentence?',
+        cn: '一个总是让别人给出最终句子的学习者，最后会怎样？',
+        ans: 'They will finish the task but miss the training, because the struggle to phrase an idea is where memory is built.',
+        ansCn: '他们会完成任务，却错过训练，因为把想法变成措辞的挣扎正是记忆形成的地方。'
+      },
+      {
+        en: 'Why is a wrong answer in a plausible and persuasive style worse than a clumsy one?',
+        cn: '为什么看似可信、有说服力的错误答案，比笨拙的错误更糟？',
+        ans: 'Because readers assume that smooth writing is accurate, so they stop checking it.',
+        ansCn: '因为读者会以为通顺就等于准确，于是不再去核查它。'
+      },
+      {
+        en: 'What is the writer’s overall view of writing tools?',
+        cn: '作者对写作工具的总体看法是什么？',
+        ans: 'They are genuinely useful for drafts and routine work, but they cannot understand, verify or own an idea, so people must keep the checking, the judgment and the responsibility.',
+        ansCn: '它们对初稿和例行写作确实有用，但它们无法理解、核实或拥有一个观点，所以检查、判断和责任必须留在人这一边。'
+      },
+      {
+        en: 'How does the writer organize the text?',
+        cn: '作者是怎样组织全文的？',
+        ans: 'It opens with a scene and a question, then shows what the tools do well, sets out two limits, gives a concession about learners, turns to work and originality, and closes with a balanced judgement.',
+        ansCn: '开头用一个场景引出问题，接着写工具的长处，再写清两条边界，然后为学习者作让步，转到工作与原创，最后给出平衡的判断。'
+      },
+      {
+        en: 'Why does the writer mention the teacher who could not tell whether the essay was written by a student or a machine?',
+        cn: '作者为什么提到那位分不清文章是学生写的还是机器写的老师？',
+        ans: 'To show that machine writing is already good enough to blur the line, so the real question is no longer whether a machine can write but what writing is worth.',
+        ansCn: '为了说明机器写的文章已经好到让人分不清，真正的问题不再是机器会不会写，而是写作还值什么。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about how a student should use a writing tool without losing his or her own voice.',
+      hints: [
+        'A writing tool can … , but it cannot …',
+        'Granted, … , and the trouble is that …',
+        'I would let the tool … and keep … for myself',
+        'The point is not … but …'
+      ],
+      hintCn: '三段式：第一段写工具最擅长的两件事，第二段写一条边界（用 Granted, … 起头让步，再用 The trouble is that … 转折），第三段写你自己会怎么用、守住什么。结尾用「重点不在于……而在于……」收束。',
+      req: '至少使用 4 个本篇学过的词或搭配（generate / draft / verify / hollow / polished / to some extent / fall back on / boil down to / Granted, … / The trouble is that …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: are writing tools a help or a shortcut for students?',
+        'One reason and one example with a number, a time or a real situation',
+        'One counterargument: what would someone against you say?',
+        'Your answer to that counterargument, then a one-sentence close'
+      ],
+      pointCn: '一点五到两分钟里讲完「观点 → 理由 → 例子 → 反驳 → 回应 → 收尾」；反驳要具体说出对方会怎么讲（例如「工具让学习者变懒」），回应时可以用本篇的让步表达 Granted, … 开头。',
+      skeleton: 'In my view, writing tools are … The main reason is that … For example, last term … . Some people would argue that … . Granted, … , but … . To sum up, …'
+    },
+    focus: [
+      '<b>新授核心词 20 个</b>：<span class=\'en\'>generate, draft, prompt, fluent, tedious, fabricate, mimic, verify, persuasive, substance, hollow, capable, limitation, shortcut, critical, nuance, original, polished, credit, craft</span> —— 这批词按「能力 → 边界 → 价值」串起来记：<b>generate / draft / prompt</b> 是工具的输入与产出（generate a draft 不说 make a draft）；<b>persuasive / polished</b> 描述「看起来好」，<b>hollow</b> 与同义辨析词 <span class=\'en\'>shallow</span> 描述「其实空」，正好成对；<b>verify</b> 后接事实或说法，<b>fabricate</b> 常与 number、name 搭配，语气比 make up 重；<b>nuance</b> 与 <b>substance</b> 都不可数，说「言之有物」用 have substance；<b>credit</b> 记 give credit for / to 的固定搭配；<b>craft</b> 名动同形（the craft of writing / craft a sentence）。',
+      '<b>本篇复现的旧词（11 处灰点）</b>：第 30 篇的 <span class=\'en\'>summary</span>、第 31 篇的 <span class=\'en\'>evidence / accurate / distort / context</span>、第 34 篇的 <span class=\'en\'>misleading</span>、第 13 篇的 <span class=\'en\'>assume</span>、第 22 篇的 <span class=\'en\'>genuine</span>、第 33 篇的 <span class=\'en\'>feedback</span>、第 10 篇的 <span class=\'en\'>effort</span>、第 40 篇的 <span class=\'en\'>revise</span>；短语复现另有第 32 篇的 <span class=\'en\'>rather than</span>、第 38 篇的 <span class=\'en\'>make sense</span>、第 33 篇的 <span class=\'en\'>point out</span>、第 31 篇的 <span class=\'en\'>figure out / at first glance</span>、第 22 篇的 <span class=\'en\'>end up doing sth.</span>、第 39 篇的 <span class=\'en\'>be supposed to do sth.</span>、第 1 篇的 <span class=\'en\'>no longer</span>。',
+      '<b>议论文骨架：观点 + 证据 + 让步</b>：本篇五个长难句正好是这一骨架的五根梁 —— 立题的 what 主语从句（<span class=\'en\'>What unsettled her was not … but …</span>）、下定义后冒号展开（<span class=\'en\'>Fluency is not understanding: …</span>）、原因从句里套 where 表语从句（<span class=\'en\'>… because the struggle … is where memory is built</span>）、only 置前的部分倒装（<span class=\'en\'>Only when … does the text deserve trust</span>）、条件句 + 并列结果（<span class=\'en\'>If the same tool writes for everyone, …</span>）。写议论文时照这五种句型各找一个位置，段落就不平了。',
+      '<b>让步与反驳的两件套</b>：<span class=\'en\'>Granted, …</span> 先让一步（承认对方有理），<span class=\'en\'>The trouble is that …</span> 再点出弊端；配上短语 <span class=\'en\'>to some extent</span>（部分承认）、<span class=\'en\'>at the expense of</span>（指出代价）、<span class=\'en\'>boil down to</span>（收束到根本）、<span class=\'en\'>fall back on</span>（留一条退路）、<span class=\'en\'>tell … apart</span>（分清两者），一篇带让步的议论文的连接件就齐了。注意让步只让一步，后面必须立刻给自己的主张，不要让步完就收尾。',
+      '<b>全文逻辑线与题型提醒</b>：分不清谁写的场景 → 提问（写作还值什么）→ 工具的长处（初稿与例行写作）→ 边界一（流利不等于理解，会编造）→ 边界二（没有经历与立场）→ 让步（对学习者确有帮助，但挣扎不能外包）→ 工作（判断力比速度值钱）→ 原创（风格贬值，价值回到观点与署名）→ 反驳与回应 → 收束（重点不在于机器会不会写）。推断题抓「为什么会这样」的因果链；作者观点题把「有用但不能替代人」两面都答上；结构题按上面的逻辑线画四到五步；「作者为什么提到 X」的题一律答「为了证明哪一条观点」，例如那位老师是为了证明「机器已写得让人分不清」。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五议论文进阶：阅读题 5 题对 ≥ 4 · 20 个核心词遮住中文说出 ≥ 15 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 20 个核心词中的 15 个（generate、fabricate、verify、hollow、limitation、nuance …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '14 个高频搭配掌握 10 个，能各造一句（to some extent、for the sake of、tell … apart、boil down to …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（what 主语从句 / 冒号下定义 / where 表语从句 / only 倒装 / 条件句 + 并列结果），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 4 题的结构图要画出「场景 → 长处 → 两条边界 → 让步 → 原创 → 结论」',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 10 节写 120–150 词，至少用上 Granted, … 与 The trouble is that … 各一次',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳 → 回应」，反驳要说出对方的具体说法',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 11 处灰点旧词，说出其中 8 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 48,
+    slug: '048-the-four-day-week-experiment',
+    title: 'The Four-Day Week Experiment',
+    titleCn: '四天工作制实验',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 625 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/048.jpg',
+    coverCredit: 'Photo: J.S. McDuff / Pexels',
+    body: [
+      'Few workplace ideas travel as fast as the four-day week. In <span class="w-cet4" data-cn="试点、试验">trials</span> in several countries, some firms cut one working day on the same pay, and the results made headlines: <span class="w-cet4" data-cn="产出、产量">output</span> <span class="w-phrase" data-cn="经受住检验、撑得住">held up</span>, and in a few teams it even rose. <span class="w-sentence">The four-day week is not a gift of free time but a test of how the work is organised.</span> The idea is attractive, but attraction is not <span class="w-rev">evidence</span>.',
+      'Trials that worked share one habit: the week was redesigned first. Teams <span class="w-phrase" data-cn="削减、减少">cut back on</span> meetings and agreed on what needed doing. <span class="w-sentence">What the numbers show is that when meetings shrink and interruptions stop, the same work fits into fewer hours, which is why output per hour rises.</span> One design team <span class="w-cet4" data-cn="压缩、精简">compressed</span> five days into four, and <span class="w-cet4" data-cn="生产率">productivity</span> per hour rose with no loss in quality. The old <span class="w-rev">routine</span> of weekly meetings gave way to a short written update; <span class="w-rev">performance</span> reviews stayed strong.',
+      'Two conditions decide the result. First, output must be <span class="w-rev">measured</span> in results, not in hours: one team counts finished pages, another counts solved cases. Second, managers must judge by what people finish, not by the <span class="w-cet4" data-cn="到岗、在场">presence</span> of a body at a desk. <span class="w-sentence">Where pay and promotion are still tied to visible hours, a shorter week simply squeezes five days into four, and everyone goes home more tired.</span> The change suits a small team with a <span class="w-cet4" data-cn="灵活的">flexible</span> <span class="w-rev">schedule</span> better than a large one.',
+      'Knowledge work suits the change: one quiet morning is worth more than a noisy afternoon. <span class="w-sentence">Four days of careful work can be worth the equivalent of five scattered ones, provided that the fifth day is used to rest rather than to catch up.</span> But not every job can join in: a ward, a shop, a bus route need <span class="w-cet4" data-cn="值守、全天有人">coverage</span> daily. For a small firm the missing day means paying more people; few have that <span class="w-cet4" data-cn="人手、承受能力">capacity</span>.',
+      'Critics have real <span class="w-cet4" data-cn="反对理由、异议">objections</span>: the <span class="w-cet4" data-cn="最初的">initial</span> gains may <span class="w-cet4" data-cn="逐渐消退">fade</span>, and some people simply <span class="w-synonym" data-cn="＝ pack tightly 的替换词">cram</span> five days of work into four longer ones under the same <span class="w-rev">pressure</span>. <span class="w-writing" data-cn="话虽如此……">That said,</span> the problem is the design, not the idea. <span class="w-phrase" data-cn="在一定程度上">Up to a point</span>, the free day is a reward: <span class="w-phrase" data-cn="作为交换">in exchange for</span> it, teams accept tighter days, and the <span class="w-rev">balance</span> between effort and rest must be kept. The <span class="w-cet4" data-cn="不利之处、弊端">downside</span> is clear: busy weeks still arrive.',
+      'Why is the change still rare? A <span class="w-cet4" data-cn="客户">client</span> who wants an answer on Friday will not accept a closed office, and the real <span class="w-cet4" data-cn="障碍">obstacle</span> is coordination: firms must <span class="w-cet4" data-cn="协商、商谈">negotiate</span> with customers and <span class="w-cet4" data-cn="协调、配合">coordinate</span> with suppliers. <span class="w-sentence">Even when the change is perfectly possible on paper, one lost client is often enough to end the experiment.</span> The <span class="w-rev">trend</span> is real but slow: what looks <span class="w-rev">feasible</span> can fail at the door. Smaller firms fear that service will <span class="w-synonym" data-cn="＝ get worse 的替换词">slip</span> and that old habits <span class="w-phrase" data-cn="妨碍、挡了……的路">get in the way of</span> the change.',
+      'A wiser path is to run a trial, record the results, and change the design, not the slogan. To <span class="w-cet4" data-cn="维持、保持住">sustain</span> the change, the week must be <span class="w-synonym" data-cn="＝ redesigned 的替换词">reworked</span> first: fewer meetings, clearer goals, quieter days. <span class="w-cet4" data-cn="士气、干劲">Morale</span> rises first, and the numbers follow; firms that <span class="w-rev">adopt</span> the change unprepared see the opposite result. <span class="w-phrase" data-cn="总体上、大体而言">By and large</span>, teams that keep the fourth day changed how they work first. <span class="w-writing" data-cn="重要的不是……而是……">What matters is not</span> how fast the idea spreads but whether the conditions are in place.',
+      'Four days will not fix a broken job, and no experiment <span class="w-cet4" data-cn="保证、担保">guarantees</span> a good one. But the trials leave one question: what do we pay for when we pay for time? Where work is measured and the week redesigned, less time has meant the same work and fuller lives. Whatever the <span class="w-rev">outcome</span>, the five-day week is a <span class="w-cet4" data-cn="惯例、常态">norm</span>, not a law of nature. <span class="w-writing" data-cn="重要的不是……而是……">What matters is not</span> the day off itself but a week that keeps its promise.'
+    ],
+    translation: [
+      '很少有职场话题像四天工作制这样传得这么快。在几个国家的试点里，一些公司减少一个工作日、工资照发，结果登上了头条：产出没有下滑，个别团队甚至还有上升。四天工作制不是白送的闲暇，而是对工作如何组织的一次检验。这个想法很吸引人，但吸引人并不是证据。',
+      '真正做成的试点有一个共同习惯：先重新设计一周的安排。团队削减会议，也商定了哪些事情真的非做不可。数字说明的是：当会议缩水、打扰停止，同样的工作装得进更少的小时，这就是每小时产出上升的原因。一个设计团队把五天压进四天，每小时的生产率反而提高，质量也没有下降。每周长会的老习惯让位给一封简短的书面汇报，绩效评估依旧亮眼。',
+      '结果取决于两个条件。第一，产出必须按成果而不是按小时来衡量：一个团队数得清写完的稿子，另一个数得清解决的工单。第二，管理者要看人做完了什么，而不是看有没有人坐在办公桌前。当加薪和晋升仍然与看得见的工时挂钩时，所谓缩短一周不过是把五天挤进四天，每个人回家时只会更累。这种改变在排班灵活的小团队里，比在大组织里更合适。',
+      '知识型工作最适合这种改变：一个安静的上午胜过一个吵闹的下午。四天用心的工作，抵得上五天散漫的工作，前提是第五天用来休息，而不是用来补落下的活。但并非每种工作都能加入：病房、商店、公交线路每天都得有人值守。对小公司来说，少一天就意味着多雇人，而很少有公司具备这份承受力。',
+      '批评者有实实在在的理由：最初的甜头可能很快消退；有些人只是把五天的活硬塞进更长的四天里，压力一点没少。话虽如此，问题出在设计上，而不是想法上。在一定程度上，多出来的那天是一种奖励：作为交换，团队接受更紧的每一天，而努力与休息之间的平衡必须守住。弊端也很清楚：忙季照样会来。',
+      '那为什么这种改变仍然少见？一个周五就要回音的客户，不会接受办公室关门；真正的障碍是协调：公司必须与客户协商，与供应商配合。即便这个改变在纸面上完全可行，丢掉一个客户往往就足以让实验收场。所以潮流是真的，但很慢：看起来可行的事，到了门口就可能行不通。小公司还担心服务会打折扣，也担心旧习惯挡了路。',
+      '更聪明的做法是先做一次试点，记录结果，改设计，而不是改口号。要让改变撑得住，整周都得先重排：会更少，目标更清楚，日子更安静。士气先涨，数字随后跟上；毫无准备就改的公司，往往先撞上相反的结果。大体而言，能保住第四天的团队，都是先改了工作方式的团队。重要的不是想法传得多快，而是条件是否到位。',
+      '四天救不了一份糟糕的工作，任何实验也保证不了工作会变好。但这些试点留下一个问题：我们付钱买时间时，买的是什么？凡是工作被衡量、一周被重新设计过的地方，更少的时间都换来了同样的产出和更完整的生活。无论结果如何，五天工作制是一种惯例，而不是自然法则。重要的不是那一天休息本身，而是一周是否兑现它的承诺。'
+    ],
+    vocabulary: [
+      {
+        w: 'trial',
+        ph: '/ˈtraɪəl/',
+        pos: 'n./v.',
+        cn: '试点、试验',
+        col: 'run a trial — 开展一次试点；a trial period — 试用期',
+        ex: 'Several countries ran trials of the four-day week.'
+      },
+      {
+        w: 'output',
+        ph: '/ˈaʊtpʊt/',
+        pos: 'n.',
+        cn: '产出、产量',
+        col: 'output per hour — 每小时产出；hold output up — 保住产出',
+        ex: 'Output held up after the week was shortened.'
+      },
+      {
+        w: 'compress',
+        ph: '/kəmˈpres/',
+        pos: 'v.',
+        cn: '压缩、精简',
+        col: 'compress … into … — 把……压进……；compress a schedule — 压缩日程',
+        ex: 'The team compressed five days of work into four.'
+      },
+      {
+        w: 'productivity',
+        ph: '/ˌprɒdʌkˈtɪvəti/',
+        pos: 'n.',
+        cn: '生产率',
+        col: 'raise productivity — 提高生产率；productivity per hour — 每小时生产率',
+        ex: 'Productivity per hour rose after the meetings were cut.'
+      },
+      {
+        w: 'presence',
+        ph: '/ˈprezns/',
+        pos: 'n.',
+        cn: '到岗、在场',
+        col: 'physical presence — 人在现场；presence at the desk — 坐在桌前',
+        ex: 'Some managers still judge people by their presence at a desk.'
+      },
+      {
+        w: 'flexible',
+        ph: '/ˈfleksəbl/',
+        pos: 'adj.',
+        cn: '灵活的',
+        col: 'a flexible schedule — 灵活的排班；flexible hours — 弹性工时',
+        ex: 'A small team with a flexible schedule can change more easily.'
+      },
+      {
+        w: 'equivalent',
+        ph: '/ɪˈkwɪvələnt/',
+        pos: 'n./adj.',
+        cn: '等同物、等量的',
+        col: 'the equivalent of — 与……等量的东西；be equivalent to — 等同于',
+        ex: 'Four careful days can be the equivalent of five scattered ones.'
+      },
+      {
+        w: 'coverage',
+        ph: '/ˈkʌvərɪdʒ/',
+        pos: 'n.',
+        cn: '值守、全天有人',
+        col: 'daily coverage — 每天有人值守；need coverage all week — 整周都需要有人',
+        ex: 'A hospital ward needs coverage every day of the week.'
+      },
+      {
+        w: 'capacity',
+        ph: '/kəˈpæsəti/',
+        pos: 'n.',
+        cn: '人手、承受能力',
+        col: 'the capacity to do sth. — 做某事的能力；beyond capacity — 超出承受范围',
+        ex: 'A small firm may lack the capacity to hire extra staff.'
+      },
+      {
+        w: 'objection',
+        ph: '/əbˈdʒekʃn/',
+        pos: 'n.',
+        cn: '反对理由、异议',
+        col: 'raise an objection — 提出异议；have objections to … — 对……有异议',
+        ex: 'Critics have real objections to the four-day week.'
+      },
+      {
+        w: 'initial',
+        ph: '/ɪˈnɪʃl/',
+        pos: 'adj.',
+        cn: '最初的、开始的',
+        col: 'the initial gains — 最初的收益；initial results — 初期结果',
+        ex: 'The initial gains may fade after the first year.'
+      },
+      {
+        w: 'fade',
+        ph: '/feɪd/',
+        pos: 'v.',
+        cn: '逐渐消退',
+        col: 'fade away — 逐渐消失；the excitement fades — 兴奋劲过去',
+        ex: 'Enthusiasm fades if the change is not designed well.'
+      },
+      {
+        w: 'downside',
+        ph: '/ˈdaʊnsaɪd/',
+        pos: 'n.',
+        cn: '不利之处、弊端',
+        col: 'the downside is that … — 不利之处在于……；a real downside — 真正的弊端',
+        ex: 'The downside is that busy weeks still arrive.'
+      },
+      {
+        w: 'norm',
+        ph: '/nɔːm/',
+        pos: 'n.',
+        cn: '惯例、常态',
+        col: 'a social norm — 社会惯例；break the norm — 打破惯例',
+        ex: 'The five-day week is a norm, not a law of nature.'
+      },
+      {
+        w: 'client',
+        ph: '/ˈklaɪənt/',
+        pos: 'n.',
+        cn: '客户、委托人',
+        col: 'a client meeting — 客户会议；keep a client — 留住客户',
+        ex: 'A client who wants an answer on Friday will not wait.'
+      },
+      {
+        w: 'obstacle',
+        ph: '/ˈɒbstəkl/',
+        pos: 'n.',
+        cn: '障碍',
+        col: 'an obstacle to … — 对……的障碍；remove obstacles — 扫除障碍',
+        ex: 'The real obstacle is coordination, not the idea itself.'
+      },
+      {
+        w: 'negotiate',
+        ph: '/nɪˈɡəʊʃieɪt/',
+        pos: 'v.',
+        cn: '协商、商谈',
+        col: 'negotiate with sb. — 与某人协商；negotiate a change — 谈妥一项改变',
+        ex: 'Firms must negotiate with customers before shortening the week.'
+      },
+      {
+        w: 'coordinate',
+        ph: '/kəʊˈɔːdɪneɪt/',
+        pos: 'v.',
+        cn: '协调、配合',
+        col: 'coordinate with … — 与……配合；coordinate the work — 协调工作',
+        ex: 'Suppliers who work five days are hard to coordinate with.'
+      },
+      {
+        w: 'sustain',
+        ph: '/səˈsteɪn/',
+        pos: 'v.',
+        cn: '维持、保持住',
+        col: 'sustain the change — 维持住这项改变；sustain growth — 保持增长',
+        ex: 'To sustain the change, the whole week must be reworked.'
+      },
+      {
+        w: 'morale',
+        ph: '/məˈrɑːl/',
+        pos: 'n.',
+        cn: '士气、干劲',
+        col: 'raise morale — 提振士气；morale rises — 士气上升',
+        ex: 'Morale often rises before the numbers do.'
+      },
+      {
+        w: 'guarantee',
+        ph: '/ˌɡærənˈtiː/',
+        pos: 'v./n.',
+        cn: '保证、担保',
+        col: 'guarantee the result — 保证结果；there is no guarantee — 没有保证',
+        ex: 'No experiment guarantees a better job.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'hold up',
+        cn: '经受住检验、撑得住',
+        ex: 'The output held up after the week was shortened.'
+      },
+      {
+        en: 'cut back on',
+        cn: '削减、减少',
+        ex: 'Teams cut back on meetings before they cut a day.'
+      },
+      {
+        en: 'up to a point',
+        cn: '在一定程度上',
+        ex: 'Up to a point, the free day is a reward.'
+      },
+      {
+        en: 'in exchange for',
+        cn: '作为交换',
+        ex: 'In exchange for the free day, teams accept tighter days.'
+      },
+      {
+        en: 'by and large',
+        cn: '总体上、大体而言',
+        ex: 'By and large, the best results came from small teams.'
+      },
+      {
+        en: 'get in the way of',
+        cn: '妨碍、挡了……的路',
+        ex: 'Old habits get in the way of the change.'
+      },
+      {
+        en: 'as things stand',
+        cn: '就目前情况而言',
+        ex: 'As things stand, most firms still work five days.'
+      },
+      {
+        en: 'in the first place',
+        cn: '一开始、当初',
+        ex: 'Few people ask why the week is this shape in the first place.'
+      },
+      {
+        en: 'take on',
+        cn: '承担（工作、责任）',
+        ex: 'A team should not take on more work than it can finish.'
+      },
+      {
+        en: 'be tied to',
+        cn: '与……挂钩、绑定',
+        ex: 'Pay and promotion are still tied to visible hours.'
+      },
+      {
+        en: 'in terms of',
+        cn: '就……而言',
+        ex: 'The change looks small in terms of hours but large in terms of habits.'
+      },
+      {
+        en: 'keep one’s promise',
+        cn: '兑现承诺',
+        ex: 'A good working week is one that keeps its promise.'
+      },
+      {
+        en: 'at short notice',
+        cn: '临时通知、说动就动',
+        ex: 'A shop cannot simply close at short notice.'
+      },
+      {
+        en: 'work out',
+        cn: '想出、弄明白；进展',
+        ex: 'Each team has to work out its own version of the week.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'What matters is not ... but ...',
+        cn: '重要的不是……而是……',
+        meaning: '用 not A but B 把「大家盯着的表面指标」和「真正决定结果的东西」并排摆出来，一句话把论点从现象拉到本质，是议论文收束最稳的句式。',
+        context: '本篇用在正文倒数第二段与结尾段各一次：第一次拉出全文的判断标准，最后一次收拢立意。',
+        alts: [
+          {
+            t: 'The point is not ... but ...',
+            n: '更口语'
+          },
+          {
+            t: 'What counts is not ... but ...',
+            n: '强调什么才算数'
+          },
+          {
+            t: 'It is not ... that matters but ...',
+            n: '改成强调句'
+          }
+        ],
+        register: '中性偏书面，语气坚定，适合结论段。',
+        example: 'What matters is not how fast the idea spreads but whether the conditions are in place.'
+      },
+      {
+        expr: 'That said, ...',
+        cn: '话虽如此……',
+        meaning: '先承认对方的事实或让步点，再补上自己的限定，避免论证显得一边倒；比 but 更适合在议论文里做礼貌的转折。',
+        context: '用在让步段的中段：前一句承认批评者的理由，这一句开始给出限定与回应。',
+        alts: [
+          {
+            t: 'Even so, ...',
+            n: '语气更短促'
+          },
+          {
+            t: 'That is not to say that ...',
+            n: '直接否定过度推论'
+          },
+          {
+            t: 'Nevertheless, ...',
+            n: '更书面、更强'
+          }
+        ],
+        register: '中性，口语与书面都能用。',
+        example: 'That said, none of this proves the idea wrong; it only proves that hours are not an honest measure of value.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'The four-day week is not a gift of free time but a test of how the work is organised.',
+        points: [
+          '<b>主干</b>：<span class=\'en\'>The four-day week is not A but B.</span> —— <b>not A but B</b>（不是甲，而是乙）把「常见误解」和「作者的看法」摆在同一句话里，是议论文亮出观点最常用的骨架。',
+          '<b>介词宾语</b>：<span class=\'en\'>a test of how the work is organised</span> 里，of 后面跟的是 <b>how 引导的宾语从句</b>，不是单个名词；整块意思是「对工作如何组织的一次检验」。',
+          '<b>为什么值得学</b>：这是全文的中心句，后面每一段都在回答「这个检验什么时候能通过」；写作里把中心句放在首段末尾，读者最难漏掉。',
+          '<b>常见变体</b>：<span class=\'en\'>A short week is not a gift but a test of how we work.</span>'
+        ]
+      },
+      {
+        text: 'What the numbers show is that when meetings shrink and interruptions stop, the same work fits into fewer hours, which is why output per hour rises.',
+        points: [
+          '<b>主干</b>：<span class=\'en\'>What the numbers show is that …</span> —— 主语是 <b>what 引导的名词性从句</b>，表语是 that 引导的从句，整句骨架其实是「数字显示的是这一点」。',
+          '<b>表语从句内部</b>又套了 <b>when 时间状语从句</b>（when meetings shrink and interruptions stop）和 <b>which 非限制性定语从句</b>（which is why output per hour rises），一句话三层结构。',
+          '<b>注意点</b>：<span class=\'en\'>fit into fewer hours</span> 表示「装进更少的小时」，比 <span class=\'en\'>need less time</span> 更形象；<span class=\'en\'>which is why …</span> 用来引出结果，等于「这就是……的原因」。',
+          '<b>写作迁移</b>：<span class=\'en\'>What the survey shows is that when costs fall, demand rises, which is why the policy works.</span>'
+        ]
+      },
+      {
+        text: 'Where pay and promotion are still tied to visible hours, a shorter week simply squeezes five days into four, and everyone goes home more tired.',
+        points: [
+          '<b>主干</b>：<span class=\'en\'>a shorter week simply squeezes five days into four</span> 是主句；句首 <b>Where</b> 引导<b>地点兼条件的状语从句</b>，读作「在……的地方、在……的情况下」。',
+          '<b>squeeze A into B</b> 表示「把甲挤进乙」，和本篇新词 <b>compress</b> 意思相近，但 squeeze 更强调「硬塞、塞不下」。',
+          '<b>并列结果</b>：主句两个动作用 and 连接（squeezes … and everyone goes home …），后半句是前一个动作的后果，不是另一个条件。',
+          '<b>为什么值得学</b>：Where 引导的从句可以替代 if，语气更书面，适合放在段首亮条件；<span class=\'en\'>be tied to visible hours</span> 也是「与看得见的工时挂钩」的地道说法。'
+        ]
+      },
+      {
+        text: 'Four days of careful work can be worth the equivalent of five scattered ones, provided that the fifth day is used to rest rather than to catch up.',
+        points: [
+          '<b>主干</b>：<span class=\'en\'>Four days of careful work can be worth five scattered ones</span>；<span class=\'en\'>ones</span> 指代前面的 <span class=\'en\'>days</span>，避免重复。',
+          '<b>provided that</b> 引导<b>条件状语从句</b>，比 if 更正式，表示「前提是」；从句里 <span class=\'en\'>is used to rest rather than to catch up</span> 用 <b>rather than</b> 对比两种用法，前后都接不定式，保持平行。',
+          '<b>值得积累</b>：<span class=\'en\'>be worth + 名词</span> 表示「抵得上……」；<span class=\'en\'>the equivalent of …</span> 是「与……等量的东西」；<span class=\'en\'>catch up</span> 在这里是「补上落下的工作」。',
+          '<b>常见变体</b>：<span class=\'en\'>Two focused hours can be worth a whole distracted afternoon, provided that nothing interrupts.</span>'
+        ]
+      },
+      {
+        text: 'Even when the change is perfectly possible on paper, one lost client is often enough to end the experiment.',
+        points: [
+          '<b>主干</b>：<span class=\'en\'>one lost client is often enough to end the experiment</span>；<span class=\'en\'>be enough to do sth.</span> 表示「足以做某事」。',
+          '<b>Even when</b> 引导<b>让步状语从句</b>：先退一步承认「纸面上完全可行」，主句再给出现实阻力——议论文让步段的标准句式。',
+          '<b>对照</b>：<span class=\'en\'>on paper</span> 表示「在纸面上、理论上」，与第 6 段结尾的 <span class=\'en\'>at the door</span>（到了门口、真刀真枪时）形成呼应。',
+          '<b>为什么值得学</b>：这句话解释「为什么推广难」——不是方案不好，而是协调成本太高；论证时把原因落在机制上，比落在人身上更有说服力。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about a team that simply moves five days of work into four longer days?',
+        cn: '从文中可以推出，把五天的活直接塞进更长的四天的团队会怎样？',
+        ans: 'People go home more tired and the shorter week fails to keep its promise.',
+        ansCn: '员工回家时更累，缩短一周也就兑现不了它的承诺。'
+      },
+      {
+        en: 'Why do small firms often find the change harder to carry out than large ones?',
+        cn: '为什么小公司往往比大公司更难推行这种改变？',
+        ans: 'Because the missing day means paying more people for cover, and they may lack the capacity to carry the extra cost.',
+        ansCn: '因为少一天意味着要多雇人值守，而他们未必扛得起这笔额外开支。'
+      },
+      {
+        en: 'What is the writer’s view of the four-day week?',
+        cn: '作者对四天工作制持什么看法？',
+        ans: 'It is a test of how work is organised rather than a gift of free time, and it works only when output is measured and the week is redesigned first.',
+        ansCn: '它不是白送的闲暇，而是对工作如何组织的一次检验；只有当产出被衡量、整周先被重新设计时，它才成立。'
+      },
+      {
+        en: 'How does the writer organise the passage?',
+        cn: '作者是怎样组织全文的？',
+        ans: 'The passage reports what the trials found, then lists the conditions for success and the limits, then explains why the change spreads slowly, and closes with a balanced conclusion.',
+        ansCn: '文章先写试点的结果，再写成立的条件与局限，然后解释推广为什么慢，最后以平衡的结论收尾。'
+      },
+      {
+        en: 'Why does the writer mention a client who wants an answer on Friday?',
+        cn: '作者为什么提到「周五就要回音的客户」这件事？',
+        ans: 'To show that the real obstacle is coordination with people outside the firm, not the idea itself.',
+        ansCn: '为了说明真正的障碍是与公司外部的人协调，而不是这个想法本身。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about whether your school or workplace should try a four-day week.',
+      hints: [
+        'Some people believe that ... , while others argue that ...',
+        'In the first place, ...',
+        'That said, ...',
+        'What matters is not ... but ...'
+      ],
+      hintCn: '分三段写：第一段亮出你的立场并点出争议；第二段给一到两个理由加一个具体例子（可以用自己的学校或公司）；第三段先让步承认一个反对理由，再用「重要的不是……而是……」收尾。',
+      req: '至少使用 3 个本篇学过的词或搭配（output / obstacle / negotiate / hold up / in exchange for / What matters is not … but …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: should the four-day week be tried where you are?',
+        'One reason, with one condition it depends on',
+        'One example with a time, a place or a number',
+        'One counterargument and your reply to it'
+      ],
+      pointCn: '一点五到两分钟里讲完「观点 → 理由 → 例子 → 反驳与回应」四步；反驳要具体（比如值守岗位、成本、协调），回应时可以用「话虽如此……」再给出限定。',
+      skeleton: 'In my view, ... should (not) try a four-day week. The main reason is that ... , provided that ... For example, last year ... . Some people may object that ... . That said, ... . What matters is not ... but ...'
+    },
+    focus: [
+      '<b>新授核心词 21 个</b>：<span class=\'en\'>trial, output, compress, productivity, presence, flexible, equivalent, coverage, capacity, objection, initial, fade, downside, norm, client, obstacle, negotiate, coordinate, sustain, morale, guarantee</span> —— <b>compress</b> 与 <b>compress … into …</b> 连着记，表示「把五天压进四天」；<b>productivity</b> 是名词，来自第 24 篇的 <span class=\'en\'>productive</span>，注意词尾变化；<b>objection / obstacle</b> 一个指「反对的理由」，一个指「挡路的障碍」，不要互换；<b>negotiate with sb.</b> 与 <b>coordinate with sb.</b> 介词都是 with；<b>guarantee</b> 名动同形，否定时常写 <span class=\'en\'>no experiment guarantees …</span>；<b>norm</b> 指「约定俗成的惯例」，比 rule 更强调大家都默认。',
+      '<b>本篇复现的旧词（11 处灰点）</b>：第 31 篇的 <span class=\'en\'>evidence</span>、第 17 篇的 <span class=\'en\'>routine</span>、第 24 篇的 <span class=\'en\'>performance</span>、第 30 篇的 <span class=\'en\'>measure → measured</span>、第 6 篇的 <span class=\'en\'>schedule</span> 与 <span class=\'en\'>balance</span>、第 23 篇的 <span class=\'en\'>pressure</span>、第 22 篇的 <span class=\'en\'>trend</span>、第 36 篇的 <span class=\'en\'>feasible</span>、第 37 篇的 <span class=\'en\'>adopt</span>、第 40 篇的 <span class=\'en\'>outcome</span>；短语另有第 30 篇的 <span class=\'en\'>keep a record of</span>、第 28 篇的 <span class=\'en\'>make sure</span> 一族的说法（<span class=\'en\'>keep one’s promise</span>）等织在正文里。',
+      '<b>五类长难句</b>：<span class=\'en\'>not A but B</span> 亮观点（第一段中心句）、<span class=\'en\'>What … is that …</span> 主语从句套 when 与 which 从句（第二段证据句）、<span class=\'en\'>Where …</span> 条件状语从句（第三段条件句）、<span class=\'en\'>provided that + rather than</span> 条件与对比（第四段）、<span class=\'en\'>Even when …</span> 让步（第六段）—— 每句都在 07 节拆开，仿写两句就算过关。',
+      '<b>让步与收束的骨架</b>：<span class=\'en\'>That said, …</span>（话虽如此，给限定）→ <span class=\'en\'>Up to a point, …</span>（在一定程度上承认）→ <span class=\'en\'>in exchange for</span>（作为交换的代价）→ <span class=\'en\'>What matters is not … but …</span>（收束立意）。搭配上记住 <span class=\'en\'>cut back on meetings</span>（削会）、<span class=\'en\'>hold up</span>（撑得住）、<span class=\'en\'>get in the way of</span>（挡路）、<span class=\'en\'>by and large</span>（总体而言），口语里都能直接搬。',
+      '<b>全文逻辑线与题型提醒</b>：话题与现象 → 试点怎么做成的（证据）→ 成立的两个条件 → 哪些工作做不了（让步）→ 批评者的理由与回应 → 为什么推广慢（协调成本）→ 该怎么做 → 平衡收束。推断题抓「直接照搬五天会怎样」「小公司为什么难」；作者观点题看中心句与结尾句；篇章结构题按「证据 → 条件 → 局限 → 原因 → 结论」数段落；「作者为什么提到 X」题永远答「为了证明哪一条机制」，本篇那个周五要回音的客户证明的是协调成本。'
+    ],
+    standard: {
+      time: '约 50 分钟',
+      bar: '阶段五第 48 篇：阅读题 5 题对 ≥ 4 · 21 个核心词遮住中文说出 ≥ 16 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 21 个核心词中的 16 个（output、productivity、coverage、negotiate、obstacle …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '14 个高频搭配掌握 10 个，能各造一句（cut back on、in exchange for、hold up、by and large …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（not A but B / what 主语从句 / where 条件句 / provided that 条件句 / even when 让步句），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 4 题要说出全文「证据 → 条件 → 局限 → 原因 → 结论」的顺序',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 120–150 词，至少用上 What matters is not … but … 或 That said, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳与回应」，反驳要具体到岗位、成本或协调',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 11 处灰点旧词，说出其中 9 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 49,
+    slug: '049-why-companies-care-about-reputation',
+    title: 'Why Companies Care About Reputation',
+    titleCn: '企业为何在意声誉',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 645 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/049.jpg',
+    coverCredit: 'Photo: Savvas Stavrinos / Pexels',
+    body: [
+      '<span class="w-sentence">A company can buy attention with an advertisement, but a reputation is earned in thousands of small decisions that no camera ever records.</span> For most firms, <span class="w-cet4" data-cn="声誉、口碑">reputation</span> is not decoration; it is part of the cost of doing business. It shapes three things in particular: who applies for a job, what customers will pay, and how a crisis is handled on day one.',
+      'Start with hiring. Those who <span class="w-cet4" data-cn="招聘、招募">recruit</span> know that <span class="w-cet4" data-cn="应聘者、申请者">applicants</span> read the company before it reads them. <span class="w-sentence">When two offers look the same on paper, an applicant will choose the firm whose former employees speak well of it, and that kind of praise is advertising the firm never pays for.</span> A firm with a bad name must <span class="w-phrase" data-cn="把……考虑在内">take salary and job title into account</span>, yet the best people still leave. <span class="w-cet4" data-cn="忠诚的、忠实的">Loyal</span> staff are the cheapest form of recruitment: they bring their friends.',
+      'Reputation also shows up in the <span class="w-rev">price</span> a company charges. People pay more for a name they <span class="w-rev">trust</span>, and ask for fewer <span class="w-rev">discounts</span>. A <span class="w-cet4" data-cn="溢价、加价">premium</span> is not a trick; it sums up past decisions about <span class="w-rev">quality</span>, service and honesty. <span class="w-synonym" data-cn="＝ customers 的同义替换">Shoppers</span> accept the higher price when the promise is clear, and the <span class="w-cet4" data-cn="利润">profit</span> lets the company <span class="w-cet4" data-cn="投入（资金、精力）">invest</span> in better materials instead of cutting prices again. A <span class="w-rev">brand</span> with years behind it can charge more than a newcomer with the same product.',
+      '<span class="w-writing" data-cn="说句公道话……">To be fair,</span> reputation is not everything. A good name cannot rescue a bad product, and a <span class="w-cet4" data-cn="宣传活动">campaign</span> of <span class="w-cet4" data-cn="夸大、夸张">exaggerated</span> claims only <span class="w-cet4" data-cn="误导">misleads</span> buyers and makes them angrier. Nor can a company control every <span class="w-cet4" data-cn="传闻、流言">rumor</span>: some stories are simply wrong. What it does control is how it <span class="w-rev">responds</span> next, and that is what people remember.',
+      'One <span class="w-cet4" data-cn="丑闻">scandal</span> shows the cost. A <span class="w-rev">customer</span> of a food chain found something wrong in a meal and wrote about it online. The company <span class="w-cet4" data-cn="不理会、驳回">dismissed</span> the <span class="w-rev">complaint</span> with a cold message; within a day the post <span class="w-phrase" data-cn="迅速传开、一夜爆红">went viral</span>, and one bad meal became a question about the chain. <span class="w-sentence">What started as one angry post became a national story when the company answered the first complaint with excuses, and by the time it offered an apology, three million people had already seen the wrong reply.</span> Sales fell, and the chain needed two years to <span class="w-phrase" data-cn="重新赢回">win back</span> the <span class="w-cet4" data-cn="可信度、信誉">credibility</span> lost to one careless reply.',
+      'Mistakes are rarely fatal. Most crises follow the same shape: a small event, a slow answer, then <span class="w-phrase" data-cn="口碑、口口相传">word of mouth</span> doing the damage. <span class="w-sentence">It is not the mistake itself that destroys a name, but the hours a company wastes before it speaks.</span> <span class="w-sentence">Only when the company admitted the fault, paid the money back and published the fix did the story begin to lose its energy.</span> <span class="w-phrase" data-cn="主动承担责任">Take the blame</span> before you look for reasons, <span class="w-phrase" data-cn="向……道歉">say sorry to</span> those affected, and offer a <span class="w-cet4" data-cn="退款">refund</span> or a repair. A <span class="w-cet4" data-cn="透明的、公开的">transparent</span> answer on day one costs less than an advertisement; every <span class="w-rev">delay</span> has a <span class="w-cet4" data-cn="后果">consequence</span>.',
+      'What is a reputation made of? Not slogans but checked behaviour. A company’s <span class="w-synonym" data-cn="＝ reputation 的同义替换">public image</span> is what its staff and its customers say when it is not in the room, and those words <span class="w-rev">influence</span> the next applicant and the next buyer. What surprises many managers is that one survey of former employees speaks louder than a year of advertising, and trust, once lost, takes years to <span class="w-cet4" data-cn="重新获得">regain</span>. <span class="w-writing" data-cn="说句公道话……">To be fair,</span> most companies are not villains; they are slow, and in a <span class="w-cet4" data-cn="竞争激烈的">competitive</span> market slow looks like dishonesty.',
+      '<span class="w-writing" data-cn="这正是……的原因">This is why</span> reputation deserves a line in the budget, not just a page on the website. It protects <span class="w-cet4" data-cn="营收、营业收入">revenue</span> when something goes wrong, and it cannot be bought quickly or faked for long. Companies that understand this invest in it daily: in honest words, fair prices, and answers that come before the rumor spreads. In the end, reputation is the story a company’s own people tell; the firm only decides what story it hands them.'
+    ],
+    translation: [
+      '广告可以为一家公司买到关注，但声誉是在成千上万个没有镜头记录的小决定里慢慢挣来的。对大多数公司来说，声誉不是装饰，而是做生意的成本之一。它尤其影响三件事：谁来应聘，顾客愿意付多少钱，以及危机爆发的第一天怎么应对。',
+      '先说招聘。负责招聘的人清楚，求职者了解这家公司，远在公司了解他们之前。当两份工作在纸面上看起来一样时，应聘者会选择那家被前员工说好话的公司，而这种好话是公司不用花钱的广告。反过来，名声不好的公司必须把薪水、职位都算进条件，可最优秀的人还是走了。忠诚的员工是最便宜的招聘渠道：他们会把朋友带进来。',
+      '声誉还会出现在公司敢开的价格上。人们愿意为一个自己信任的名字多付钱，也更少要求打折。溢价不是花招，它是过去一个个关于质量、服务与诚信的决定的总和。承诺讲得清楚时，顾客就接受更高的价格，而由此得来的利润让公司可以投入更好的材料，而不是一轮又一轮地降价。一个有年头的品牌，可以比卖同样产品的新来者要价更高。',
+      '说句公道话，声誉不是万能的。好名声救不了糟糕的产品，一场满是夸大宣传的活动只会误导买家，让他们事后更生气。公司也控制不了每一条传闻：有些故事本来就是错的。它能控制的是下一步怎么回应，而人们记住的正是这一步。',
+      '一桩丑闻就能把代价说清楚。一家连锁餐饮的顾客在餐食里发现了问题，把事情写到了网上。公司用一条冷冰冰的消息驳回了这条投诉；一天之内帖子就传开了，一顿饭的问题变成了对整个连锁的质疑。当公司用借口回应第一条评论时，一条愤怒的帖子就成了全国新闻，等到它终于道歉，三百万人已经看过那条错误的回复。销量下滑，这家连锁花了两年时间，才重新赢回被一条草率回复毁掉的信誉。',
+      '错误很少是致命的。大多数危机都是同一个形状：一件小事，一次迟缓的回应，然后由口碑造成真正的伤害。毁掉一个名字的不是错误本身，而是公司在开口之前浪费掉的那些时间。只有当公司承认过失、把钱退回去、公布补救办法，故事才开始失去力量。先承担责任，再去寻找理由；向受影响的人道歉，并提供退款或维修。头一天就给出透明的回应，比任何广告都便宜；每一次拖延都有后果。',
+      '声誉到底由什么构成？不是口号，而是可以被核实的行为。一家公司的公众形象，就是它的员工和顾客在它不在场时说的话，而这些话会影响下一个应聘者和下一个买家。让很多管理者意外的是，一次针对离职员工的调查，比一年的广告更有分量；而信任一旦失去，往往要很多年才能重新获得。说句公道话，大多数公司并不是坏人；它们只是慢，而在一个竞争激烈的市场里，慢看起来就像不诚实。',
+      '这正是声誉值得在预算里占一行、而不只是在网站上占一页的原因。它在出事的时候保护营收，而且买不来、也装不了太久。懂得这一点的公司每天都在为它投入：诚实的话，公道的价格，以及赶在传闻传开之前就给出的回应。说到底，声誉是公司自己的人讲出来的故事；公司只能决定递给他们的，是一个什么样的故事。'
+    ],
+    vocabulary: [
+      {
+        w: 'reputation',
+        ph: '/ˌrepjuˈteɪʃn/',
+        pos: 'n.',
+        cn: '声誉、口碑',
+        col: 'a good reputation — 好名声；build a reputation — 树立声誉',
+        ex: 'A good reputation takes years to build and one day to lose.'
+      },
+      {
+        w: 'recruit',
+        ph: '/rɪˈkruːt/',
+        pos: 'v.',
+        cn: '招聘、招募',
+        col: 'recruit new staff — 招聘新员工；recruit from a university — 从大学招人',
+        ex: 'The company recruits new graduates every spring.'
+      },
+      {
+        w: 'applicant',
+        ph: '/ˈæplɪkənt/',
+        pos: 'n.',
+        cn: '应聘者、申请者',
+        col: 'a job applicant — 求职的应聘者；an applicant for the post — 该职位的申请者',
+        ex: 'Each applicant reads the company’s reviews before applying.'
+      },
+      {
+        w: 'loyal',
+        ph: '/ˈlɔɪəl/',
+        pos: 'adj.',
+        cn: '忠诚的、忠实的',
+        col: 'loyal customers — 忠实顾客；stay loyal to … — 对……保持忠诚',
+        ex: 'Loyal staff are the cheapest form of recruitment.'
+      },
+      {
+        w: 'premium',
+        ph: '/ˈpriːmiəm/',
+        pos: 'n./adj.',
+        cn: '溢价、加价',
+        col: 'charge a premium — 收更高的价钱；a premium brand — 高端品牌',
+        ex: 'People will pay a premium for a name they trust.'
+      },
+      {
+        w: 'profit',
+        ph: '/ˈprɒfɪt/',
+        pos: 'n.',
+        cn: '利润',
+        col: 'make a profit — 获得利润；profit from … — 从……中获利',
+        ex: 'The profit lets the company invest in better materials.'
+      },
+      {
+        w: 'campaign',
+        ph: '/kæmˈpeɪn/',
+        pos: 'n.',
+        cn: '宣传活动、运动',
+        col: 'an advertising campaign — 广告宣传活动；launch a campaign — 推出宣传活动',
+        ex: 'A campaign of exaggerated claims only makes buyers angrier later.'
+      },
+      {
+        w: 'scandal',
+        ph: '/ˈskændl/',
+        pos: 'n.',
+        cn: '丑闻',
+        col: 'cause a scandal — 引发丑闻；a public scandal — 公开的丑闻',
+        ex: 'One scandal showed the real cost of a careless reply.'
+      },
+      {
+        w: 'rumor',
+        ph: '/ˈruːmə(r)/',
+        pos: 'n.',
+        cn: '传闻、流言',
+        col: 'spread a rumor — 散布传闻；a rumor about … — 关于……的传闻',
+        ex: 'No company can control every rumor.'
+      },
+      {
+        w: 'mislead',
+        ph: '/ˌmɪsˈliːd/',
+        pos: 'v.',
+        cn: '误导',
+        col: 'mislead the public — 误导公众；mislead sb. into doing sth. — 误导某人去做某事',
+        ex: 'Adverts that mislead people only make them angry later.'
+      },
+      {
+        w: 'credibility',
+        ph: '/ˌkredəˈbɪləti/',
+        pos: 'n.',
+        cn: '可信度、信誉',
+        col: 'lose credibility — 失去可信度；gain credibility — 建立可信度',
+        ex: 'It took the chain two years to win back its credibility.'
+      },
+      {
+        w: 'exaggerate',
+        ph: '/ɪɡˈzædʒəreɪt/',
+        pos: 'v.',
+        cn: '夸大、夸张',
+        col: 'exaggerate the facts — 夸大事实；exaggerate the effect — 夸大效果',
+        ex: 'Do not exaggerate what your product can do.'
+      },
+      {
+        w: 'transparent',
+        ph: '/trænsˈpærənt/',
+        pos: 'adj.',
+        cn: '透明的、公开的',
+        col: 'a transparent process — 透明的过程；be transparent about … — 对……开诚布公',
+        ex: 'Be transparent about what went wrong and what you will do next.'
+      },
+      {
+        w: 'consequence',
+        ph: '/ˈkɒnsɪkwəns/',
+        pos: 'n.',
+        cn: '后果',
+        col: 'face the consequences — 承担后果；as a consequence — 因此',
+        ex: 'Every delay has a consequence that the company pays for.'
+      },
+      {
+        w: 'regain',
+        ph: '/rɪˈɡeɪn/',
+        pos: 'vt.',
+        cn: '重新获得',
+        col: 'regain trust — 重新赢得信任；regain control — 重新控制',
+        ex: 'Trust, once lost, takes years to regain.'
+      },
+      {
+        w: 'invest',
+        ph: '/ɪnˈvest/',
+        pos: 'v.',
+        cn: '投入（资金、精力）',
+        col: 'invest in … — 在……上投入；invest time and money — 投入时间和金钱',
+        ex: 'Wise companies invest in their reputation every day.'
+      },
+      {
+        w: 'competitive',
+        ph: '/kəmˈpetɪtɪv/',
+        pos: 'adj.',
+        cn: '竞争激烈的',
+        col: 'a competitive market — 竞争激烈的市场；a competitive price — 有竞争力的价格',
+        ex: 'In a competitive market, slow looks like dishonesty.'
+      },
+      {
+        w: 'revenue',
+        ph: '/ˈrevənjuː/',
+        pos: 'n.',
+        cn: '营收、营业收入',
+        col: 'earn revenue — 获得收入；revenue from … — 来自……的收入',
+        ex: 'A bad story can cost more revenue than a weak quarter.'
+      },
+      {
+        w: 'refund',
+        ph: '/ˈriːfʌnd/',
+        pos: 'n./v.',
+        cn: '退款',
+        col: 'ask for a refund — 要求退款；refund the money — 退还钱款',
+        ex: 'Offer a refund or a repair when something goes wrong.'
+      },
+      {
+        w: 'dismiss',
+        ph: '/dɪsˈmɪs/',
+        pos: 'vt.',
+        cn: '不理会、驳回',
+        col: 'dismiss a complaint — 驳回投诉；dismiss an idea — 否掉一个想法',
+        ex: 'The company dismissed the complaint with a cold message.'
+      },
+      {
+        w: 'apology',
+        ph: '/əˈpɒlədʒi/',
+        pos: 'n.',
+        cn: '道歉',
+        col: 'make an apology — 道歉；a public apology — 公开道歉',
+        ex: 'An apology is cheaper than a long argument.'
+      },
+      {
+        w: 'survey',
+        ph: '/ˈsɜːveɪ/',
+        pos: 'n./v.',
+        cn: '调查',
+        col: 'carry out a survey — 做一项调查；survey results — 调查结果',
+        ex: 'One survey of former employees said more than a year of advertising.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'go viral',
+        cn: '迅速传开、一夜爆红（新）',
+        ex: 'The post went viral within a day.'
+      },
+      {
+        en: 'win back',
+        cn: '重新赢回（新）',
+        ex: 'It takes years to win back what one reply can cost.'
+      },
+      {
+        en: 'take the blame',
+        cn: '主动承担责任（新）',
+        ex: 'Take the blame before you look for reasons.'
+      },
+      {
+        en: 'word of mouth',
+        cn: '口碑、口口相传（新）',
+        ex: 'Word of mouth does the real damage after a crisis.'
+      },
+      {
+        en: 'take … into account',
+        cn: '把……考虑在内（新）',
+        ex: 'Take salary and job title into account before you decide.'
+      },
+      {
+        en: 'say sorry to',
+        cn: '向……道歉（复现第 13 篇）',
+        ex: 'Say sorry to the people affected before you explain.'
+      },
+      {
+        en: 'instead of',
+        cn: '而不是、代替（复现第 10 篇）',
+        ex: 'Invest in better materials instead of cutting prices again.'
+      },
+      {
+        en: 'go wrong',
+        cn: '出问题、出岔子（复现第 15 篇）',
+        ex: 'Revenue is what protects a company when something goes wrong.'
+      },
+      {
+        en: 'in the end',
+        cn: '到头来、最终（复现第 10 篇）',
+        ex: 'In the end, reputation is the story people tell about you.'
+      },
+      {
+        en: 'look for',
+        cn: '寻找、找寻（复现第 27 篇）',
+        ex: 'Do not look for reasons before you take the blame.'
+      },
+      {
+        en: 'ask for',
+        cn: '要求、请求（复现第 9 篇）',
+        ex: 'Customers ask for fewer discounts when they trust the name.'
+      },
+      {
+        en: 'on paper',
+        cn: '纸面上、名义上（复现第 6 篇）',
+        ex: 'Two offers can look the same on paper.'
+      },
+      {
+        en: 'in particular',
+        cn: '尤其、特别（新）',
+        ex: 'It shapes three things in particular.'
+      },
+      {
+        en: 'on day one',
+        cn: '第一天、头一天（新）',
+        ex: 'A transparent answer on day one costs less than an advertisement.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To be fair, ...',
+        cn: '说句公道话……',
+        meaning: '先替对方说一句公道话，再回到自己的立场：承认限制反而让后面的论点更可信，是议论里「让步」的标准开场。',
+        context: '用在转折处或结尾处，后面接一句对方也有道理的地方，再用 but / and yet 收回主线。',
+        alts: [
+          {
+            t: 'In fairness, ...',
+            n: '更书面'
+          },
+          {
+            t: 'Admittedly, ...',
+            n: '承认对方有理时用'
+          },
+          {
+            t: 'To be honest, ...',
+            n: '更口语'
+          }
+        ],
+        register: '中性，议论与日常讨论都能用。',
+        example: 'To be fair, reputation is not everything; a good name cannot rescue a bad product.'
+      },
+      {
+        expr: 'This is why ...',
+        cn: '这正是……的原因',
+        meaning: '把前面积累的事实一次性收拢，指向结论：前面讲「发生了什么」，这里讲「所以才要……」，收尾最有力量。',
+        context: '放在结论段的第一句，前面的事实要足够多，读者读到这里自然点头。',
+        alts: [
+          {
+            t: 'That is why ...',
+            n: '同样常用，语气稍轻'
+          },
+          {
+            t: 'This explains why ...',
+            n: '更书面'
+          },
+          {
+            t: 'For this reason, ...',
+            n: '接在原因之后'
+          }
+        ],
+        register: '中性偏书面，适合结论段。',
+        example: 'This is why reputation deserves a line in the budget, not just a page on the website.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'A company can buy attention with an advertisement, but a reputation is earned in thousands of small decisions that no camera ever records.',
+        points: [
+          '<b>主干</b>：A company can buy attention …, but a reputation is earned …，两个分句由 but 连接，形成「买得到」与「挣得来」的对比，这是全文的中心句。',
+          '<b>被动语态</b>：a reputation is earned in thousands of small decisions，用被动把重心放在「声誉是被挣来的」这一结果上，主语只是承受者。',
+          '<b>定语从句</b>：that no camera ever records 修饰 small decisions，说明这些决定没人看见——正因为没人看见，声誉才难以伪造。',
+          '<b>为什么值得学</b>：一句话立住「广告＝attention、声誉＝earned」的对比，后面每一段都在展开它，是观点类作文最好用的开篇方式。',
+          '<b>常见变体</b>：You can buy time with money, but respect is earned in years of small acts.'
+        ]
+      },
+      {
+        text: 'When two offers look the same on paper, an applicant will choose the firm whose former employees speak well of it, and that kind of praise is advertising the firm never pays for.',
+        points: [
+          '<b>主干</b>：an applicant will choose the firm … and that kind of praise is advertising …，由 and 连接两个并列分句，前句讲选择，后句讲原因。',
+          '<b>时间状语从句</b>：When two offers look the same on paper；<b>on paper</b> 表示「纸面上、名义上」，暗示真正的差别在纸面之外。',
+          '<b>定语从句</b>：whose former employees speak well of it，whose 指 the firm；<b>speak well of sb.</b> 是「说某人好话」，注意介词 of。',
+          '<b>后置定语</b>：advertising the firm never pays for 是省略了 that 的定语从句，pay for 的宾语就是 advertising。',
+          '<b>为什么值得学</b>：一句里装下「条件 → 选择 → 评价」三层逻辑，是写招聘、择校、消费选择类段落的现成模板。'
+        ]
+      },
+      {
+        text: 'What started as one angry post became a national story when the company answered the first complaint with excuses, and by the time it offered an apology, three million people had already seen the wrong reply.',
+        points: [
+          '<b>主干</b>：What started as one angry post became a national story，主语是 <b>what</b> 引导的名词性从句，start as … become … 构成「起初是……后来变成……」的变化链。',
+          '<b>时间从句叠加</b>：when the company answered … 与 by the time it offered an apology 一前一后；<b>by the time + 过去式从句，主句用过去完成时</b>（had already seen），表示「等到……时已经……」。',
+          '<b>数字的说服力</b>：three million people 给出量级，比「很多人」有力得多；议论文举证时尽量带数字。',
+          '<b>为什么值得学</b>：这是「小事变大事」的标准叙事句型，可以整体搬到任何危机、舆情、谣言类段落里。',
+          '<b>常见变体</b>：What began as a joke became a problem when the company refused to answer.'
+        ]
+      },
+      {
+        text: 'It is not the mistake itself that destroys a name, but the hours a company wastes before it speaks.',
+        points: [
+          '<b>主干</b>：这是<b>强调句型 It is … that …</b> 的否定形式 It is not A but B，强调「毁掉名声的不是错误本身，而是时间」。',
+          '<b>强调句的判断法</b>：去掉 It is 与 that，句子成分仍然完整（Not the mistake itself destroys a name, but the hours …），这正是强调句与主语从句的分界。',
+          '<b>省略关系代词</b>：the hours (that) a company wastes before it speaks 中 that 被省略，waste 的宾语就是 the hours。',
+          '<b>为什么值得学</b>：承认问题存在、但把重点挪到别处，正是「观点＋让步」议论文的骨架句式。',
+          '<b>写作迁移</b>：It is not the price that matters, but the promise behind it.'
+        ]
+      },
+      {
+        text: 'Only when the company admitted the fault, paid the money back and published the fix did the story begin to lose its energy.',
+        points: [
+          '<b>主干</b>：正常语序是 The story began to lose its energy only when the company admitted …；<b>Only + 状语从句</b>置于句首，主句<b>部分倒装</b>：did 提到主语 the story 之前。',
+          '<b>倒装范围</b>：只有主句倒装，when 引导的从句仍用正常语序；<b>only + 主语</b>不倒装（Only the manager knows …），这是最容易错的分界。',
+          '<b>三个并列动作</b>：admitted the fault, paid the money back and published the fix ——危机处理的三步：承认、赔偿、公布补救，一个都不能少。',
+          '<b>为什么值得学</b>：Only when … did … 是给出「唯一条件」最有力的句式，四级写作里可直接套用。',
+          '<b>常见变体</b>：Only after the report was published did people see the gap.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about a company that has to cut prices all year round?',
+        cn: '从文中可以推出，一家一年到头都在降价的公司是怎样的？',
+        ans: 'Its name is not yet trusted, so buyers are not willing to pay a premium for it.',
+        ansCn: '它的名字还没有赢得信任，所以买家不愿意为它多付钱。'
+      },
+      {
+        en: 'What can we infer about why the food chain needed two years to win its credibility back?',
+        cn: '从文中可以推出，这家连锁餐饮为什么需要两年才重新赢回信誉？',
+        ans: 'Because trust is built slowly but lost quickly: one careless reply, seen by millions, destroyed what years of small decisions had built.',
+        ansCn: '因为信任积累得慢、丢得快：三百万人看到的那条草率回复，毁掉了多年小决定积累起来的东西。'
+      },
+      {
+        en: 'What is the writer’s view of reputation?',
+        cn: '作者对声誉持什么看法？',
+        ans: 'It is a real part of doing business, shaping hiring, pricing and crisis handling, but it cannot rescue a bad product or dishonest claims.',
+        ansCn: '它是做生意实打实的一部分，影响招聘、定价和危机应对；但它救不了糟糕的产品，也救不了不诚实的宣传。'
+      },
+      {
+        en: 'How is the text developed?',
+        cn: '这篇文章是怎样展开的？',
+        ans: 'It states the view that reputation matters, gives two areas of evidence (hiring and pricing), makes a concession, then uses a case to show the cost of a PR mistake, and closes with how reputation is built and kept.',
+        ansCn: '先亮出「声誉很重要」的观点，再用招聘和定价两方面举证，接着做让步，然后用一个案例说明公关失误的代价，最后讲声誉如何建立和保住。'
+      },
+      {
+        en: 'Why does the writer mention the food chain that answered a complaint with a cold message?',
+        cn: '作者为什么提到那家用一条冷冰冰的消息回复投诉的连锁餐饮？',
+        ans: 'To show that one careless reply can cost a company far more than the original mistake.',
+        ansCn: '为了说明一条草率的回复给公司造成的损失，远远超过最初的那次失误。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about a shop, a company or a brand whose reputation you trust (or stopped trusting): what it did, how its name changed, and what it should do next.',
+      hints: [
+        'In my view, reputation matters because ...',
+        'A clear example is ...',
+        'To be fair, ...',
+        'This is why ...'
+      ],
+      hintCn: '写三段：第一段亮出观点，说明声誉对企业和顾客分别意味着什么；第二段给一个具体例子（一家店或一个品牌做对或做错的那件事，要有时间或数字）；第三段先用 To be fair, … 做让步，再用 This is why … 收尾。',
+      req: '至少使用 3 个本篇学过的词或搭配（reputation / credibility / premium / go viral / win back / take the blame）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: how much does reputation matter when you choose a product or a job?',
+        'One reason, with a number or a concrete detail',
+        'One example from your own experience',
+        'One counterargument, and your answer to it'
+      ],
+      pointCn: '1.5–2 分钟里走完「观点 → 理由 → 例子 → 反驳与回应」四步；反驳要先准确复述对方的理由（例如「便宜才是硬道理」），再给出你的回答。',
+      skeleton: 'In my opinion, reputation matters because ... For example, once ... , and it ... . Some people may argue that ... , but I would answer that ... . To sum up, ...'
+    },
+    focus: [
+      '<b>新授核心词 22 个</b>：<span class=\'en\'>reputation, recruit, applicant, loyal, premium, profit, campaign, scandal, rumor, mislead, credibility, exaggerate, transparent, consequence, regain, invest, competitive, revenue, refund, dismiss, apology, survey</span> —— <b>reputation / credibility</b> 是一组「名声」词：前者是「大家怎么说你」，后者是「别人信不信你」；<b>premium</b> 记搭配 charge / pay a premium，比记释义有用；<b>refund</b> 名动同形（ask for a refund / refund the money）；<b>dismiss</b> 是「不理会、驳回」，宾语常是 complaint、idea；<b>invest in</b> 后接对象（invest in better materials / invest in a reputation），介词固定用 in；<b>exaggerate</b> 的名词是 exaggeration，注意重音位置；<b>apology</b> 是名词（make an apology），与第 12 篇的动词 apologize 同族不同形。',
+      '<b>本篇复现的旧词（共 10 处灰点）</b>：第 3 篇的 <span class=\'en\'>trust</span>、第 4 篇的 <span class=\'en\'>price / quality / brand</span>、第 12 篇的 <span class=\'en\'>customer / complaint / discount</span>、第 23 篇的 <span class=\'en\'>delay / influence</span>、第 28 篇的 <span class=\'en\'>respond → responds</span>；短语复现另有第 13 篇的 <span class=\'en\'>say sorry to</span>、第 15 篇的 <span class=\'en\'>go wrong</span>、第 10 篇的 <span class=\'en\'>instead of / in the end</span>、第 6 篇的 <span class=\'en\'>on paper</span>、第 9 篇的 <span class=\'en\'>ask for</span>、第 27 篇的 <span class=\'en\'>look for</span>。这些词正好串起「定价—顾客—投诉—回应」的商业线。',
+      '<b>议论文的骨架：观点 → 证据 → 让步 → 案例 → 收束</b>：第一段立观点（声誉是做生意的成本），第二、三段给证据（招聘、定价），第四段用 <span class=\'en\'>To be fair, …</span> 让步（声誉救不了坏产品），第五、六段用一个虚构连锁餐饮的公关失误做案例，第七段讲声誉由什么构成，末段用 <span class=\'en\'>This is why …</span> 收拢结论。写同类作文时照这条线排段落，就不会散。',
+      '<b>五处长难句各有结构</b>：对比＋定语从句（<span class=\'en\'>A company can buy attention … , but a reputation is earned … that no camera ever records</span>）、时间从句＋双定语从句（<span class=\'en\'>When two offers look the same on paper, an applicant will choose the firm whose former employees …</span>）、what 主语从句＋时间链＋过去完成时（<span class=\'en\'>What started as one angry post became … had already seen …</span>）、强调句的否定式（<span class=\'en\'>It is not the mistake itself that destroys a name, but the hours …</span>）、部分倒装（<span class=\'en\'>Only when … did the story begin …</span>）。先抓主干，再补修饰，是拆长句的通用顺序。',
+      '<b>全文逻辑线与题型提醒</b>：声誉是什么 → 它在招聘上省钱 → 它在定价上加钱 → 让步：它救不了坏产品 → 案例：一条冷回复的代价 → 危机该怎么回应 → 声誉由可核实的行为构成 → 收束：给声誉留一行预算。推断题抓「由原文唯一推出」（例如一直降价＝名字还没被信任）；作者观点题把「重要」和「不是万能」两句合起来答；结构题按「观点 → 证据 → 让步 → 案例 → 收束」五步数段落；「作者为什么提到 X」的题，答案永远是「为了证明哪条观点」——本篇的餐饮案例证明的是「一条草率回复的代价超过原始失误」。'
+    ],
+    standard: {
+      time: '约 55 分钟',
+      bar: '阶段五议论文：阅读题 5 题对 ≥ 4 · 22 个核心词遮住中文说出 ≥ 17 · 14 个搭配掌握 ≥ 10 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 22 个核心词中的 17 个（reputation、premium、credibility、transparent、consequence …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '14 个高频搭配掌握 10 个，能各造一句（go viral、win back、take the blame、take … into account …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（对比与定语从句、时间从句叠加、what 主语从句、强调句否定式、部分倒装），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；推断题要能说出原文依据，结构题要按五步数段落',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 10 节写 120–150 词三段式议论文，至少用上 To be fair, … 或 This is why …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳与回应」，反驳要先复述对方理由再回答',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 10 处灰点旧词，说出其中 8 个的意思与出处篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 50,
+    slug: '050-second-hand-goes-mainstream',
+    title: 'Second-Hand Goes Mainstream',
+    titleCn: '二手成为主流',
+    stage: '阶段五 · 综合提高',
+    stageRange: '第 41–50 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 660 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 5.6%'
+      },
+      {
+        k: '长难句',
+        v: '5 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/050.jpg',
+    coverCredit: 'Photo: Leo Arslan / Pexels',
+    body: [
+      'Buying used things used to be a last resort: people sold old things when they needed money and bought used ones to save money. Today the trade has gone <span class="w-cet4" data-cn="主流的、大众化的">mainstream</span>: a second-hand app is as ordinary as a shoe shop, and what unlocked the change was not price but <span class="w-rev">trust</span>. <span class="w-sentence">The market stayed small for decades not because nobody wanted cheap things, but because nobody could promise that a cheap thing still worked.</span>',
+      'Why did the trade stay so small? In a shop, a bad product goes back to the shop; between two strangers, the loss lands on the buyer, stuck with a broken item. <span class="w-sentence">What a buyer cannot see is exactly what a seller would rather not mention, and the loss from that gap always landed on the person with less information.</span> Critics say the internet makes cheating easier: a seller takes the money and vanishes. That <span class="w-rev">doubt</span> is reasonable: the <span class="w-cet4" data-cn="障碍、阻碍">barrier</span> is not the <span class="w-rev">bargain</span> but the risk.',
+      'Online marketplaces answered with four rules. First, they <span class="w-cet4" data-cn="核实、查证">verify</span> a seller’s identity and arrange an <span class="w-cet4" data-cn="检查、验货">inspection</span> of expensive items. Second, every deal is rated: <span class="w-synonym" data-cn="＝ trust 的名词升级词">credibility</span> becomes a number that follows a seller. Third, payment is held until the <span class="w-cet4" data-cn="包裹">parcel</span> arrives as described. Fourth, the buyer keeps a right to a <span class="w-cet4" data-cn="退款">refund</span> and a one-year <span class="w-cet4" data-cn="保修">warranty</span>. <span class="w-sentence">None of these rules is romantic, and each one costs the platform money, but together they turn a stranger’s promise into something a buyer can rely on.</span>',
+      '<span class="w-writing" data-cn="诚然……">Granted,</span> no system is perfect. <span class="w-synonym" data-cn="＝ not genuine 的替换词">Counterfeit</span> goods and hidden <span class="w-cet4" data-cn="瑕疵、缺陷">flaw</span>s still slip through, and a photo can hide a great deal. What has changed is the cost of cheating: a seller who tricks one buyer loses every buyer after that, while an <span class="w-rev">honest</span> seller’s record stays public and <span class="w-cet4" data-cn="透明的、公开的">transparent</span>. Fraud has not disappeared; it has become a poor business, and a <span class="w-rev">genuine</span> item with a clear history sells faster.',
+      'This is where the business logic starts: a marketplace sells trust, and it <span class="w-phrase" data-cn="盈利">makes a profit</span> through a <span class="w-cet4" data-cn="佣金、手续费">commission</span> on every <span class="w-rev">purchase</span>. That is why the <span class="w-cet4" data-cn="循环的">circular</span> economy has a business model, not a slogan: keeping a product in use creates <span class="w-cet4" data-cn="收入、收益">revenue</span>. A phone sold twice earns a fee twice. A <span class="w-cet4" data-cn="零售商">retailer</span> that lets customers <span class="w-phrase" data-cn="以旧换新、折价换购">trade in</span> an old phone extends the <span class="w-cet4" data-cn="使用寿命">lifespan</span> of the one sold before. The <span class="w-cet4" data-cn="转售、二手买卖">resale</span> of one jacket <span class="w-cet4" data-cn="促进、推动">boost</span>s the earnings of everyone in the chain and gives them an <span class="w-cet4" data-cn="激励、动因">incentive</span> to keep things moving.',
+      '<span class="w-writing" data-cn="诚然……">Granted,</span> the green side of this story is easy to <span class="w-cet4" data-cn="夸大、言过其实">overstate</span>. <span class="w-sentence">The greenest product is the one that has already been made, which is why keeping a jacket in use for one more season saves the water, the cloth and the energy hidden inside it.</span> Yet cheap <span class="w-rev">prices</span> have a downside: when a jacket costs almost nothing, people buy items they end up never using, and those <span class="w-synonym" data-cn="＝ throw away 的书面替换词">discarded</span> items go to a <span class="w-rev">landfill</span>. Second-hand is green only when the item is worn, repaired or passed on, not when it is one more <span class="w-rev">impulse</span> buy.',
+      'Buying used once carried a <span class="w-cet4" data-cn="污名、羞耻感">stigma</span>; today it is a sign of good sense, especially for children’s clothes, books and tools that <span class="w-phrase" data-cn="用坏、磨损失效">wear out</span> quickly. <span class="w-sentence">What turned a bargain into a daily habit was not advertising but a generation of buyers who learned to check before they paid.</span> Shoppers now look an item over, ask for real photos, <span class="w-cet4" data-cn="评估、评定">assess</span> the <span class="w-rev">quality</span> and <span class="w-phrase" data-cn="三思、多想一步">think twice</span> before they pay. The market is safer because checking has become normal.',
+      '<span class="w-writing" data-cn="说到底……">What this comes down to is</span> that a <span class="w-rev">sustainable</span> habit lasts only when it is also a good deal. Second-hand went mainstream because honest sellers could prove it, because platforms earned money by keeping the trade clean, and because using a product twice costs the planet less than making it. The next time you clear out a drawer, put the good pieces up for sale, do not <span class="w-phrase" data-cn="把……扔掉">throw the contents away</span>: <span class="w-phrase" data-cn="让……重获新生">give them a second life</span>, and <span class="w-rev">donate</span> the rest. That is how a bargain becomes a good habit.'
+    ],
+    translation: [
+      '买二手曾经是最后的退路：人们缺钱时卖掉旧东西，想省钱时买别人用过的。如今这门生意成了主流：二手应用就像街边的鞋店一样平常，而真正撬动这场变化的，不是价格，是信任。这个市场冷清了几十年，不是因为没人想要便宜东西，而是因为没人能保证便宜的东西还能用。',
+      '这门生意为什么一直做不大？在商店里，坏掉的商品可以退回商店；在两个陌生人之间，损失落在买家头上，坏掉的东西只能自己留着。买家看不见的，恰恰是卖家不愿说的，而这份信息差带来的损失，总是落在知道得更少的一方。批评者还会说，网络让欺骗更容易：卖家拿了钱就可以消失。这种疑虑是合理的：障碍不是便宜，而是风险。',
+      '线上交易平台用四条规则来回答。第一，核实卖家的身份，贵重物品还会安排验货。第二，每一笔交易都有评分，可信度成了一个跟着卖家走的数字。第三，货款先押在平台手里，等包裹按描述送达后才付出去。第四，买家保留退款的权利，还有一年保修。这些规则都不浪漫，每一条都要平台花钱，但合在一起，它们把一个陌生人的承诺变成了买家可以依赖的东西。',
+      '诚然，没有一套系统是完美的。假货和暗伤还是会混进来，一张照片能藏下很多问题。改变的是欺骗的成本：骗过一个买家的卖家，会失去之后的所有买家，而一个诚实卖家的记录始终公开、透明。欺诈并没有消失，它只是变成了一门做不长久的生意；而来路清楚的正品，卖得更快。',
+      '商业逻辑正是从这里开始：交易平台卖的是信任，靠每一笔交易的佣金盈利。这正是循环经济如今有了商业模式、而不只是口号的原因：让一件商品继续被使用，带来的是收入。一部手机卖两次，就赚两次手续费。零售商让顾客用旧手机折价换购，既延长了上一件商品的寿命，又能在替换品上再赚一次。一件外套的转售，让链条上每个人都多赚一点，也让大家有了把东西继续流转下去的理由。',
+      '诚然，这个故事里环保的一面很容易被夸大。最环保的产品，是那件早已被造出来的产品；所以一件外套多穿一个季度，省下的是藏在它里面的水、布料和能源。然而便宜的价格也有自己的问题：当一件外套几乎不要钱时，人们会买下自己根本用不上的东西，而被丢掉的那一批，还是去了垃圾填埋场。二手只有在物品真的被穿、被修、被传下去时才是绿色的；当它只是又一次冲动购物时，就不是了。',
+      '买二手曾经带着污名；今天它是明智的象征，尤其是孩子的衣服、书和很快用坏的工具。把便宜货变成日常习惯的，不是广告，而是一代学会了先检查再付款的买家。如今买家会把东西看一遍，索要实物照片，评估成色，并且在付款前多想一步。这个市场更安全，因为「先检查」变成了正常的事。',
+      '说到底，一种可持续的习惯，只有在坚持它同时也是划算的时候才能留下来。二手成为主流，是因为诚实的卖家能证明这一点，是因为平台靠保持交易干净来赚钱，也是因为一件产品被用两次，比再造一次更省这颗星球的资源。下一次你清理抽屉，把品相好的放上去卖，别把里面的东西扔掉：让它们重获一次新生，剩下的捐出去。一次便宜的买卖，就是这样变成一个好习惯的。'
+    ],
+    vocabulary: [
+      {
+        w: 'mainstream',
+        ph: '/ˈmeɪnstriːm/',
+        pos: 'n./adj.',
+        cn: '主流；主流的、大众化的',
+        col: 'go mainstream — 成为主流；mainstream shoppers — 主流消费者',
+        ex: 'Second-hand shopping has gone mainstream in less than a decade.'
+      },
+      {
+        w: 'verify',
+        ph: '/ˈverɪfaɪ/',
+        pos: 'v.',
+        cn: '核实、查证',
+        col: 'verify an identity — 核实身份；verify a claim — 查证一种说法',
+        ex: 'The platform verifies a seller before the first item goes on sale.'
+      },
+      {
+        w: 'inspection',
+        ph: '/ɪnˈspekʃn/',
+        pos: 'n.',
+        cn: '检查、验货',
+        col: 'a careful inspection — 一次仔细的检查；pass an inspection — 通过检验',
+        ex: 'A trained eye can find the flaw in a two-minute inspection.'
+      },
+      {
+        w: 'credibility',
+        ph: '/ˌkredəˈbɪləti/',
+        pos: 'n.',
+        cn: '可信度',
+        col: 'build credibility — 建立可信度；lose credibility — 失去可信度',
+        ex: 'On a marketplace, credibility is a number that follows you for years.'
+      },
+      {
+        w: 'warranty',
+        ph: '/ˈwɒrənti/',
+        pos: 'n.',
+        cn: '保修、保修单',
+        col: 'a one-year warranty — 一年保修；under warranty — 在保修期内',
+        ex: 'The phone came with a three-month warranty from the seller.'
+      },
+      {
+        w: 'refund',
+        ph: '/ˈriːfʌnd/',
+        pos: 'n./v.',
+        cn: '退款；退还（款项）',
+        col: 'ask for a refund — 要求退款；refund the buyer — 给买家退款',
+        ex: 'If the item is not as described, the buyer can ask for a refund.'
+      },
+      {
+        w: 'parcel',
+        ph: '/ˈpɑːsl/',
+        pos: 'n.',
+        cn: '包裹',
+        col: 'send a parcel — 寄出包裹；a parcel arrives — 包裹送达',
+        ex: 'The money is released only after the parcel arrives.'
+      },
+      {
+        w: 'flaw',
+        ph: '/flɔː/',
+        pos: 'n.',
+        cn: '瑕疵、缺陷',
+        col: 'a hidden flaw — 暗伤、隐藏的瑕疵；a design flaw — 设计缺陷',
+        ex: 'A photo can hide a flaw that the buyer only finds at home.'
+      },
+      {
+        w: 'transparent',
+        ph: '/trænsˈpærənt/',
+        pos: 'adj.',
+        cn: '透明的、公开的',
+        col: 'transparent pricing — 透明的定价；be transparent about … — 对……公开透明',
+        ex: 'A seller’s record is public, transparent and slow to grow.'
+      },
+      {
+        w: 'barrier',
+        ph: '/ˈbæriə(r)/',
+        pos: 'n.',
+        cn: '障碍、阻碍',
+        col: 'a barrier to trade — 交易的障碍；remove a barrier — 移除障碍',
+        ex: 'The real barrier is not the price but the risk behind it.'
+      },
+      {
+        w: 'commission',
+        ph: '/kəˈmɪʃn/',
+        pos: 'n.',
+        cn: '佣金、手续费',
+        col: 'take a commission — 抽取佣金；a commission on every sale — 每笔交易的佣金',
+        ex: 'The marketplace makes a profit through a small commission.'
+      },
+      {
+        w: 'revenue',
+        ph: '/ˈrevənjuː/',
+        pos: 'n.',
+        cn: '收入、收益',
+        col: 'a revenue stream — 一条收入来源；earn revenue from … — 从……获得收入',
+        ex: 'Keeping a product in use creates revenue, not charity.'
+      },
+      {
+        w: 'circular',
+        ph: '/ˈsɜːkjələ(r)/',
+        pos: 'adj.',
+        cn: '循环的',
+        col: 'the circular economy — 循环经济；a circular process — 循环过程',
+        ex: 'The circular economy works only when somebody earns money from it.'
+      },
+      {
+        w: 'retailer',
+        ph: '/ˈriːteɪlə(r)/',
+        pos: 'n.',
+        cn: '零售商',
+        col: 'a large retailer — 大型零售商；an online retailer — 网络零售商',
+        ex: 'Some large retailers now take old goods in part payment.'
+      },
+      {
+        w: 'lifespan',
+        ph: '/ˈlæfspæn/',
+        pos: 'n.',
+        cn: '使用寿命',
+        col: 'extend the lifespan — 延长使用寿命；the lifespan of a phone — 一部手机的寿命',
+        ex: 'A simple repair can double the lifespan of a laptop.'
+      },
+      {
+        w: 'incentive',
+        ph: '/ɪnˈsentɪv/',
+        pos: 'n.',
+        cn: '激励、动因',
+        col: 'an incentive to do sth. — 做某事的激励；a financial incentive — 金钱上的激励',
+        ex: 'People are given an incentive to keep things moving.'
+      },
+      {
+        w: 'resale',
+        ph: '/ˌriːˈseɪl/',
+        pos: 'n.',
+        cn: '转售、二手买卖',
+        col: 'the resale market — 二手转售市场；resale value — 转售价值',
+        ex: 'The resale of one jacket pays everyone in the chain.'
+      },
+      {
+        w: 'boost',
+        ph: '/buːst/',
+        pos: 'v./n.',
+        cn: '促进、推动；提升',
+        col: 'boost sales — 拉动销售；give … a boost — 给……带来推动',
+        ex: 'A clear return policy can boost a seller’s rating.'
+      },
+      {
+        w: 'overstate',
+        ph: '/ˌəʊvəˈsteɪt/',
+        pos: 'v.',
+        cn: '夸大、言过其实',
+        col: 'overstate the case — 夸大其词；easy to overstate — 很容易被夸大',
+        ex: 'The green side of the story is easy to overstate.'
+      },
+      {
+        w: 'stigma',
+        ph: '/ˈstɪɡmə/',
+        pos: 'n.',
+        cn: '污名、羞耻感',
+        col: 'the stigma of … — ……的污名；carry a stigma — 带着污名',
+        ex: 'Buying used once carried a stigma; now it does not.'
+      },
+      {
+        w: 'assess',
+        ph: '/əˈses/',
+        pos: 'v.',
+        cn: '评估、评定',
+        col: 'assess the condition — 评估成色；assess the damage — 评估损失',
+        ex: 'Assess the condition before you pay.'
+      },
+      {
+        w: 'counterfeit',
+        ph: '/ˈkaʊntəfɪt/',
+        pos: 'n./adj.',
+        cn: '假货；仿冒的',
+        col: 'counterfeit goods — 假冒商品；a counterfeit watch — 仿冒的手表',
+        ex: 'Counterfeit goods still slip through every system.'
+      },
+      {
+        w: 'discard',
+        ph: '/dɪsˈkɑːd/',
+        pos: 'v.',
+        cn: '丢弃、丢掉',
+        col: 'discard an item — 丢掉一件物品；be discarded after one season — 用一季后被丢弃',
+        ex: 'Items that are never used are discarded after one season.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'trade … in (for …)',
+        cn: '以旧换新、折价换购（新）',
+        ex: 'The retailer lets customers trade an old phone in for a new one.'
+      },
+      {
+        en: 'give … a second life',
+        cn: '让……重获新生、再用一轮（新）',
+        ex: 'A repair gives an old chair a second life.'
+      },
+      {
+        en: 'wear out',
+        cn: '用坏、磨损失效（新）',
+        ex: 'Children’s shoes wear out before they are outgrown.'
+      },
+      {
+        en: 'look … over',
+        cn: '仔细查看、检查一遍（新）',
+        ex: 'Look the item over before you agree on a price.'
+      },
+      {
+        en: 'make a profit',
+        cn: '盈利、赚到钱（新）',
+        ex: 'The platform makes a profit through a small commission.'
+      },
+      {
+        en: 'be stuck with',
+        cn: '被迫留着（不想要的东西）（新）',
+        ex: 'Without a right to refund, the buyer is stuck with a broken item.'
+      },
+      {
+        en: 'a sign of',
+        cn: '……的标志、表现（新）',
+        ex: 'Buying used is now a sign of good sense.'
+      },
+      {
+        en: 'as good as new',
+        cn: '像新的一样（新）',
+        ex: 'After a clean and a small repair, the phone was as good as new.'
+      },
+      {
+        en: 'throw … away',
+        cn: '把……扔掉（复现第 4 篇）',
+        ex: 'Do not throw the contents away: sell or donate them.'
+      },
+      {
+        en: 'think twice',
+        cn: '三思、多想一步（复现第 13 篇）',
+        ex: 'Think twice before you pay a stranger in advance.'
+      },
+      {
+        en: 'save money',
+        cn: '省钱（复现第 4 篇）',
+        ex: 'Buying used saves money, but only if you use the thing.'
+      },
+      {
+        en: 'for sale',
+        cn: '待售、出售（复现第 22 篇）',
+        ex: 'Put the good pieces up for sale this weekend.'
+      },
+      {
+        en: 'be worth doing sth.',
+        cn: '值得做某事（复现第 22 篇）',
+        ex: 'Clearing out a drawer twice a year is worth doing.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '最终（做了）某事（复现第 22 篇）',
+        ex: 'People buy cheap things they end up never using.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'Granted, ...',
+        cn: '诚然……（让步）',
+        meaning: '先承认对方或反面的合理之处，再转折到自己的主张，让论证显得公允而不软弱；适合放在论点之后、转折之前。',
+        context: '第四段与第六段的段首，后面各接一层让步：系统不完美、环保收益会被夸大。',
+        alts: [
+          {
+            t: 'Admittedly, ...',
+            n: '更书面'
+          },
+          {
+            t: 'It is true that ...',
+            n: '更平实，第 42 篇用过'
+          },
+          {
+            t: 'While this is true, ...',
+            n: '把让步压进从句'
+          }
+        ],
+        register: '中性偏书面，议论文让步的常用开场。',
+        example: 'Granted, no system is perfect, and hidden flaws still slip through.'
+      },
+      {
+        expr: 'What this comes down to is ...',
+        cn: '说到底，……',
+        meaning: '把前面的证据、让步、例子一次性收成一句话结论，用主语从句把长论证压短，适合放在结尾段第一句。',
+        context: '结尾段的第一句，后面接全文最想留下的那个判断。',
+        alts: [
+          {
+            t: 'In the end, ...',
+            n: '更口语'
+          },
+          {
+            t: 'The point is that ...',
+            n: '更直接'
+          },
+          {
+            t: 'What it boils down to is ...',
+            n: '更口语、更生动'
+          }
+        ],
+        register: '中性偏书面，收束语气。',
+        example: 'What this comes down to is that a habit lasts only when it is also a good deal.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'The market stayed small for decades not because nobody wanted cheap things, but because nobody could promise that a cheap thing still worked.',
+        points: [
+          '<b>主干</b>：The market stayed small for decades；后面 <b>not because …, but because …</b> 是一对并列的原因状语从句，一否定一肯定，专用来纠正读者的默认猜测。',
+          '<b>结构价值</b>：先否定「便宜所以没人买」这个直觉答案，再给出真正原因，这是议论文开头立论最省力的办法；not 与 but 必须成对出现，缺一个句子就散了。',
+          '<b>词汇点</b>：stay ＋ 形容词（stayed small）表示「一直保持某种状态」；promise 后接 that 宾语从句，cheap thing still worked 是从句内容。',
+          '<b>为什么值得学</b>：写作的「原因解释」段落可以直接仿写这个骨架：The problem remained not because …, but because …。',
+          '<b>常见变体</b>：He failed not because he was lazy, but because nobody checked the plan.'
+        ]
+      },
+      {
+        text: 'What a buyer cannot see is exactly what a seller would rather not mention, and the loss from that gap always landed on the person with less information.',
+        points: [
+          '<b>主干</b>：What a buyer cannot see is what a seller would rather not mention —— 主语和表语都是 <b>what</b> 引导的名词性从句，两个从句「看不见的＝不愿说的」首尾相扣，本身就是论证。',
+          '<b>并列句</b>：and 之后是第二个独立分句，the loss from that gap 是主语，landed on the person with less information 是谓语部分；with less information 是介词短语作定语。',
+          '<b>时态</b>：前半句用现在时讲普遍规律，后半句用过去时 landed 讲过去市场做不大的原因，一个句子里两种时态，各管各的时间范围。',
+          '<b>为什么值得学</b>：把「信息不对称」这种抽象概念写成两个 what 从句的对仗，是议论文化抽象为形象的好例子。',
+          '<b>写作迁移</b>：What the report cannot show is exactly what readers want to know.'
+        ]
+      },
+      {
+        text: 'None of these rules is romantic, and each one costs the platform money, but together they turn a stranger’s promise into something a buyer can rely on.',
+        points: [
+          '<b>主干</b>：三个并列分句由 and 与 but 串起：前两分句先让步（不浪漫、要花钱），第三分句给出结论，形成「先抑后扬」的节奏。',
+          '<b>语法点</b>：<b>none of ＋ 复数名词</b> 后的谓语用单数 is（正式写法）；each one 的 one 指代前面的 rule，避免重复名词。',
+          '<b>搭配</b>：turn A into B（把甲变成乙）复现了旧短语；rely on 后接名词，something a buyer can rely on 是「代词＋省略 that 的定语从句」。',
+          '<b>为什么值得学</b>：写「几条措施合起来才有用」时，与其列清单，不如用这种三段并列收口，读者更容易记住结论。',
+          '<b>注意点</b>：stranger’s 的所有格撇号别写成 strangers；promise 在这里是可数名词。'
+        ]
+      },
+      {
+        text: 'The greenest product is the one that has already been made, which is why keeping a jacket in use for one more season saves the water, the cloth and the energy hidden inside it.',
+        points: [
+          '<b>主干</b>：The greenest product is the one …，表语 the one 后接 <b>that 定语从句</b>（that has already been made），完成时的被动强调「早就造出来了」。',
+          '<b>非限定定语从句</b>：which is why … 的 which 指代前面整句话，why 引导<b>表语从句</b>；这种「…, which is why …」是解释因果最顺手的写法。',
+          '<b>动名词主语</b>：keeping a jacket in use for one more season 是 why 从句里的主语，动名词短语作主语，谓语用单数 saves。',
+          '<b>排比收尾</b>：the water, the cloth and the energy 三项并列，最后用 hidden inside it 收住，读起来有节奏感。',
+          '<b>为什么值得学</b>：这是全文的环保论点句，一句话同时训练定语从句、表语从句、动名词主语三种结构。'
+        ]
+      },
+      {
+        text: 'What turned a bargain into a daily habit was not advertising but a generation of buyers who learned to check before they paid.',
+        points: [
+          '<b>主干</b>：<b>What</b> 引导主语从句（What turned a bargain into a daily habit）＋ was ＋ not A but B 并列表语，主干其实是「让习惯成型的是买家，不是广告」。',
+          '<b>结构组合</b>：主语从句里又嵌了 turn A into B；表语 a generation of buyers 后再接 <b>who 定语从句</b>，一句话三层，是阶段五最常见的「嵌套句」。',
+          '<b>时态呼应</b>：主句用过去时 turned / was 讲历史变化，定语从句用 learned to check before they paid 讲这批买家的做法，时间线一致。',
+          '<b>为什么值得学</b>：把「观念变化」归因到人而不是广告，是议论文里反驳消费主义套路的常用论点；句式可整体搬到别的主题。',
+          '<b>常见变体</b>：What made the market grow was not price but a habit of checking.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What can we infer about a seller who tricks one buyer on a marketplace where every deal is rated?',
+        cn: '在一个每笔交易都有评分的平台上，我们可以推出骗过一个买家的卖家会怎样？',
+        ans: 'The seller loses every buyer after that, because the bad record follows them for years.',
+        ansCn: '这个卖家会失去之后的所有买家，因为那条坏记录会跟随他很多年。'
+      },
+      {
+        en: 'Why does the writer say that cheap second-hand prices can destroy the environmental benefit?',
+        cn: '作者为什么说便宜的二手价格会毁掉环保收益？',
+        ans: 'Because when a jacket costs almost nothing, people buy items they end up never using, and those discarded items go straight to a landfill.',
+        ansCn: '因为当一件外套几乎不要钱时，人们会买下自己根本用不上的东西，而被丢掉的那一批最后还是进了垃圾填埋场。'
+      },
+      {
+        en: 'What is the writer’s view on what really made the second-hand market grow?',
+        cn: '作者认为二手市场真正做大靠的是什么？',
+        ans: 'That solving the trust problem — not a love of old things and not price alone — is what made the market grow.',
+        ansCn: '是解决了信任问题，而不是人们突然爱上旧东西，也不只是价格便宜，才让这个市场做大。'
+      },
+      {
+        en: 'How is the text organised?',
+        cn: '这篇文章的篇章结构是怎样的？',
+        ans: 'It starts from the old trust problem, then shows how platforms solved it, then turns to the business and environmental logic with two concessions, and ends with what makes the change last.',
+        ansCn: '先写过去信任缺失的问题，再写平台如何补上信任，接着讲商业与环保两层逻辑并各作一次让步，最后收束在「什么能让这场变化持续」。'
+      },
+      {
+        en: 'Why does the writer mention a phone that is sold twice?',
+        cn: '作者为什么提到一部被卖两次的手机？',
+        ans: 'To show that keeping a product in use creates revenue, so the circular economy has a real business model rather than a slogan.',
+        ansCn: '为了说明让一件商品继续被使用能带来收入，所以循环经济是真有商业模式，而不只是口号。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 120–150 words about whether buying second-hand is mainly a matter of trust, price or the environment: give your view, one piece of evidence, one concession and a conclusion.',
+      hints: [
+        'Second-hand trading has gone mainstream because ...',
+        'Granted, ... still slip through, but ...',
+        'What this comes down to is that ...'
+      ],
+      hintCn: '三段式：第一段亮出观点（信任／价格／环境三选一）并给理由；第二段用一个具体机制或例子当证据，再用 Granted, … 让步承认另一面也有道理；第三段用 What this comes down to is … 收束立意。120–150 词里至少出现一个具体数字或场景。',
+      req: '至少使用 3 个本篇学过的词或搭配（verify / warranty / commission / lifespan / trade … in / make a profit / think twice …）。'
+    },
+    speakingTask: {
+      en: 'Answer in 1.5–2 minutes. Give your view, one reason and one example, then answer one counterargument.',
+      points: [
+        'Your view: what made second-hand go mainstream — trust, price or the environment?',
+        'One reason for that view, with one piece of evidence',
+        'One example with a time, a place or a number',
+        'One counterargument and your answer to it'
+      ],
+      pointCn: '1.5–2 分钟里讲完「观点 → 理由 → 例子 → 反驳」四步；例子要带具体的时间、数字或场景，反驳要先复述对方的理由再回应，不能只说「有人不同意」。',
+      skeleton: 'In my view, second-hand went mainstream mainly because ... The reason is that ... For example, when I ... , the platform ... Some people may say that ... , but I would answer that ... To sum up, ...'
+    },
+    focus: [
+      '<b>新授核心词 23 个</b>：<span class=\'en\'>mainstream, verify, inspection, credibility, warranty, refund, parcel, flaw, transparent, barrier, commission, revenue, circular, retailer, lifespan, incentive, resale, boost, overstate, stigma, assess, counterfeit, discard</span> —— 记法：买前买后的「信任链」按顺序记 <span class=\'en\'>verify → inspection → credibility → warranty → refund</span>，五个词就是一次完整交易；<b>commission</b> 是「每单抽成」，<b>revenue</b> 是「总收入」，不要互换；<b>lifespan</b> 指物品的「使用寿命」，可对照第 16 篇的 <span class=\'en\'>lifetime</span>；<b>counterfeit</b>（假货）与 <b>discard</b>（丢弃）在正文里用同义替换教（＝ not genuine、＝ throw away），写作时可当升级词。',
+      '<b>本篇复现的旧词（本篇是全课程收官节点篇，共 12 处灰点）</b>：第 3 篇的 <span class=\'en\'>trust / honest</span>、第 4 篇的 <span class=\'en\'>price</span>、第 7 篇的 <span class=\'en\'>quality</span>、第 22 篇的 <span class=\'en\'>doubt / bargain / genuine / purchase / donate</span>、第 27 篇的 <span class=\'en\'>impulse</span>、第 35 篇的 <span class=\'en\'>landfill</span>、第 38 篇的 <span class=\'en\'>sustainable</span>；短语复现另有第 4 篇的 <span class=\'en\'>save money / throw … away</span>、第 13 篇的 <span class=\'en\'>think twice</span>、第 22 篇的 <span class=\'en\'>for sale / be worth doing sth. / end up doing sth.</span>。',
+      '<b>五处长难句，一种结构一句</b>：<span class=\'en\'>not because … but because …</span>（并列原因对比）、<span class=\'en\'>What a buyer cannot see is …</span>（双 what 从句作主语与表语）、<span class=\'en\'>None of these rules is … , and … , but together …</span>（三重并列先抑后扬）、<span class=\'en\'>the one that has already been made, which is why …</span>（定语从句接非限定定语从句）、<span class=\'en\'>What turned a bargain into a daily habit was not … but …</span>（主语从句＋定语从句嵌套）—— 阶段五要求的多层结构在这五句里各收一例，都拆在长难句解析里了。',
+      '<b>动作链搭配，按「买前—交易—用后」记</b>：买前 <span class=\'en\'>look … over / assess the quality / think twice</span> → 交易中 <span class=\'en\'>trade … in / make a profit</span> → 用后 <span class=\'en\'>wear out / give … a second life / throw … away</span>。写作里按时间链排搭配，段落自然成形；注意 <span class=\'en\'>refund</span>（退款）与 <span class=\'en\'>warranty</span>（保修）是两回事，别混用。',
+      '<b>全文逻辑线与题型提醒</b>：二手为何曾是小生意（信息差与信任）→ 平台四条规则如何补信任 → 让步：假货与暗伤仍在，但骗人的成本变了 → 循环经济的商业逻辑（佣金、转售、折价换购）→ 让步：便宜会引来冲动购物 → 买家习惯与污名消失 → 收束（可持续的习惯必须同时划算）。推断题抓「评分让欺骗变得怎样」「便宜为什么反而不环保」；作者观点题抓首段与末段的呼应；结构题按这条逻辑线作答；「作者为什么提到卖两次的手机」＝证明循环经济有钱可赚、不是口号。',
+      '<b>⭐ 本阶段复盘 · 词汇抽查</b>：盖住释义，认一认这 10 个旧词 —— <span class=\'en\'>afford</span>（第 1 篇）、<span class=\'en\'>opinion</span>（第 2 篇）、<span class=\'en\'>encourage</span>（第 3 篇）、<span class=\'en\'>compare</span>（第 4 篇）、<span class=\'en\'>hesitate</span>（第 11 篇）、<span class=\'en\'>assume</span>（第 13 篇）、<span class=\'en\'>consumer</span>（第 22 篇）、<span class=\'en\'>strategy</span>（第 24 篇）、<span class=\'en\'>measure</span>（第 30 篇）、<span class=\'en\'>consistent</span>（第 32 篇）。任何两个想不起来的，写进毕业复习清单；顺带检查本篇 12 处灰点是否都能说出出处篇目。',
+      '<b>⭐ 本阶段复盘 · 毕业自评</b>：第 50 篇兼作综合毕业测试，请在做完本篇后按四个维度自评：一、能否不查词典、不看释义在 12 分钟内通读 600 词以上的议论（本篇正文约 660 词）；二、推断题与「作者为什么提到 X」题的正确率是否稳定在八成以上（本篇这两类共 3 题）；三、120–150 词三段式写作能否在 20 分钟内完成，且让步句与结论句各有一句；四、1.5–2 分钟带反驳的口语能否不停顿讲完「观点 → 理由 → 例子 → 反驳」。四条里有两条没达标，就把对应篇目（消费类第 22、27 篇，环境类第 26、35 篇，习惯类第 38 篇）重做一遍；都达标了，就照这五十篇的路子自己往下读 —— 课程在这里收尾，学习不收尾。'
+    ],
+    standard: {
+      time: '约 55 分钟',
+      bar: '阶段五收官 · 综合毕业测试：阅读题 5 题对 ≥ 4 · 23 个核心词遮住中文说出 ≥ 18 · 拆开 5 处长难句 · 完成 120–150 词写作与 1.5–2 分钟含反驳的口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 23 个核心词中的 18 个（verify、warranty、commission、lifespan、credibility …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '14 个高频搭配掌握 11 个，能各造一句（trade … in、make a profit、wear out、give … a second life …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 5 处长难句各自的结构（not because … but because … / 双 what 从句 / 三重并列 / 非限定定语从句 / 主语从句加定语从句），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 5 题要说出「卖两次的手机」证明的是哪一层意思',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 10 节写 120–150 词，至少用上 Granted, … 或 What this comes down to is …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1.5–2 分钟讲完「观点 → 理由 → 例子 → 反驳」，反驳要先复述对方理由再回应',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 12 处灰点旧词，说出其中 9 个的意思和出处篇目，再对照 focus 第 7 条做毕业自评',
+          lvl: '加分'
+        }
+      ]
+    }
   }
 ];

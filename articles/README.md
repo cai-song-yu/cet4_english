@@ -53,8 +53,18 @@
 | 38 | Why Some Habits Never Stick | 阶段四 · 中级提高 | assets/js/articles.js（第 38 条） | assets/covers/038.jpg |
 | 39 | Homework: More Is Not Always Better | 阶段四 · 中级提高 | assets/js/articles.js（第 39 条） | assets/covers/039.jpg |
 | 40 | Learning from Mistakes at Work | 阶段四 · 中级提高（节点篇） | assets/js/articles.js（第 40 条） | assets/covers/040.jpg |
+| 41 | The Language of Numbers | 阶段五 · 综合提高 | assets/js/articles.js（第 41 条） | assets/covers/041.jpg |
+| 42 | How Cities Keep Cool | 阶段五 · 综合提高 | assets/js/articles.js（第 42 条） | assets/covers/042.jpg |
+| 43 | The Person Behind the Menu | 阶段五 · 综合提高 | assets/js/articles.js（第 43 条） | assets/covers/043.jpg |
+| 44 | Attention in the Age of Distraction | 阶段五 · 综合提高 | assets/js/articles.js（第 44 条） | assets/covers/044.jpg |
+| 45 | What I Learned from a Month Without Music | 阶段五 · 综合提高 | assets/js/articles.js（第 45 条） | assets/covers/045.jpg |
+| 46 | The True Cost of Cheap | 阶段五 · 综合提高 | assets/js/articles.js（第 46 条） | assets/covers/046.jpg |
+| 47 | When Machines Write | 阶段五 · 综合提高 | assets/js/articles.js（第 47 条） | assets/covers/047.jpg |
+| 48 | The Four-Day Week Experiment | 阶段五 · 综合提高 | assets/js/articles.js（第 48 条） | assets/covers/048.jpg |
+| 49 | Why Companies Care About Reputation | 阶段五 · 综合提高 | assets/js/articles.js（第 49 条） | assets/covers/049.jpg |
+| 50 | Second-Hand Goes Mainstream | 阶段五 · 综合提高（节点篇 · 毕业测试） | assets/js/articles.js（第 50 条） | assets/covers/050.jpg |
 
-**封面授权**：001 取自 Wikimedia Commons；002–040 取自 Pexels（Pexels License，可商用、免署名），
+**封面授权**：001 取自 Wikimedia Commons；002–050 取自 Pexels（Pexels License，可商用、免署名），
 署名已逐条记录在 `articles.js` 的 `coverCredit` 字段，并显示在文章页封面右上角。
 
 **朗读音色**：按篇交替 —— 单数篇 Chloe（美音 native）、双数篇 Mia（英式 RP），课文与词表发音统一。
