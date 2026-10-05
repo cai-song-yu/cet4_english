@@ -255,7 +255,7 @@
 
     nav.innerHTML = html;
     document.getElementById("navFoot").innerHTML =
-      "共 90 篇 · 已生成 " + ARTICLES.length + " 篇 · 已学 " + doneCount() + " 篇<br />" +
+      "共 50 篇 · 已生成 " + ARTICLES.length + " 篇 · 已学 " + doneCount() + " 篇<br />" +
       "进度记录：course/progress.md";
   }
 
@@ -504,8 +504,8 @@
       '<header class="home-hero">' +
       '<div class="hero-main">' +
       '<div class="kicker">English Reading Course · 90 Days</div>' +
-      "<h2>90 篇递进式英语阅读训练</h2>" +
-      '<p class="lede">从 CET-4 约 400 分出发，用 90 篇难度稳步上升的文章，把「读懂 → 记住 → 会用」完整走一遍。' +
+      "<h2>50 篇递进式英语阅读训练</h2>" +
+      '<p class="lede">从 CET-4 约 400 分出发，用 50 篇难度稳步上升的文章，把「读懂 → 记住 → 会用」完整走一遍。' +
       "每篇含核心词汇、高频搭配、写作表达、长难句解析、阅读理解与输出任务；" +
       "内置划词查词、全文朗读、生词本与学习进度，全部离线可用。</p>" +
       '<div class="hero-actions">' +
@@ -608,7 +608,7 @@
       sec("03", "使用说明", "How To Use", '<div class="guide-grid">' + guides + "</div>") +
       sec("04", "每日流程", "Daily Routine",
         '<ul class="focus-list">' + flow + "</ul>" +
-        '<p class="nb-note">每天 1 篇、约 45–60 分钟；每周末 10 分钟周复盘。90 篇只是路线不是刻度，进度可以慢，但反馈不能少。</p>')
+        '<p class="nb-note">每天 1 篇、约 45–60 分钟；每周末 10 分钟周复盘。50 篇只是路线不是刻度，进度可以慢，但反馈不能少。</p>')
     );
   }
 
@@ -756,7 +756,7 @@
     if (r.name === "home") {
       view.innerHTML = renderHome();
       document.getElementById("topTitle").textContent = "英语阅读课程 · 课程总览";
-      document.title = "英语阅读课程 · 90 篇递进训练";
+      document.title = "英语阅读课程 · 50 篇递进训练";
       bindHome();
     } else if (r.name === "words") {
       view.innerHTML = renderWords();

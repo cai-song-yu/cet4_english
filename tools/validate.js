@@ -37,32 +37,18 @@ const STAGES = [
     sent: [2, 3], writeWords: [80, 100], stdTime: [30, 40]
   },
   {
-    test: (id) => id <= 45,
-    name: "阶段四 · 中级提高", range: "第 31–45 篇",
-    words: [400, 505], vocab: [15, 20], density: [5.0, 7.0],
+    test: (id) => id <= 40,
+    name: "阶段四 · 中级提高", range: "第 31–40 篇",
+    words: [400, 510], vocab: [15, 20], density: [5.0, 7.0],
     marks: { "w-cet4": [13, 18], "w-phrase": [4, 6], "w-writing": [2, 4], "w-sentence": [3, 5], "w-synonym": [1, 3], "w-rev": [5, 10] },
     sent: [3, 5], writeWords: [100, 120], stdTime: [35, 45]
   },
   {
-    test: (id) => id <= 60,
-    name: "阶段五 · 中高级", range: "第 46–60 篇",
-    words: [450, 555], vocab: [15, 22], density: [6.0, 8.0],
-    marks: { "w-cet4": [14, 20], "w-phrase": [5, 6], "w-writing": [3, 4], "w-sentence": [4, 6], "w-synonym": [2, 3], "w-rev": [8, 14] },
-    sent: [4, 6], writeWords: [120, 150], stdTime: [45, 55]
-  },
-  {
-    test: (id) => id <= 75,
-    name: "阶段六 · CET-4强化", range: "第 61–75 篇",
-    words: [500, 605], vocab: [18, 25], density: [6.0, 8.0],
-    marks: { "w-cet4": [14, 22], "w-phrase": [5, 7], "w-writing": [3, 4], "w-sentence": [4, 6], "w-synonym": [2, 4], "w-rev": [10, 16] },
-    sent: [4, 6], writeWords: [120, 150], stdTime: [50, 65]
-  },
-  {
     test: () => true,
-    name: "阶段七 · 综合提高", range: "第 76–90 篇",
-    words: [550, 705], vocab: [15, 20], density: [5.0, 7.0],
-    marks: { "w-cet4": [14, 20], "w-phrase": [5, 7], "w-writing": [3, 4], "w-sentence": [4, 6], "w-synonym": [2, 4], "w-rev": [10, 16] },
-    sent: [4, 6], writeWords: [150, 180], stdTime: [55, 70]
+    name: "阶段五 · 综合提高", range: "第 41–50 篇",
+    words: [505, 665], vocab: [16, 24], density: [5.5, 7.5],
+    marks: { "w-cet4": [14, 20], "w-phrase": [5, 7], "w-writing": [3, 4], "w-sentence": [4, 6], "w-synonym": [2, 4], "w-rev": [8, 14] },
+    sent: [4, 6], writeWords: [120, 150], stdTime: [45, 60]
   }
 ];
 const stageOf = (id) => STAGES.find((s) => s.test(id));

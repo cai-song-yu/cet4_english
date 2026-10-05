@@ -3,6 +3,9 @@
 > 📖 **阅读方式**：双击根目录 `index.html` 打开前端阅读器（所有文章在此浏览）。
 > 文章内容存于 `assets/js/articles.js`（数据），封面图在 `assets/covers/`。
 > 每篇含 **真人朗读音频** `assets/audio/<slug>/pN.mp3`（MiMo 预生成，清单在 `assets/audio/manifest.js`，缺篇时前端自动回退浏览器朗读）。
+> **划词查词 / 划词翻译**：选中任意词句即弹浮层——整句会同时给「本段译文」（离线、逐字人译）与模型翻译；🔊 发音顺序为
+> 课程词表真人发音 → MiMo 真人音色 → 词典发音 → 浏览器朗读。**运行 `node tools/serve.js` 后**，任意词句的发音与翻译都走你的 MiMo
+> （key 只留在 `tools/.mimo-key`，不进浏览器）；不跑服务则自动回退免费通道，功能不减。
 > 本目录的 `.md` 文件为第 1 篇的存档备份；**从第 2 篇起以 `articles.js` 数据为唯一来源**。
 > 每篇含 **逐段中文译文**（`translation[]`，与正文等长、默认隐藏，点 🈶 或按 `L` 显隐）
 > 与 **推荐完成度达标线**（`standard`，第 09 板块，7 条可勾选的验收标准）。
@@ -30,8 +33,18 @@
 | 18 | A Choice Between Two Clubs | 阶段二 · 基础过渡 | assets/js/articles.js（第 18 条） | assets/covers/018.jpg |
 | 19 | The Neighbors' Garden | 阶段二 · 基础过渡 | assets/js/articles.js（第 19 条） | assets/covers/019.jpg |
 | 20 | Three Lessons from a Bad Week | 阶段二 · 基础过渡（节点篇） | assets/js/articles.js（第 20 条） | assets/covers/020.jpg |
+| 21 | Why Walking Works | 阶段三 · 中级 | assets/js/articles.js（第 21 条） | assets/covers/021.jpg |
+| 22 | The Second-Hand Market | 阶段三 · 中级 | assets/js/articles.js（第 22 条） | assets/covers/022.jpg |
+| 23 | Friends in the Group Chat | 阶段三 · 中级 | assets/js/articles.js（第 23 条） | assets/covers/023.jpg |
+| 24 | The Myth of Multitasking | 阶段三 · 中级 | assets/js/articles.js（第 24 条） | assets/covers/024.jpg |
+| 25 | City Convenience, Country Quiet | 阶段三 · 中级 | assets/js/articles.js（第 25 条） | assets/covers/025.jpg |
+| 26 | One Small Green Habit | 阶段三 · 中级 | assets/js/articles.js（第 26 条） | assets/covers/026.jpg |
+| 27 | What We Buy When We Are Tired | 阶段三 · 中级 | assets/js/articles.js（第 27 条） | assets/covers/027.jpg |
+| 28 | The Cost of Being Always Online | 阶段三 · 中级 | assets/js/articles.js（第 28 条） | assets/covers/028.jpg |
+| 29 | Eating Well on a Small Budget | 阶段三 · 中级 | assets/js/articles.js（第 29 条） | assets/covers/029.jpg |
+| 30 | Half a Year of Small Changes | 阶段三 · 中级（节点篇） | assets/js/articles.js（第 30 条） | assets/covers/030.jpg |
 
-**封面授权**：001 取自 Wikimedia Commons；002–020 取自 Pexels（Pexels License，可商用、免署名），
+**封面授权**：001 取自 Wikimedia Commons；002–030 取自 Pexels（Pexels License，可商用、免署名），
 署名已逐条记录在 `articles.js` 的 `coverCredit` 字段，并显示在文章页封面右上角。
 
 **朗读音色**：按篇交替 —— 单数篇 Chloe（美音 native）、双数篇 Mia（英式 RP），课文与词表发音统一。

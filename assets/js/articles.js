@@ -5412,5 +5412,4012 @@ window.ARTICLES = [
         }
       ]
     }
+  },
+{
+    id: 21,
+    slug: '021-why-walking-works',
+    title: 'Why Walking Works',
+    titleCn: '为什么走路有效',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 315 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.1%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/021.jpg',
+    coverCredit: 'Photo: Sonya Livshits / Pexels',
+    body: [
+      'I used to think that real <span class="w-rev">exercise</span> meant a gym and a strict plan, so I did nothing. Last spring my doctor said my back hurt from sitting too long. Her advice was simple: walk for thirty minutes.',
+      '<span class="w-writing" data-cn="这并不是说……（防止观点太绝对）">This is not to say that</span> walking is exciting. I <span class="w-phrase" data-cn="腾出时间做……">made time for</span> a walk after lunch and slowly <span class="w-phrase" data-cn="习惯做某事">got used to</span> the route around the lake. <span class="w-sentence">What I noticed first was not a change in my body, but a change in the way my afternoons felt.</span>',
+      '<span class="w-cet4" data-cn="逐渐地">Gradually</span> the changes showed up. Walking builds <span class="w-cet4" data-cn="肌肉">muscles</span> around the knees and keeps the <span class="w-cet4" data-cn="关节">joints</span> moving, so the pain in my legs began to <span class="w-rev">reduce</span>. My <span class="w-cet4" data-cn="体重">weight</span> changed little, but I could walk a longer <span class="w-cet4" data-cn="距离">distance</span> each week.',
+      'Walking does something for the mind as well. When <span class="w-cet4" data-cn="压力">stress</span> builds up at work, a walk helps me <span class="w-cet4" data-cn="恢复（精力与状态）">recover</span> better than coffee does. I come back with more <span class="w-rev">energy</span> and a better <span class="w-rev">balance</span> between work and rest. The <span class="w-cet4" data-cn="影响、效果">effect</span> is easy to feel.',
+      'Then my sleep began to <span class="w-rev">improve</span>. <span class="w-sentence">People who walk in the evening fall asleep faster, because the body cools down and the mind has had time to slow.</span>',
+      '<span class="w-writing" data-cn="更重要的是……（递进引出重点）">More importantly</span>, the habit is easy to keep. If your knees hurt, <span class="w-cet4" data-cn="避免">avoid</span> hills and choose a flat route. If you are a busy <span class="w-cet4" data-cn="成年人">adult</span>, walk to the next stop. You do not need to <span class="w-cet4" data-cn="追踪、记录">track</span> every step, and beginners are <span class="w-rev">likely</span> to start too fast.',
+      'My <span class="w-cet4" data-cn="目标">aim</span> is not to run a race but to <span class="w-cet4" data-cn="保持、维持">maintain</span> this small habit <span class="w-phrase" data-cn="从长远来看">in the long run</span>. <span class="w-sentence">Studies show that people who walk for half an hour a day are less likely to fall ill as they grow older.</span>',
+      'Walking is not a magic pill. But the <span class="w-rev">benefit</span> is real, the cost is zero, and the <span class="w-synonym" data-cn="＝ important 的替换词">key</span> is to start before you feel ready. Put on your shoes and <span class="w-phrase" data-cn="去散步">go for a walk</span> today.'
+    ],
+    translation: [
+      '我过去总觉得，真正的锻炼意味着进健身房、执行严格的计划，所以我什么都没做。去年春天，医生说我的背痛是因为久坐。她的建议很简单：每天走三十分钟。',
+      '这并不是说走路有多兴奋。午饭后我腾出时间走一走，慢慢习惯了绕湖的那条路。我最先注意到的不是身体的变化，而是整个下午感受的变化。',
+      '变化一点点显现出来。走路能让膝盖周围的肌肉变得结实，也让关节保持活动，所以我腿上的疼痛开始减轻。我的体重几乎没变，但每周能走的距离越来越长。',
+      '走路对心情也有作用。工作上压力堆积的时候，走一走比喝咖啡更能让我恢复过来。回来时我更有精力，工作和休息也更平衡。这种效果很容易感觉到。',
+      '然后我的睡眠开始变好。晚上走路的人入睡更快，因为身体慢慢凉了下来，心情也有了放缓的时间。',
+      '更重要的是，这个习惯很容易坚持。如果膝盖疼，就避开坡路，选一条平坦的路线。如果你是个忙碌的成年人，就走到下一站再坐车。你不必记录每一步，而且新手往往一开始走得太快。',
+      '我的目标不是跑出成绩，而是从长远来看把这个小习惯保持下去。研究显示，每天走半小时的人，随着年纪变大，生病的可能性更小。',
+      '走路不是万能药。但好处是真实的，成本是零，关键在于在你觉得自己准备好之前就先开始。穿上鞋，今天就去走一走。'
+    ],
+    vocabulary: [
+      {
+        w: 'adult',
+        ph: '/ˈædʌlt/',
+        pos: 'n./adj.',
+        cn: '成年人；成年的',
+        col: 'an adult — 一个成年人；adult education — 成人教育',
+        ex: 'An adult should not sit for ten hours a day.'
+      },
+      {
+        w: 'gradually',
+        ph: '/ˈɡrædʒuəli/',
+        pos: 'adv.',
+        cn: '逐渐地、渐渐',
+        col: 'gradually increase — 逐渐增加；change gradually — 慢慢变化',
+        ex: 'The weather gradually got warmer.'
+      },
+      {
+        w: 'muscle',
+        ph: '/ˈmʌsl/',
+        pos: 'n.',
+        cn: '肌肉',
+        col: 'build muscle — 锻炼出肌肉；muscle pain — 肌肉酸痛',
+        ex: 'Walking builds muscle around the knees.'
+      },
+      {
+        w: 'joint',
+        ph: '/dʒɔɪnt/',
+        pos: 'n.',
+        cn: '关节；接合处',
+        col: 'knee joint — 膝关节；joint pain — 关节痛',
+        ex: 'Running can be hard on the joints.'
+      },
+      {
+        w: 'weight',
+        ph: '/weɪt/',
+        pos: 'n.',
+        cn: '体重；重量',
+        col: 'lose weight — 减重；put on weight — 体重增加',
+        ex: 'My weight changed very little.'
+      },
+      {
+        w: 'distance',
+        ph: '/ˈdɪstəns/',
+        pos: 'n.',
+        cn: '距离',
+        col: 'walk a distance — 走一段距离；within walking distance — 步行能到',
+        ex: 'He can walk a longer distance than before.'
+      },
+      {
+        w: 'stress',
+        ph: '/stres/',
+        pos: 'n.',
+        cn: '压力；紧张',
+        col: 'under stress — 在压力下；reduce stress — 减轻压力',
+        ex: 'Stress builds up when you work too long.'
+      },
+      {
+        w: 'recover',
+        ph: '/rɪˈkʌvə/',
+        pos: 'vi.',
+        cn: '恢复（体力、状态）',
+        col: 'recover from sth. — 从……中恢复过来；recover quickly — 恢复得快',
+        ex: 'A short walk helps me recover from a hard morning.'
+      },
+      {
+        w: 'effect',
+        ph: '/ɪˈfekt/',
+        pos: 'n.',
+        cn: '影响、效果',
+        col: 'have an effect on — 对……有影响；take effect — 开始起作用',
+        ex: 'The effect of walking is easy to feel.'
+      },
+      {
+        w: 'avoid',
+        ph: '/əˈvɔɪd/',
+        pos: 'vt.',
+        cn: '避免、避开',
+        col: 'avoid doing sth. — 避免做某事；avoid mistakes — 少犯错误',
+        ex: 'Avoid hills if your knees hurt.'
+      },
+      {
+        w: 'track',
+        ph: '/træk/',
+        pos: 'v.',
+        cn: '追踪、记录',
+        col: 'track your steps — 记录步数；keep track of — 随时了解……的情况',
+        ex: 'You do not need to track every step.'
+      },
+      {
+        w: 'aim',
+        ph: '/eɪm/',
+        pos: 'n./v.',
+        cn: '目标；旨在',
+        col: 'aim to do sth. — 力求做某事；the aim of — ……的目标',
+        ex: 'My aim is to keep walking every day.'
+      },
+      {
+        w: 'maintain',
+        ph: '/meɪnˈteɪn/',
+        pos: 'vt.',
+        cn: '保持、维持',
+        col: 'maintain a habit — 保持一个习惯；maintain contact — 保持联系',
+        ex: 'It is easy to start but hard to maintain a habit.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'go for a walk',
+        cn: '去散步、去走一走',
+        ex: 'Let me go for a walk after dinner.'
+      },
+      {
+        en: 'make time for',
+        cn: '为……腾出时间',
+        ex: 'She makes time for a walk every lunch break.'
+      },
+      {
+        en: 'get used to doing sth.',
+        cn: '习惯做某事（to 是介词，后接名词或动名词）',
+        ex: 'I slowly got used to getting up early.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远来看',
+        ex: 'In the long run, small habits matter most.'
+      },
+      {
+        en: 'at least',
+        cn: '至少',
+        ex: 'Walk for at least twenty minutes.'
+      },
+      {
+        en: 'take exercise',
+        cn: '锻炼、运动',
+        ex: 'Old people should take exercise every day.'
+      },
+      {
+        en: 'keep fit',
+        cn: '保持健康',
+        ex: 'He runs every morning to keep fit.'
+      },
+      {
+        en: 'instead of',
+        cn: '而不是……（后接名词或动名词）',
+        ex: 'Walk to work instead of taking the bus.'
+      },
+      {
+        en: 'as long as',
+        cn: '只要',
+        ex: 'As long as you keep going, it works.'
+      },
+      {
+        en: 'little by little',
+        cn: '一点一点地、逐渐地',
+        ex: 'Little by little, the pain went away.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'This is not to say that ...',
+        cn: '这并不是说……',
+        meaning: '先排除一种极端的理解，再给出自己的判断，让观点显得不绝对。',
+        context: '议论文里给出观点之后，用来做一次「预防性让步」，防止读者把话理解过头。',
+        alts: [
+          {
+            t: 'I am not saying that ...',
+            n: '更口语'
+          },
+          {
+            t: 'This does not mean that ...',
+            n: '中性常用'
+          },
+          {
+            t: 'That is not to suggest that ...',
+            n: '更书面'
+          }
+        ],
+        register: '中性偏书面，写作最常用。',
+        example: 'This is not to say that walking is exciting; it simply works.'
+      },
+      {
+        expr: 'More importantly, ...',
+        cn: '更重要的是……',
+        meaning: '在已有理由之后再递进一层，引出分量更重的那个论点。',
+        context: '主体段之间做递进，或在两个并列理由之后强调后者。',
+        alts: [
+          {
+            t: 'What is more, ...',
+            n: '书面'
+          },
+          {
+            t: 'Even more importantly, ...',
+            n: '语气更强'
+          },
+          {
+            t: 'Above all, ...',
+            n: '放在最后、最强的递进'
+          }
+        ],
+        register: '中性，写作口语都能用。',
+        example: 'More importantly, this habit is easy to keep.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'What I noticed first was not a change in my body, but a change in the way my afternoons felt.',
+        points: [
+          '<b>主干</b>：What I noticed first was not A, but B（我最先注意到的不是甲，而是乙）。',
+          '<b>语法点</b>：What 引导<b>名词性从句</b>作主语；not ... but ... 连接两个并列表语，前后结构完全对称（a change in ...）。',
+          '<b>语法点</b>：the way my afternoons felt 里，the way 后省略了关系词（that / in which），后面跟一个句子，表示「……的那种感觉方式」。',
+          '<b>为什么值得学</b>：把「变化」写成 not ... but ... 的对比句，既准确又显得有想法，是四级写作里非常好用的观点句。',
+          '<b>注意</b>：not 和 but 两边必须结构一致，本句都是「a change in + 名词」；一边是名词、一边是从句就会读着别扭。'
+        ]
+      },
+      {
+        text: 'People who walk in the evening fall asleep faster, because the body cools down and the mind has had time to slow.',
+        points: [
+          '<b>主干</b>：People fall asleep faster（人入睡更快）。',
+          '<b>语法点</b>：who walk in the evening 是<b>限制性定语从句</b>，修饰 people，说明是「哪一类人」。',
+          '<b>语法点</b>：because 引导<b>原因状语从句</b>，里面用 and 并列两个谓语：the body cools down 与 the mind has had time to slow。',
+          '<b>注意</b>：has had time to slow 用现在完成时，强调「到睡前这段时间已经够了」，不是在讲某一次的具体经历。',
+          '<b>常见变体</b>：把 because 从句提到句首也自然——Because the body cools down ..., people fall asleep faster.'
+        ]
+      },
+      {
+        text: 'Studies show that people who walk for half an hour a day are less likely to fall ill as they grow older.',
+        points: [
+          '<b>主干</b>：Studies show that ...（研究表明……）。',
+          '<b>语法点</b>：that 引导<b>宾语从句</b>，从句内部又套一个 who 引导的定语从句修饰 people，形成「主句 + 从句 + 从句」的两层结构。',
+          '<b>语法点</b>：be likely to do 表示「有可能做某事」，less likely to 就是「可能性更小」；as they grow older 里 as 表示「随着」。',
+          '<b>为什么值得学</b>：Studies show that ... 是说明文引用研究结论的万能开头，比 Some people think ... 更有说服力。',
+          '<b>注意</b>：likely 是形容词，要说 be likely to do，不要写成 are likely falling ill。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the doctor tell the writer to do last spring?',
+        cn: '去年春天医生让作者做什么？',
+        ans: 'She told him to walk for thirty minutes every day, because his back hurt from sitting too long.',
+        ansCn: '让他每天走三十分钟，因为他坐得太久、背开始疼。'
+      },
+      {
+        en: 'What change did the writer notice first?',
+        cn: '作者最先注意到的变化是什么？',
+        ans: 'Not a change in his body, but a change in the way his afternoons felt.',
+        ansCn: '不是身体上的变化，而是整个下午的感受变了。'
+      },
+      {
+        en: 'Which word in the last paragraph has the same meaning as “important”?',
+        cn: '最后一段里哪个词和「重要的」意思相同？',
+        ans: 'The word “key”, as in “the key is to start before you feel ready”.',
+        ansCn: '就是 key 这个词（关键的），出现在「关键在于先开始」这句里。'
+      },
+      {
+        en: 'In the sentence “When stress builds up at work”, what does “builds up” most probably mean?',
+        cn: '在「工作上压力堆积」这句话里，短语 build up 最可能是什么意思？',
+        ans: 'It means becoming greater over time, so “builds up” means the stress grows little by little.',
+        ansCn: '指随着时间一点点增加，也就是压力越来越大。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'A thirty-minute walk every day is a simple habit that improves the body, the mood and sleep, and anyone can start it.',
+        ansCn: '每天走三十分钟这个简单的习惯，对身体、心情和睡眠都有好处，而且人人都能开始。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about one small habit that has improved your life.',
+      hints: [
+        'In my view, the small habit that changed my life is ...',
+        'This is not to say that ..., but ...',
+        'More importantly, ...',
+        'Take last month as an example: ...'
+      ],
+      hintCn: '三要素缺一不可：先亮出观点（哪个小习惯有用），再给一到两条理由，最后用自己的一段真实小例子收尾。',
+      req: '至少使用 2 个本篇学过的词或搭配（gradually / recover / maintain / in the long run / get used to doing）。'
+    },
+    speakingTask: {
+      en: 'Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion: which small habit matters',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '一分钟内说完三段：观点、理由、例子；例子要具体到时间、地点或数字。',
+      skeleton: 'In my view, ... The reason is that ... For example, last month I ... That is why I believe ...'
+    },
+    focus: [
+      '<b>新授核心词 13 个</b>：<span class=\'en\'>adult, gradually, muscle, joint, weight, distance, stress, recover, effect, avoid, track, aim, maintain</span> —— 注意 <span class=\'en\'>avoid doing sth.</span>（后接动名词）、<span class=\'en\'>aim to do</span>（力求）、<span class=\'en\'>maintain</span> 后面直接跟名词；<span class=\'en\'>effect</span> 是名词，别和动词「影响」混写。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>benefit</span>、第 2 篇的 <span class=\'en\'>improve</span>、第 6 篇的 <span class=\'en\'>likely / balance</span>、第 8 篇的 <span class=\'en\'>exercise / energy / reduce</span> —— 都是「健康与日常」话题的老朋友，换个语境要能立刻认出来。',
+      '<b>句型：What 引导名词性从句 + not ... but ...</b>：What I noticed first was not A, but B. 一句话写清「我最先感到的变化」，是本篇最值得模仿的观点句。',
+      '<b>搭配三连</b>：<span class=\'en\'>make time for</span>（腾出时间）、<span class=\'en\'>get used to doing</span>（习惯做，to 是介词）、<span class=\'en\'>in the long run</span>（从长远看）—— 讲「习惯养成」时几乎每篇都用得上。',
+      '<b>题型提醒</b>：本阶段新增「同义替换识别」与「词义猜测」两种题。同义替换题要回到原文找那个词（如 key ＝ important）；词义猜测题靠上下文推（如 build up ＝ 一点点增加），不要查词典。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '315 词读两遍 · 核心词 13 个会认会用 · 阅读 5 题对 ≥ 4 · 80–100 词写作 + 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 13 个核心词中的 10 个（muscle、recover、maintain、gradually …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 7 个，能各造一句（get used to doing、in the long run …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '3 处长难句都能说出主干，并仿写其中 1 句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测各 1 题要说清判断依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，观点—理由—例子三要素齐全，至少用上 2 个本篇词或搭配',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说完「观点 + 理由 + 例子」，例子具体到时间或数字',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点出正文里 7 处灰点旧词，说出意思并指出它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 22,
+    slug: '022-the-second-hand-market',
+    title: 'The Second-Hand Market',
+    titleCn: '二手市场',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 325 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.3%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/022.jpg',
+    coverCredit: 'Photo: cottonbro studio / Pexels',
+    body: [
+      'Ten years ago my friends would <span class="w-rev">hesitate</span> to say that a jacket came from a second-hand shop. Today these shops are full of young <span class="w-cet4" data-cn="消费者">consumers</span>. <span class="w-synonym" data-cn="＝ second-hand 的委婉说法">Pre-owned</span> things have become fashionable, and old objects are popular again.',
+      'There are several reasons for this <span class="w-cet4" data-cn="趋势">trend</span>. First, prices keep rising, and not everyone can <span class="w-rev">afford</span> new things. A <span class="w-cet4" data-cn="磨损的、用旧的">worn</span> chair or a used phone may cost only a tenth of its original <span class="w-rev">price</span>.',
+      'Second, people care more about the <span class="w-cet4" data-cn="环境">environment</span>. Every new <span class="w-cet4" data-cn="物品、商品">item</span> takes <span class="w-cet4" data-cn="资源">resources</span> to make and to move across the world, while <span class="w-phrase" data-cn="把……扔掉">throwing things away</span> only adds to the rubbish. <span class="w-writing" data-cn="也就是说……（把道理说明白）">That is to say</span>, one book that changes hands three times saves three new books.',
+      'There is also joy in the search. Second-hand markets sell things that no <span class="w-rev">brand</span> sells any more: a <span class="w-cet4" data-cn="独一无二的">unique</span> lamp, a coat from another decade, a book with somebody’s notes in it. <span class="w-sentence">Built to last for years, an old chair may serve two more families before it finally breaks.</span>',
+      '<span class="w-writing" data-cn="诚然……但是……（先让步再转折）">It is true that</span> second-hand shopping has problems. <span class="w-sentence">A phone that looks fine in a photo may fail within a week, which is why careful checks matter more than low prices.</span> Meet a <span class="w-cet4" data-cn="可靠的">reliable</span> seller <span class="w-phrase" data-cn="当面、亲自">in person</span> and test things before you pay.',
+      'Buying from strangers needs <span class="w-rev">trust</span>, so I <span class="w-phrase" data-cn="多想一想、斟酌一下">think twice</span> about a very cheap <span class="w-cet4" data-cn="划算的交易">bargain</span>. If I have any <span class="w-cet4" data-cn="怀疑">doubt</span> about the quality, I do not buy. Some phones look <span class="w-cet4" data-cn="真正的、真品的">genuine</span> but are not.',
+      'For things I no longer need, the answer is not to <span class="w-phrase" data-cn="把……处理掉">get rid of</span> them. I <span class="w-cet4" data-cn="捐赠">donate</span> clothes that still look good, put what is <span class="w-rev">valuable</span> up <span class="w-phrase" data-cn="待售、出售">for sale</span>, and <span class="w-cet4" data-cn="回收利用">recycle</span> what is broken. Something I <span class="w-cet4" data-cn="购买">purchased</span> years ago may be what another person is looking for.',
+      'In the end, the second-hand market is not about money alone. It gives old things a second life and makes us ask one question before buying new: do I really need it? Asking it helps us <span class="w-rev">waste</span> less and want less.'
+    ],
+    translation: [
+      '十年前，朋友们不好意思说出某件外套来自二手店。如今这些店里挤满了年轻的消费者。二手的东西变得时髦起来，旧物件又流行了。',
+      '这一趋势有几个原因。第一，价格一直上涨，而并不是人人买得起新东西。一把用旧的椅子或者一部二手手机，可能只要原价的十分之一。',
+      '第二，人们更在意环境了。每件新商品都要消耗资源才能生产出来、运到各地，而把东西扔掉只会增加垃圾。也就是说，一本转手三次的书，就省下了三本新书。',
+      '寻找的过程也有乐趣。二手市场里卖的都是再没有品牌生产的物件：一盏独一无二的灯、一件另一个年代的外套、一本写着别人笔记的书。一把为耐用而造的老椅子，在彻底坏掉之前还能陪伴两户人家。',
+      '诚然，买二手货也有问题。照片里看着不错的手机，可能一周就坏了，所以仔细检查比低价格更重要。要当面见一见可靠的卖家，付钱前先试一试。',
+      '跟陌生人做生意需要信任，所以面对特别便宜的划算买卖，我会多想一想。只要对质量有一点怀疑，我就不买。有些手机看着像真品，其实不是。',
+      '至于我用不上的东西，答案并不是把它们处理掉。我把还很好的衣服捐出去，把值钱的挂上去出售，把坏掉的回收利用。我多年前买下的东西，可能正是另一个人在找的。',
+      '说到底，二手市场不只是钱的事。它让旧东西获得第二次生命，也让我们在买新东西之前先问一句：我真的需要它吗？光是问这个问题，就能让我们少浪费一点、少想要一点。'
+    ],
+    vocabulary: [
+      {
+        w: 'consumer',
+        ph: '/kənˈsjuːmə/',
+        pos: 'n.',
+        cn: '消费者、用户',
+        col: 'consumer goods — 消费品；young consumers — 年轻消费者',
+        ex: 'Young consumers care about the price.'
+      },
+      {
+        w: 'trend',
+        ph: '/trend/',
+        pos: 'n.',
+        cn: '趋势、潮流',
+        col: 'a growing trend — 日益增长的趋势；follow a trend — 追随潮流',
+        ex: 'There is a trend towards buying used things.'
+      },
+      {
+        w: 'worn',
+        ph: '/wɔːn/',
+        pos: 'adj.',
+        cn: '磨损的、用旧的',
+        col: 'worn shoes — 穿旧的鞋；get worn — 穿旧、用旧',
+        ex: 'The worn chair was still strong.'
+      },
+      {
+        w: 'environment',
+        ph: '/ɪnˈvaɪrənmənt/',
+        pos: 'n.',
+        cn: '环境、自然环境',
+        col: 'protect the environment — 保护环境；the natural environment — 自然环境',
+        ex: 'People care more about the environment now.'
+      },
+      {
+        w: 'item',
+        ph: '/ˈaɪtəm/',
+        pos: 'n.',
+        cn: '物品、一件商品',
+        col: 'an item of clothing — 一件衣服；every item — 每一件东西',
+        ex: 'Every new item takes resources to make.'
+      },
+      {
+        w: 'resource',
+        ph: '/rɪˈsɔːs/',
+        pos: 'n.',
+        cn: '资源',
+        col: 'natural resources — 自然资源；save resources — 节省资源',
+        ex: 'Making new things uses up resources.'
+      },
+      {
+        w: 'unique',
+        ph: '/juˈniːk/',
+        pos: 'adj.',
+        cn: '独一无二的、独特的',
+        col: 'unique to sb. — 某人独有的；a unique chance — 千载难逢的机会',
+        ex: 'Each old lamp is unique.'
+      },
+      {
+        w: 'reliable',
+        ph: '/rɪˈlaɪəbl/',
+        pos: 'adj.',
+        cn: '可靠的、可信赖的',
+        col: 'a reliable seller — 可靠的卖家；reliable information — 可靠的信息',
+        ex: 'Meet a reliable seller in person.'
+      },
+      {
+        w: 'bargain',
+        ph: '/ˈbɑːɡɪn/',
+        pos: 'n.',
+        cn: '划算的交易；便宜货',
+        col: 'a real bargain — 真正划算的买卖；bargain price — 便宜的价格',
+        ex: 'The old book was a real bargain.'
+      },
+      {
+        w: 'doubt',
+        ph: '/daʊt/',
+        pos: 'n./v.',
+        cn: '怀疑、疑问',
+        col: 'have doubt about — 对……有怀疑；no doubt — 毫无疑问',
+        ex: 'If you have any doubt, do not buy it.'
+      },
+      {
+        w: 'genuine',
+        ph: '/ˈdʒenjuɪn/',
+        pos: 'adj.',
+        cn: '真正的、真品的',
+        col: 'genuine goods — 正品；a genuine reason — 真实的理由',
+        ex: 'Some phones look genuine but are not.'
+      },
+      {
+        w: 'donate',
+        ph: '/dəʊˈneɪt/',
+        pos: 'v.',
+        cn: '捐赠、捐献',
+        col: 'donate sth. to sb. — 把某物捐给某人；donate blood — 献血',
+        ex: 'She donated her old coats to the village school.'
+      },
+      {
+        w: 'recycle',
+        ph: '/ˌriːˈsaɪkl/',
+        pos: 'v.',
+        cn: '回收利用',
+        col: 'recycle paper — 回收纸张；recycle waste — 回收废物',
+        ex: 'We recycle what is broken.'
+      },
+      {
+        w: 'purchase',
+        ph: '/ˈpɜːtʃəs/',
+        pos: 'v./n.',
+        cn: '购买；买到的东西',
+        col: 'purchase sth. online — 在网上购买某物；make a purchase — 买下一件东西',
+        ex: 'I purchased the desk two years ago.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'get rid of',
+        cn: '把……处理掉、去掉',
+        ex: 'It is hard to get rid of old books.'
+      },
+      {
+        en: 'throw … away',
+        cn: '把……扔掉',
+        ex: 'Don’t throw that chair away; someone may need it.'
+      },
+      {
+        en: 'think twice',
+        cn: '多想一想、斟酌一下',
+        ex: 'Think twice before you buy anything cheap.'
+      },
+      {
+        en: 'in person',
+        cn: '当面、亲自',
+        ex: 'It is better to test the phone in person.'
+      },
+      {
+        en: 'for sale',
+        cn: '待售、出售',
+        ex: 'She put the old bike up for sale.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '最后（做了）某事、到头来',
+        ex: 'He ended up buying a used one.'
+      },
+      {
+        en: 'at least',
+        cn: '至少',
+        ex: 'Check the item for at least five minutes.'
+      },
+      {
+        en: 'look for',
+        cn: '寻找',
+        ex: 'I am looking for a cheap desk.'
+      },
+      {
+        en: 'keep an eye on',
+        cn: '留意、留心看管',
+        ex: 'Keep an eye on the second-hand apps.'
+      },
+      {
+        en: 'be worth doing sth.',
+        cn: '值得做某事',
+        ex: 'The old market is worth visiting.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'It is true that ..., but ...',
+        cn: '诚然……但是……',
+        meaning: '先承认事物的缺点或对方的合理之处，再转折到自己的主张，论证显得公允而不偏激。',
+        context: '议论文主体段的「让步 + 转折」：批评一件事之前先承认它的另一面。',
+        alts: [
+          {
+            t: 'Admittedly, ...',
+            n: '更书面'
+          },
+          {
+            t: 'It cannot be denied that ...',
+            n: '语气更强'
+          },
+          {
+            t: 'To be fair, ...',
+            n: '口语一些'
+          }
+        ],
+        register: '中性偏书面，四级写作的高分句式。',
+        example: 'It is true that second-hand shopping takes time, but the savings are real.'
+      },
+      {
+        expr: 'That is to say, ...',
+        cn: '也就是说……',
+        meaning: '换一种更直白的说法重述上一句，把道理彻底说明白。',
+        context: '解释完一个道理之后，用它把结论再压一遍；也用于澄清容易误解的地方。',
+        alts: [
+          {
+            t: 'In other words, ...',
+            n: '最常用'
+          },
+          {
+            t: 'Put simply, ...',
+            n: '更口语'
+          },
+          {
+            t: 'Which means that ...',
+            n: '接在句尾'
+          }
+        ],
+        register: '中性，写作口语皆可。',
+        example: 'One book that changes hands three times saves three new books; that is to say, reuse cuts waste.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'Built to last for years, an old chair may serve two more families before it finally breaks.',
+        points: [
+          '<b>主干</b>：an old chair may serve two more families（一把老椅子还能为两户人家所用）。',
+          '<b>语法点</b>：Built to last for years 是<b>过去分词短语作状语</b>，逻辑主语就是主句的 an old chair——它是「被造成经久耐用的」。',
+          '<b>语法点</b>：before 引导时间状语从句，it finally breaks 是「最终坏掉」，说明这句话说的是整段使用寿命。',
+          '<b>为什么值得学</b>：把「Because it was built to ...」压缩成分词短语，句子立刻紧凑，是四级写作开头句的高级写法。',
+          '<b>注意</b>：分词短语的逻辑主语必须和主句主语一致；换成 Built to last, people can use the chair for years. 就错了（people 并不是「被造出来的」）。常见变体：Made in 1980, this lamp still works.（产于 1980 年，这盏灯还能亮。）'
+        ]
+      },
+      {
+        text: 'A phone that looks fine in a photo may fail within a week, which is why careful checks matter more than low prices.',
+        points: [
+          '<b>主干</b>：A phone may fail within a week（一部手机可能一周内就坏）。',
+          '<b>语法点</b>：that looks fine in a photo 是定语从句修饰 a phone，说明「照片里看着挺好」的那一部。',
+          '<b>语法点</b>：which is why ... 是<b>非限制性定语从句</b>，which 指代前面整件事，再引出结果——「这就是为什么仔细检查更重要」。',
+          '<b>为什么值得学</b>：which is why 可以把「现象 + 结论」两句话焊成一句，是议论文里最实用的衔接手段之一。',
+          '<b>常见变体</b>：... , which is why I always test things before paying.（……所以我总要先试再付钱。）'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What are the two main reasons why second-hand shopping has become popular?',
+        cn: '二手购物流行起来的两个主要原因是什么？',
+        ans: 'Prices keep rising, so not everyone can afford new things, and people care more about the environment.',
+        ansCn: '一是价格不断上涨、不是人人买得起新东西，二是人们更关心环境。'
+      },
+      {
+        en: 'What does the writer do with the things he no longer needs?',
+        cn: '作者怎么处理自己不再需要的东西？',
+        ans: 'He donates clothes that still look good, puts what is valuable up for sale, and recycles what is broken.',
+        ansCn: '把还很好的衣服捐出去，把值钱的挂出去卖掉，把坏掉的回收利用。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'Second-hand shopping has become fashionable because it saves money and resources, though buyers should be careful when they buy.',
+        ansCn: '二手购物因为省钱又省资源而流行起来，但买的时候要小心。'
+      },
+      {
+        en: 'The idea “not everyone can afford new things” in the second paragraph can be replaced by which sentence?',
+        cn: '第二段「并不是人人买得起新东西」这句话，可以用下面哪种说法替换？',
+        ans: 'New things are too expensive for some people to buy.',
+        ansCn: '新东西太贵，有些人买不起。'
+      },
+      {
+        en: 'In “one book that changes hands three times saves three new books”, what does “changes hands” most probably mean?',
+        cn: '在「一本转手三次的书能省下三本新书」这句话里，change hands 最可能是什么意思？',
+        ans: 'It means the book is passed from one owner to another.',
+        ansCn: '指书从一个主人手里转到另一个主人手里，也就是转手。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about whether people should buy more second-hand things.',
+      hints: [
+        'It is true that ..., but ...',
+        'That is to say, ...',
+        'Take my own experience as an example: ...',
+        'In the end, I believe that ...'
+      ],
+      hintCn: '三要素：先亮观点（该不该多买二手），再给理由（省钱、环保、有个性、有风险里挑两条），最后举一个自己的小例子。',
+      req: '至少使用 2 个本篇学过的词或搭配（trend / consumer / reliable / think twice / get rid of / in person）。'
+    },
+    speakingTask: {
+      en: 'Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion on buying second-hand',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '一分钟内说完三段：观点、理由、例子；例子最好讲清楚买或卖的是什么东西。',
+      skeleton: 'In my opinion, ... The reason is that ... For example, last winter I ... That is why ...'
+    },
+    focus: [
+      '<b>新授核心词 14 个</b>：<span class=\'en\'>consumer, trend, worn, environment, item, resource, unique, reliable, bargain, doubt, genuine, donate, recycle, purchase</span> —— <span class=\'en\'>purchase</span> 比 <span class=\'en\'>buy</span> 正式；<span class=\'en\'>donate sth. to sb.</span> 与 <span class=\'en\'>recycle</span> 后面直接跟物；<span class=\'en\'>resource</span> 常用复数 <span class=\'en\'>resources</span>。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>afford</span>、第 3 篇的 <span class=\'en\'>trust</span>、第 4 篇的 <span class=\'en\'>brand / price</span>、第 6 篇的 <span class=\'en\'>waste</span>、第 11 篇的 <span class=\'en\'>hesitate</span>、第 14 篇的 <span class=\'en\'>valuable</span> —— 消费话题的老词又聚齐了。',
+      '<b>句型：It is true that ..., but ...</b>：先承认缺点再转折，是议论文最稳的「让步 + 反驳」骨架；另一句 Built to last for years, ... 用分词短语开头，注意逻辑主语要和主句一致。',
+      '<b>搭配四连</b>：<span class=\'en\'>get rid of</span>（处理掉）、<span class=\'en\'>throw … away</span>（扔掉）、<span class=\'en\'>think twice</span>（多想想）、<span class=\'en\'>in person</span>（当面）—— 二手交易场景里最高频的四个动作。',
+      '<b>题型提醒</b>：同义替换题（not everyone can afford → too expensive to buy）要「换个说法还认得出」；词义猜测题（changes hands）要靠上下文与常识推断，别逐字硬译。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '325 词读两遍 · 核心词 14 个会认会用 · 阅读 5 题对 ≥ 4 · 80–100 词写作 + 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 14 个核心词中的 11 个（consumer、trend、reliable、recycle …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 7 个，能各造一句（get rid of、think twice、in person …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '2 处长难句能说出主干：分词短语开头句与 which is why 句，并仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测各 1 题要说清判断依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，观点—理由—例子三要素齐全，至少用上 2 个本篇词或搭配',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说完「观点 + 理由 + 例子」，例子讲清买卖的具体物件',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点出正文里 7 处灰点旧词，说出意思并指出它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 23,
+    slug: '023-friends-in-the-group-chat',
+    title: 'Friends in the Group Chat',
+    titleCn: '群聊里的朋友',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 335 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.5%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/023.jpg',
+    coverCredit: 'Photo: Gists And Thrills Studios / Pexels',
+    body: [
+      'My phone never goes quiet: three group chats send jokes and news all day, and I answer with a tap. <span class="w-phrase" data-cn="表面上看">On the surface</span>, we are all close. <span class="w-sentence">What looks like a busy social life may be nothing more than a pile of quick replies.</span> But is this <span class="w-cet4" data-cn="现象">phenomenon</span> really <span class="w-cet4" data-cn="友谊">friendship</span>?',
+      'Last month I almost missed my best friend’s birthday. I saw the photos in the group chat and pressed the usual button. That night I felt <span class="w-phrase" data-cn="受到冷落、被排斥在外">left out</span> and <span class="w-rev">lonely</span>: I knew everything about my friends and nothing about their days.',
+      'The next day I did something I had not done for years. <span class="w-sentence">Calling instead of typing, I heard the pauses in his voice that a message can never carry.</span> We talked for an hour about nothing, and it felt <span class="w-cet4" data-cn="有意义的">meaningful</span>.',
+      'Now we have a <span class="w-synonym" data-cn="＝ meaningful 的替换词">deep</span> <span class="w-rev">conversation</span> at least once a week, and meet <span class="w-phrase" data-cn="当面、面对面">in person</span> whenever we can. <span class="w-writing" data-cn="问题不在于……而在于……">The problem is not that</span> we are too busy, but that we let taps do the work of talking.',
+      'Group chats are not the enemy. They help us <span class="w-cet4" data-cn="联系、接触">contact</span> people we rarely see and <span class="w-rev">reply</span> quickly when someone needs help. They also <span class="w-cet4" data-cn="影响">influence</span> us: we <span class="w-cet4" data-cn="反应、回应">react</span> to a joke in one second, and an <span class="w-cet4" data-cn="情感上的">emotional</span> day is <span class="w-rev">ignored</span> as fast.',
+      'There is a hidden cost. <span class="w-sentence">When every message is answered at once, we begin to expect the same speed from everyone we know.</span> That <span class="w-cet4" data-cn="期待">expectation</span> becomes <span class="w-cet4" data-cn="压力">pressure</span>: we want an <span class="w-cet4" data-cn="即时的、立刻的">instant</span> answer and <span class="w-cet4" data-cn="打断">interrupt</span> whatever we are doing.',
+      'So I made some rules. Every week I <span class="w-phrase" data-cn="主动联系某人">reach out to</span> one friend and <span class="w-phrase" data-cn="为……腾出时间">make time for</span> a long talk. When a message matters, I never <span class="w-cet4" data-cn="推迟、拖延">delay</span> my answer; when it does not, the phone can wait.',
+      '<span class="w-writing" data-cn="简而言之……（收束全文）">To put it simply</span>, a group chat is a tool, not a friend. Use it to <span class="w-cet4" data-cn="交流、沟通">communicate</span>, but never let it <span class="w-cet4" data-cn="取代">replace</span> a <span class="w-synonym" data-cn="＝ close relationship 的替换词">bond</span> that grows face to face. On a screen, <span class="w-cet4" data-cn="语气">tone</span> is hard to read; real <span class="w-rev">attention</span> to one person turns the <span class="w-rev">distance</span> between two phones into a <span class="w-rev">connection</span>.'
+    ],
+    translation: [
+      '我的手机从没安静过：三个群整天发来笑话和消息，我随手点一下就算回应。表面上看，我们彼此很熟。可一场看起来很热闹的社交生活，也许只是一堆快速回复而已。但这种现象真的算友谊吗？',
+      '上个月，我差点错过最好朋友的生日。我在群里看到照片，按了一下惯常的按钮。那天夜里我莫名觉得被冷落又孤独：朋友们的一切我都知道，唯独不知道他们过得怎么样。',
+      '第二天，我做了一件很多年没做过的事。我打了电话而不是打字，我听见了他声音里的停顿，那是消息永远带不来的东西。我们聊了一个小时的闲话，却觉得很有意义。',
+      '现在我们每周至少有一次认真的交谈，能见面时就当面见。问题不在于我们太忙，而在于我们让手指的点击代替了说话。',
+      '群聊并不是敌人。它帮我们联系上很少见面的人，有人需要帮忙时也能很快回应。它也在影响我们：一个笑话我们一秒就有反应，而朋友情绪糟糕的一天，同样一秒就被忽略了。',
+      '还有一层看不见的代价。当每条消息都被立刻回复，我们就开始期待身边的每个人也这么快。这种期待变成压力：我们想要即时的回答，动不动就打断手头正在做的事。',
+      '所以我给自己定了几条小规矩。每周主动联系一位朋友，为一次长谈腾出时间。真要紧的消息，我从不拖延回复；不要紧的，让手机等着就好。',
+      '简而言之，群聊是工具，不是朋友。用它去沟通，但别让它取代那种只能面对面生长的情谊。屏幕上看不出语气；正是对一个人的真正关注，把两部手机之间的距离变成了人与人之间的联系。'
+    ],
+    vocabulary: [
+      {
+        w: 'phenomenon',
+        ph: '/fəˈnɒmɪnən/',
+        pos: 'n.',
+        cn: '现象',
+        col: 'a common phenomenon — 一种常见现象；social phenomenon — 社会现象',
+        ex: 'This is a phenomenon of modern life.'
+      },
+      {
+        w: 'friendship',
+        ph: '/ˈfrendʃɪp/',
+        pos: 'n.',
+        cn: '友谊、友情',
+        col: 'a close friendship — 亲密的友谊；build a friendship — 建立友谊',
+        ex: 'Real friendship needs time.'
+      },
+      {
+        w: 'meaningful',
+        ph: '/ˈmiːnɪŋfl/',
+        pos: 'adj.',
+        cn: '有意义的、有意思的',
+        col: 'a meaningful talk — 一次有意义的谈话；meaningful to sb. — 对某人有意义',
+        ex: 'The hour felt meaningful to both of us.'
+      },
+      {
+        w: 'contact',
+        ph: '/ˈkɒntækt/',
+        pos: 'n./v.',
+        cn: '联系、联络',
+        col: 'keep in contact with — 与……保持联系；contact sb. — 联系某人',
+        ex: 'Group chats help me contact old classmates.'
+      },
+      {
+        w: 'influence',
+        ph: '/ˈɪnfluəns/',
+        pos: 'n./v.',
+        cn: '影响、感化',
+        col: 'have an influence on — 对……有影响；influence sb. to do — 影响某人去做',
+        ex: 'Phones influence how we treat each other.'
+      },
+      {
+        w: 'react',
+        ph: '/riˈækt/',
+        pos: 'vi.',
+        cn: '反应、回应',
+        col: 'react to sth. — 对某事作出反应；react quickly — 反应很快',
+        ex: 'We react to a joke in one second.'
+      },
+      {
+        w: 'emotional',
+        ph: '/ɪˈməʊʃənl/',
+        pos: 'adj.',
+        cn: '情感上的；情绪化的',
+        col: 'emotional support — 情感上的支持；an emotional day — 情绪波动的一天',
+        ex: 'An emotional day is easily ignored online.'
+      },
+      {
+        w: 'expectation',
+        ph: '/ˌekspekˈteɪʃn/',
+        pos: 'n.',
+        cn: '期待、期望',
+        col: 'high expectations — 很高的期望；meet one’s expectations — 达到某人的期望',
+        ex: 'Quick replies create a strong expectation.'
+      },
+      {
+        w: 'pressure',
+        ph: '/ˈpreʃə/',
+        pos: 'n.',
+        cn: '压力',
+        col: 'under pressure — 在压力下；put pressure on sb. — 给某人施压',
+        ex: 'The pressure to reply at once is real.'
+      },
+      {
+        w: 'instant',
+        ph: '/ˈɪnstənt/',
+        pos: 'adj.',
+        cn: '即时的、立刻的',
+        col: 'an instant answer — 即时回复；instant food — 方便食品',
+        ex: 'We want an instant answer to every message.'
+      },
+      {
+        w: 'delay',
+        ph: '/dɪˈleɪ/',
+        pos: 'v./n.',
+        cn: '推迟、拖延',
+        col: 'delay doing sth. — 推迟做某事；without delay — 毫不拖延',
+        ex: 'Never delay a message that matters.'
+      },
+      {
+        w: 'interrupt',
+        ph: '/ˌɪntəˈrʌpt/',
+        pos: 'v.',
+        cn: '打断、中断',
+        col: 'interrupt sb. — 打断某人；be interrupted — 被打断',
+        ex: 'Do not interrupt your work for every message.'
+      },
+      {
+        w: 'communicate',
+        ph: '/kəˈmjuːnɪkeɪt/',
+        pos: 'vi.',
+        cn: '交流、沟通',
+        col: 'communicate with sb. — 与某人沟通；communicate ideas — 交流想法',
+        ex: 'Use the chat to communicate, not to replace friends.'
+      },
+      {
+        w: 'replace',
+        ph: '/rɪˈpleɪs/',
+        pos: 'vt.',
+        cn: '取代、替换',
+        col: 'replace A with B — 用乙取代甲；replace sb. — 接替某人',
+        ex: 'A screen cannot replace a face.'
+      },
+      {
+        w: 'tone',
+        ph: '/təʊn/',
+        pos: 'n.',
+        cn: '语气、语调',
+        col: 'in a friendly tone — 用友好的语气；the tone of a voice — 说话的语气',
+        ex: 'Tone is hard to read on a screen.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'on the surface',
+        cn: '表面上看',
+        ex: 'On the surface, everything is fine.'
+      },
+      {
+        en: 'feel left out',
+        cn: '感到被冷落、觉得插不上话',
+        ex: 'She felt left out in the big group chat.'
+      },
+      {
+        en: 'in person',
+        cn: '当面、面对面',
+        ex: 'It is better to talk in person.'
+      },
+      {
+        en: 'reach out to sb.',
+        cn: '主动联系某人、向某人伸出援手',
+        ex: 'Reach out to an old friend this week.'
+      },
+      {
+        en: 'make time for',
+        cn: '为……腾出时间',
+        ex: 'Make time for a long talk.'
+      },
+      {
+        en: 'keep in touch (with)',
+        cn: '（与……）保持联系',
+        ex: 'We keep in touch by phone.'
+      },
+      {
+        en: 'at least',
+        cn: '至少',
+        ex: 'Call a friend at least once a week.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '到头来（做了）某事',
+        ex: 'We ended up talking for two hours.'
+      },
+      {
+        en: 'turn … into …',
+        cn: '把……变成……',
+        ex: 'Turn online contacts into real friends.'
+      },
+      {
+        en: 'catch up with',
+        cn: '与……叙旧、了解近况',
+        ex: 'Let us catch up with each other soon.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'The problem is not that ..., but that ...',
+        cn: '问题不在于……而在于……',
+        meaning: '把问题的真正原因指出来，先否定一个常见误解，再落到自己的判断上。',
+        context: '分析现象成因的段落里，用来纠正「大家都这么想」的表面解释。',
+        alts: [
+          {
+            t: 'It is not that ...; it is that ...',
+            n: '语气更强'
+          },
+          {
+            t: 'The trouble is not ... but ...',
+            n: '稍口语'
+          },
+          {
+            t: 'What really matters is not ... but ...',
+            n: '书面'
+          }
+        ],
+        register: '中性偏书面，议论与分析都好用。',
+        example: 'The problem is not that we are too busy, but that we never plan the time.'
+      },
+      {
+        expr: 'To put it simply, ...',
+        cn: '简而言之……',
+        meaning: '把前面复杂的分析压缩成一句好记的结论，收束全文。',
+        context: '结尾段或长分析之后，给出一句话的核心观点。',
+        alts: [
+          {
+            t: 'In short, ...',
+            n: '最常用'
+          },
+          {
+            t: 'In a word, ...',
+            n: '更简短'
+          },
+          {
+            t: 'To sum up, ...',
+            n: '总结多条时用'
+          }
+        ],
+        register: '中性，写作口语皆可。',
+        example: 'To put it simply, a group chat is a tool, not a friend.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'What looks like a busy social life may be nothing more than a pile of quick replies.',
+        points: [
+          '<b>主干</b>：What looks like ... may be nothing more than ...（看起来像……的东西也许只是……）。',
+          '<b>语法点</b>：What 引导<b>名词性从句</b>作主语；look like + 名词是「看起来像」，look 在这里是系动词。',
+          '<b>语法点</b>：nothing more than 表示「只不过、仅仅是」，比 only 语气更带一点失望或揭穿的味道。',
+          '<b>为什么值得学</b>：这是「给现象下定义」的高级句式，四级写作里批判某个流行做法时非常好用。',
+          '<b>常见变体</b>：What he calls love may be nothing more than habit.（他所谓的爱也许只是习惯。）'
+        ]
+      },
+      {
+        text: 'Calling instead of typing, I heard the pauses in his voice that a message can never carry.',
+        points: [
+          '<b>主干</b>：I heard the pauses in his voice（我听见了他声音里的停顿）。',
+          '<b>语法点</b>：Calling instead of typing 是<b>现在分词短语作状语</b>，表示动作方式；逻辑主语是主句的 I，也就是「我打电话而不是打字」。',
+          '<b>语法点</b>：instead of 后面接动名词（typing）；that a message can never carry 是定语从句，修饰 the pauses。',
+          '<b>为什么值得学</b>：分词短语开头把「对比」和「主句」压进一句话，读起来节奏好，也展示了非谓语的用法。',
+          '<b>注意</b>：分词的逻辑主语必须等于主句主语。写成 Calling instead of typing, the pauses were clear. 就错了（pauses 不会打电话）。'
+        ]
+      },
+      {
+        text: 'When every message is answered at once, we begin to expect the same speed from everyone we know.',
+        points: [
+          '<b>主干</b>：we begin to expect the same speed（我们开始期待同样的速度）。',
+          '<b>语法点</b>：when 引导时间状语从句，里面用<b>被动语态</b> is answered，让「消息」当主语，突出「被立刻回复」这件事。',
+          '<b>语法点</b>：expect sth. from sb. 表示「对某人抱有某方面的期待」；everyone 后省略了关系词 that，we know 是定语从句。',
+          '<b>为什么值得学</b>：被动 + 时间从句的组合，把一个社会现象写成了因果链条，正是阶段三要练的「夹叙夹议」句式。',
+          '<b>常见变体</b>：Once a message is answered at once, we expect the same of others.（一旦消息被秒回，我们也这样要求别人。）'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the writer do when he saw the photos of his best friend’s birthday?',
+        cn: '看到最好朋友的生日照片时，作者做了什么？',
+        ans: 'He pressed the usual button and went back to work.',
+        ansCn: '他按了一下惯常的按钮，就回头继续工作了。'
+      },
+      {
+        en: 'What did the writer do differently the next day?',
+        cn: '第二天作者做了什么不一样的事？',
+        ans: 'He called his friend instead of typing, and they talked for an hour.',
+        ansCn: '他给朋友打了电话而不是发消息，两人聊了一个小时。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'Group chats keep us connected but rarely bring real communication, so we should give real attention to one person at a time.',
+        ansCn: '群聊让我们随时相连，却很少带来真正的交流，所以要把真正的关注一次给一个人。'
+      },
+      {
+        en: 'The sentence “we let taps do the work of talking” can be replaced by which idea?',
+        cn: '「我们让手指的点击代替了说话」这句话，可以换成下面哪种说法？',
+        ans: 'We use quick messages instead of having real conversations.',
+        ansCn: '我们用快速的短消息代替了真正的交谈。'
+      },
+      {
+        en: 'In “may be nothing more than a pile of quick replies”, what does “nothing more than” most probably mean?',
+        cn: '在「也许只是一堆快速回复」中，nothing more than 最可能是什么意思？',
+        ans: 'It means “only” or “just”, so the busy social life is nothing beyond quick replies.',
+        ansCn: '意思是「只不过、仅仅是」，热闹的社交生活说到底只是快速回复而已。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about how to turn online contacts into real friends.',
+      hints: [
+        'The problem is not that ..., but that ...',
+        'To put it simply, ...',
+        'Take my own experience as an example: ...',
+        'That is why I now ...'
+      ],
+      hintCn: '三要素：先亮观点（线上之交如何变回真朋友），再给理由，最后用自己的一次具体经历收尾（打了电话、见了面、聊了什么）。',
+      req: '至少使用 2 个本篇学过的词或搭配（meaningful / communicate / reach out to / in person / make time for）。'
+    },
+    speakingTask: {
+      en: 'Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion on online friendship',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '一分钟内说完三段：观点、理由、例子；例子要讲清楚你联系了谁、说了什么。',
+      skeleton: 'In my opinion, ... The reason is that ... For example, last week I ... That is why I think ...'
+    },
+    focus: [
+      '<b>新授核心词 15 个</b>：<span class=\'en\'>phenomenon, friendship, meaningful, contact, influence, react, emotional, expectation, pressure, instant, delay, interrupt, communicate, replace, tone</span> —— <span class=\'en\'>delay doing sth.</span>（推迟做，后接动名词）、<span class=\'en\'>react to</span>（对……作出反应）、<span class=\'en\'>replace A with B</span>（用乙取代甲）、<span class=\'en\'>communicate with</span>（与……沟通）是本批最该记住的四个搭配。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>attention</span>、第 3 篇的 <span class=\'en\'>lonely</span>、第 11 篇的 <span class=\'en\'>conversation</span>、第 13 篇的 <span class=\'en\'>reply / ignore</span>、第 17 篇的 <span class=\'en\'>connection</span>、第 21 篇的 <span class=\'en\'>distance</span> —— 跨了二十篇的老词，正好串起「沟通」这条线。',
+      '<b>句型两连</b>：What 引导名词性从句给现象定性（What looks like ... may be nothing more than ...）；分词短语开头做对比（Calling instead of typing, I heard ...），注意逻辑主语要与主句一致。',
+      '<b>搭配四连</b>：<span class=\'en\'>reach out to</span>（主动联系）、<span class=\'en\'>make time for</span>（腾出时间）、<span class=\'en\'>in person</span>（当面）、<span class=\'en\'>on the surface</span>（表面上看）—— 把「点赞之交」变回真朋友，靠的就是这几个动作。',
+      '<b>题型提醒</b>：同义替换题（let taps do the work of talking ＝ use quick messages instead of real conversations）要看整句意思，别盯着单个词；词义猜测题（nothing more than）常考「看似否定其实只是弱化」的短语。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '335 词读两遍 · 核心词 15 个会认会用 · 阅读 5 题对 ≥ 4 · 80–100 词写作 + 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 15 个核心词中的 12 个（phenomenon、influence、communicate、tone …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 7 个，能各造一句（reach out to、make time for、in person …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '3 处长难句都能说出主干（名词性从句、分词短语、被动语态各 1 处），并仿写其中 1 句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测各 1 题要说清判断依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，观点—理由—例子三要素齐全，至少用上 2 个本篇词或搭配',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说完「观点 + 理由 + 例子」，例子讲清联系了谁、聊了什么',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点出正文里 7 处灰点旧词，说出意思并指出它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 24,
+    slug: '024-the-myth-of-multitasking',
+    title: 'The Myth of Multitasking',
+    titleCn: '多任务的误区',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 355 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.2%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/024.jpg',
+    coverCredit: 'Photo: kaboompics / Pexels',
+    body: [
+      'Last term I believed I could do three things at once. One busy week in November, I wrote a report, answered messages, and listened to an online lecture <span class="w-phrase" data-cn="同时">at the same time</span>. I thought it was <span class="w-cet4" data-cn="高效的">efficient</span>.',
+      'By midnight the report was full of <span class="w-cet4" data-cn="错误">errors</span>, I had missed <span class="w-synonym" data-cn="＝ almost 的替换词">nearly</span> half the lecture, and two friends felt <span class="w-rev">ignored</span>. <span class="w-sentence">I had sat at my desk for four hours, yet what I finished was worse than what I could have done in one quiet hour.</span>',
+      'The problem has a name: the cost of <span class="w-cet4" data-cn="（注意力的）切换">switching</span>. The brain holds one thing in <span class="w-rev">focus</span>, and <span class="w-cet4" data-cn="频繁的">frequent</span> changes of direction force it to restart the next <span class="w-rev">task</span>: this <span class="w-cet4" data-cn="脑力的、精神上的">mental</span> work is not free. <span class="w-sentence">What looks like hard work is often only the tired feeling of starting again and again, which is why hours pass with no result.</span>',
+      'So I ran an experiment. For one week I made a <span class="w-rev">schedule</span> each evening and did <span class="w-rev">one thing at a time</span>: the phone stayed in my bag, and I <span class="w-phrase" data-cn="关掉（设备、通知）">turned off</span> most notifications. Nothing important was <span class="w-cet4" data-cn="推迟、耽搁">delayed</span>.',
+      '<span class="w-writing" data-cn="结果、因此（引出结果）">As a result</span>, everything got faster and cleaner. The report that had cost me an evening was finished before dinner, and my <span class="w-cet4" data-cn="表现、成绩">performance</span> in class improved. I stopped <span class="w-rev">wasting</span> minutes and felt more <span class="w-cet4" data-cn="富有成效的">productive</span>.',
+      'The <span class="w-cet4" data-cn="策略">strategy</span> is simple. First, <span class="w-phrase" data-cn="列出……的清单">make a list of</span> what must be done. Second, keep every <span class="w-cet4" data-cn="打断、干扰">interruption</span> out of the room and <span class="w-cet4" data-cn="避免">avoid</span> the phone: one message can <span class="w-rev">distract</span> you for minutes. Third, <span class="w-phrase" data-cn="注意、专心于">pay attention to</span> one item until it is finished, or you will <span class="w-phrase" data-cn="最终落得……（常指不好的结果）">end up doing</span> the whole list badly.',
+      'Of course, single-tasking is not a rule for everything. The problem is work that needs thought, where you really must <span class="w-cet4" data-cn="全神贯注、集中（注意力）">concentrate</span>. <span class="w-sentence">If your mind is asked to change direction every three minutes, it will never go deep enough to do anything well.</span>',
+      '<span class="w-writing" data-cn="换句话说">In other words</span>, this is not about going slowly. Once you are <span class="w-cet4" data-cn="意识到的、察觉到的">aware</span> of the cost of switching, the simplest plan is often the most <span class="w-cet4" data-cn="有效的">effective</span> one, and it <span class="w-cet4" data-cn="保持、延续">remains</span> with you. What <span class="w-synonym" data-cn="＝ matters 的替换词">counts</span> is how much of each thing you finish. Even with a <span class="w-rev">deadline</span> ahead, a clear plan beats a busy one.'
+    ],
+    translation: [
+      '上个学期，我一直以为自己能同时做三件事。十一月里忙碌的一周，我一边写报告，一边回消息，还同时听一场线上讲座。我以为这样很高效。',
+      '到了半夜，报告里满是错误，讲座我漏掉了几乎一半，还有两位朋友觉得被冷落了。我在书桌前坐了四个小时，可最后做出来的东西，还不如安静的一小时里能做出来的好。',
+      '这个问题有个名字：切换成本。大脑一次只能把一件事保持在焦点上，频繁的方向变化迫使它重新开始下一项任务：这种脑力消耗并不是免费的。看起来像在拼命干活的，其实往往只是反复从头开始带来的疲惫感；这就是时间一点点过去，却留不下任何成果的原因。',
+      '于是我做了一次实验。有一周，我每天晚上都列好安排，一次只做一件事：手机放在包里，我把大部分通知都关掉。重要的事情一件也没耽搁。',
+      '结果，一切都变得更快也更干净。那份曾经耗掉我一整个晚上的报告，晚饭前就写完了，我在课堂上的表现也提高了。我不再把时间浪费在找回进度上，也觉得更有成效了。',
+      '这个策略很简单。第一，把要做的事列成清单。第二，把每一次打断都挡在房间外，也别碰手机：一条消息就能让你分心好几分钟。第三，专心做一件事，直到做完，否则你最终会把整张清单都做得很糟。',
+      '当然，一次只做一件事并不是什么都要遵守的规矩。真正的问题出在需要思考的工作上，那类工作要求你全神贯注。如果每隔三分钟就要求你的思绪换一个方向，它就永远深入不下去，什么也做不好。',
+      '换句话说，这并不是要你慢吞吞。一旦意识到切换的代价，最简单的方案往往也最有效，而且它会一直陪着你。真正要紧的是每件事你真正完成了多少。哪怕截止日期就在眼前，一个清晰的计划也胜过一个手忙脚乱的计划。'
+    ],
+    vocabulary: [
+      {
+        w: 'avoid',
+        ph: '/əˈvɔɪd/',
+        pos: 'vt.',
+        cn: '避免、避开',
+        col: 'avoid doing sth. — 避免做某事（后接动名词）；avoid a mistake — 避免犯错',
+        ex: 'I avoid checking my phone while I write.'
+      },
+      {
+        w: 'aware',
+        ph: '/əˈweə/',
+        pos: 'adj.',
+        cn: '意识到的、察觉到的',
+        col: 'be aware of sth. — 意识到某事；become aware — 察觉到',
+        ex: 'Most students are not aware of the cost of switching.'
+      },
+      {
+        w: 'concentrate',
+        ph: '/ˈkɒnsntreɪt/',
+        pos: 'v.',
+        cn: '全神贯注、集中（注意力）',
+        col: 'concentrate on sth. — 专心于某事；concentrate hard — 全神贯注',
+        ex: 'Please be quiet; I need to concentrate.'
+      },
+      {
+        w: 'delay',
+        ph: '/dɪˈleɪ/',
+        pos: 'v./n.',
+        cn: '推迟、耽搁',
+        col: 'delay doing sth. — 推迟做某事；a long delay — 长时间的耽搁',
+        ex: 'Do not delay the report until Sunday.'
+      },
+      {
+        w: 'effective',
+        ph: '/ɪˈfektɪv/',
+        pos: 'adj.',
+        cn: '有效的、奏效的',
+        col: 'an effective plan — 有效的计划；effective against — 对……有效',
+        ex: 'Short daily practice is effective.'
+      },
+      {
+        w: 'efficient',
+        ph: '/ɪˈfɪʃnt/',
+        pos: 'adj.',
+        cn: '高效的、效率高的',
+        col: 'an efficient way — 高效的方法；efficient work — 效率高的工作',
+        ex: 'This is an efficient way to learn new words.'
+      },
+      {
+        w: 'error',
+        ph: '/ˈerə/',
+        pos: 'n.',
+        cn: '错误',
+        col: 'make an error — 犯一个错误；full of errors — 错误百出',
+        ex: 'The report was full of errors.'
+      },
+      {
+        w: 'frequent',
+        ph: '/ˈfriːkwənt/',
+        pos: 'adj.',
+        cn: '频繁的、经常的',
+        col: 'frequent changes — 频繁的变化；frequent breaks — 经常性的休息',
+        ex: 'Frequent changes make the work slower.'
+      },
+      {
+        w: 'interruption',
+        ph: '/ˌɪntəˈrʌpʃn/',
+        pos: 'n.',
+        cn: '打断、干扰',
+        col: 'without interruption — 不受打扰地；an interruption to — 对……的干扰',
+        ex: 'I studied for an hour without interruption.'
+      },
+      {
+        w: 'mental',
+        ph: '/ˈmentl/',
+        pos: 'adj.',
+        cn: '脑力的、精神上的',
+        col: 'mental work — 脑力工作；mental health — 心理健康',
+        ex: 'Writing a report is hard mental work.'
+      },
+      {
+        w: 'performance',
+        ph: '/pəˈfɔːməs/',
+        pos: 'n.',
+        cn: '表现、成绩',
+        col: 'good performance — 表现好；improve one’s performance — 提高表现',
+        ex: 'Her performance in class improved.'
+      },
+      {
+        w: 'productive',
+        ph: '/prəˈdʌktɪv/',
+        pos: 'adj.',
+        cn: '富有成效的',
+        col: 'a productive day — 有成效的一天；productive work — 有成效的工作',
+        ex: 'I was more productive after I changed my plan.'
+      },
+      {
+        w: 'remain',
+        ph: '/rɪˈmeɪn/',
+        pos: 'v.',
+        cn: '保持、仍然是；剩余',
+        col: 'remain calm — 保持冷静；remain the same — 保持不变',
+        ex: 'The habit will remain with you for years.'
+      },
+      {
+        w: 'strategy',
+        ph: '/ˈstrætədʒi/',
+        pos: 'n.',
+        cn: '策略、方法',
+        col: 'a learning strategy — 学习策略；work out a strategy — 制定策略',
+        ex: 'This strategy is easy to copy.'
+      },
+      {
+        w: 'switch',
+        ph: '/swɪtʃ/',
+        pos: 'v./n.',
+        cn: '切换、转换',
+        col: 'switch from A to B — 从 A 切换到 B；a switch of — ……的转变',
+        ex: 'Do not switch between two jobs every minute.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'at the same time',
+        cn: '同时',
+        ex: 'She cooks and listens to the news at the same time.'
+      },
+      {
+        en: 'turn off',
+        cn: '关掉（电器、屏幕、通知）',
+        ex: 'Turn off your phone before the exam.'
+      },
+      {
+        en: 'make a list of',
+        cn: '列出……的清单',
+        ex: 'Make a list of the things you must do today.'
+      },
+      {
+        en: 'pay attention to',
+        cn: '注意、专心于（后接宾语）',
+        ex: 'Pay attention to one thing at a time.'
+      },
+      {
+        en: 'end up doing sth.',
+        cn: '最终落得……（常指出乎意料的结果）',
+        ex: 'He tried to do everything and ended up doing nothing well.'
+      },
+      {
+        en: 'be full of',
+        cn: '充满、到处是',
+        ex: 'The report is full of small errors.'
+      },
+      {
+        en: 'again and again',
+        cn: '一次又一次、反复',
+        ex: 'He read the message again and again.'
+      },
+      {
+        en: 'at once',
+        cn: '同时（做几件事）；立刻',
+        ex: 'You cannot do three things at once.'
+      },
+      {
+        en: 'long after',
+        cn: '在……过去很久之后',
+        ex: 'She still remembers it long after the exam is over.'
+      },
+      {
+        en: 'in class',
+        cn: '在课堂上',
+        ex: 'My performance in class got better.'
+      },
+      {
+        en: 'from the beginning',
+        cn: '从头开始',
+        ex: 'After the break, he started again from the beginning.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'As a result, ...',
+        cn: '结果、因此……',
+        meaning: '引出前文行为或原因直接导致的结果，把因果关系说得明明白白。',
+        context: '段首或句首：前面先写做法或原因，后面用它接上后果，说明类和叙事类作文都常用。',
+        alts: [
+          {
+            t: 'As a consequence, ...',
+            n: '更书面'
+          },
+          {
+            t: 'Therefore, ...',
+            n: '正式，议论文常用'
+          },
+          {
+            t: 'So, ...',
+            n: '口语化'
+          }
+        ],
+        register: '中性，写作与口语都能用。',
+        example: 'I worked on one thing at a time. As a result, I finished earlier and made fewer mistakes.'
+      },
+      {
+        expr: 'In other words, ...',
+        cn: '换句话说……',
+        meaning: '换一种说法重申前一句，把抽象结论讲得更好懂，或者强调重点。',
+        context: '解释完一个道理或结论之后，用更直白的话再说一遍；也可放在结尾段收束全文。',
+        alts: [
+          {
+            t: 'That is to say, ...',
+            n: '书面，稍正式'
+          },
+          {
+            t: 'Put simply, ...',
+            n: '口语化，好用'
+          },
+          {
+            t: 'To put it another way, ...',
+            n: '解释复杂观点时用'
+          }
+        ],
+        register: '中性偏书面，说明与议论都合适。',
+        example: 'Multitasking is slower in the short run. In other words, you save time by not switching.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'I had sat at my desk for four hours, yet what I finished was worse than what I could have done in one quiet hour.',
+        points: [
+          '<b>主干</b>：I had sat at my desk for four hours 与 what I finished was worse … 由 yet 连接成两个并列分句，yet 表转折，语气比 but 更强。',
+          '<b>过去完成时 had sat</b>：表示「到半夜为止已经坐了四个小时」，比句中的过去视角更早、持续更久，是叙事里交代「此前已发生」的常用时态。',
+          '<b>两个 what 从句</b>：what I finished 作主句的主语，what I could have done 作比较对象；what 相当于 the thing that，是名词性从句。',
+          '<b>could have done</b>：情态动词 + 完成式，表示「本来能做到、实际上没有做到」，四级阅读里常考这一层含义。',
+          '<b>为什么值得学</b>：一句话叠了并列、名词性从句、情态完成式三层结构，正好把「看似努力、实则低效」的对比说清楚，写作时可照这个模型仿写。'
+        ]
+      },
+      {
+        text: 'What looks like hard work is often only the tired feeling of starting again and again, which is why hours pass with no result.',
+        points: [
+          '<b>主干</b>：What looks like hard work is the tired feeling …，主语是 What 引导的主语从句，谓语动词用单数 is。',
+          '<b>What = the thing that</b>：整个从句作主语，写作里可套用「What looks like … is often …」（看起来像……的，其实往往是……）。',
+          '<b>which is why …</b>：非限制性定语从句，which 指前面一整句话，后面接表语从句，意思是「这就是……的原因」。',
+          '<b>with no result</b>：介词短语作状语，result 在这里是可数名词，用 no 比 not any 语气更干脆。',
+          '<b>为什么值得学</b>：这句把「假努力」解释得很透，四级写作里分析原因时，可以直接仿写这个「现象 + 原因」的句型。'
+        ]
+      },
+      {
+        text: 'If your mind is asked to change direction every three minutes, it will never go deep enough to do anything well.',
+        points: [
+          '<b>主干</b>：it will never go deep enough to do anything well；句首的 if 引导条件状语从句。',
+          '<b>被动语态 is asked to</b>：主动形式是 ask your mind to …，改用被动后，「你的思绪」被放在主语位置，突出被支配、被打断的感觉。',
+          '<b>enough to do</b>：「足够……可以做……」，enough 修饰形容词 deep 时要放在形容词之后，位置最容易写错。',
+          '<b>never 的位置</b>：放在助动词 will 之后、实义动词之前；语气比 not 强，说明「永远不可能」。',
+          '<b>常见变体</b>：可改成祈使句 Never change direction every three minutes；或者 …… enough for sb. to do sth.（对某人来说足够……去做……）。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the writer try to do in the busy week in November?',
+        cn: '十一月那个忙碌的一周里，作者想做什么？',
+        ans: 'He tried to write a report, answer messages, and listen to an online lecture at the same time.',
+        ansCn: '他想同时写报告、回消息，还听一场线上讲座。'
+      },
+      {
+        en: 'How did the writer work during the week of his experiment?',
+        cn: '实验的那一周里，作者是怎么工作的？',
+        ans: 'He made a schedule each evening and did one thing at a time, keeping the phone in his bag and turning off most notifications.',
+        ansCn: '他每天晚上列好安排，一次只做一件事，把手机放在包里，关掉大部分通知。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'Multitasking looks fast, but it wastes time and lowers the quality of work, so doing one thing at a time is the more effective way.',
+        ansCn: '同时做几件事看似更快，其实既费时间又降低质量，所以一次只做一件事才是更有效的做法。'
+      },
+      {
+        en: 'In the last paragraph, which word can be replaced by “is important” without changing the meaning of the sentence?',
+        cn: '最后一段里，哪个词可以换成「是重要的」而不改变句意？',
+        ans: 'The word is “counts”, in the sentence “What counts is how much of each thing you finish”.',
+        ansCn: '是那个表示「重要、要紧」的动词，出现在「真正要紧的是……」这句里。'
+      },
+      {
+        en: 'In paragraph 3, the writer talks about “the cost of switching”. What does “switching” mean here?',
+        cn: '第三段讲到「切换的代价」，这里的「切换」指的是什么？',
+        ans: 'It means moving from one job to another before it is finished, so that the brain has to start again from the beginning.',
+        ansCn: '指的是一件事还没做完就换到另一件，大脑不得不从头开始。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about a time when doing several things at once caused problems, and what you do now instead.',
+      hints: [
+        'Last term, I tried to ... at the same time.',
+        'As a result, ...',
+        'In other words, ...',
+        'Now I ... instead.'
+      ],
+      hintCn: '用 5–7 句话写一次「同时做几件事反而更糟」的经历：先写当时的情形，再写结果，最后写你现在改用的做法。观点、理由、例子三要素要齐全。',
+      req: '至少使用 1 个本篇学过的词或搭配（efficient / concentrate / switch / end up doing / as a result）。'
+    },
+    speakingTask: {
+      en: 'Do you agree that doing one thing at a time is better than doing several things at once? Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确表明立场，再给一个理由，最后举一个自己的小例子，三部分都要有。',
+      skeleton: 'In my opinion, doing one thing at a time is better. That is because ... For example, last week I ...'
+    },
+    focus: [
+      '<b>新授核心词 15 个</b>：<span class=\'en\'>avoid, aware, concentrate, delay, effective, efficient, error, frequent, interruption, mental, performance, productive, remain, strategy, switch</span> —— 重点记 <span class=\'en\'>avoid doing sth.</span>（后接动名词）、<span class=\'en\'>delay doing sth.</span>（推迟做某事）、<span class=\'en\'>concentrate on</span>（专心于）；<span class=\'en\'>effective</span>（有效的）与 <span class=\'en\'>efficient</span>（高效的）拼写相近、意思不同，别记混。',
+      '<b>本篇复现的旧词</b>：第 6 篇的 <span class=\'en\'>focus</span>（保持在焦点上）、<span class=\'en\'>schedule</span>（每天列安排）、<span class=\'en\'>waste</span>（浪费时间）、<span class=\'en\'>distract</span>（使分心）、<span class=\'en\'>deadline</span>（截止日期）与短语 <span class=\'en\'>one thing at a time</span>（一次做一件事）、第 13 篇的 <span class=\'en\'>ignored</span>（被冷落、被忽视）、第 15 篇的 <span class=\'en\'>task</span>（任务）—— 都是换了新语境再认一次，灰点只标一次。',
+      '<b>三个长难句</b>：第一句是 yet 连接的并列 + 两个 what 从句 + could have done（本来能做到、实际没做到）；第二句是 What 主语从句 + which is why 的非限制性定语从句；第三句是条件句里的被动 + enough to。三句分别承担「对比」「解释原因」「提建议」三种功能，值得各仿写一句。',
+      '<b>高频搭配 5 个</b>：<span class=\'en\'>at the same time</span>（同时）、<span class=\'en\'>turn off</span>（关掉）、<span class=\'en\'>make a list of</span>（列出清单）、<span class=\'en\'>pay attention to</span>（专心于）、<span class=\'en\'>end up doing sth.</span>（最终落得……）—— 注意 end up 后面接动名词，不接不定式。',
+      '<b>全文逻辑线与题型提醒</b>：以为多任务快（经历）→ 结果更糟（转折）→ 解释切换成本（原因）→ 一周实验（证据）→ 三条做法（建议）→ 留出例外（让步）→ 点题（要紧的是完成）。第 4 题的同义替换识别题，做法是把题干里的替换词还原成原文用词；第 5 题的词义猜测题，答案就在该词后面的解释句里。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 15 个核心词遮住中文说出 ≥ 11 · 3 个长难句会拆结构 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 15 个核心词中的 11 个（switch、concentrate、efficient、interruption …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（at the same time、end up doing、make a list of …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 3 个长难句各自的主干与从句类型，并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测题要在原文找到依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 As a result, … 或 In other words, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「一次只做一件事是否更好」的立场，给出一个理由和一个例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 6 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 25,
+    slug: '025-city-convenience-country-quiet',
+    title: 'City Convenience, Country Quiet',
+    titleCn: '城市的便利，乡村的安静',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 355 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.2%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/025.jpg',
+    coverCredit: 'Photo: John Bravar / Pexels',
+    body: [
+      'I grew up in a small village and now study in a city far from home. I <span class="w-phrase" data-cn="过去常常做某事">used to</span> think the village was too quiet, and now I am <span class="w-phrase" data-cn="习惯于做某事">used to doing</span> everything in a hurry. <span class="w-writing" data-cn="说到……（引出话题）">When it comes to</span> where to live, my answer keeps changing.',
+      'In the city, <span class="w-cet4" data-cn="便利、方便">convenience</span> is everywhere. A clinic, a library and a night market are all within a short walk, buses run until midnight, and packages arrive the next morning. <span class="w-synonym" data-cn="＝ convenient 的替换词">Handy</span> <span class="w-cet4" data-cn="服务">services</span> like these <span class="w-rev">save</span> me time.',
+      'But city life has its own <span class="w-cet4" data-cn="要求、需求">demands</span>. <span class="w-cet4" data-cn="房租">Rent</span> takes half of my monthly budget, streets are <span class="w-cet4" data-cn="拥挤的、挤满的">crowded</span> at rush hours, and traffic noise <span class="w-phrase" data-cn="占据（时间、空间）">takes up</span> the quiet of the evening. Buses are packed, and even a short trip <span class="w-rev">costs</span> an hour.',
+      'At home in the village, life is <span class="w-cet4" data-cn="宁静的、平和的">peaceful</span>. The air is clean, the <span class="w-cet4" data-cn="风景">scenery</span> changes with the seasons, and neighbours greet you by name. <span class="w-sentence">Living in the village for a month last summer, I found that the quiet nights did more for my sleep than any medicine I had tried.</span>',
+      'Yet the village is not perfect. Public <span class="w-cet4" data-cn="交通运输">transport</span> stops at eight, so evening classes are <span class="w-phrase" data-cn="不再">no longer</span> possible; there is a <span class="w-cet4" data-cn="缺乏">lack</span> of doctors, and the nearest bookshop is some <span class="w-cet4" data-cn="距离">distance</span> away. <span class="w-cet4" data-cn="当地的">Local</span> jobs are few, which is why most young people are drawn to cities and <span class="w-cet4" data-cn="安顿下来、定居">settle</span> there.',
+      'What that month taught me is that every <span class="w-cet4" data-cn="选择">choice</span> gives something and asks for something in return. The city offers <span class="w-synonym" data-cn="＝ a lot of 的替换词">plenty of</span> <span class="w-cet4" data-cn="资源">resources</span> and more <span class="w-rev">opportunities</span>; the village offers a healthier <span class="w-cet4" data-cn="环境">environment</span> and a slower <span class="w-rev">pace</span> of life.',
+      'So the real question is which place you need now. <span class="w-sentence">What I miss most about the city is not the shopping centres, but the feeling that anything I need is only ten minutes away.</span> <span class="w-writing" data-cn="这取决于……">It depends on</span> your age, your work and your health.',
+      'These days I live in the city, but I keep a few country habits: I go everywhere <span class="w-phrase" data-cn="步行">on foot</span> when I can, <span class="w-rev">turn off</span> the screen early, and keep in touch with home every Sunday. Whatever you choose, choose it with clear eyes, and keep a little <span class="w-rev">balance</span>.'
+    ],
+    translation: [
+      '我在一个小村庄长大，现在在离家很远的城市读书。我过去总觉得村子太安静，如今却习惯了什么都匆匆忙忙。说到该住在哪里，我的答案一直在变。',
+      '在城市里，便利无处不在。诊所、图书馆、夜市都在步行几分钟的地方，公交运行到半夜，包裹第二天一早就送到。这些方便的服务帮我省下了时间。',
+      '但城市生活也有自己的要求。房租吃掉我每月一半的预算，早晚高峰街上挤满了人，交通噪音占去了夜晚的安静。公交车里挤得满满当当，哪怕很短的一趟路，也要花掉我一个小时。',
+      '在村里的家，生活是宁静的。空气干净，风景随四季变化，邻居能叫出你的名字。去年夏天我在村里住了一个月，发现安静的夜晚对睡眠的帮助，胜过我试过的任何药物。',
+      '然而村子也并不完美。公共交通八点就收车，晚上的课再也上不成；医生缺乏，最近的书店也在一段距离之外。当地的工作很少，所以大多数年轻人被城市吸引，在那里安顿下来。',
+      '那一个月让我明白，每一种选择都会给予一些东西，也会要求一些回报。城市提供更多的资源和机会；乡村提供更健康的环境和更慢的生活节奏。',
+      '所以真正的问题是你此刻需要哪个地方。我想念城市，最想念的不是购物中心，而是那种任何需要的东西都只有十分钟路程的感觉。这取决于你的年纪、工作和身体状况。',
+      '如今我住在城市，但也保留着几个乡村习惯：能走路就走路，早早关掉屏幕，每个星期天和家里保持联系。无论你选什么，都要看得清楚，并给自己留一点平衡。'
+    ],
+    vocabulary: [
+      {
+        w: 'choice',
+        ph: '/tʃɔɪs/',
+        pos: 'n.',
+        cn: '选择、挑选',
+        col: 'make a choice — 做出选择；have no choice — 别无选择',
+        ex: 'Living in the city is a choice, not a rule.'
+      },
+      {
+        w: 'convenience',
+        ph: '/kənˈviːniəns/',
+        pos: 'n.',
+        cn: '便利、方便',
+        col: 'for convenience — 为了方便；modern convenience — 现代化的便利',
+        ex: 'I enjoy the convenience of the city.'
+      },
+      {
+        w: 'crowded',
+        ph: '/ˈkraʊdɪd/',
+        pos: 'adj.',
+        cn: '拥挤的、挤满的',
+        col: 'crowded streets — 挤满人的街道；be crowded with — 挤满了……',
+        ex: 'The bus was crowded at rush hour.'
+      },
+      {
+        w: 'demand',
+        ph: '/dɪˈmɑːnd/',
+        pos: 'n./v.',
+        cn: '要求、需求',
+        col: 'meet the demands — 满足要求；demand an answer — 要求答复',
+        ex: 'City life has its own demands.'
+      },
+      {
+        w: 'distance',
+        ph: '/ˈdɪstəns/',
+        pos: 'n.',
+        cn: '距离、远处',
+        col: 'in the distance — 在远处；some distance away — 有一段距离',
+        ex: 'The village is some distance from the city.'
+      },
+      {
+        w: 'environment',
+        ph: '/ɪnˈvaɪrənmənt/',
+        pos: 'n.',
+        cn: '环境',
+        col: 'a healthy environment — 健康的环境；protect the environment — 保护环境',
+        ex: 'The country offers a quieter environment.'
+      },
+      {
+        w: 'lack',
+        ph: '/læk/',
+        pos: 'n./v.',
+        cn: '缺乏、没有',
+        col: 'a lack of — 缺乏……；lack experience — 缺乏经验',
+        ex: 'There is a lack of doctors in the village.'
+      },
+      {
+        w: 'local',
+        ph: '/ˈləʊkl/',
+        pos: 'adj.',
+        cn: '当地的、本地的',
+        col: 'local jobs — 当地的工作；the local people — 当地人',
+        ex: 'Local shops close early in the evening.'
+      },
+      {
+        w: 'peaceful',
+        ph: '/ˈpiːsfl/',
+        pos: 'adj.',
+        cn: '宁静的、平和的',
+        col: 'a peaceful evening — 宁静的夜晚；feel peaceful — 感到平静',
+        ex: 'The village is peaceful at night.'
+      },
+      {
+        w: 'rent',
+        ph: '/rent/',
+        pos: 'n./v.',
+        cn: '房租；租用',
+        col: 'pay the rent — 付房租；rent a room — 租一个房间',
+        ex: 'Rent takes half of my monthly budget.'
+      },
+      {
+        w: 'resource',
+        ph: '/rɪˈsɔːs/',
+        pos: 'n.',
+        cn: '资源',
+        col: 'natural resources — 自然资源；share resources — 共享资源',
+        ex: 'The city offers plenty of resources for students.'
+      },
+      {
+        w: 'scenery',
+        ph: '/ˈsiːnəri/',
+        pos: 'n.',
+        cn: '风景、景色（不可数）',
+        col: 'beautiful scenery — 美丽的风景；enjoy the scenery — 欣赏风景',
+        ex: 'The scenery changes with the seasons.'
+      },
+      {
+        w: 'service',
+        ph: '/ˈsɜːvɪs/',
+        pos: 'n.',
+        cn: '服务',
+        col: 'public services — 公共服务；be of service to — 对……有帮助',
+        ex: 'Handy services save me a lot of time.'
+      },
+      {
+        w: 'settle',
+        ph: '/ˈsetl/',
+        pos: 'v.',
+        cn: '安顿下来、定居；解决',
+        col: 'settle in a place — 在某地安顿下来；settle a problem — 解决问题',
+        ex: 'Many young people settle in big cities.'
+      },
+      {
+        w: 'transport',
+        ph: '/ˈtrænspɔːt/',
+        pos: 'n.',
+        cn: '交通运输',
+        col: 'public transport — 公共交通；means of transport — 交通方式',
+        ex: 'Public transport stops at eight here.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'used to do sth.',
+        cn: '过去常常做某事（现在已经不这样）',
+        ex: 'I used to think the village was too quiet.'
+      },
+      {
+        en: 'be used to doing sth.',
+        cn: '习惯于做某事（后接动名词）',
+        ex: 'Now I am used to getting up early.'
+      },
+      {
+        en: 'in a hurry',
+        cn: '匆忙、赶时间',
+        ex: 'He left in a hurry and forgot his bag.'
+      },
+      {
+        en: 'take up',
+        cn: '占据（时间、空间）；开始从事',
+        ex: 'Rent takes up half of my budget.'
+      },
+      {
+        en: 'no longer',
+        cn: '不再',
+        ex: 'The shop is no longer open at night.'
+      },
+      {
+        en: 'by name',
+        cn: '叫出名字、按名字',
+        ex: 'The teacher knows every student by name.'
+      },
+      {
+        en: 'in return',
+        cn: '作为回报、作为交换',
+        ex: 'The city asks for money, and gives convenience in return.'
+      },
+      {
+        en: 'be drawn to',
+        cn: '被吸引到……',
+        ex: 'Young people are drawn to big cities.'
+      },
+      {
+        en: 'on foot',
+        cn: '步行',
+        ex: 'I go to class on foot when I can.'
+      },
+      {
+        en: 'keep in touch (with)',
+        cn: '（与……）保持联系',
+        ex: 'She keeps in touch with her family every week.'
+      },
+      {
+        en: 'far from',
+        cn: '远离；远非',
+        ex: 'The village is far from the nearest hospital.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'When it comes to ...',
+        cn: '说到……、涉及到……',
+        meaning: '把话题引到某件事上，是对比类、议论类作文最常用的开头句式。',
+        context: '段首或全文开头：先用它点出要讨论的话题，再给出双方观点或自己的立场。',
+        alts: [
+          {
+            t: 'As for ..., ...',
+            n: '更简单，转到某个方面'
+          },
+          {
+            t: 'On the subject of ..., ...',
+            n: '正式，书面'
+          },
+          {
+            t: 'Talking about ..., ...',
+            n: '口语化'
+          }
+        ],
+        register: '中性，写作口语都常用。',
+        example: 'When it comes to where to live, people rarely agree.'
+      },
+      {
+        expr: 'It depends on ...',
+        cn: '这取决于……',
+        meaning: '表示结论不是绝对的，要看具体情况，用来给出有分寸的判断。',
+        context: '提出「没有唯一答案」的论点时使用，后面列出取决的因素（时间、年龄、预算……）。',
+        alts: [
+          {
+            t: 'That depends on ...',
+            n: '承接上文时用'
+          },
+          {
+            t: 'It is decided by ...',
+            n: '更书面'
+          },
+          {
+            t: 'Whether ... depends on ...',
+            n: '完整句式，书面'
+          }
+        ],
+        register: '中性，回答选择类问题最好用。',
+        example: 'It depends on your age, your work and what you can afford.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'Living in the village for a month last summer, I found that the quiet nights did more for my sleep than any medicine I had tried.',
+        points: [
+          '<b>主干</b>：I found that …，that 引导宾语从句；句首的 Living in the village for a month last summer 是非谓语作状语。',
+          '<b>非谓语作状语</b>：现在分词短语放在句首，表示「在村里住了一个月之后」，逻辑主语就是主句的 I；比写 After I lived in the village … 更紧凑。',
+          '<b>比较结构 did more for my sleep than …</b>：more 与 than 配对，比较的对象是「安静夜晚的作用」与「药物的作用」，注意前后结构一致。',
+          '<b>I had tried</b>：过去完成时，表示「在那之前我试过的所有药」，时间层次比 found 更早。',
+          '<b>为什么值得学</b>：一句话里有非谓语状语、宾语从句、比较结构、过去完成时四层结构，是四级阅读长句的经典模型，也适合用来写「经历 + 发现」。'
+        ]
+      },
+      {
+        text: 'What I miss most about the city is not the shopping centres, but the feeling that anything I need is only ten minutes away.',
+        points: [
+          '<b>主干</b>：What I miss most … is the feeling …，主语是 What 引导的主语从句，谓语用单数 is。',
+          '<b>not … but …</b>：不是……而是……，否定前者、突出后者，这里对比「购物中心」与「随时可得的感觉」。',
+          '<b>the feeling that …</b>：that 引导同位语从句，说明 feeling 的内容；这是名词后面解释「内容」的常见写法。',
+          '<b>only ten minutes away</b>：away 表示距离，前面接具体时间或路程，是很地道的口语表达。',
+          '<b>为什么值得学</b>：这句是「对比类」作文的模板句——把「想念什么」写成抽象感受而不是具体事物，立意立刻更深一层。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What conveniences of city life does the writer mention?',
+        cn: '作者提到了城市生活的哪些便利？',
+        ans: 'A clinic, a library and a night market within a short walk, buses running until midnight, and packages arriving the next morning.',
+        ansCn: '步行几分钟就有诊所、图书馆和夜市，公交运行到半夜，包裹第二天一早就送到。'
+      },
+      {
+        en: 'Why are evening classes no longer possible in the village?',
+        cn: '为什么在村里再也上不了晚上的课？',
+        ans: 'Because public transport stops at eight, so people cannot get home after an evening class.',
+        ansCn: '因为公共交通八点就收车，上完晚课回不了家。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'Both the city and the country have their own advantages and costs, and which one is better depends on what you need at the moment.',
+        ansCn: '城市和乡村各有各的好与难，哪一个更好取决于你此刻需要什么。'
+      },
+      {
+        en: 'In paragraph 2, which word can be replaced by “convenient” without changing the meaning?',
+        cn: '第二段中哪个词可以换成「方便的」而不改变句意？',
+        ans: 'The word is “handy”, as in “Handy services like these save me a lot of time”.',
+        ansCn: '是那个表示「方便、顺手」的形容词，句中用来修饰服务。'
+      },
+      {
+        en: 'In paragraph 5, what does “settle” mean when the writer says young people settle in cities?',
+        cn: '第五段说年轻人在城市「安顿下来」，这里的「安顿」是什么意思？',
+        ans: 'It means to make a place your home and live there for a long time.',
+        ansCn: '指在一个地方安家、长期住下去。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about whether you would rather live in a city or in the country, and explain why.',
+      hints: [
+        'When it comes to where to live, ...',
+        'The city offers ..., while the village offers ...',
+        'It depends on ...',
+        'I would rather live ... because ...'
+      ],
+      hintCn: '用 5–7 句话写你的选择：先表明观点，再给两条理由，最后举一个自己的小例子。观点、理由、例子三要素要齐全。',
+      req: '至少使用 1 个本篇学过的词或搭配（convenience / resource / environment / be used to doing / take up）。'
+    },
+    speakingTask: {
+      en: 'Would you rather live in a big city or in the countryside? Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One example from your life'
+      ],
+      pointCn: '先表明你会选城市还是乡村，再给一个理由，最后举一个来自自己生活的例子。',
+      skeleton: 'I would rather live in ... In my opinion, ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 15 个</b>：<span class=\'en\'>choice, convenience, crowded, demand, distance, environment, lack, local, peaceful, rent, resource, scenery, service, settle, transport</span> —— <span class=\'en\'>convenience / environment / resource</span> 是四级写作高频抽象词；<span class=\'en\'>lack</span> 既可作名词（a lack of）也可作动词（lack sth.）；<span class=\'en\'>scenery</span> 是不可数名词，不说 a scenery。',
+      '<b>本篇复现的旧词</b>：第 4 篇的 <span class=\'en\'>cost</span>（花掉一个小时）、第 6 篇的 <span class=\'en\'>balance</span>（留一点平衡）、第 7 篇的 <span class=\'en\'>save</span>（省下时间）、第 11 篇的 <span class=\'en\'>opportunities</span>（机会）、第 17 篇的 <span class=\'en\'>pace / turn off</span>（生活节奏、关掉屏幕）—— 换了城乡语境再认一次。',
+      '<b>两个长难句</b>：第一句是「非谓语作状语 + that 宾语从句 + 比较结构 + 过去完成时」四层叠加；第二句是「What 主语从句 + not … but … + that 同位语从句」。第一句写「经历 + 发现」，第二句写「对比 + 升华」，正好覆盖本篇的两种写法。',
+      '<b>搭配对比</b>：<span class=\'en\'>used to do sth.</span>（过去常常、现在不了）与 <span class=\'en\'>be used to doing sth.</span>（习惯于）只差一个字，但意思完全不同，是四级语法改错的常客；另记 <span class=\'en\'>take up</span>（占据）、<span class=\'en\'>no longer</span>（不再）、<span class=\'en\'>in return</span>（作为回报）。',
+      '<b>全文逻辑线与题型提醒</b>：城市的好 → 城市的难 → 乡村的好 → 乡村的难 → 各有得失 → 取决于需要 → 折中做法。对比类文章两面都要写足，结论才有分寸。第 4 题同义替换识别，把题干里的形容词还原成原文用词；第 5 题词义猜测，看该词后面的落脚点（在哪里长期住）。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 15 个核心词遮住中文说出 ≥ 11 · 2 个长难句会拆结构 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 15 个核心词中的 11 个（convenience、resource、environment、settle …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，尤其分清 used to do 与 be used to doing',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 2 个长难句各自的主干与从句类型，并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测题要在原文找到依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 When it comes to … 或 It depends on …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「选城市还是乡村」的立场，给出一个理由和一个例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 6 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 26,
+    slug: '026-one-small-green-habit',
+    title: 'One Small Green Habit',
+    titleCn: '一个小小的环保习惯',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 365 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.1%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/026.jpg',
+    coverCredit: 'Photo: Kevin Malik / Pexels',
+    body: [
+      'Last winter I bought coffee every morning <span class="w-phrase" data-cn="在去……的路上">on the way to class</span>, and each cup was <span class="w-cet4" data-cn="一次性的">disposable</span>: paper on the outside, <span class="w-cet4" data-cn="塑料">plastic</span> on the inside. As an <span class="w-cet4" data-cn="普通的">ordinary</span> <span class="w-cet4" data-cn="消费者">consumer</span>, I never thought about where those cups went.',
+      'Then a teacher asked us to keep every paper cup for one week. By Friday the pile on my desk was ugly, and <span class="w-phrase" data-cn="第一次">for the first time</span> I felt real <span class="w-cet4" data-cn="担心、忧虑">concern</span>. I was <span class="w-cet4" data-cn="愿意的">willing</span> to try one small change: carry my own cup.',
+      '<span class="w-cet4" data-cn="习惯">Habits</span> like this work better than big slogans. <span class="w-writing" data-cn="一则……（引出第一条理由）">For one thing</span>, a slogan is far away, while a cup in your bag is real and <span class="w-cet4" data-cn="实用的">practical</span>. <span class="w-sentence">Once a behaviour is repeated for a few weeks, it stops being a decision and becomes part of the day.</span>',
+      'The first week took real <span class="w-rev">effort</span>: I forgot the cup twice. Then I made the habit easy: a light cup that is widely <span class="w-cet4" data-cn="可获得的、可买到的">available</span>, left <span class="w-phrase" data-cn="紧挨着、在……旁边">next to</span> the door where a small <span class="w-rev">reminder</span> is enough. <span class="w-cet4" data-cn="逐渐地">Gradually</span> it became automatic, and it was easy to <span class="w-cet4" data-cn="保持、维持">maintain</span>.',
+      'After two months the change was <span class="w-synonym" data-cn="＝ obvious 的替换词">clear</span>. My own cup had <span class="w-cet4" data-cn="取代、替换">replaced</span> about a hundred disposable ones, and I had <span class="w-rev">reduced</span> the paper and plastic I <span class="w-phrase" data-cn="把……扔掉">threw away</span> every week. The café near school even gives a discount to students with their own cup.',
+      'One cup does not save the planet, but habits have <span class="w-cet4" data-cn="影响">influence</span>. When my roommate saw my cup, he bought one too, and soon half of our class carried their own: a small <span class="w-rev">community</span> change. <span class="w-sentence">What begins as one person’s small decision can travel further than any poster on the classroom wall.</span>',
+      'Some people say one cup is nothing against a mountain of <span class="w-rev">rubbish</span>, and they are half right: one cup cannot <span class="w-rev">prevent</span> waste by itself. But once you start carrying it, you also <span class="w-cet4" data-cn="回收利用">recycle</span> more and buy things with less <span class="w-cet4" data-cn="包装">packaging</span>, and small habits begin to <span class="w-phrase" data-cn="堆积起来、越积越多">pile up</span>.',
+      'So if you want to help, do not wait for a perfect plan. <span class="w-writing" data-cn="只有……（才能……）">Only by starting small</span> can real change begin. <span class="w-sentence">The habit that you can keep for a year will always do more than the perfect plan that you give up after a week.</span> The cup is <span class="w-synonym" data-cn="＝ inexpensive 的替换词">cheap</span>, but the habit has <span class="w-rev">value</span> that lasts.'
+    ],
+    translation: [
+      '去年冬天，我每天早上在上学路上买咖啡，每个杯子都是一次性的：外面是纸，里面是塑料。作为一个普通的消费者，我从没想过这些杯子后来去了哪里。',
+      '然后老师让我们把每一个纸杯都留一周。到星期五，我桌上的那一堆很难看，我第一次感到了真正的担忧。我愿意试一个小改变：自己带杯子。',
+      '这样的习惯比响亮的口号更管用。一则，口号离得太远，而包里的杯子是真实又实用的。一个行为重复几周之后，它就不再是一个决定，而成了生活的一部分。',
+      '第一周花了我不少力气：我忘了带两次杯子。后来我把这个习惯变得容易：一只轻便、到处都买得到的杯子，放在门边，那一点提醒就够了。慢慢地，它变成了自动的动作，坚持下来也很容易。',
+      '两个月后，变化很清楚。我自己的杯子已经取代了大约一百个一次性杯子，我每周扔掉的纸和塑料也少了。学校附近的咖啡店甚至会给自带杯子的同学打折。',
+      '一只杯子救不了地球，但习惯会有影响。室友看到我的杯子，也买了一只，很快我们班一半的同学都自带杯子：这是一个小小的社区变化。一个人的小决定，能走得比教室墙上的任何海报都远。',
+      '有人说，面对成堆的垃圾，一只杯子什么也不是；他们说对了一半：靠杯子本身，阻止不了浪费。但一旦你开始带杯子，你也会更多地回收，买包装更少的东西，小习惯开始一点点累积起来。',
+      '所以，如果你想做点什么，不要等一个完美的计划。只有从小处做起，真正的改变才会开始。一个你能坚持一年的习惯，永远比一个你一周就放弃的完美计划更有用。杯子很便宜，但这个习惯带来的价值会一直都在。'
+    ],
+    vocabulary: [
+      {
+        w: 'available',
+        ph: '/əˈveɪləbl/',
+        pos: 'adj.',
+        cn: '可获得的、可买到的',
+        col: 'be available — 可以买到／可以得到；widely available — 到处都有',
+        ex: 'Light cups are widely available online.'
+      },
+      {
+        w: 'concern',
+        ph: '/kənˈsɜːn/',
+        pos: 'n./v.',
+        cn: '担心、忧虑；关心',
+        col: 'feel concern — 感到担忧；be concerned about — 关心、担心',
+        ex: 'I felt real concern when I saw the pile.'
+      },
+      {
+        w: 'consumer',
+        ph: '/kənˈsjuːmə/',
+        pos: 'n.',
+        cn: '消费者',
+        col: 'an ordinary consumer — 普通消费者；consumer choice — 消费者的选择',
+        ex: 'Consumers can change the market with small choices.'
+      },
+      {
+        w: 'disposable',
+        ph: '/dɪˈspəʊzəbl/',
+        pos: 'adj.',
+        cn: '一次性的、用后即弃的',
+        col: 'disposable cups — 一次性杯子；disposable income — 可支配收入',
+        ex: 'We should use fewer disposable products.'
+      },
+      {
+        w: 'gradually',
+        ph: '/ˈɡrædʒuəli/',
+        pos: 'adv.',
+        cn: '逐渐地',
+        col: 'gradually change — 逐渐改变；gradually get used to — 慢慢习惯',
+        ex: 'Gradually, carrying the cup became automatic.'
+      },
+      {
+        w: 'habit',
+        ph: '/ˈhæbɪt/',
+        pos: 'n.',
+        cn: '习惯',
+        col: 'form a habit — 养成习惯；break a habit — 改掉习惯',
+        ex: 'One small habit can change a lot.'
+      },
+      {
+        w: 'influence',
+        ph: '/ˈɪnfluəns/',
+        pos: 'n./v.',
+        cn: '影响',
+        col: 'have influence on — 对……有影响；be influenced by — 受……影响',
+        ex: 'Friends have a strong influence on what we buy.'
+      },
+      {
+        w: 'maintain',
+        ph: '/meɪnˈteɪn/',
+        pos: 'vt.',
+        cn: '保持、维持；保养',
+        col: 'maintain a habit — 保持一个习惯；maintain a car — 保养汽车',
+        ex: 'It is easy to maintain the habit once it is formed.'
+      },
+      {
+        w: 'ordinary',
+        ph: '/ˈɔːdnri/',
+        pos: 'adj.',
+        cn: '普通的、平常的',
+        col: 'ordinary people — 普通人；in ordinary times — 在平常时候',
+        ex: 'Ordinary people can make a difference.'
+      },
+      {
+        w: 'packaging',
+        ph: '/ˈpækɪdʒɪŋ/',
+        pos: 'n.',
+        cn: '包装（不可数）',
+        col: 'less packaging — 更少的包装；plastic packaging — 塑料包装',
+        ex: 'Try to buy things with less packaging.'
+      },
+      {
+        w: 'plastic',
+        ph: '/ˈplæstɪk/',
+        pos: 'n./adj.',
+        cn: '塑料；塑料的',
+        col: 'plastic bag — 塑料袋；plastic waste — 塑料垃圾',
+        ex: 'The inside of the cup is plastic.'
+      },
+      {
+        w: 'practical',
+        ph: '/ˈpræktɪkl/',
+        pos: 'adj.',
+        cn: '实用的、切实可行的',
+        col: 'a practical idea — 实用的想法；practical advice — 实用的建议',
+        ex: 'This is a practical way to start.'
+      },
+      {
+        w: 'recycle',
+        ph: '/ˌriːˈsaɪkl/',
+        pos: 'v.',
+        cn: '回收利用',
+        col: 'recycle paper — 回收纸张；recycle bottles — 回收瓶子',
+        ex: 'We recycle more now than last year.'
+      },
+      {
+        w: 'replace',
+        ph: '/rɪˈpleɪs/',
+        pos: 'vt.',
+        cn: '取代、替换',
+        col: 'replace A with B — 用 B 替换 A；replace old ones — 换掉旧的',
+        ex: 'My own cup replaced a hundred paper ones.'
+      },
+      {
+        w: 'willing',
+        ph: '/ˈwɪlɪŋ/',
+        pos: 'adj.',
+        cn: '愿意的',
+        col: 'be willing to do sth. — 愿意做某事；willing to help — 乐意帮忙',
+        ex: 'She is willing to try new things.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'on the way (to …)',
+        cn: '在去……的路上',
+        ex: 'I buy coffee on the way to class.'
+      },
+      {
+        en: 'for the first time',
+        cn: '第一次、首次',
+        ex: 'For the first time, I felt concern about the cups.'
+      },
+      {
+        en: 'next to',
+        cn: '紧挨着、在……旁边',
+        ex: 'Leave the cup next to the door.'
+      },
+      {
+        en: 'throw … away',
+        cn: '把……扔掉',
+        ex: 'We threw away too much paper last week.'
+      },
+      {
+        en: 'pile up',
+        cn: '堆积起来、越积越多',
+        ex: 'Small habits pile up and become real change.'
+      },
+      {
+        en: 'be willing to do sth.',
+        cn: '愿意做某事',
+        ex: 'He is willing to carry his own cup.'
+      },
+      {
+        en: 'on the outside / on the inside',
+        cn: '外面一层／里面一层',
+        ex: 'Paper on the outside, plastic on the inside.'
+      },
+      {
+        en: 'give a discount',
+        cn: '打折、给折扣',
+        ex: 'The café gives a discount to students.'
+      },
+      {
+        en: 'wait for',
+        cn: '等待',
+        ex: 'Do not wait for a perfect plan.'
+      },
+      {
+        en: 'think about',
+        cn: '考虑、想到',
+        ex: 'Think about where the cup goes after the coffee.'
+      },
+      {
+        en: 'by itself',
+        cn: '靠自己、独自；自动地',
+        ex: 'One cup cannot change the world by itself.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'For one thing, ...',
+        cn: '一则……、首先……',
+        meaning: '引出第一条理由，常与 For another, …（再则……）配对使用，把理由分成两点来说。',
+        context: '主体段落：说明「为什么」时，先用它列第一条理由，下一句用 For another 补第二条。',
+        alts: [
+          {
+            t: 'For another, ...',
+            n: '配对的第二条，常跟在同一段里'
+          },
+          {
+            t: 'First of all, ...',
+            n: '更口语，序数感更强'
+          },
+          {
+            t: 'On the one hand, ...',
+            n: '用于两面对比时'
+          }
+        ],
+        register: '中性，议论文与说明文都好用。',
+        example: 'For one thing, a habit is small enough to keep every day.'
+      },
+      {
+        expr: 'Only by ...',
+        cn: '只有通过……（才能……）',
+        meaning: '把「方式」提到句首加以强调，后面的主句要用部分倒装（can we / will we / do we）。',
+        context: '结尾段提做法、给建议时使用，语气比普通句式更强，是四级写作的加分句型。',
+        alts: [
+          {
+            t: 'Not until ..., ...',
+            n: '直到……才……，同样要倒装'
+          },
+          {
+            t: 'It is by ... that ...',
+            n: '强调句式，不倒装'
+          },
+          {
+            t: 'Without ..., ...',
+            n: '从反面说「没有……就……」'
+          }
+        ],
+        register: '偏书面，结尾收束最有力。',
+        example: 'Only by starting small can real change begin.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'Once a behaviour is repeated for a few weeks, it stops being a decision and becomes part of the day.',
+        points: [
+          '<b>主干</b>：it stops being a decision and becomes part of the day；句首 Once 引导时间状语从句，意思是「一旦……就……」。',
+          '<b>被动语态 is repeated</b>：动作的执行者被省略，重点放在「行为被反复做」这件事上；写习惯类文章时用被动可以避免重复提「你」。',
+          '<b>stops being / becomes</b>：stop 后接动名词表示「停止做某事」，become 是系动词，后面接名词短语 part of the day 作表语。',
+          '<b>for a few weeks</b>：表示持续时间，注意 for + 时间段，不能换成 during。',
+          '<b>为什么值得学</b>：一句话讲清「习惯是怎么养成的」，四级写作里谈习惯、坚持、改变时可以直接套用这个句型。'
+        ]
+      },
+      {
+        text: 'What begins as one person’s small decision can travel further than any poster on the classroom wall.',
+        points: [
+          '<b>主干</b>：What begins as one person’s small decision can travel further …，主语是 What 引导的主语从句。',
+          '<b>What = the thing that</b>：从句整体作主语，谓语用单数 can travel；这是四级写作里「以小见大」的常用开头。',
+          '<b>begin as …</b>：「以……开始」，说明起点很小；与后面的 travel further 形成对比。',
+          '<b>further than any poster</b>：比较结构，further 是 far 的比较级，表示「比……走得更远」，暗含「影响更大」。',
+          '<b>为什么值得学</b>：这句话把「个人小事」与「公共宣传」作对比，是环保、习惯类作文最好用的升华句之一。'
+        ]
+      },
+      {
+        text: 'The habit that you can keep for a year will always do more than the perfect plan that you give up after a week.',
+        points: [
+          '<b>主干</b>：The habit will always do more than the perfect plan，主语和宾语各带一个 that 定语从句。',
+          '<b>两个 that 定语从句</b>：that you can keep for a year 修饰 The habit，that you give up after a week 修饰 the perfect plan，都是限制性定语从句，that 在从句中作宾语。',
+          '<b>do more than</b>：「比……做得更多、更有用」，do 在这里表示「起作用」，比 be better 更口语也更有力。',
+          '<b>give up</b>：放弃，短语动词；注意与 give away、give out 区分。',
+          '<b>为什么值得学</b>：两个定语从句对称出现，形成「能坚持的小习惯 vs 一周就放弃的完美计划」的对比，四级写作的对比句可以照这个结构写。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the teacher ask the students to do for one week?',
+        cn: '老师让学生做一件什么事，做一周？',
+        ans: 'He asked them to keep every paper cup for one week.',
+        ansCn: '老师让他们把每一个纸杯都留一周。'
+      },
+      {
+        en: 'How did the writer make the new habit easy to keep?',
+        cn: '作者怎么让这个新习惯变得容易坚持？',
+        ans: 'He chose a light cup that is widely available and left it next to the door as a small reminder.',
+        ansCn: '他挑了一只轻便、到处都买得到的杯子，放在门边当作提醒。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'A small habit that you can keep is more effective than a big slogan or a perfect plan, because repeated small actions slowly change what you do.',
+        ansCn: '能长期坚持的小习惯，比响亮的口号和完美的计划更有效，因为反复的小行动会慢慢改变你的行为。'
+      },
+      {
+        en: 'In paragraph 3, which word can be replaced by “useful” without changing the meaning?',
+        cn: '第三段中哪个词可以换成「有用的」而不改变句意？',
+        ans: 'The word is “practical”, as in “a cup in your bag is real and practical”.',
+        ansCn: '是那个表示「实用的」形容词。'
+      },
+      {
+        en: 'In paragraph 7, the writer says “small habits begin to pile up”. What does “pile up” mean here?',
+        cn: '第七段说小习惯开始「堆积起来」，这里是什么意思？',
+        ans: 'It means that small actions become more and more and finally add up to something big.',
+        ansCn: '指小行动越来越多，最后累积成很大的效果。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about one small green habit you want to start, and explain why small habits work.',
+      hints: [
+        'As an ordinary consumer, I ...',
+        'For one thing, ...',
+        'Only by ... can we ...',
+        'The habit I want to keep is ...'
+      ],
+      hintCn: '用 5–7 句话写你想开始的一个小环保习惯：先表明观点，再给理由，最后举一个具体的例子。观点、理由、例子三要素要齐全。',
+      req: '至少使用 1 个本篇学过的词或搭配（habit / practical / gradually / pile up / be willing to）。'
+    },
+    speakingTask: {
+      en: 'Is one small habit enough to help the environment? Speak for one minute: give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One example from your life'
+      ],
+      pointCn: '先明确回答够不够，再给一个理由，最后举一个自己生活里的小例子。',
+      skeleton: 'In my opinion, one small habit is / is not enough. That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 15 个</b>：<span class=\'en\'>available, concern, consumer, disposable, gradually, habit, influence, maintain, ordinary, packaging, plastic, practical, recycle, replace, willing</span> —— <span class=\'en\'>consumer / influence / concern</span> 是四级高频抽象词；<span class=\'en\'>replace A with B</span>（用 B 替换 A）；<span class=\'en\'>be willing to do sth.</span>（愿意做某事）；<span class=\'en\'>maintain</span> 比 keep 更书面，强调「长期维持」；<span class=\'en\'>packaging</span> 是不可数名词。',
+      '<b>本篇复现的旧词</b>：第 8 篇的 <span class=\'en\'>reduced</span>（减少了纸和塑料）、第 9 篇的 <span class=\'en\'>community</span>（社区层面的小变化）、第 10 篇的 <span class=\'en\'>effort</span>（第一周很费力）、第 18 篇的 <span class=\'en\'>value</span>（习惯的价值）、第 19 篇的 <span class=\'en\'>rubbish</span>（成堆的垃圾）、第 20 篇的 <span class=\'en\'>prevent / remind</span>（阻止浪费、门边的提醒）。',
+      '<b>三个长难句</b>：第一句是 Once 条件句 + 被动 + stop doing；第二句是 What 主语从句 + 比较结构；第三句是两个对称的 that 定语从句 + do more than 比较。三句分别讲「习惯如何养成」「小事如何变大」「坚持胜过计划」，正好是本篇的三步立意。',
+      '<b>搭配与写作表达</b>：<span class=\'en\'>be willing to do sth.</span>、<span class=\'en\'>give a discount</span>、<span class=\'en\'>throw … away</span>、<span class=\'en\'>pile up</span>、<span class=\'en\'>for the first time</span>；写作表达 <span class=\'en\'>For one thing, …</span>（一则）常与 For another 配对，<span class=\'en\'>Only by …</span> 后面主句要部分倒装（can real change begin）。',
+      '<b>全文逻辑线与题型提醒</b>：一次性杯子的觉察（经历）→ 一周实验（证据）→ 小习惯为何有效（道理）→ 怎么坚持（方法）→ 两个月后的变化（结果）→ 影响身边的人（升华）→ 回应质疑（让步）→ 倒装句收尾（立意）。第 4 题同义替换识别，把题干里的常用词还原成原文用词；第 5 题词义猜测，看短语动词所在的整句意思。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 15 个核心词遮住中文说出 ≥ 11 · 3 个长难句会拆结构 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 15 个核心词中的 11 个（habit、practical、influence、maintain …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（be willing to、throw … away、pile up …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 3 个长难句各自的主干与从句类型，并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；同义替换与词义猜测题要在原文找到依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 For one thing, … 或 Only by … can we …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「一个小习惯够不够」的立场，给出一个理由和一个例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 7 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 27,
+    slug: '027-what-we-buy-when-we-are-tired',
+    title: 'What We Buy When We Are Tired',
+    titleCn: '疲惫时我们买什么',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 375 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.2%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/027.jpg',
+    coverCredit: 'Photo: Tim Douglas / Pexels',
+    body: [
+      'Last month, during two hard weeks of exams, every evening I came home with no energy left, dropped onto the sofa and opened a shopping app. <span class="w-sentence">I told myself I was only looking, but by the end of the second week five small boxes had arrived at my door.</span>',
+      'The things themselves were <span class="w-rev">cheap</span>: socks, a bottle and a lamp <span class="w-phrase" data-cn="特价、打折出售">on sale</span>. <span class="w-writing" data-cn="问题在于……（点出关键）">The problem is that</span> my tired self kept making choices my rested self would never make, and a small <span class="w-rev">waste</span> became a large one.',
+      'Shopping when we are tired is not really about the things. After a long and <span class="w-cet4" data-cn="压力大的、紧张的">stressful</span> day, the brain wants a quick <span class="w-cet4" data-cn="奖赏、回报">reward</span>, and buying something is the fastest way to get one. A bright picture can give us a feeling of success.',
+      'Shops know this; the way they <span class="w-cet4" data-cn="做广告、宣传">advertise</span> is built for tired eyes. The buy button is large, the <span class="w-cet4" data-cn="购物车">cart</span> is one click away, and <span class="w-cet4" data-cn="把戏、花招">tricks</span> like “only two left” make us act at once. Nothing in that <span class="w-cet4" data-cn="设计">design</span> makes us think twice, so we are easily <span class="w-cet4" data-cn="说服">persuaded</span>.',
+      'One Sunday, sitting with my phone, I <span class="w-phrase" data-cn="把……加起来算一算">added up</span> what those boxes had really <span class="w-rev">cost</span> me and <span class="w-rev">decided</span> to try a small rule. I may look at any <span class="w-cet4" data-cn="商品、一件东西">item</span>, but <span class="w-cet4" data-cn="除非">unless</span> I still want it the next morning, I do not buy it. Every <span class="w-synonym" data-cn="＝ buy 的书面替换词">purchase</span> has to survive a night.',
+      'The rule is small, but it changed my evenings. The <span class="w-cet4" data-cn="冲动、强烈的欲望">urge</span> to buy still comes when I am <span class="w-synonym" data-cn="＝ very tired 的替换词">exhausted</span>, but now I do not <span class="w-phrase" data-cn="向……屈服、忍不住">give in to</span> the <span class="w-cet4" data-cn="冲动、一时的念头">impulse</span>; <span class="w-cet4" data-cn="避免">avoiding</span> a bad buy costs me nothing. <span class="w-cet4" data-cn="反而、代替">Instead</span> of paying at once, I <span class="w-phrase" data-cn="把事情留到第二天再决定">sleep on it</span>.',
+      '<span class="w-sentence">What we buy when we are tired is not really an object but a few minutes of rest, and those minutes are gone long before the box is opened.</span> <span class="w-writing" data-cn="老实说……（引出坦白的看法）">To be honest</span>, that short <span class="w-cet4" data-cn="安慰、舒适">comfort</span> never <span class="w-cet4" data-cn="使满足">satisfies</span> us for long; the things we thought we <span class="w-rev">needed</span> sit <span class="w-rev">unopened</span> in a corner.',
+      'Being tired is not a good adviser. Next time you want to buy at eleven at night, wait until morning; that small <span class="w-cet4" data-cn="暂停、停顿">pause</span> is <span class="w-phrase" data-cn="值得做">worth doing</span>. If the want is real, it will still be there; if not, you save money. My late-night shopping is under <span class="w-rev">control</span>, and what I finally buy keeps its <span class="w-rev">value</span>.'
+    ],
+    translation: [
+      '上个月，备考最紧张的两周里，每天晚上回到家，我一点力气都不剩，瘫在沙发上，打开手机里的购物软件。我告诉自己只是随便看看，可到第二周快结束时，门口已经堆了五个小包裹。',
+      '东西本身都不贵：一双袜子、一个瓶子，还有一盏打折的台灯。问题在于，累坏了的我一直在替休息好了的我做决定，于是一点点的小浪费变成了一个大数目。',
+      '人在疲惫时购物，买的其实不是东西。劳累了一天之后，大脑想要一点快速的奖赏，而买东西是拿到奖赏最快的办法。一张亮眼的图片，就能给我们一点成就感。',
+      '商家很清楚这一点；他们做广告的方式，就是为疲惫的眼睛设计的。购买按钮很大，购物车离一键下单只差一步，「只剩两件」这样的小花招让我们立刻行动。那样的设计里没有任何东西让我们多想一步，于是我们很容易就被说服了。',
+      '一个星期天，我拿着手机坐下来，把那些包裹真正花掉的钱加在一起，然后决定给自己立一条小规矩：什么东西我都可以看，但除非第二天早上我还想要，否则我就不买。每一笔购买都得先熬过一个晚上。',
+      '这条规矩很小，却改变了我的晚上。疲惫的时候，想买东西的冲动还是会来，但我不再向它屈服；避开一次糟糕的购买，对我没有任何损失。我不再当场付钱，而是把事情留到第二天再决定。',
+      '我们疲惫时买的，其实不是一件物品，而是几分钟的休息，可这几分钟在箱子打开之前早就溜走了。老实说，那一点点安慰从来没有满足过我们；我们以为自己需要的东西，就那样原封不动地堆在角落里。',
+      '疲惫不是一个好顾问。下次深夜十一点想买东西时，先等到第二天早上；这一下小小的暂停是值得的。如果想要的东西是真的想要，它明早还在；如果不是，你就省下了钱。我深夜的购物得到了控制，而我最终买下的东西也保得住价值。'
+    ],
+    vocabulary: [
+      {
+        w: 'reward',
+        ph: '/rɪˈwɔːd/',
+        pos: 'n./v.',
+        cn: '奖赏、回报',
+        col: 'a small reward — 一点小奖赏；reward sb. for sth. — 因某事奖赏某人',
+        ex: 'A quiet evening is a good reward after a hard day.'
+      },
+      {
+        w: 'stress',
+        ph: '/stres/',
+        pos: 'n./v.',
+        cn: '压力；使紧张',
+        col: 'under stress — 在压力之下；stress the importance of — 强调……的重要性',
+        ex: 'Students often eat badly when they are under stress.'
+      },
+      {
+        w: 'urge',
+        ph: '/ɜːdʒ/',
+        pos: 'n./v.',
+        cn: '冲动、强烈的欲望；力劝',
+        col: 'an urge to do sth. — 做某事的冲动；urge sb. to do sth. — 力劝某人做某事',
+        ex: 'She felt a sudden urge to buy the whole box.'
+      },
+      {
+        w: 'impulse',
+        ph: '/ˈɪmpʌls/',
+        pos: 'n.',
+        cn: '冲动、一时的念头',
+        col: 'buy on impulse — 凭冲动购买；a sudden impulse — 一时的念头',
+        ex: 'Most things bought on impulse end up in a corner.'
+      },
+      {
+        w: 'persuade',
+        ph: '/pəˈsweɪd/',
+        pos: 'vt.',
+        cn: '说服、劝服',
+        col: 'persuade sb. to do sth. — 说服某人做某事；be persuaded by — 被……说服',
+        ex: 'The bright picture persuaded me to open my wallet.'
+      },
+      {
+        w: 'advertise',
+        ph: '/ˈædvətaɪz/',
+        pos: 'v.',
+        cn: '做广告、宣传',
+        col: 'advertise online — 在网上做广告；advertise a product — 宣传一件产品',
+        ex: 'Shops advertise the same thing again and again.'
+      },
+      {
+        w: 'item',
+        ph: '/ˈaɪtəm/',
+        pos: 'n.',
+        cn: '商品、一件东西',
+        col: 'every item — 每一件商品；an item of clothing — 一件衣服',
+        ex: 'I returned two items the next morning.'
+      },
+      {
+        w: 'cart',
+        ph: '/kɑːt/',
+        pos: 'n.',
+        cn: '购物车',
+        col: 'a shopping cart — 购物车；put sth. in the cart — 把某物放进购物车',
+        ex: 'I left three things in the cart overnight.'
+      },
+      {
+        w: 'pause',
+        ph: '/pɔːz/',
+        pos: 'n./v.',
+        cn: '暂停、停顿',
+        col: 'make a pause — 停顿一下；pause for a moment — 停一会儿',
+        ex: 'A short pause before paying can save a lot.'
+      },
+      {
+        w: 'avoid',
+        ph: '/əˈvɔɪd/',
+        pos: 'vt.',
+        cn: '避免、避开',
+        col: 'avoid doing sth. — 避免做某事（后接动名词）；avoid a mistake — 避免犯错',
+        ex: 'It is hard to avoid buying things late at night.'
+      },
+      {
+        w: 'unless',
+        ph: '/ənˈles/',
+        pos: 'conj.',
+        cn: '除非、如果不',
+        col: 'unless it rains — 除非下雨；not … unless … — 除非……才……',
+        ex: 'I do not shop after ten unless I really have to.'
+      },
+      {
+        w: 'satisfy',
+        ph: '/ˈsætɪsfaɪ/',
+        pos: 'vt.',
+        cn: '使满足、使满意',
+        col: 'satisfy one’s needs — 满足需要；satisfy sb. — 让某人满意',
+        ex: 'A new thing rarely satisfies us for long.'
+      },
+      {
+        w: 'design',
+        ph: '/dɪˈzaɪn/',
+        pos: 'n./v.',
+        cn: '设计；设计、打算',
+        col: 'be designed for — 为……而设计；a new design — 一个新的设计',
+        ex: 'The page is designed to make paying easy.'
+      },
+      {
+        w: 'trick',
+        ph: '/trɪk/',
+        pos: 'n.',
+        cn: '把戏、花招；诡计',
+        col: 'play a trick on — 捉弄；a clever trick — 一个小花招',
+        ex: '“Only two left” is a common trick on shopping pages.'
+      },
+      {
+        w: 'instead',
+        ph: '/ɪnˈsted/',
+        pos: 'adv.',
+        cn: '反而、代替',
+        col: 'instead of — 代替、而不是（后接名词或动名词）；do sth. instead — 改做某事',
+        ex: 'I closed the app and read instead.'
+      },
+      {
+        w: 'comfort',
+        ph: '/ˈkʌmfət/',
+        pos: 'n.',
+        cn: '安慰、舒适',
+        col: 'a small comfort — 一点安慰；for comfort — 为了舒服',
+        ex: 'Buying gives a short comfort, not a real answer.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'on sale',
+        cn: '特价、打折出售',
+        ex: 'The lamp was on sale for one evening only.'
+      },
+      {
+        en: 'add up',
+        cn: '把……加起来、合计',
+        ex: 'Add up what you spent last month.'
+      },
+      {
+        en: 'give in to',
+        cn: '向……屈服、忍不住（诱惑、冲动）',
+        ex: 'Do not give in to the urge to buy at once.'
+      },
+      {
+        en: 'sleep on it',
+        cn: '把事情留到第二天再决定',
+        ex: 'If you are not sure, sleep on it.'
+      },
+      {
+        en: 'be worth doing',
+        cn: '值得做',
+        ex: 'Waiting one day is worth doing.'
+      },
+      {
+        en: 'a waste of money',
+        cn: '浪费钱',
+        ex: 'That shirt was a waste of money.'
+      },
+      {
+        en: 'keep … under control',
+        cn: '把……控制住',
+        ex: 'A simple rule keeps late-night shopping under control.'
+      },
+      {
+        en: 'pay for sth.',
+        cn: '为某物付钱',
+        ex: 'I paid for the book the next morning.'
+      },
+      {
+        en: 'act at once',
+        cn: '立刻行动、马上动手',
+        ex: 'Pages like this make us act at once.'
+      },
+      {
+        en: 'have a clear head',
+        cn: '头脑清醒',
+        ex: 'You shop better with a clear head.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'The problem is that ...',
+        cn: '问题在于……',
+        meaning: '用来点出真正的问题所在，把前文的现象收束成一句判断，比直接说 I think 更有分析感。',
+        context: '议论段的开头或中间：先描述一个现象，再用它指出关键问题。',
+        alts: [
+          {
+            t: 'The trouble is that ...',
+            n: '稍口语'
+          },
+          {
+            t: 'What really matters is that ...',
+            n: '更强调重点'
+          },
+          {
+            t: 'The point is that ...',
+            n: '口语常用'
+          }
+        ],
+        register: '中性，写作口语都自然。',
+        example: 'The problem is that tired people make fast choices.'
+      },
+      {
+        expr: 'To be honest, ...',
+        cn: '老实说……（引出坦白的看法）',
+        meaning: '在给出个人感受或不太光彩的事实之前先作铺垫，语气坦诚。',
+        context: '夹叙夹议的文章里，从叙事转到自我剖析的段落开头。',
+        alts: [
+          {
+            t: 'Honestly, ...',
+            n: '更短、更口语'
+          },
+          {
+            t: 'To tell the truth, ...',
+            n: '意思相同，稍正式'
+          },
+          {
+            t: 'Admittedly, ...',
+            n: '书面，承认某个事实时用'
+          }
+        ],
+        register: '中性偏口语，写作中用在个人感受处最自然。',
+        example: 'To be honest, I knew the lamp was useless the next morning.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'I told myself I was only looking, but by the end of the second week five small boxes had arrived at my door.',
+        points: [
+          '<b>主干</b>：I told myself … 与 five small boxes had arrived … 由 but 连接成两个并列分句。',
+          '<b>tell oneself (that) …</b>：心里对自己说、自我安慰，常带有「说服自己」的意味，比 I thought 更有自欺的味道。',
+          '<b>by the end of + 时间</b>：到……结束时为止，主句用<b>过去完成时</b>（had arrived），表示「在那之前已经送到」，时间层次比 told 更早。',
+          '<b>为什么值得学</b>：一句里同时有并列、宾语从句和过去完成时，是记叙文交代「问题已经悄悄发生」的标准句式。',
+          '<b>常见变体</b>：By the end of the week, I had spent … —— 放句首强调时间点，后接完成时。'
+        ]
+      },
+      {
+        text: 'What we buy when we are tired is not really an object but a few minutes of rest, and those minutes are gone long before the box is opened.',
+        points: [
+          '<b>主干</b>：What we buy … is not … but …，and those minutes are gone … —— 前半句是主系表，后半句由 and 并列。',
+          '<b>What 引导主语从句</b>：What 相当于 the thing that，整个从句作主语，谓语用单数 is；写作里可以照抄：What we need is not … but …。',
+          '<b>not … but …</b>：不是……而是……，否定前者、突出后者，这里把「买的东西」和「几分钟的安慰」作对比。',
+          '<b>被动语态</b>：are gone 与 is opened 都是被动或系表结构，中文里往往译成主动句，读英文时要还原动作的承受者。',
+          '<b>为什么值得学</b>：这是全文的点题句，把消费话题从「东西」升到「心理」，观点类作文的结尾段可以直接模仿这个高度。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the writer usually do every evening during the two hard weeks of exams?',
+        cn: '备考的那两周里，作者每天晚上通常做什么？',
+        ans: 'He came home with no energy, dropped onto the sofa and opened a shopping app on his phone.',
+        ansCn: '他回到家时已经没有力气，瘫在沙发上，打开手机里的购物软件。'
+      },
+      {
+        en: 'What is the writer’s rule before he pays for anything?',
+        cn: '作者在付钱之前给自己定了什么规矩？',
+        ans: 'He may look at anything, but unless he still wants it the next morning, he does not pay for it; every purchase has to survive a night.',
+        ansCn: '什么东西都可以看，但除非第二天早上还想要，否则就不付钱；每一笔购买都要先熬过一个晚上。'
+      },
+      {
+        en: 'What is the passage mainly about?',
+        cn: '这篇文章主要讲什么？',
+        ans: 'When we are tired we buy feelings rather than things, so we should slow down and wait before paying.',
+        ansCn: '人在疲惫时买的其实是感觉而不是东西，所以付钱之前应该慢下来、等一等。'
+      },
+      {
+        en: 'In the fifth paragraph, the writer uses “purchase” as a written-style substitute for which common word?',
+        cn: '第五段里作者用「购买」这个词作为哪个常用词的书面替换？',
+        ans: 'It is used as a substitute for “buy”.',
+        ansCn: '它是「买」这个常用词的书面替换说法。'
+      },
+      {
+        en: 'What does “sleep on it” most probably mean in the passage?',
+        cn: '文中的「把事情留到第二天再决定」这个短语最可能是什么意思？',
+        ans: 'To wait until the next day before deciding whether to buy something.',
+        ansCn: '在决定要不要买某件东西之前，先等到第二天再说。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about a thing you bought but did not really need.',
+      hints: [
+        'When I am tired, I ...',
+        'The problem is that ...',
+        'So I made a rule for myself: ...',
+        'To be honest, ...'
+      ],
+      hintCn: '用 5–7 句话写一次「不需要却买了」的经历：先写什么情况下买的、买了什么，再点出真正的问题，最后写自己立的规矩。',
+      req: '至少使用 2 个本篇学过的词或搭配（urge / impulse / persuade / avoid / sleep on it / give in to / be worth doing）。'
+    },
+    speakingTask: {
+      en: 'Talk for 1 minute: Should people wait one day before buying something online? Give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '先明确表态该不该等，再给一个理由，最后举一个自己的小例子，三个要素都要有。',
+      skeleton: 'In my opinion, people should wait one day before buying. The problem is that ... For example, last month I ...'
+    },
+    focus: [
+      '<b>新授核心词 16 个</b>：<span class=\'en\'>reward, stress, urge, impulse, persuade, advertise, item, cart, pause, avoid, unless, satisfy, design, trick, instead, comfort</span> —— 重点记 <span class=\'en\'>avoid doing sth.</span>（后接动名词）、<span class=\'en\'>persuade sb. to do sth.</span>、<span class=\'en\'>instead of</span>（后接名词或动名词）；<span class=\'en\'>unless</span> 相当于 if … not，别写成双重否定。',
+      '<b>本篇复现的旧词</b>：第 4 篇的 <span class=\'en\'>cheap / cost / need</span>、第 5 篇的 <span class=\'en\'>decide</span>、第 6 篇的 <span class=\'en\'>waste</span>、第 14 篇的 <span class=\'en\'>unopened</span>、第 18 篇的 <span class=\'en\'>value</span>、第 20 篇的 <span class=\'en\'>control</span> —— 都是换到「深夜购物」的新语境再认一次，看到灰点先自己说意思，再查它首次出现的篇目。',
+      '<b>两个长难句</b>：第一句练「<span class=\'en\'>by the end of + 过去完成时</span>」，交代问题早已发生；第二句练「<span class=\'en\'>What 主语从句 + not … but … + 被动</span>」，是全文点题句，观点作文结尾可直接仿写。',
+      '<b>搭配与写作表达</b>：<span class=\'en\'>add up</span>（算一算）、<span class=\'en\'>give in to</span>（向冲动屈服）、<span class=\'en\'>sleep on it</span>（留到第二天决定）是一组「踩刹车」的动作链；写作里 <span class=\'en\'>The problem is that …</span> 点问题，<span class=\'en\'>To be honest, …</span> 坦白感受，一前一后。',
+      '<b>全文逻辑线与题型提醒</b>：现象（疲惫时买买买）→ 解释（大脑要奖赏、商家会设计）→ 转折（立规矩）→ 效果（少买了）→ 点题（买的是安慰）。同义替换题认准「书面替换词」＝ 常用词；词义猜测题把短语放回句子里，看它前后给出的条件。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 16 个核心词遮住中文说出 ≥ 12 · 2 个长难句会拆解 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 16 个核心词中的 12 个（urge、impulse、persuade、avoid、unless …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 8 个，能各造一句（on sale、add up、give in to、sleep on it …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '2 个长难句各说出结构（by the end of + 过去完成时；What 主语从句 + not … but …），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；主旨题与词义猜测题要能说出原文依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 The problem is that … 或 To be honest, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「要不要等一天再买」的观点，并给出一个理由和一个自己的例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 6 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 28,
+    slug: '028-the-cost-of-being-always-online',
+    title: 'The Cost of Being Always Online',
+    titleCn: '永远在线的代价',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 380 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.2%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/028.jpg',
+    coverCredit: 'Photo: mikoto.raw Photographer / Pexels',
+    body: [
+      'Until last term, my phone was the first <span class="w-rev">device</span> I touched in the morning and the last at night. If a friend sent me a message, I <span class="w-cet4" data-cn="回应、答复">responded</span> within minutes, feeling a <span class="w-cet4" data-cn="压力">pressure</span> to reply at once. If they answered slowly, I felt <span class="w-cet4" data-cn="焦虑的、不安的">anxious</span>.',
+      'This is the cost of being always online. Every <span class="w-cet4" data-cn="通知、消息提醒">notification</span> seems urgent, and each one <span class="w-cet4" data-cn="打断">interrupts</span> whatever we are doing. Our <span class="w-rev">attention</span> is cut into small pieces, we cannot <span class="w-cet4" data-cn="集中（注意力）">concentrate</span> for long, and real talks grow shorter than the ones we type.',
+      '<span class="w-sentence">One evening a friend joked that I answered messages faster than I answered my own door.</span> Her words stayed with me. That night I thought about the kind of evening I wanted.',
+      'I wanted one quiet hour, <span class="w-cet4" data-cn="分开的、独立的">separate</span> from the rest of the day. So I <span class="w-cet4" data-cn="宣布、告知">announced</span> a small change and <span class="w-phrase" data-cn="确保">made sure</span> my close friends understood: from nine to ten, my phone would be <span class="w-phrase" data-cn="把……收起来">put away</span> in the kitchen <span class="w-cet4" data-cn="抽屉">drawer</span>. If anything was important, they could call.',
+      'The first week was harder than I <span class="w-rev">expected</span>. Several times I <span class="w-phrase" data-cn="想要做某事">felt like</span> opening the drawer to see if anything had happened. My friends asked whether I was angry with them; I explained that it was not about them.',
+      'Then it became normal: I <span class="w-rev">managed</span> to keep the rule for a whole month, and I slept better. My homework now ended at ten, not at midnight. When I did reply, I had a real <span class="w-cet4" data-cn="话题">topic</span>, and I <span class="w-phrase" data-cn="回复某人、给某人回音">got back to</span> everyone the next morning.',
+      '<span class="w-sentence">Being reachable is not the same as being present, and the fastest answer is not always the kindest one.</span> What <span class="w-rev">matters</span> is how well we listen together. We do not <span class="w-cet4" data-cn="欠、亏欠">owe</span> everyone an <span class="w-cet4" data-cn="即时的、立刻的">instant</span> reply, and a <span class="w-cet4" data-cn="持续不断的">constant</span> <span class="w-synonym" data-cn="＝ flow 的替换词">stream</span> of short messages is not real conversation.',
+      '<span class="w-writing" data-cn="换句话说（换个说法重述）">In other words</span>, a <span class="w-rev">screen</span> has real <span class="w-cet4" data-cn="影响">influence</span> on our evenings, and <span class="w-writing" data-cn="没有必要做某事">there is no need to</span> give it everything. It is worth <span class="w-phrase" data-cn="记住">keeping one thing in mind</span>: the <span class="w-cet4" data-cn="自由">freedom</span> to answer later is also part of a healthy friendship.',
+      'In <span class="w-cet4" data-cn="最近的">recent</span> weeks my friends have begun to do the same, and I <span class="w-synonym" data-cn="＝ seldom 的替换词">rarely</span> return to my old habit. The <span class="w-rev">balance</span> between my online life and my real one feels right again. My friends are <span class="w-rev">patient</span> with my slow replies, and our talks are longer than before.'
+    ],
+    translation: [
+      '上个学期之前，手机是我早上摸到的第一件东西，也是夜里最后碰的一件。朋友发来消息，我几分钟内就会回复，总觉得有压力、必须马上回应。要是对方回得慢了，我就会坐立不安。',
+      '这就是永远在线的代价。每一条通知看起来都很紧急，每一条都会打断我们手头正在做的事。我们的注意力被切成碎片，做什么都难以持久，真正的交谈也变得比我们打出来的字还要短。',
+      '一天晚上，一个朋友开玩笑说，我回消息的速度比我开门迎客还快。这句话一直留在我心里。那天晚上，我认真想了想自己想要一个什么样的夜晚。',
+      '我想要一个安静的小时，和一天里的其他时间分开。于是我宣布了一个小改变，也跟好朋友说清楚：每天九点到十点，手机会被收进厨房的抽屉。真有要紧事，他们可以打电话。',
+      '第一周比我预想的难熬。有好几次，我忍不住想去打开抽屉，看看是不是错过了什么。朋友们问我是不是在生他们的气；我解释说，这和他们没有关系。',
+      '然后一切变得正常了。这条规矩我坚持了整整一个月，觉也睡得更好了。作业十点就写完了，不用再拖到半夜。每次回消息的时候，我都有真正想说的话题，第二天也一一回复了大家。',
+      '随时联系得上，并不等于真的在场；最快的回复也不总是最贴心的。重要的是我们在一起时听得有多认真。我们不欠每个人一条即时回复，接连不断的短消息也算不上真正的交谈。',
+      '换句话说，屏幕对我们晚上时间的影响是实实在在的，而我们没有必要把一切都交给它。有一件事值得记住：晚一点再回复的自由，也是健康友谊的一部分。',
+      '最近几周，朋友们也开始这样做了，我也很少再回到从前的习惯。线上生活和现实生活重新找回了平衡。朋友们对我慢半拍的回复很包容，而我们的谈话，比从前更长了。'
+    ],
+    vocabulary: [
+      {
+        w: 'instant',
+        ph: '/ˈɪnstənt/',
+        pos: 'adj.',
+        cn: '即时的、立刻的',
+        col: 'an instant reply — 即时回复；instant food — 方便食品',
+        ex: 'Nobody can give an instant answer to every message.'
+      },
+      {
+        w: 'respond',
+        ph: '/rɪˈspɒnd/',
+        pos: 'v.',
+        cn: '回应、答复',
+        col: 'respond to — 回应……；respond quickly — 回应得很快',
+        ex: 'She responded to my message within a minute.'
+      },
+      {
+        w: 'pressure',
+        ph: '/ˈpreʃə(r)/',
+        pos: 'n.',
+        cn: '压力',
+        col: 'under pressure — 在压力下；a pressure to do sth. — 做某事的压力',
+        ex: 'Many students feel a pressure to reply at once.'
+      },
+      {
+        w: 'anxious',
+        ph: '/ˈæŋkʃəs/',
+        pos: 'adj.',
+        cn: '焦虑的、不安的',
+        col: 'feel anxious — 感到不安；be anxious about — 为……担心',
+        ex: 'He grew anxious when no one answered him.'
+      },
+      {
+        w: 'constant',
+        ph: '/ˈkɒnstənt/',
+        pos: 'adj.',
+        cn: '持续不断的、经常的',
+        col: 'a constant stream of — 连续不断的……；constant noise — 持续的噪音',
+        ex: 'Constant messages make it hard to think.'
+      },
+      {
+        w: 'interrupt',
+        ph: '/ˌɪntəˈrʌpt/',
+        pos: 'v.',
+        cn: '打断、中断',
+        col: 'interrupt sb. — 打断某人；be interrupted by — 被……打断',
+        ex: 'A notification interrupts whatever you are doing.'
+      },
+      {
+        w: 'concentrate',
+        ph: '/ˈkɒnsntreɪt/',
+        pos: 'v.',
+        cn: '集中（注意力）',
+        col: 'concentrate on — 专心于；cannot concentrate — 无法集中注意力',
+        ex: 'It is hard to concentrate with a phone beside you.'
+      },
+      {
+        w: 'notification',
+        ph: '/ˌnəʊtɪfɪˈkeɪʃn/',
+        pos: 'n.',
+        cn: '通知、消息提醒',
+        col: 'a notification from — 来自……的提醒；turn off notifications — 关掉消息提醒',
+        ex: 'Every notification looks urgent on a small screen.'
+      },
+      {
+        w: 'recent',
+        ph: '/ˈriːsnt/',
+        pos: 'adj.',
+        cn: '最近的、近来的',
+        col: 'in recent weeks — 最近几周；a recent change — 最近的一个变化',
+        ex: 'Recent months have changed the way we talk.'
+      },
+      {
+        w: 'drawer',
+        ph: '/drɔː(r)/',
+        pos: 'n.',
+        cn: '抽屉',
+        col: 'a kitchen drawer — 厨房抽屉；put sth. in the drawer — 把某物放进抽屉',
+        ex: 'My phone sleeps in the kitchen drawer at night.'
+      },
+      {
+        w: 'owe',
+        ph: '/əʊ/',
+        pos: 'vt.',
+        cn: '欠、亏欠',
+        col: 'owe sb. sth. — 欠某人某物；owe sb. an answer — 欠某人一个答复',
+        ex: 'We do not owe everyone an instant reply.'
+      },
+      {
+        w: 'announce',
+        ph: '/əˈnaʊns/',
+        pos: 'vt.',
+        cn: '宣布、告知',
+        col: 'announce a change — 宣布一个改变；announce that … — 宣布……',
+        ex: 'He announced that he would be offline after nine.'
+      },
+      {
+        w: 'separate',
+        ph: '/ˈseprət/',
+        pos: 'adj./v.',
+        cn: '分开的；分开',
+        col: 'separate from — 与……分开；keep … separate — 把……分开',
+        ex: 'Keep one quiet hour separate from the rest of the day.'
+      },
+      {
+        w: 'freedom',
+        ph: '/ˈfriːdəm/',
+        pos: 'n.',
+        cn: '自由',
+        col: 'the freedom to do sth. — 做某事的自由；freedom of choice — 选择的自由',
+        ex: 'The freedom to answer later is a small but real thing.'
+      },
+      {
+        w: 'influence',
+        ph: '/ˈɪnfluəns/',
+        pos: 'n./v.',
+        cn: '影响',
+        col: 'have an influence on — 对……有影响；be influenced by — 受……影响',
+        ex: 'The phone has a real influence on our evenings.'
+      },
+      {
+        w: 'topic',
+        ph: '/ˈtɒpɪk/',
+        pos: 'n.',
+        cn: '话题',
+        col: 'a topic worth talking about — 值得谈的话题；change the topic — 换个话题',
+        ex: 'After a quiet evening, we had a real topic to talk about.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'get back to sb.',
+        cn: '回复某人、给某人回音',
+        ex: 'I will get back to you tomorrow morning.'
+      },
+      {
+        en: 'put … away',
+        cn: '把……收起来',
+        ex: 'Put your phone away when you study.'
+      },
+      {
+        en: 'make sure',
+        cn: '确保、弄清楚',
+        ex: 'Make sure your friends know about the change.'
+      },
+      {
+        en: 'keep … in mind',
+        cn: '记住、把……放在心上',
+        ex: 'Keep one thing in mind: you can answer later.'
+      },
+      {
+        en: 'feel like doing sth.',
+        cn: '想要做某事（后接动名词）',
+        ex: 'Sometimes I feel like checking my phone for no reason.'
+      },
+      {
+        en: 'to one’s surprise',
+        cn: '令某人惊讶的是',
+        ex: 'To my surprise, the first week was the hardest.'
+      },
+      {
+        en: 'change one’s mind',
+        cn: '改变主意',
+        ex: 'I almost changed my mind on the third night.'
+      },
+      {
+        en: 'stay up late',
+        cn: '熬夜',
+        ex: 'I used to stay up late answering messages.'
+      },
+      {
+        en: 'be fed up with',
+        cn: '对……感到厌烦',
+        ex: 'She was fed up with answering messages all evening.'
+      },
+      {
+        en: 'put up with',
+        cn: '忍受、容忍',
+        ex: 'You do not have to put up with constant noise.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'In other words, ...',
+        cn: '换句话说（换个说法重述）',
+        meaning: '用更清楚、更直白的话把上一句再说一遍，帮助读者抓住重点。',
+        context: '议论段中间：先说一个抽象结论，再用它换一种说法讲透。',
+        alts: [
+          {
+            t: 'That is to say, ...',
+            n: '更书面'
+          },
+          {
+            t: 'Put simply, ...',
+            n: '强调「说得简单点」'
+          },
+          {
+            t: 'To put it another way, ...',
+            n: '稍长，正式'
+          }
+        ],
+        register: '中性，写作口语都好用。',
+        example: 'We are always online. In other words, we never really rest.'
+      },
+      {
+        expr: 'There is no need to ...',
+        cn: '没有必要做某事',
+        meaning: '用来劝人不必做某件事，比 do not 语气更委婉，也更像在讲道理。',
+        context: '建议段、结尾段：指出某个常见做法其实可以不做。',
+        alts: [
+          {
+            t: 'You don’t have to ...',
+            n: '更口语'
+          },
+          {
+            t: 'It is not necessary to ...',
+            n: '更正式'
+          },
+          {
+            t: 'Nobody needs to ...',
+            n: '强调「谁都不必」'
+          }
+        ],
+        register: '中性，建议类写作里最常用。',
+        example: 'There is no need to answer every message at once.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'One evening a friend joked that I answered messages faster than I answered my own door.',
+        points: [
+          '<b>主干</b>：One evening a friend joked，时间状语 One evening 放句首，交代故事发生的时点。',
+          '<b>that 引导宾语从句</b>：joked that …，玩笑的内容整个从句作 joke 的宾语；口语里 joke / say / add that … 是引出原话的常见写法。',
+          '<b>比较结构</b>：faster than I answered my own door，前后动词相同、宾语不同，用「回消息」对比「开门迎客」，反差一读就懂。',
+          '<b>为什么值得学</b>：这是夹叙夹议文章的引子句——用朋友的一句玩笑推动改变，比直接讲道理自然得多。',
+          '<b>常见变体</b>：A friend joked that …, and her words stayed with me.（玩笑句 + 感受句，两拍就完成一段的转折）'
+        ]
+      },
+      {
+        text: 'Being reachable is not the same as being present, and the fastest answer is not always the kindest one.',
+        points: [
+          '<b>主干</b>：两个分句由 and 并列：Being reachable is not the same as being present 与 the fastest answer is not always the kindest one。',
+          '<b>动名词作主语和表语</b>：Being reachable / being present，把动作变成抽象概念，是下定义时最常用的句式。',
+          '<b>not the same as …</b>：和……不一样，as 后接比较对象；类似的还有 the same as / different from。',
+          '<b>the kindest one</b>：最高级前加 the，one 指代前面的 answer，避免重复名词。',
+          '<b>为什么值得学</b>：这是全文点题句，把「随时联系得上」与「真的在场」区分开，观点类作文的中心句可以直接仿写。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the writer ask his close friends to do?',
+        cn: '作者让好朋友们怎么做？',
+        ans: 'He made sure they knew that from nine to ten his phone would be put away in the kitchen drawer, and they could call him if anything was truly important.',
+        ansCn: '他跟朋友们说清楚：每天九点到十点手机会被收进厨房抽屉，真有要紧事可以直接打电话。'
+      },
+      {
+        en: 'What happened during the first week of the experiment?',
+        cn: '试验的第一周发生了什么？',
+        ans: 'It was harder than he expected: several times he felt like opening the drawer, and his friends asked whether he was angry with them.',
+        ansCn: '比他预想的难熬：他有好几次想去打开抽屉，朋友们还问他是不是在生他们的气。'
+      },
+      {
+        en: 'What is the passage mainly about?',
+        cn: '这篇文章主要讲什么？',
+        ans: 'Being always online has a real cost, and setting one quiet offline hour each evening can bring back sleep, better replies and better conversations.',
+        ansCn: '永远在线有实实在在的代价，而每晚留出一段安静的离线时间，能换回睡眠、更好的回复和更好的交谈。'
+      },
+      {
+        en: 'In the last paragraph, the writer uses which word as a substitute for “seldom”?',
+        cn: '最后一段里，作者用哪个词来替换「很少」这个意思？',
+        ans: 'He uses “rarely”.',
+        ansCn: '他用的是「很少」的那个词。'
+      },
+      {
+        en: 'In paragraph 7, “constant” most probably means ______.',
+        cn: '第七段中「持续不断的」这个词最可能是什么意思？',
+        ans: 'Going on all the time without stopping.',
+        ansCn: '一直发生、从不间断的。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about how being online all the time has changed your daily life.',
+      hints: [
+        'Until last term, ...',
+        'The problem was that ...',
+        'There is no need to ...',
+        'In other words, ...'
+      ],
+      hintCn: '用 5–7 句话写：先写从前「永远在线」的样子，再写它带来的麻烦，最后写自己做出的改变和现在的状态。',
+      req: '至少使用 2 个本篇学过的词或搭配（instant / respond / pressure / constant / get back to / keep … in mind）。'
+    },
+    speakingTask: {
+      en: 'Talk for 1 minute: Is one offline hour a day a good idea for students? Give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '先明确表态好还是不好，再给一个理由，最后举一个自己的小例子，观点、理由、例子三要素缺一不可。',
+      skeleton: 'In my opinion, one offline hour a day is a good idea. The reason is that ... For example, last month I ...'
+    },
+    focus: [
+      '<b>新授核心词 16 个</b>：<span class=\'en\'>instant, respond, pressure, anxious, constant, interrupt, concentrate, notification, recent, drawer, owe, announce, separate, freedom, influence, topic</span> —— 记住 <span class=\'en\'>respond to</span>（回应……）、<span class=\'en\'>concentrate on</span>（专心于）、<span class=\'en\'>owe sb. sth.</span>（欠某人某物）；<span class=\'en\'>pressure</span> 作「压力」讲不可数，但可以说 a pressure to do sth.。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>attention</span>、第 2 篇的 <span class=\'en\'>manage</span>、第 3 篇的 <span class=\'en\'>matter / patient</span>、第 5 篇的 <span class=\'en\'>expect</span>、第 6 篇的 <span class=\'en\'>balance</span>、第 17 篇的 <span class=\'en\'>device / screen</span> —— 断网故事的这批词又回到「永远在线」的新语境里，灰点先自测再查篇目。',
+      '<b>两个长难句</b>：第一句练「<span class=\'en\'>joke that + 比较结构</span>」，用一句玩笑推动叙事；第二句练「<span class=\'en\'>动名词作主语 + not … but … 式对比</span>」，是全文中心句。正文里的 <span class=\'en\'>feeling a pressure …</span> 是非谓语作状语，写作时可照用。',
+      '<b>搭配与写作表达</b>：<span class=\'en\'>made sure</span>（说清楚）、<span class=\'en\'>put away</span>（收起来）、<span class=\'en\'>get back to</span>（回复）、<span class=\'en\'>keep … in mind</span>（记住）是一条「设规矩—守规矩」的动作链；写作里 <span class=\'en\'>In other words, …</span> 重述观点，<span class=\'en\'>There is no need to …</span> 给出委婉建议。',
+      '<b>全文逻辑线与题型提醒</b>：现状（秒回的焦虑）→ 代价（注意力碎片、对话变短）→ 转折（朋友一句话）→ 试验（离线一小时）→ 效果（睡得好、聊得深）→ 点题（在线不等于在场）。同义替换题找「＝ 英文同义词」的提示词；词义猜测题把词放回原句，看它前后的动作和结果。'
+    ],
+    standard: {
+      time: '约 40 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 16 个核心词遮住中文说出 ≥ 12 · 2 个长难句会拆解 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 16 个核心词中的 12 个（instant、respond、constant、owe、separate …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 8 个，能各造一句（get back to、put … away、make sure、keep … in mind …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '2 个长难句各说出结构（joke that + 比较结构；动名词作主语），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；主旨题与词义猜测题要能说出原文依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 In other words, … 或 There is no need to …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「每天一小时离线好不好」的观点，并给出一个理由和一个自己的例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 6 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 29,
+    slug: '029-eating-well-on-a-small-budget',
+    title: 'Eating Well on a Small Budget',
+    titleCn: '小预算吃得好',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 395 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.1%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/029.jpg',
+    coverCredit: 'Photo: Nataliya Vaitkevich / Pexels',
+    body: [
+      '<span class="w-sentence">When I moved into the student dormitory, I believed that eating well cost a lot of money.</span> Good food, I thought, meant imported fruit and anything with a modern <span class="w-cet4" data-cn="标签">label</span>. So I skipped the <span class="w-cet4" data-cn="食堂、餐厅">canteen</span>, lived on <span class="w-cet4" data-cn="零食">snacks</span> and take-away food, and my <span class="w-rev">wallet</span> was empty by the end of each month.',
+      'Then one month I wrote down every <span class="w-cet4" data-cn="开销、花费">expense</span> on food. The total <span class="w-synonym" data-cn="＝ very surprised 的替换词">shocked</span> me: I was <span class="w-rev">spending</span> more on coffee and cold drinks than on real meals. I was also often <span class="w-rev">hungry</span> an hour after eating, because most of what I bought <span class="w-cet4" data-cn="包含、含有">contained</span> a lot of sugar and very little <span class="w-cet4" data-cn="营养">nutrition</span>.',
+      'So I tried three simple rules for one month. None is difficult, and together they changed both my wallet and my health.',
+      '<span class="w-writing" data-cn="一则……（列举第一条理由）">For one thing</span>, <span class="w-phrase" data-cn="从……开始">start with</span> a plan. I now <span class="w-cet4" data-cn="安排">arrange</span> five dinners on Sunday and <span class="w-rev">make a list</span> from them. The list keeps me away from shelves of <span class="w-cet4" data-cn="加工过的">processed</span> food, and it takes about ten minutes to write.',
+      'Second, buy what is <span class="w-phrase" data-cn="当季、正当时令">in season</span>. Fruit and vegetables in season are usually the cheapest and the <span class="w-rev">freshest</span>, and they taste better than fruit flown across the world. I also <span class="w-phrase" data-cn="留出（时间、钱）">set aside</span> one hour and look for vegetables <span class="w-phrase" data-cn="以半价">at half price</span> at the evening market.',
+      '<span class="w-sentence">Third, if you cook simple food at home and watch the portion, a good meal costs less than you think.</span> A bowl of rice with an egg and green vegetables <span class="w-rev">costs</span> a small part of a take-away meal, and <span class="w-cet4" data-cn="冷冻的">frozen</span> vegetables are <span class="w-synonym" data-cn="＝ almost 的替换词">nearly</span> as good as fresh ones.',
+      'After four weeks the <span class="w-cet4" data-cn="账单">bill</span> spoke for itself: my food <span class="w-cet4" data-cn="预算">budget</span> fell by about a third, and I had more energy for morning classes. I still <span class="w-rev">eat out</span> with friends now and then, but I <span class="w-phrase" data-cn="减少（某物的量）">cut down on</span> cold drinks and stopped <span class="w-cet4" data-cn="替代">replacing</span> real meals with snacks.',
+      '<span class="w-writing" data-cn="诚然……但是……（先让步再转折）">It is true that</span> good food is not always the cheapest, but eating well on a small budget is possible. <span class="w-sentence">What we really need is not expensive food but simple cooking at home.</span> A healthy <span class="w-rev">diet</span> is mostly about choices: a <span class="w-cet4" data-cn="合理的、公道的">reasonable</span> <span class="w-cet4" data-cn="一份（食物）">portion</span> and a <span class="w-cet4" data-cn="多样、种类">variety</span> of colours on the plate.',
+      'Eating well on a small budget is a skill you keep for life. The <span class="w-cet4" data-cn="平均的、一般的">average</span> student needs no expensive food, only a plan, a market and an hour at the stove. That is how a small change in the kitchen becomes a better year at school.'
+    ],
+    translation: [
+      '搬进学生宿舍时，我一直以为吃得健康要花很多钱。我心目中的好东西，是进口水果，还有一切包装新潮的食品。于是我很少去食堂，靠零食和外卖过日子，每个月底钱包都是空的。',
+      '后来有一个月，我把花在吃上的每一笔开销都记了下来。总数吓了我一跳：我花在咖啡和冷饮上的钱，比花在正餐上的还多。而且吃过东西不到一小时我就又饿了，因为我买的东西大多含糖很多、几乎没有什么营养。',
+      '于是我试着用一个月的时间执行三条简单的规矩。没有一条难做到，合在一起，却同时改变了我的钱包和身体。',
+      '第一，从计划开始。现在我每个星期天先安排好五顿晚饭，再照着列一张购物单。这张单子让我远离堆满加工食品的货架，而且写下来也就十分钟。',
+      '第二，买当季的东西。当季的水果和蔬菜通常最便宜、最新鲜，味道也比漂洋过海运来的同类水果好。我还会留出一个小时，去傍晚的市场找半价的蔬菜。',
+      '第三，自己在家做简单的饭菜，并且注意分量。一碗米饭加一个鸡蛋和一些青菜，花的钱只是外卖的一小部分；冷冻蔬菜也不比新鲜的差多少。',
+      '四周之后，账单自己说明了一切：我的伙食预算降了差不多三分之一，上午上课也更有精神。我仍然会和朋友偶尔出去吃，但我减少了冷饮，也不再用零食代替正餐。',
+      '诚然，好东西并不总是最便宜的，但在小预算里吃得好并非不可能。我们真正需要的不是昂贵的食物，而是自己动手做的简单饭菜。健康的饮食主要在于选择：分量合理，餐盘里有几种颜色。',
+      '在小预算里吃得好，是一门能受用一生的本事。普通学生不需要昂贵的食物，只需要一张计划、一个市场，和灶台前的一个小时。厨房里的这一点小改变，就是这样变成更顺的一年的。'
+    ],
+    vocabulary: [
+      {
+        w: 'budget',
+        ph: '/ˈbʌdʒɪt/',
+        pos: 'n./v.',
+        cn: '预算',
+        col: 'on a small budget — 在预算很少的情况下；keep to a budget — 不超出预算',
+        ex: 'Our food budget fell by about a third.'
+      },
+      {
+        w: 'nutrition',
+        ph: '/njuːˈtrɪʃn/',
+        pos: 'n.',
+        cn: '营养',
+        col: 'good nutrition — 好的营养；very little nutrition — 几乎没有营养',
+        ex: 'Cheap food can still give you good nutrition.'
+      },
+      {
+        w: 'reasonable',
+        ph: '/ˈriːznəbl/',
+        pos: 'adj.',
+        cn: '合理的、公道的',
+        col: 'a reasonable price — 公道的价格；a reasonable amount — 合理的量',
+        ex: 'Ten minutes a day is a reasonable amount of time.'
+      },
+      {
+        w: 'process',
+        ph: '/ˈprəʊses/',
+        pos: 'v./n.',
+        cn: '加工；过程',
+        col: 'processed food — 加工食品；a long process — 一个漫长的过程',
+        ex: 'Processed food usually costs more than it looks.'
+      },
+      {
+        w: 'portion',
+        ph: '/ˈpɔːʃn/',
+        pos: 'n.',
+        cn: '一份（食物）、份额',
+        col: 'a small portion — 一小份；watch the portion — 注意分量',
+        ex: 'A reasonable portion is half of what most of us take.'
+      },
+      {
+        w: 'snack',
+        ph: '/snæk/',
+        pos: 'n.',
+        cn: '零食、点心',
+        col: 'a snack between meals — 两餐之间的小点心；live on snacks — 靠零食过日子',
+        ex: 'Snacks are fine, but they are not real meals.'
+      },
+      {
+        w: 'variety',
+        ph: '/vəˈraɪəti/',
+        pos: 'n.',
+        cn: '多样、种类',
+        col: 'a variety of — 各种各样的；add variety to — 给……增加花样',
+        ex: 'A variety of colours on the plate is a good sign.'
+      },
+      {
+        w: 'contain',
+        ph: '/kənˈteɪn/',
+        pos: 'vt.',
+        cn: '包含、含有',
+        col: 'contain sugar — 含糖；contain a lot of — 含有大量的……',
+        ex: 'Most cheap snacks contain too much sugar.'
+      },
+      {
+        w: 'replace',
+        ph: '/rɪˈpleɪs/',
+        pos: 'vt.',
+        cn: '替代、取代',
+        col: 'replace A with B — 用 B 替代 A；replace a meal — 代替一顿饭',
+        ex: 'Do not replace real meals with snacks.'
+      },
+      {
+        w: 'average',
+        ph: '/ˈævərɪdʒ/',
+        pos: 'adj./n.',
+        cn: '平均的、一般的',
+        col: 'the average student — 一般学生；on average — 平均来说',
+        ex: 'The average student spends too much on drinks.'
+      },
+      {
+        w: 'expense',
+        ph: '/ɪkˈspens/',
+        pos: 'n.',
+        cn: '开销、花费',
+        col: 'cut down expenses — 削减开销；every expense — 每一笔花费',
+        ex: 'Write down every expense on food for one month.'
+      },
+      {
+        w: 'arrange',
+        ph: '/əˈreɪndʒ/',
+        pos: 'v.',
+        cn: '安排、整理',
+        col: 'arrange a plan — 安排一个计划；arrange sth. for sb. — 为某人安排某事',
+        ex: 'I arrange five dinners every Sunday.'
+      },
+      {
+        w: 'bill',
+        ph: '/bɪl/',
+        pos: 'n.',
+        cn: '账单',
+        col: 'pay the bill — 付账；the bill spoke for itself — 账单说明了一切',
+        ex: 'The bill at the end of the month surprised me.'
+      },
+      {
+        w: 'canteen',
+        ph: '/kænˈtiːn/',
+        pos: 'n.',
+        cn: '食堂、餐厅',
+        col: 'the school canteen — 学校食堂；eat in the canteen — 在食堂吃饭',
+        ex: 'The canteen is cheaper than most take-away food.'
+      },
+      {
+        w: 'frozen',
+        ph: '/ˈfrəʊzn/',
+        pos: 'adj.',
+        cn: '冷冻的',
+        col: 'frozen vegetables — 冷冻蔬菜；frozen food — 冷冻食品',
+        ex: 'Frozen vegetables are cheap and easy to cook.'
+      },
+      {
+        w: 'label',
+        ph: '/ˈleɪbl/',
+        pos: 'n./v.',
+        cn: '标签；贴标签',
+        col: 'read the label — 看标签；a bright label — 醒目的标签',
+        ex: 'Read the label before you buy anything.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'in season',
+        cn: '当季、正当时令',
+        ex: 'Fruit in season is cheaper and fresher.'
+      },
+      {
+        en: 'cut down on',
+        cn: '减少（某物的量）',
+        ex: 'I cut down on cold drinks last month.'
+      },
+      {
+        en: 'set aside',
+        cn: '留出（时间、钱）',
+        ex: 'Set aside one hour on Sunday for shopping.'
+      },
+      {
+        en: 'at half price',
+        cn: '以半价',
+        ex: 'The market sells vegetables at half price in the evening.'
+      },
+      {
+        en: 'start with',
+        cn: '从……开始',
+        ex: 'Start with a plan for the whole week.'
+      },
+      {
+        en: 'fill up',
+        cn: '吃饱、装满',
+        ex: 'Rice and eggs fill you up without costing much.'
+      },
+      {
+        en: 'live on',
+        cn: '靠……过活、以……为主食',
+        ex: 'I lived on snacks during my first month here.'
+      },
+      {
+        en: 'be based on',
+        cn: '以……为基础',
+        ex: 'A good week of meals is based on a simple plan.'
+      },
+      {
+        en: 'in the long run',
+        cn: '从长远来看',
+        ex: 'Cooking at home is cheaper in the long run.'
+      },
+      {
+        en: 'do the shopping',
+        cn: '买东西、采购',
+        ex: 'I do the shopping once a week with a list.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'It is true that ..., but ...',
+        cn: '诚然……但是……（先让步再转折）',
+        meaning: '先承认对方或常识里有道理的一面，再引出自己的重点，让观点显得公允而不偏激。',
+        context: '观点段的开头或结尾：讨论省钱、健康、学习方法这类「两面都有理」的话题。',
+        alts: [
+          {
+            t: 'Admittedly, ..., but ...',
+            n: '更书面'
+          },
+          {
+            t: 'Surely ..., but ...',
+            n: '语气更口语'
+          },
+          {
+            t: 'While this is true, ...',
+            n: '把让步压进从句，更紧凑'
+          }
+        ],
+        register: '中性偏书面，议论类作文里最稳的转折句式。',
+        example: 'It is true that good food is not always the cheapest, but cooking at home costs less.'
+      },
+      {
+        expr: 'For one thing, ...',
+        cn: '一则……（列举第一条理由）',
+        meaning: '列举理由时的起手式，常与 for another 或 second、third 配对，把论证排成清单。',
+        context: '主体段各段开头，用来标明「第一条理由」「第二条理由」。',
+        alts: [
+          {
+            t: 'For another, ...',
+            n: '接第二条理由'
+          },
+          {
+            t: 'To begin with, ...',
+            n: '更强调「先说第一点」'
+          },
+          {
+            t: 'First of all, ...',
+            n: '最常见，稍口语'
+          }
+        ],
+        register: '中性，列举类写作必备。',
+        example: 'For one thing, planning costs nothing and saves a lot.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'When I moved into the student dormitory, I believed that eating well cost a lot of money.',
+        points: [
+          '<b>主干</b>：I believed …，句首 When I moved into the student dormitory 是时间状语从句，交代想法出现的时间点。',
+          '<b>that 引导宾语从句</b>：believed that …，从句里的主语是动名词短语 eating well，谓语用单数 cost（过去式与主语数无关）。',
+          '<b>cost 的用法</b>：某物花多少钱用 sth. costs (sb.) money；花费的对象是人时用 spend / pay，注意主语不同。',
+          '<b>为什么值得学</b>：夹叙夹议的开头模板——「过去以为……」，为后文的转变埋下伏笔。',
+          '<b>常见变体</b>：When I first came here, I thought that …（用 thought that 引出被推翻的旧想法）'
+        ]
+      },
+      {
+        text: 'Third, if you cook simple food at home and watch the portion, a good meal costs less than you think.',
+        points: [
+          '<b>主干</b>：a good meal costs less than you think，主句放在句尾，前面是条件状语从句。',
+          '<b>条件从句里有并列谓语</b>：if you cook … and watch …，两个动作合用一个 if，写作里可以少写一个从句。',
+          '<b>than you think</b>：比你想象的更……，than 后接一个省略的比较从句，口语书面都常用。',
+          '<b>costs less than …</b>：花得比……少，注意 cost 的主语是物；这里用「一顿好饭」作主语，句子更活。',
+          '<b>为什么值得学</b>：提建议的句式：if + 两个动作 + 一个结果，一条规矩就讲清楚了。'
+        ]
+      },
+      {
+        text: 'What we really need is not expensive food but simple cooking at home.',
+        points: [
+          '<b>主干</b>：What we really need is …，主语从句 + 系动词 + 表语。',
+          '<b>What 引导主语从句</b>：What 相当于 the thing that，整个从句作主语；写作里可仿写 What we need is not … but …。',
+          '<b>not … but …</b>：不是……而是……，否定「昂贵的食物」、突出「自己做的简单饭菜」，是观点句的常见对比。',
+          '<b>simple cooking at home</b>：动名词作名词用，前面加形容词修饰，比 cooking simple food at home 更简洁。',
+          '<b>为什么值得学</b>：这是全文的立意句，把「吃得好」从钱的问题转成选择的问题，结尾段或主题句都能用。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What are the three rules the writer tried for one month?',
+        cn: '作者用一个月的时间试了哪三条规矩？',
+        ans: 'Start with a plan and make a list before shopping; buy fruit and vegetables in season and at half price; cook simple food at home and watch the portion.',
+        ansCn: '购物前先做计划、列购物单；买当季、半价的水果和蔬菜；自己在家做简单的饭菜，并注意分量。'
+      },
+      {
+        en: 'How much did the writer’s food budget fall after four weeks?',
+        cn: '四周之后，作者的伙食预算降了多少？',
+        ans: 'By about a third.',
+        ansCn: '降了差不多三分之一。'
+      },
+      {
+        en: 'What is the passage mainly about?',
+        cn: '这篇文章主要讲什么？',
+        ans: 'Eating well on a small budget is possible if we plan before shopping, buy food in season and cook simple meals at home.',
+        ansCn: '只要购物前有计划、买当季食材、自己在家做简单的饭菜，在小预算里吃得好是完全做得到的。'
+      },
+      {
+        en: 'In paragraph 6, the writer uses which word as a substitute for “almost”?',
+        cn: '第六段里，作者用哪个词来替换「几乎」这个意思？',
+        ans: 'He uses “nearly”.',
+        ansCn: '他用的是「几乎」的那个词。'
+      },
+      {
+        en: 'What does “in season” most probably mean in the passage?',
+        cn: '文中的「当季」这个短语最可能是什么意思？',
+        ans: 'Fruit and vegetables that are ready to be picked and sold at the time of year when they naturally grow.',
+        ansCn: '在一年中自然成熟、正当采摘上市的水果和蔬菜。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about how to eat well without spending too much money.',
+      hints: [
+        'It is true that ..., but ...',
+        'For one thing, ...',
+        'Second, ...',
+        'Start with ... and cut down on ...'
+      ],
+      hintCn: '用 5–7 句话写：先承认「吃得好」听起来费钱，再给出两三条具体做法（计划、当季、自己做），最后点出立意。',
+      req: '至少使用 2 个本篇学过的词或搭配（budget / nutrition / reasonable / in season / set aside / cut down on）。'
+    },
+    speakingTask: {
+      en: 'Talk for 1 minute: Is cooking at home really cheaper and healthier than buying take-away food? Give your opinion, one reason and one example.',
+      points: [
+        'Your opinion',
+        'One reason',
+        'One example from your own life'
+      ],
+      pointCn: '先明确表态是不是真的更省钱更健康，再给一个理由，最后举一个自己的小例子，观点、理由、例子三要素缺一不可。',
+      skeleton: 'In my opinion, cooking at home is cheaper and healthier. For one thing, ... For example, last month I ...'
+    },
+    focus: [
+      '<b>新授核心词 16 个</b>：<span class=\'en\'>budget, nutrition, reasonable, process, portion, snack, variety, contain, replace, average, expense, arrange, bill, canteen, frozen, label</span> —— 记住 <span class=\'en\'>replace A with B</span>（用 B 替代 A）、<span class=\'en\'>contain</span>（含有，一般不用进行时）、<span class=\'en\'>on a small budget</span>（预算很少的情况下）；<span class=\'en\'>process</span> 作动词是「加工」，processed food 才是「加工食品」。',
+      '<b>本篇复现的旧词</b>：第 4 篇的 <span class=\'en\'>spend / cost</span>、第 7 篇的 <span class=\'en\'>hungry / fresh / diet / eat out</span>、第 18 篇的 <span class=\'en\'>make a list</span>、第 20 篇的 <span class=\'en\'>wallet</span> —— 都是从「做饭、省钱」的老语境里换过来再认一次，灰点先自测再查篇目。',
+      '<b>三个长难句</b>：第一句练「<span class=\'en\'>When 时间从句 + 动名词作主语</span>」，写「过去的旧想法」；第二句练「<span class=\'en\'>if 并列动作 + than you think</span>」，一条规矩讲清楚；第三句练「<span class=\'en\'>What 主语从句 + not … but …</span>」，是全文立意句。正文里的 <span class=\'en\'>flown across the world</span> 是非谓语作后置定语，可以顺带学。',
+      '<b>搭配与写作表达</b>：<span class=\'en\'>in season</span>（当季）、<span class=\'en\'>set aside</span>（留出）、<span class=\'en\'>at half price</span>（半价）、<span class=\'en\'>cut down on</span>（减少）是「省钱买菜」四件套；写作里 <span class=\'en\'>It is true that …, but …</span> 先让步再转折，<span class=\'en\'>For one thing, …</span> 开始列举理由。',
+      '<b>全文逻辑线与题型提醒</b>：旧观念（吃得好＝花钱多）→ 记账发现的问题 → 三条规矩（计划 / 当季 / 自己做）→ 效果（预算降三分之一）→ 点意（吃得好靠选择不靠钱）。细节题答案就落在三条规矩里；同义替换题看解析里的「＝ 英文同义词」提示；词义猜测题把短语放回句子，看搭配和上下文。'
+    ],
+    standard: {
+      time: '约 40 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 16 个核心词遮住中文说出 ≥ 12 · 3 个长难句会拆解 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 16 个核心词中的 12 个（budget、nutrition、portion、expense、variety …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 8 个，能各造一句（in season、set aside、at half price、cut down on …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '3 个长难句各说出结构（When 时间从句 + 动名词主语；if 并列动作；What 主语从句），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；主旨题与词义猜测题要能说出原文依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 It is true that …, but … 或 For one thing, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟说清「自己做饭是不是更省钱更健康」的观点，并给出一个理由和一个自己的例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 6 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 30,
+    slug: '030-half-a-year-of-small-changes',
+    title: 'Half a Year of Small Changes',
+    titleCn: '半年的小改变',
+    stage: '阶段三 · 中级',
+    stageRange: '第 21–30 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 400 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.0%'
+      },
+      {
+        k: '长难句',
+        v: '3 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/030.jpg',
+    coverCredit: 'Photo: Berna / Pexels',
+    body: [
+      'Half a year ago I <span class="w-phrase" data-cn="列一张……的清单">made a list of</span> small changes, one for each part of my day: wake up earlier, ask one question in class, cook twice a week, and walk <span class="w-phrase" data-cn="而不是、代替">instead of</span> taking the bus. The list had twelve <span class="w-cet4" data-cn="条目、一则记录">entries</span>, all small enough to try.',
+      '<span class="w-phrase" data-cn="到目前为止">So far</span>, five of the twelve <span class="w-cet4" data-cn="留存、坚持下来">survive</span>, and those five have changed my days more than the twelve ever did. What they share is <span class="w-cet4" data-cn="具体的、明确的">specific</span>: a fixed time and a clear <span class="w-synonym" data-cn="＝ goal 的替换词">target</span>. “Be healthier” never lasted a week; “walk after dinner” is still here.',
+      '<span class="w-sentence">Looking at the list today, I can see which small things a person can keep when nobody is watching.</span> It is not a report card; nobody gives me a grade. It is simply a <span class="w-cet4" data-cn="衡量；尺度">measure</span> of my own days.',
+      '<span class="w-sentence">Half of the money I used to spend on little things is now kept for books, and the rest is spent on food that I cook myself.</span> The clearest <span class="w-cet4" data-cn="影响、冲击">impact</span> is that I no longer buy things I do not need. My hours go into a notebook, so I can <span class="w-cet4" data-cn="大致、大约">roughly</span> <span class="w-cet4" data-cn="监测、盯着看">monitor</span> where each day goes.',
+      '<span class="w-sentence">What surprised me most was that the changes nobody noticed were the ones that lasted.</span> I now say hello to my neighbors first, <span class="w-rev">encourage</span> my friends to walk with me, and no longer <span class="w-rev">hesitate</span> to ask when I do not understand.',
+      'My sleep is better now, and the change is <span class="w-cet4" data-cn="明显的">obvious</span> in my <span class="w-cet4" data-cn="每日的、日常的">daily</span> life. That was never on the list, and I would not give it back. The <span class="w-rev">benefit</span> of a small <span class="w-cet4" data-cn="习惯">habit</span> is often something you did not plan to get.',
+      'None of this happened quickly. The real <span class="w-cet4" data-cn="挑战">challenge</span> was the third month, when <span class="w-cet4" data-cn="担忧、顾虑">concerns</span> grew and the <span class="w-rev">progress</span> was so slow that I almost stopped. A friend <span class="w-rev">suggested</span> that I check the numbers once a month, and that one idea saved the plan. <span class="w-cet4" data-cn="稳步地、持续地">Steadily</span>, my <span class="w-cet4" data-cn="信心">confidence</span> came back.',
+      '<span class="w-writing" data-cn="总结起来……">To sum up</span>, half a year of small changes is a short <span class="w-cet4" data-cn="总结">summary</span>: sleep earlier, move every day, cook at home, <span class="w-phrase" data-cn="把……记录下来">keep a record of</span> time, and <span class="w-phrase" data-cn="三思、仔细想一想">think twice</span> before spending. <span class="w-rev">Effort</span> matters more than talent here, and I <span class="w-rev">realized</span> this in the fourth month.',
+      '<span class="w-writing" data-cn="说实话……">The truth is that</span> I am still the same person; I just <span class="w-rev">improve</span> a little each month. Nobody can <span class="w-rev">afford</span> to wait for a perfect moment, <span class="w-cet4" data-cn="因此">therefore</span> choose one <span class="w-synonym" data-cn="＝ small 的替换词">tiny</span> thing tonight and let the list grow slowly.'
+    ],
+    translation: [
+      '半年前，我列了一张小改变清单，一天的每个环节各一条：早起一点、上课提一个问题、一周做两次饭，出门走路而不是坐车。清单上共有十二条，每条都小到可以试一试。',
+      '到目前为止，十二条里还剩五条，而正是这五条改变我的日子，比原来那十二条加起来还多。它们的共同点很具体：固定的时间、明确的目标。「更健康」从来没撑过一周；「晚饭后走一走」却一直留到了现在。',
+      '今天再看这份清单，我能看出哪些小事是一个人在没人看着的时候也坚持得住的。它不是成绩单；没有人给我打分。它只是用来量一量我自己的日子。',
+      '我以前花在零碎小东西上的钱，现在有一半留着买书，剩下的花在自己做的饭上。最明显的影响是：我不再买自己并不需要的东西。我的时间记在本子里，所以我能大致看出每一天去了哪里。',
+      '最让我意外的是，没人注意到的那些改变，反倒坚持得最久。我现在会先跟邻居打招呼，鼓励朋友陪我走一走，不懂的时候也不再犹豫着不敢开口。',
+      '我的睡眠变好了，变化在日常生活里看得很清楚。这从来不在清单上，而这是我最不愿放手的东西。一个小习惯带来的好处，常常是你原本没打算得到的。',
+      '这一切都不是很快发生的。真正难的是第三个月：顾虑越来越多，进步又慢得让我差点放弃。一个朋友建议我每个月看一次数字，这个主意救了整个计划。慢慢地，我的信心又回来了。',
+      '总结起来，半年的小改变其实是一张短短的清单：早点睡、每天动一动、在家做饭、记录时间、花钱前再想一想。在这里，努力比天赋更重要，而我是到第四个月才明白这一点的。',
+      '说实话，我还是原来的那个人；只是每个月都进步一点点。没有人等得起一个完美的开始时机，所以今晚就挑一件小小的事，让这张清单慢慢长起来。'
+    ],
+    vocabulary: [
+      {
+        w: 'entry',
+        ph: '/ˈentrɪ/',
+        pos: 'n.',
+        cn: '条目、一则记录',
+        col: 'an entry on the list — 清单上的一条；make an entry — 记一条',
+        ex: 'The list had twelve entries.'
+      },
+      {
+        w: 'survive',
+        ph: '/səˈvaɪv/',
+        pos: 'v.',
+        cn: '留存、坚持下来',
+        col: 'survive the week — 撑过这一周；survive on … — 靠……维持',
+        ex: 'Five of the twelve habits survive.'
+      },
+      {
+        w: 'specific',
+        ph: '/spəˈsɪfɪk/',
+        pos: 'adj.',
+        cn: '具体的、明确的',
+        col: 'a specific goal — 明确的目标；be specific about … — 对……说得具体',
+        ex: 'A specific plan is easier to follow.'
+      },
+      {
+        w: 'measure',
+        ph: '/ˈmeʒə(r)/',
+        pos: 'v./n.',
+        cn: '衡量；尺度',
+        col: 'measure progress — 衡量进步；take measures — 采取措施',
+        ex: 'The list is a quiet measure of my days.'
+      },
+      {
+        w: 'impact',
+        ph: '/ˈɪmpækt/',
+        pos: 'n.',
+        cn: '影响、冲击',
+        col: 'have an impact on … — 对……有影响；a big impact — 很大的影响',
+        ex: 'The clearest impact is on my money.'
+      },
+      {
+        w: 'roughly',
+        ph: '/ˈrʌfli/',
+        pos: 'adv.',
+        cn: '大致、大约',
+        col: 'roughly speaking — 大致来说；roughly half — 大约一半',
+        ex: 'I can roughly see where my time goes.'
+      },
+      {
+        w: 'monitor',
+        ph: '/ˈmɒnɪtə(r)/',
+        pos: 'v.',
+        cn: '监测、盯着看',
+        col: 'monitor progress — 盯着进展；monitor the situation — 关注情况',
+        ex: 'I monitor where each day goes.'
+      },
+      {
+        w: 'obvious',
+        ph: '/ˈɒbviəs/',
+        pos: 'adj.',
+        cn: '明显的',
+        col: 'it is obvious that … — 明显……；for obvious reasons — 出于明显的原因',
+        ex: 'The change is obvious in my daily life.'
+      },
+      {
+        w: 'daily',
+        ph: '/ˈdeɪli/',
+        pos: 'adj.',
+        cn: '每日的、日常的',
+        col: 'daily life — 日常生活；daily routine — 每天的固定安排',
+        ex: 'Small habits shape a daily life.'
+      },
+      {
+        w: 'habit',
+        ph: '/ˈhæbɪt/',
+        pos: 'n.',
+        cn: '习惯',
+        col: 'build a habit — 养成习惯；break a habit — 改掉一个习惯',
+        ex: 'A small habit can change a whole day.'
+      },
+      {
+        w: 'challenge',
+        ph: '/ˈtʃælɪndʒ/',
+        pos: 'n.',
+        cn: '挑战',
+        col: 'face a challenge — 面对挑战；a real challenge — 一个真正的挑战',
+        ex: 'The third month was the real challenge.'
+      },
+      {
+        w: 'concern',
+        ph: '/kənˈsɜːn/',
+        pos: 'n.',
+        cn: '担忧、顾虑',
+        col: 'a growing concern — 越来越大的担忧；raise a concern — 提出顾虑',
+        ex: 'Concerns grew when nothing seemed to change.'
+      },
+      {
+        w: 'steadily',
+        ph: '/ˈstedɪli/',
+        pos: 'adv.',
+        cn: '稳步地、持续地',
+        col: 'change steadily — 持续改变；grow steadily — 稳步增长',
+        ex: 'Steadily, my confidence came back.'
+      },
+      {
+        w: 'confidence',
+        ph: '/ˈkɒnfɪdəns/',
+        pos: 'n.',
+        cn: '信心',
+        col: 'build confidence — 建立信心；with confidence — 有信心地',
+        ex: 'Small wins build confidence.'
+      },
+      {
+        w: 'summary',
+        ph: '/ˈsʌməri/',
+        pos: 'n.',
+        cn: '总结',
+        col: 'in summary — 总之；a brief summary — 简短的总结',
+        ex: 'The passage ends with a short summary.'
+      },
+      {
+        w: 'therefore',
+        ph: '/ˈðeəfɔː(r)/',
+        pos: 'adv.',
+        cn: '因此',
+        col: 'and therefore — 因此；therefore do sth. — 所以做某事',
+        ex: 'He felt tired, therefore he went to bed early.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'make a list of',
+        cn: '列一张……的清单（复现第 14 篇）',
+        ex: 'I made a list of small changes.'
+      },
+      {
+        en: 'instead of',
+        cn: '而不是、代替（复现第 5 篇）',
+        ex: 'Walk instead of taking the bus.'
+      },
+      {
+        en: 'so far',
+        cn: '到目前为止（复现第 7 篇）',
+        ex: 'So far, five habits are still here.'
+      },
+      {
+        en: 'keep a record of',
+        cn: '把……记录下来（复现第 10 篇）',
+        ex: 'Keep a record of how you spend your time.'
+      },
+      {
+        en: 'think twice',
+        cn: '三思、仔细想一想（复现第 20 篇）',
+        ex: 'Think twice before spending money.'
+      },
+      {
+        en: 'give back',
+        cn: '归还、把……还回来',
+        ex: 'I would not give that habit back.'
+      },
+      {
+        en: 'stick to',
+        cn: '坚持、信守（复现第 8 篇）',
+        ex: 'Stick to one small habit at a time.'
+      },
+      {
+        en: 'little by little',
+        cn: '一点一点地（复现第 2 篇）',
+        ex: 'Little by little, the days became different.'
+      },
+      {
+        en: 'at least',
+        cn: '至少（复现第 20 篇）',
+        ex: 'Read at least one page a day.'
+      },
+      {
+        en: 'by the end of',
+        cn: '到……结束时（复现第 18 篇）',
+        ex: 'By the end of the month I knew where my money went.'
+      },
+      {
+        en: 'take … seriously',
+        cn: '认真对待……（复现第 20 篇）',
+        ex: 'Take the small changes seriously.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To sum up, ...',
+        cn: '总结起来……',
+        meaning: '用四个字把全文收进一句话，是<b>总结段</b>的信号词；后面只写最重要的两三点，不再展开新例子。',
+        context: '全文倒数第二段或最后一段的开头；前面已经写完事实与例子。',
+        alts: [
+          {
+            t: 'In short, ...',
+            n: '第 20 篇已学，更口语'
+          },
+          {
+            t: 'All in all, ...',
+            n: '口语总结时最常用'
+          },
+          {
+            t: 'In a word, ...',
+            n: '最短，语气最强'
+          }
+        ],
+        register: '中性，书面与口语都好用；一个总结段只用一个总结词。',
+        example: 'To sum up, half a year of small changes is a short summary.'
+      },
+      {
+        expr: 'The truth is that ...',
+        cn: '说实话……',
+        meaning: '用<b>表语从句</b>引出一句真心话，适合在写完客观结果之后补一个「其实」，让结尾有人味。',
+        context: '结尾段；前面写了事实和数字，这里写自己真实的感受或判断。',
+        alts: [
+          {
+            t: 'In fact, ...',
+            n: '更中性，只加分句'
+          },
+          {
+            t: 'The fact is that ...',
+            n: '强调这是事实'
+          },
+          {
+            t: 'To be honest, ...',
+            n: '第 10 篇已学，更口语'
+          }
+        ],
+        register: '中性偏口语，语气真诚不生硬；后面接完整句子。',
+        example: 'The truth is that I am still the same person.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'Looking at the list today, I can see which small things a person can keep when nobody is watching.',
+        points: [
+          '<b>主干</b>：I can see … —— 句首 <b>Looking at the list today</b> 是现在分词短语作状语，动作由主语 I 发出，相当于 When I look at the list today。',
+          '<b>宾语从句</b>：see 后面是 <b>which</b> 引导的名词性从句，which small things 兼作从句里 keep 的宾语，「看见哪些小事」。',
+          '<b>第三层</b>：从句里再套一个 <b>when nobody is watching</b> 时间状语从句 —— 一句话里「分词状语 + 名词性从句 + 时间从句」三层结构，是阶段三的典型长句。',
+          '<b>为什么值得学</b>：它把「什么时候看、看见什么、在什么条件下成立」一次说全，正是写总结段需要的句子。',
+          '<b>写作迁移</b>：Looking at my notes, I can see which habits are worth keeping.'
+        ]
+      },
+      {
+        text: 'What surprised me most was that the changes nobody noticed were the ones that lasted.',
+        points: [
+          '<b>主干</b>：What surprised me most was that … —— 主语是 <b>What</b> 引导的名词性从句，表语是 <b>that</b> 引导的名词性从句，两个从句一前一后夹住系动词。',
+          '<b>省略的关系代词</b>：the changes <b>(that)</b> nobody noticed 里关系代词作宾语，可省；而 the ones <b>that</b> lasted 里的 that 作主语，<b>不能省</b>。',
+          '<b>对比关系</b>：nobody noticed（没人注意到）与 lasted（坚持得最久）形成反差，句子的信息焦点就落在这个反差上。',
+          '<b>为什么值得学</b>：英语常用 What … is that … 给结论，比 The most surprising thing is that … 更紧凑、更像母语者写的。',
+          '<b>写作迁移</b>：What I learned from the trip was that small plans work better.'
+        ]
+      },
+      {
+        text: 'Half of the money I used to spend on little things is now kept for books, and the rest is spent on food that I cook myself.',
+        points: [
+          '<b>主干</b>：Half of the money is now kept …, and the rest is spent … —— 由 and 连接的两个<b>并列被动句</b>，主语分别是 Half of the money 和 the rest。',
+          '<b>定语从句两处</b>：I used to spend on little things 是省略关系代词的定语从句，修饰 money；that I cook myself 修饰 food。',
+          '<b>被动语态的作用</b>：把「钱」放在主语位置，突出钱的去向而不是花钱的人；is kept / is spent 是一般现在时的被动，表示现在的常态。',
+          '<b>易错点</b>：<b>used to do</b>（过去常常）与 <b>be used to doing</b>（习惯于）长得像、意思完全不同，读到 used to 要先判断是哪一个。',
+          '<b>写作迁移</b>：Half of my free time is now spent on reading, and the rest is spent on sport.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'How many items from the original list are still in the writer’s life after half a year?',
+        cn: '半年之后，原清单上还有几条留在作者的生活里？',
+        ans: 'Five of the twelve are still there.',
+        ansCn: '十二条里还剩五条。'
+      },
+      {
+        en: 'What do the changes that lasted have in common?',
+        cn: '坚持下来的改变有什么共同点？',
+        ans: 'They have a fixed time and a clear target.',
+        ansCn: '它们都有固定的时间和明确的目标。'
+      },
+      {
+        en: 'What is the main idea of the passage?',
+        cn: '这篇文章的主旨是什么？',
+        ans: 'Small changes kept for half a year bring quiet but real improvements to daily life.',
+        ansCn: '坚持半年的小改变，会给日常生活带来安静而真实的改善。'
+      },
+      {
+        en: 'Which word in the second paragraph means the same as “goal”?',
+        cn: '第二段中的哪个词是「目标」的同义替换？',
+        ans: 'Target.',
+        ansCn: '第二段里表示「目标」的那个词。'
+      },
+      {
+        en: 'What does the writer mean by saying “It is not a report card”?',
+        cn: '作者说它「不是成绩单」，这句话是什么意思？',
+        ans: 'Nobody gives him a grade; the list is not for showing a score.',
+        ansCn: '没有人给他打分，这份清单不是用来亮出分数的。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 80–100 words about one small change you want to keep for half a year.',
+      hints: [
+        'Half a year ago, I ...',
+        'So far, ...',
+        'To sum up, ...',
+        'The truth is that ...'
+      ],
+      hintCn: '用 5–6 句话写：你半年前想改的那件小事、到现在的进展、它带来的实际变化，最后一句总结你的心得。',
+      req: '至少使用 3 个本篇学过的词或搭配（habit / summary / monitor / keep a record of / think twice / instead of）。'
+    },
+    speakingTask: {
+      en: 'Speak for one minute: give your opinion on small changes, one reason, and one example from your own life.',
+      points: [
+        'Your opinion: are small changes worth the effort?',
+        'One reason',
+        'One example from your life, with a time or a number',
+        'One sentence to close'
+      ],
+      pointCn: '一分钟里讲完「观点 → 理由 → 例子 → 收尾」四步；例子一定要具体到时间、地点或数字。',
+      skeleton: 'In my opinion, small changes are worth it. The main reason is that ... For example, last month I ... To sum up, ...'
+    },
+    focus: [
+      '<b>新授核心词 16 个</b>：<span class=\'en\'>entry, survive, specific, measure, impact, roughly, monitor, obvious, daily, habit, challenge, concern, steadily, confidence, summary, therefore</span> —— <b>entry 的复数是 entries</b>（清单上的「一条」）；<b>measure</b> 既是动词「衡量」也是名词「尺度」；<b>concern</b> 表示「担忧」时可数（a concern / concerns）；<b>confidence 不可数</b>，不能说 a confidence；<b>therefore</b> 是副词，前后要留逗号。',
+      '<b>本篇复现的旧词（本篇是节点篇，共 9 处灰点，覆盖阶段一、二重点旧词）</b>：第 1 篇的 <span class=\'en\'>afford / benefit</span>、第 2 篇的 <span class=\'en\'>suggest → suggested / improve / progress</span>、第 3 篇的 <span class=\'en\'>encourage</span>、第 10 篇的 <span class=\'en\'>effort</span>、第 11 篇的 <span class=\'en\'>hesitate / realize → realized</span>。',
+      '<b>四类句法在本篇收口</b>：<span class=\'en\'>Looking at the list today, I can see …</span>（非谓语作状语）· <span class=\'en\'>What surprised me most was that …</span>（名词性从句）· <span class=\'en\'>Half of the money I used to spend … is now kept …</span>（定语从句 + 被动语态）。阶段三要求的句法每类至少出现一次，这里都在长难句解析里拆开了。',
+      '<b>盘点类文章的骨架搭配</b>：<span class=\'en\'>make a list of</span>（列清单）→ <span class=\'en\'>so far</span>（交代现状）→ <span class=\'en\'>keep a record of</span>（记录数据）→ <span class=\'en\'>think twice</span>（写取舍）→ <span class=\'en\'>To sum up</span>（收束）。从第 4 篇的比价、第 10 篇的月度复盘到本篇的半年清单，都靠这条线撑住。',
+      '<b>全文逻辑线与题型提醒</b>：半年前列清单 → 十二剩五 → 清单只是尺子 → 钱与时间的变化 → 没人注意的改变最持久 → 睡眠与心情 → 第三个月最难 → 一句话总结 → 真心话收尾。主旨题抓「小改变 + 半年 + 真实变化」三点齐全；词义猜测题要把比喻放回上下文（report card 说的不是成绩单本身，而是「没人打分」）。',
+      '<b>⭐ 本阶段复盘 · 词汇抽查</b>：请盖住释义，认一认这 10 个阶段一、二的旧词 —— <span class=\'en\'>afford, attention, benefit, suggest, improve, opinion, encourage, support, compare, decide</span>。任何两个想不起来的，写进阶段四的复习清单，会安排在第 31–35 篇里再次复现。',
+      '<b>⭐ 本阶段复盘 · 下阶段难度确认</b>：阶段四（第 31–40 篇）会一次上调多个维度 —— 篇幅 400→500 词、新词密度 5–7%、每篇 15–20 个新词、长难句 3–5 句（<b>多从句嵌套、插入语、同位语、强调与倒装初步</b>）；阅读题新增<b>态度题、论证关系（因果 / 转折 / 举例的作用）、写作目的题</b>；写作 100–120 词（对比 / 因果 / 转折 + 段落主题句）；口语 1 分钟结构化（观点 → 原因 → 例子）。<b>如果你读完这一篇觉得「刚好」或「偏简单」，就按计划推进；如果偏难，第 31 篇只下调新词密度，其余维度照旧。</b>请在反馈里给一个 1–5 的难度自评：1＝偏难，3＝刚好，5＝偏简单。'
+    ],
+    standard: {
+      time: '约 40 分钟',
+      bar: '阶段三复盘：阅读题 5 题对 ≥ 4 · 16 个核心词遮住中文说出 ≥ 12 · 说出 3 处长难句的结构 · 完成 80–100 词写作与 1 分钟口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 16 个核心词中的 12 个（entry、survive、specific、measure、impact、monitor …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（make a list of、keep a record of、think twice …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 3 处长难句各自的结构（分词状语 / 名词性从句 / 被动语态），并仿写其中 2 处',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；错的题要能回到原文定位',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 80–100 词，至少用上 To sum up, … 或 The truth is that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '1 分钟讲完「观点 → 理由 → 例子 → 收尾」，例子要具体到时间或数字',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 9 处灰点旧词，说出其中 7 个的意思；并给阶段三的收获打一个 1–5 分',
+          lvl: '加分'
+        }
+      ]
+    }
   }
 ];

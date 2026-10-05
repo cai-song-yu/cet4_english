@@ -1,4 +1,4 @@
-# 第 11–90 篇题目与题材规划
+# 第 11–50 篇题目与题材规划
 
 > 用途：生成前的选题台账。每篇的 `title / titleCn / 题材 / 梗概` 由此表确定，**生成时不得另起炉灶**。
 > 难度递进见 `roadmap.md` §2–§3；标注与字段规范见 `tools/gen-spec.md`。
@@ -34,7 +34,7 @@
 | 29 | Eating Well on a Small Budget | 小预算吃得好 | 健康 · 消费 | 学生党如何吃得健康又省钱：计划、当季食材、自己做饭的三条原则 |
 | 30 | Half a Year of Small Changes | 半年的小改变 | 节点篇 | 把前 29 篇里提到的小改变汇总成一份清单，讲坚持半年后的实际变化（⭐ 本阶段复盘） |
 
-## 阶段四 · 中级提高（31–45）｜科普 / 心理 / 教育 400→500 词
+## 阶段四 · 中级提高（31–40）｜科普 / 心理 / 教育 410→500 词
 
 | # | Title | 中文标题 | 题材 | 梗概 |
 |---|---|---|---|---|
@@ -47,72 +47,22 @@
 | 37 | A Short History of the Umbrella | 雨伞小史 | 历史故事 | 从遮阳到挡雨、从女性用品到人人皆用，一件小物如何改变与被改变 |
 | 38 | Why Some Habits Never Stick | 为什么有些习惯坚持不下来 | 心理 | 依赖意志力的习惯为什么失败；环境设计、习惯叠加与"最小版本"策略 |
 | 39 | Homework: More Is Not Always Better | 作业多不等于学得好 | 教育 | 各国作业量差异与研究结论；什么样的作业真正有用 |
-| 40 | Learning from Mistakes at Work | 从工作错误中学习 | 教育 · 职业 | 航空、医疗行业的"复盘"文化；个人如何把错误变成流程 |
+| 40 | Learning from Mistakes at Work | 从工作错误中学习 | 节点篇 · 教育 · 职业 | 航空、医疗行业的"复盘"文化；个人如何把错误变成流程（⭐ 本阶段复盘） |
+
+## 阶段五 · 综合提高（41–50）｜科普 / 教育 / 经济 / 社会 510→650 词
+
+| # | Title | 中文标题 | 题材 | 梗概 |
+|---|---|---|---|---|
 | 41 | The Language of Numbers | 数字的语言 | 科普 · 教育 | 平均数、百分比、图表如何被误读或用来误导；看数据的基本功 |
 | 42 | How Cities Keep Cool | 城市如何降温 | 环境 · 城市 | 热岛效应、绿化、屋顶与路面材料的降温手段 |
 | 43 | The Person Behind the Menu | 菜单背后的人 | 社会 · 历史 | 一道家常菜背后是几代人的迁徙与适应；食物里的移民史 |
 | 44 | Attention in the Age of Distraction | 分心时代的注意力 | 心理 · 科技 | 注意力是可训练的资源；深度工作与主动休息的平衡 |
-| 45 | What I Learned from a Month Without Music | 一个月不听音乐的收获 | 节点篇 | 主动"戒掉"一种依赖后的观察与自省，总结本阶段（⭐ 本阶段复盘） |
-
-## 阶段五 · 中高级（46–60）｜经济 / 科技 / 社会 450→550 词
-
-| # | Title | 中文标题 | 题材 | 梗概 |
-|---|---|---|---|---|
+| 45 | What I Learned from a Month Without Music | 一个月不听音乐的收获 | 生活 · 自我 | 主动"戒掉"一种依赖后的观察与自省，总结本阶段的收获 |
 | 46 | The True Cost of Cheap | 便宜的真实成本 | 经济 · 消费 | 低价商品背后谁在承担成本；"每次性使用"与"长期成本"的算法 |
 | 47 | When Machines Write | 当机器开始写作 | AI 与科技 | 生成式写作工具的能力与边界；对学习、工作和"原创"的影响 |
 | 48 | The Four-Day Week Experiment | 四天工作制实验 | 工作 | 各国试点结果：产出不降反升的条件，以及为什么推广困难 |
 | 49 | Why Companies Care About Reputation | 企业为何在意声誉 | 商业 | 声誉如何影响招聘、定价与危机应对；一次公关失误的代价 |
-| 50 | Second-Hand Goes Mainstream | 二手成为主流 | 经济 · 消费 | 二手平台如何解决"信任"问题；循环经济的商业逻辑 |
-| 51 | Working from Anywhere | 在任何地方工作 | 工作 · 科技 | 数字游民的自由与代价：孤独、时区、自律与保障缺失 |
-| 52 | The Rise of the Subscription Economy | 订阅经济的兴起 | 经济 | 从买断到订阅：企业的现金流逻辑与消费者的真实支出 |
-| 53 | Culture in the Small Things | 小事里的文化 | 文化差异 | 排队、称呼、请客、时间观——文化差异藏在日常细节里 |
-| 54 | Who Owns Your Data? | 谁拥有你的数据 | 科技 · 社会 | 免费服务的代价、数据交易与个人可行的自我保护 |
-| 55 | The Business of Attention | 注意力的生意 | 经济 · 科技 | 推荐算法如何"卖注意力"，用户与平台的不对等 |
-| 56 | Food Miles and Our Plates | 食物里程与我们的餐盘 | 环境 · 消费 | 本地食材与进口食材的碳排放对比，"吃得环保"的复杂性 |
-| 57 | When a Store Knows You Better Than You Do | 当商店比你更懂你 | 科技 · 消费 | 个性化推荐与价格歧视；便利与隐私的交换 |
-| 58 | The Return of Local Shops | 小店的回归 | 经济 · 社会 | 电商时代实体店的转型：体验、社区与"可触摸"的价值 |
-| 59 | Negotiating Your First Salary | 谈第一份薪水 | 职业 | 谈薪的心理障碍、准备方法与常见误区 |
-| 60 | Ten Years of Change in My Hometown | 家乡十年之变 | 节点篇 | 用具体细节写变化：人、街、声音、价格，再谈变化带来的得失（⭐ 本阶段复盘） |
-
-## 阶段六 · CET-4 强化（61–75）｜四级题材全覆盖 500→600 词（限时 8–10 分钟先做题）
-
-| # | Title | 中文标题 | 题材 | 梗概 |
-|---|---|---|---|---|
-| 61 | Why Reading Aloud Still Matters | 为什么朗读依然重要 | 教育 | 朗读对语音、记忆与语感的作用，以及在数字化时代如何安排 |
-| 62 | The Long Road of Electric Cars | 电动车的漫漫长路 | 科技 | 电池、充电、成本与政策；技术成熟曲线上的现实节点 |
-| 63 | Sleep in a 24-Hour Society | 24 小时社会里的睡眠 | 健康 | 轮班、屏幕与光污染如何侵蚀睡眠，社会层面的应对 |
-| 64 | The Case for Public Libraries | 公共图书馆的价值 | 教育 · 社会 | 除了借书，图书馆承担的公共功能与数字时代的转型 |
-| 65 | How Cities Solve the Housing Problem | 城市如何解决住房 | 社会 | 保障房、租金管制、职住平衡的政策工具与副作用 |
-| 66 | The Hidden Work of Translation | 翻译的隐形劳动 | 文化 · 工作 | 机器翻译时代译者的处境；"准确"与"传神"的取舍 |
-| 67 | Screen Time and the Developing Brain | 屏幕时间与大脑发育 | 健康 · 科技 | 研究结论的分歧、年龄差异与"怎么用"比"用多久"更重要 |
-| 68 | Why Some Startups Fail | 为什么有些创业公司会失败 | 商业 · 工作 | 失败的常见原因：现金流、市场错配、团队；失败的价值 |
-| 69 | The Changing Meaning of Success | 成功含义的变迁 | 社会 · 心理 | 从"稳定"到"自我实现"，不同代际对成功的定义差异 |
-| 70 | Water: The Next Resource Question | 水：下一个资源问题 | 环境 | 缺水的地区性差异、农业用水与个人能做的事 |
-| 71 | Learning a Language as an Adult | 成年人学语言 | 教育 | 成人学习的优势与障碍；输入、输出与纠错的科学安排 |
-| 72 | The Slow Food Answer to Fast Food | 慢食对快餐 | 文化 · 健康 | 慢食运动的起点、理念与它面对的现实成本 |
-| 73 | Remote Work and the City | 远程办公与城市 | 工作 · 城市 | 办公空间减少对通勤、房租与城市中心的影响 |
-| 74 | The Ethics of Gene Editing | 基因编辑的边界 | 科技 · 伦理 | 治病与"增强"的界限，科学界与公众的分歧 |
-| 75 | What Standardized Tests Miss | 标准化考试漏掉了什么 | 节点篇 · 教育 | 考试能测与不能测的东西，如何更全面地评价学习（⭐ 本阶段复盘） |
-
-## 阶段七 · 综合提高（76–90）｜明显高于四级的正常英文 550→700 词
-
-| # | Title | 中文标题 | 题材 | 梗概 |
-|---|---|---|---|---|
-| 76 | The Idea of Progress | 进步的观念 | 历史 · 思想 | "进步"如何成为现代人的默认信念，它从哪里来、有何代价 |
-| 77 | Global Village, Local Lives | 地球村，本地生活 | 全球化 | 全球连接与本地身份的张力：供应链、语言与认同 |
-| 78 | Who Writes History? | 谁在书写历史 | 历史 | 史料的选择、口述与档案、谁的声音被留下 |
-| 79 | The Ethics of Artificial Meat | 人造肉的伦理 | 伦理 · 科技 | 动物福利、环境收益与技术风险之间的争论 |
-| 80 | Fairness in an Unequal World | 不平等世界里的公平 | 伦理 · 社会 | 起点公平、机会公平与结果公平的区分与争论 |
-| 81 | The Future of Work: Beyond the Office | 未来工作：办公室之外 | 未来工作 | 自动化、自由职业与社会保障制度的可能走向 |
-| 82 | Education for Whom? | 教育为谁而办 | 教育公平 | 资源分配、城乡差距与"教育改变命运"的条件 |
-| 83 | The Psychology of Choice | 选择的心理学 | 心理 | 选择过载、默认选项与"后悔最小化"的决策策略 |
-| 84 | Growth at Any Price? | 不惜代价的增长？ | 经济 · 伦理 | 增长指标的局限、外部成本与"稳态经济"的讨论 |
-| 85 | The Stories We Tell About Failure | 我们讲述的失败故事 | 个人成长 | "失败学"的流行背后：哪些是真的，哪些是安慰剂 |
-| 86 | Can Machines Be Creative? | 机器能有创造力吗 | 科技 · 伦理 | 创造力的定义之争、协作式创造与版权问题 |
-| 87 | The Quiet Cost of Convenience | 便利的隐形代价 | 社会 · 科技 | 外卖、即时零售与一键下单背后的劳动与环境成本 |
-| 88 | Rethinking the University | 重新思考大学 | 教育公平 | 学位的价值、技能型教育与终身学习的可能形态 |
-| 89 | Old Cities, New Lives | 老城市，新生活 | 历史 · 城市 | 历史街区的保护与更新：谁来决定、为谁保留 |
-| 90 | Looking Forward: My Next Ninety Days | 向前看：我的下一个九十天 | 毕业测试 | 综合毕业测试：限时阅读 + 三段式写作 + 2 分钟口语；含全程复盘（⭐ 全课程总结） |
+| 50 | Second-Hand Goes Mainstream | 二手成为主流 | 节点篇 · 经济 · 消费 | 二手平台如何解决"信任"问题；循环经济的商业逻辑（⭐ 本阶段复盘） |
 
 ## 生成注意事项
 
