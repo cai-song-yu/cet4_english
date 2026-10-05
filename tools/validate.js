@@ -80,6 +80,22 @@ function stripAttrs(html) {
 function plain(html) {
   return stripAttrs(html).replace(/<[^>]+>/g, "");
 }
+function jpegSize(buf) {
+  let i = 2;
+  while (i < buf.length - 9) {
+    if (buf[i] !== 0xff) { i++; continue; }
+    const m = buf[i + 1];
+    if (m >= 0xc0 && m <= 0xcf && m !== 0xc4 && m !== 0xc8 && m !== 0xcc) {
+      return { h: buf.readUInt16BE(i + 5), w: buf.readUInt16BE(i + 7) };
+    }
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
+}
+function pngSize(buf) {
+  if (buf.length < 24) return null;
+  return { w: buf.readUInt32BE(16), h: buf.readUInt32BE(20) };
+}
 function countMarks(html) {
   const out = {};
   for (const m of String(html).matchAll(/class="([a-z0-9-]+)"/g)) out[m[1]] = (out[m[1]] || 0) + 1;
@@ -209,7 +225,18 @@ function validateArticle(a, prevArticles, opts = {}) {
   const wantSlug = String(id).padStart(3, "0") + "-" + a.title.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   if (a.slug !== wantSlug) E(`slug 应为「${wantSlug}」，实际「${a.slug}」`);
   if (a.cover !== `assets/covers/${String(id).padStart(3, "0")}.jpg`) E(`cover 应为 assets/covers/${String(id).padStart(3, "0")}.jpg，实际 ${a.cover}`);
-  if (!fs.existsSync(path.join(ROOT, a.cover))) W(`封面文件不存在：${a.cover}（前端会用渐变底降级）`);
+  else {
+    const cf = path.join(ROOT, a.cover);
+    if (!fs.existsSync(cf)) W(`封面文件不存在：${a.cover}（前端会用渐变底降级）`);
+    else {
+      const cb = fs.readFileSync(cf);
+      /* 1x1 占位图（Pexels 限流时会返回 160 字节的空 JPEG）要当成缺图 */
+      const dim = /jpe?g$/.test(cf) ? jpegSize(cb) : pngSize(cb);
+      if (cb.length < 20000 || !dim || dim.w < 300 || dim.h < 200) {
+        E(`封面图无效：${a.cover}（${(cb.length / 1024).toFixed(0)}KB${dim ? " " + dim.w + "x" + dim.h : ""}），需重新下载`);
+      }
+    }
+  }
   if (!a.coverCredit || !/^Photo: /.test(a.coverCredit)) W(`coverCredit 建议为「Photo: 作者 / 站点」：${a.coverCredit}`);
   if (!CN.test(a.titleCn)) E("titleCn 缺中文");
 

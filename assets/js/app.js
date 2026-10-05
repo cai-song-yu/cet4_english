@@ -336,7 +336,8 @@
     /* 译文独立成 <p class="tr">，绝不混进英文正文，正文仍保持纯英文 */
     var ps = a.body.map(function (p, i) {
       var t = tr[i];
-      return "<p>" + p + "</p>" +
+      /* data-pi = 段落序号：划词时按它取 translation 里的「本段译文」 */
+      return '<p data-pi="' + i + '">' + p + "</p>" +
         (t ? '<p class="tr" lang="zh-CN">' + esc(t) + "</p>" : "");
     }).join("");
     var tools = tr.length
@@ -976,7 +977,7 @@
     });
 
     view.querySelectorAll("[data-say]").forEach(function (b) {
-      b.addEventListener("click", function () { sayWord(b.getAttribute("data-say")); });
+      b.addEventListener("click", function () { saySmart(b.getAttribute("data-say"), "", false); });
     });
 
     var ex = document.getElementById("nbExport");
@@ -1114,22 +1115,56 @@
     return null;
   }
 
-  /* ---------- 在线翻译（有道 JSONP 主力 + Free Dictionary 补充 + 整句兜底） ---------- */
+  /* ---------- 在线词典 / 翻译数据源 ----------
+     本地服务 tools/serve.js（http://127.0.0.1:8777，key 只留在服务里）：
+     /api/ping 探活 → /api/define 词库 · /api/translate 模型翻译 · /api/tts MiMo 真人音色。
+     双击 index.html（file://）也能打到 127.0.0.1（服务带 CORS）；服务没跑就走免费通道。 */
 
+  var API_BASE = "http://127.0.0.1:8777";
   var NET_TIMEOUT = 6500;
+  var PING_TIMEOUT = 2500;
   var CACHE_KEY = "reader-dict-cache";
   var CACHE_MAX = 600;
-  var dictCache = (function () {
-    try { return JSON.parse(localStorage.getItem(CACHE_KEY)) || {}; } catch (e) { return {}; }
-  })();
+  var TR_CACHE_KEY = "reader-tr-cache";
+  var TR_CACHE_MAX = 300;
 
-  function cachePut(key, val) {
-    dictCache[key] = val;
-    var keys = Object.keys(dictCache);
-    if (keys.length > CACHE_MAX) {
-      keys.slice(0, keys.length - CACHE_MAX).forEach(function (k) { delete dictCache[k]; });
+  function readStore(key) {
+    try { return JSON.parse(localStorage.getItem(key)) || {}; } catch (e) { return {}; }
+  }
+
+  var dictCache = readStore(CACHE_KEY);
+  var trCache = readStore(TR_CACHE_KEY);
+
+  /* 缓存按插入顺序淘汰；词典与翻译各写各的 localStorage 键 */
+  function cachePut(store, persistKey, max, key, val) {
+    store[key] = val;
+    var keys = Object.keys(store);
+    if (keys.length > max) {
+      keys.slice(0, keys.length - max).forEach(function (k) { delete store[k]; });
     }
-    try { localStorage.setItem(CACHE_KEY, JSON.stringify(dictCache)); } catch (e) {}
+    try { localStorage.setItem(persistKey, JSON.stringify(store)); } catch (e) {}
+  }
+
+  /* 本地服务探测：启动打一次 /api/ping（2.5s 超时）；没起来就在第一次划词时再试一次，
+     服务后开也能用上。结果只缓存在内存里。 */
+  var svc = { ok: false, checked: false, busy: false, wantRetry: false, selRetried: false, tts: false, voices: [] };
+
+  function probeService() {
+    if (svc.busy) { svc.wantRetry = true; return; }
+    svc.busy = true;
+    fetchJson(API_BASE + "/api/ping", function (err, j) {
+      svc.busy = false;
+      svc.checked = true;
+      if (!err && j && j.ok) {
+        svc.ok = true;
+        svc.tts = !!j.tts;
+        svc.voices = j.voices || [];
+      } else {
+        svc.ok = false;
+      }
+      if (svc.wantRetry) { svc.wantRetry = false; probeService(); return; }
+      if (popState) renderPop();   /* 浮层还开着：刷新「服务未运行」提示行 */
+    }, PING_TIMEOUT);
   }
 
   /* JSONP：有道接口不带 CORS 头，只能走 <script> 回调 */
@@ -1152,7 +1187,22 @@
     document.head.appendChild(sc);
   }
 
-  function fetchJson(url, done) {
+  function fetchJson(url, done, timeout) {
+    if (!window.fetch) return done(new Error("no fetch"));
+    var settled = false;
+    function fin(err, data) {
+      if (settled) return;
+      settled = true;
+      done(err, data);
+    }
+    setTimeout(function () { fin(new Error("timeout")); }, timeout || NET_TIMEOUT);
+    window.fetch(url).then(function (r) {
+      if (!r.ok) throw new Error("http " + r.status);
+      return r.json();
+    }).then(function (j) { fin(null, j); }).catch(function (e) { fin(e); });
+  }
+
+  function postJson(url, body, done) {
     if (!window.fetch) return done(new Error("no fetch"));
     var settled = false;
     function fin(err, data) {
@@ -1161,10 +1211,34 @@
       done(err, data);
     }
     setTimeout(function () { fin(new Error("timeout")); }, NET_TIMEOUT);
-    fetch(url).then(function (r) {
+    window.fetch(url, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body)
+    }).then(function (r) {
       if (!r.ok) throw new Error("http " + r.status);
       return r.json();
     }).then(function (j) { fin(null, j); }).catch(function (e) { fin(e); });
+  }
+
+  /* 二进制（mp3）：服务失败时返回 JSON {ok:false,error}，这里一并识别成失败 */
+  function fetchBin(url, done) {
+    if (!window.fetch) return done(new Error("no fetch"));
+    var settled = false;
+    function fin(err, blob) {
+      if (settled) return;
+      settled = true;
+      done(err, blob);
+    }
+    setTimeout(function () { fin(new Error("timeout")); }, NET_TIMEOUT);
+    window.fetch(url).then(function (r) {
+      if (!r.ok) throw new Error("http " + r.status);
+      var ct = (r.headers && r.headers.get && r.headers.get("content-type")) || "";
+      if (/json/i.test(ct)) {
+        return r.json().then(function (j) { throw new Error((j && j.error) || "tts failed"); });
+      }
+      return r.blob ? r.blob() : null;
+    }).then(function (b) { fin(null, b); }).catch(function (e) { fin(e); });
   }
 
   function netYoudao(q, done) {
@@ -1199,12 +1273,28 @@
     });
   }
 
-  function netMyMemory(q, done) {
-    fetchJson("https://api.mymemory.translated.net/get?langpair=en%7Czh-CN&q=" + encodeURIComponent(q), function (err, data) {
+  /* MyMemory 免费翻译：整句 / 短语的兜底通道（to=zh 英译中，to=en 中译英） */
+  function netMyMemory(q, to, done) {
+    var pair = to === "en" ? "zh-CN%7Cen" : "en%7Czh-CN";
+    fetchJson("https://api.mymemory.translated.net/get?langpair=" + pair + "&q=" + encodeURIComponent(q), function (err, data) {
       if (err) return done(err);
       var t = data && data.responseData && data.responseData.translatedText;
       if (!t || /INVALID|LIMIT EXCEEDED|QUERY LENGTH/i.test(String(t))) return done(new Error("empty"));
       done(null, String(t));
+    });
+  }
+
+  /* 本地服务词库：词 / 短语都查，比免费接口准得多（音标 / 词性 / 中文 / 搭配 / 例句） */
+  function netDefine(word, done) {
+    fetchJson(API_BASE + "/api/define?word=" + encodeURIComponent(word), function (err, j) {
+      if (err) return done(err);
+      if (!j || !j.ok || !j.entry) return done(new Error("empty"));
+      var e = j.entry;
+      done(null, {
+        w: e.w || word, ph: e.ph || "", pos: e.pos || "",
+        cn: e.cn || "", col: e.col || "", ex: e.ex || "",
+        src: "本地服务词库"
+      });
     });
   }
 
@@ -1229,6 +1319,7 @@
   function hidePop() {
     popState = null;
     if (pop) pop.setAttribute("hidden", "");
+    if (sayState && sayState.pop) stopSay();   /* 浮层里的发音跟着关掉 */
   }
 
   function applyPatch(st, patch) {
@@ -1241,10 +1332,79 @@
     }
   }
 
-  /* 本地没收录 → 有道（中文）与 Free Dictionary（音标/英文释义/发音）并行，
-     整句再补一层机器翻译兜底；结果写入 localStorage 缓存 */
-  function onlineLookup(st, key) {
-    var isPhrase = /\s/.test(key);
+  /* ---------- 划词三种模式 ----------
+     word      1 个词
+     phrase    2–6 个词
+     sentence  >6 个词，或以 . ? ! 结尾
+     选中内容上限 300 字符，超过直接不弹浮层。 */
+  var MAX_SEL = 300;
+
+  function selWords(t) {
+    var m = String(t).match(/[A-Za-z0-9'’\-]+|[\u3400-\u4dbf\u4e00-\u9fff]/g);
+    return m ? m.length : 0;
+  }
+
+  function selMode(t) {
+    t = String(t).trim();
+    if (!t) return "word";
+    if (/[.?!][\s"'”’)\]]*$/.test(t)) return "sentence";
+    var n = selWords(t);
+    if (n > 6) return "sentence";
+    return n >= 2 ? "phrase" : "word";
+  }
+
+  function hasCJK(s) { return /[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]/.test(String(s)); }
+
+  function truncate(s, n) {
+    s = String(s);
+    return s.length > n ? s.slice(0, n) + "…" : s;
+  }
+
+  /* 选区所在的正文段落 → 本篇 translation 里的「本段译文」（离线、即时、零请求） */
+  function paraTrFor(node) {
+    var el = node && node.nodeType !== 1 ? node.parentNode : node;
+    var p = el && el.closest ? el.closest("#articleBody p") : null;
+    if (!p || (p.classList && p.classList.contains("tr"))) return "";
+    var a = currentArticle();
+    var tr = (a && a.translation) || [];
+    if (!tr.length) return "";
+    var idx = p.getAttribute && p.getAttribute("data-pi") !== null ? parseInt(p.getAttribute("data-pi"), 10) : -1;
+    if (!(idx >= 0)) {
+      var ps = document.querySelectorAll("#articleBody p:not(.tr)");
+      idx = Array.prototype.indexOf.call(ps, p);
+    }
+    return idx >= 0 && tr[idx] ? tr[idx] : "";
+  }
+
+  /* 整句翻译：本地服务 /api/translate 优先，不可用回退 MyMemory；结果进 reader-tr-cache */
+  function translateText(text, to, done) {
+    var k = to + "|" + norm(text);
+    if (trCache[k]) { done(null, trCache[k], "翻译缓存"); return; }
+    var finished = false;
+    function fin(err, t, src) {
+      if (finished) return;
+      finished = true;
+      if (!err && t) cachePut(trCache, TR_CACHE_KEY, TR_CACHE_MAX, k, String(t));
+      done(err, t, src);
+    }
+    function mymemory() {
+      netMyMemory(text, to, function (e2, t) {
+        if (!e2 && t) fin(null, t, "MyMemory 机器翻译");
+        else fin(new Error("translate failed"));
+      });
+    }
+    if (svc.ok) {
+      postJson(API_BASE + "/api/translate", { text: text, to: to }, function (err, j) {
+        if (!err && j && j.ok && j.text) fin(null, String(j.text), to === "en" ? "本地模型翻译（中→英）" : "本地模型翻译");
+        else mymemory();
+      });
+    } else {
+      mymemory();
+    }
+  }
+
+  /* word 模式：本地词库已在外层命中 → /api/define → 有道 suggest → Free Dictionary */
+  function onlineWord(st, key) {
     var pending = 1;
 
     function settle() {
@@ -1253,7 +1413,7 @@
       if (!st.data.cn && !st.data.en) st.data.failed = true;
       st.settled = true;
       if (st.data.cn || st.data.en) {
-        cachePut(key, {
+        cachePut(dictCache, CACHE_KEY, CACHE_MAX, key, {
           w: st.data.w, ph: st.data.ph, pos: st.data.pos, cn: st.data.cn,
           col: st.data.col, en: st.data.en, ex: st.data.ex,
           audio: st.data.audio, src: st.data.src
@@ -1264,45 +1424,103 @@
 
     function refresh() { if (st === popState) renderPop(); }
 
-    netYoudao(key, function (err, main) {
-      if (!err && main) {
-        applyPatch(st, { cn: main.explain, w: main.term, src: "有道词典" });
-      } else if (isPhrase) {
-        pending++;
-        netMyMemory(key, function (e2, cn) {
-          if (!e2 && cn) applyPatch(st, { cn: cn, src: "机器翻译" });
-          settle();
-        });
-      }
+    /* Free Dictionary：音标 / 英文释义 / 词典发音，一直并行 */
+    pending++;
+    netDictApi(key, function (err, r) {
+      if (!err && r) applyPatch(st, { w: r.w, ph: r.ph, pos: r.pos, en: r.en, ex: r.ex, audio: r.audio, src: "Free Dictionary" });
       refresh();
       settle();
     });
 
-    if (!isPhrase) {
-      pending++;
-      netDictApi(key, function (err, r) {
-        if (!err && r) applyPatch(st, { w: r.w, ph: r.ph, pos: r.pos, en: r.en, ex: r.ex, audio: r.audio, src: "Free Dictionary" });
+    /* 中文释义：本地服务词库优先，没有再走有道 suggest（两者只算一个 pending） */
+    pending++;
+    function youdao() {
+      netYoudao(key, function (err, main) {
+        if (!err && main) applyPatch(st, { cn: main.explain, w: main.term, src: "有道词典" });
         refresh();
         settle();
       });
     }
+    if (svc.ok) {
+      netDefine(key, function (err, e) {
+        if (!err && e && e.cn) {
+          applyPatch(st, e);
+          refresh();
+          settle();
+        } else {
+          youdao();
+        }
+      });
+    } else {
+      youdao();
+    }
+
+    settle();
+  }
+
+  /* phrase / sentence 模式：本段译文（离线） + 整句翻译；phrase 再补一条本地服务词条 */
+  function onlinePhrase(st, key) {
+    var pending = 1;
+
+    function refresh() { if (st === popState) renderPop(); }
+
+    function settle() {
+      pending--;
+      if (pending > 0) return;
+      st.settled = true;
+      if (st.mode === "phrase" && st.data.cn) {
+        cachePut(dictCache, CACHE_KEY, CACHE_MAX, key, {
+          w: st.data.w, ph: st.data.ph, pos: st.data.pos, cn: st.data.cn,
+          col: st.data.col, en: st.data.en, ex: st.data.ex,
+          audio: st.data.audio, src: st.data.src
+        });
+      }
+      refresh();
+    }
+
+    if (st.mode === "phrase" && !st.data.cn && svc.ok) {
+      pending++;
+      netDefine(key, function (err, e) {
+        if (!err && e && e.cn) applyPatch(st, e);
+        refresh();
+        settle();
+      });
+    }
+
+    pending++;
+    translateText(st.q, hasCJK(st.q) ? "en" : "zh", function (err, t, src) {
+      if (!err && t) { st.tr = t; st.trSrc = src; }
+      else st.trFailed = true;
+      refresh();
+      settle();
+    });
+
+    settle();
   }
 
   function renderPop() {
     if (!popState) return;
     var p = ensurePop();
-    var d = popState.data;
-    var rect = popState.rect;
-    var word = d.w || popState.q;
+    var st = popState;
+    var d = st.data;
+    var rect = st.rect;
+    var isWord = st.mode === "word";
+    var head = isWord ? (d.w || st.q) : st.q;
+    var saveKey = head;
+    var playing = !!sayState.via && sayState.key === st.key;
+
+    p.setAttribute("data-mode", st.mode);
 
     var h =
       '<div class="wp-head">' +
-      '<span class="wp-word">' + esc(word) + "</span>" +
-      (d.ph ? '<span class="wp-ph">' + esc(d.ph) + "</span>" : "") +
-      (d.pos ? '<span class="wp-pos">' + esc(d.pos) + "</span>" : "") +
-      '<button class="wp-btn wp-nb" type="button" title="加入 / 移出生词本">' +
-      (nbHas(word) ? "✓ 已存" : "＋ 存") + "</button>" +
-      '<button class="wp-btn wp-say" type="button" title="朗读">🔊 读</button>' +
+      '<span class="wp-word" title="' + esc(st.q) + '">' + esc(isWord ? head : truncate(head, 46)) + "</span>" +
+      (isWord && d.ph ? '<span class="wp-ph">' + esc(d.ph) + "</span>" : "") +
+      (isWord && d.pos ? '<span class="wp-pos">' + esc(d.pos) + "</span>" : "") +
+      '<button class="wp-btn wp-say' + (playing ? " playing" : "") + '" type="button" title="朗读（真人发音优先，再点停止）">' +
+      (playing ? "⏹ 停" : "🔊 读") + "</button>" +
+      (st.mode === "sentence" ? "" :
+        '<button class="wp-btn wp-nb' + (nbHas(saveKey) ? " saved" : "") + '" type="button" title="加入 / 移出生词本">' +
+        (nbHas(saveKey) ? "✓ 已存" : "＋ 存") + "</button>") +
       '<button class="wp-btn wp-x" type="button" title="关闭">✕</button>' +
       "</div>";
 
@@ -1311,14 +1529,32 @@
     if (d.col) h += '<div class="wp-row"><b>搭配</b>' + esc(d.col) + "</div>";
     if (d.ex) h += '<div class="wp-row"><b>例句</b><span class="wp-ex">' + esc(d.ex) + "</span></div>";
 
-    if (!d.cn && !d.en) {
-      h += popState.settled
+    /* 短语 / 整句：本段译文（离线、即时） + 整句翻译 */
+    if (!isWord) {
+      if (st.paraTr) h += '<div class="wp-row wp-para"><b>本段译文</b><span class="wp-zh">' + esc(st.paraTr) + "</span></div>";
+      if (st.tr) h += '<div class="wp-row wp-tr"><b>整句翻译</b><span class="wp-zh">' + esc(st.tr) + "</span></div>";
+      else if (st.trFailed) h += '<div class="wp-row wp-tr"><b>整句翻译</b><span class="wp-zh wp-miss">翻译失败（离线或接口限流），点 🔊 仍可发音</span></div>';
+      else h += '<div class="wp-load">🌐 整句翻译中…</div>';
+    }
+
+    if (isWord && !d.cn && !d.en) {
+      h += st.settled
         ? '<div class="wp-cn wp-miss">联网查询失败</div><div class="wp-tip">可能是离线或接口限流，点 🔊 仍可发音；稍后重新划词可重试</div>'
         : '<div class="wp-load">🌐 查询中…</div>';
-    } else if (!popState.settled) {
+    } else if (isWord && !st.settled) {
       h += '<div class="wp-load">🌐 补充中…</div>';
     }
-    if (d.src) h += '<div class="wp-src">来源：' + esc(d.src) + "</div>";
+
+    /* 来源行：查到的东西 + 实际用上的发音通道 */
+    var parts = [];
+    if (d.src) parts.push(d.src);
+    if (st.trSrc) parts.push(st.trSrc);
+    if (st.paraTr) parts.push("本篇逐段译文");
+    if (st.saySrc) parts.push("发音：" + st.saySrc);
+    if (parts.length) h += '<div class="wp-src">来源：' + esc(parts.join(" · ")) + "</div>";
+    if (svc.checked && !svc.ok) {
+      h += '<div class="wp-tip wp-svc">本地服务未运行：发音与翻译走免费通道（运行 node tools/serve.js 可启用 MiMo 真人音色与模型翻译）</div>';
+    }
 
     p.innerHTML = h;
     p.removeAttribute("hidden");
@@ -1331,23 +1567,25 @@
     p.style.left = left + "px";
     p.style.top = top + "px";
 
-    p.querySelector(".wp-say").addEventListener("click", function () { saySmart(word, d.audio); });
+    p.querySelector(".wp-say").addEventListener("click", function () { saySmart(st.q, d.audio, true); });
     p.querySelector(".wp-x").addEventListener("click", hidePop);
 
     var nbBtn = p.querySelector(".wp-nb");
     if (nbBtn) nbBtn.addEventListener("click", function () {
-      if (nbHas(word)) {
-        nbRemove(word);
+      if (nbHas(saveKey)) {
+        nbRemove(saveKey);
         nbBtn.textContent = "＋ 存";
-        toast("已从生词本移除：" + word);
+        nbBtn.classList.remove("saved");
+        toast("已从生词本移除：" + saveKey);
       } else {
         nbAdd({
-          w: word, ph: d.ph || "", pos: d.pos || "", cn: d.cn || "",
+          w: saveKey, ph: d.ph || "", pos: d.pos || "", cn: d.cn || "",
           en: d.en || "", col: d.col || "", ex: d.ex || "",
           from: d.src || "划词收录"
         });
         nbBtn.textContent = "✓ 已存";
-        toast("已加入生词本：" + word);
+        nbBtn.classList.add("saved");
+        toast("已加入生词本：" + saveKey);
       }
       var rr = currentRoute();
       renderNav(rr.a ? rr.a.id : 0, rr.name);
@@ -1356,24 +1594,36 @@
     });
   }
 
-  function showPop(text, rect, entry) {
+  function showPop(text, rect, entry, paraTr) {
     var key = norm(text);
+    var mode = selMode(text);
     var data = entry
       ? { w: entry.w, ph: entry.ph, pos: entry.pos, cn: entry.cn, col: entry.col, ex: entry.ex, src: entry.from }
       : {};
-    popState = { key: key, q: text, rect: rect, data: data, settled: false };
+    stopSay();
+    popState = {
+      key: key, q: text, mode: mode, rect: rect,
+      paraTr: mode === "word" ? "" : (paraTr || ""),
+      data: data, settled: false,
+      tr: "", trSrc: "", trFailed: false, saySrc: ""
+    };
     renderPop();
 
-    if (data.cn) { popState.settled = true; return; }   /* 本地词条已够用，不联网 */
-
-    var cached = dictCache[key];
-    if (cached) {
-      applyPatch(popState, cached);
-      popState.settled = true;
-      renderPop();
+    if (mode === "word") {
+      if (data.cn) { popState.settled = true; return; }   /* 本地词条已够用，不联网 */
+      var cached = dictCache[key];
+      if (cached) {
+        applyPatch(popState, cached);
+        popState.settled = true;
+        renderPop();
+        return;
+      }
+      onlineWord(popState, key);
       return;
     }
-    onlineLookup(popState, key);
+
+    /* phrase / sentence：本段译文已即时显示，整句翻译接着走 */
+    onlinePhrase(popState, key);
   }
 
   /* 选区矩形：老浏览器 / 异常环境下退回元素矩形，保证浮层总能弹出 */
@@ -1397,12 +1647,25 @@
   function onSelect() {
     var sel = window.getSelection();
     if (!sel || sel.isCollapsed || !sel.rangeCount) { hidePop(); return; }
-    var text = sel.toString().trim();
-    if (!text || text.length > 80) { hidePop(); return; }
+    var text = String(sel.toString ? sel.toString() : "");
+    if (!text.trim() && sel.getRangeAt) text = String(sel.getRangeAt(0).toString() || "");
+    text = text.replace(/\s+/g, " ").trim();
+    if (!text || text.length > MAX_SEL) { hidePop(); return; }
     var node = sel.anchorNode;
     var view = document.getElementById("view");
     if (!view || !node || !(node === view || view.contains(node))) { hidePop(); return; }
-    showPop(text, rangeRect(sel.getRangeAt(0)), lookup(text));
+    /* 服务可能是后开的：第一次划词时再探一次 */
+    if (!svc.ok && svc.checked && !svc.selRetried) {
+      svc.selRetried = true;
+      probeService();
+    }
+    var mode = selMode(text);
+    showPop(
+      text,
+      rangeRect(sel.getRangeAt(0)),
+      mode === "sentence" ? null : lookup(text),
+      paraTrFor(node)
+    );
   }
 
   document.addEventListener("mouseup", function (e) {
@@ -1793,16 +2056,119 @@
     }, 120);
   }
 
-  /* 有词典真人发音就用 mp3，否则退回语音合成 */
-  function saySmart(text, audio) {
-    if (audio) {
-      try {
-        var p = new Audio(audio).play();
-        if (p && p.catch) p.catch(function () { sayWord(text); });
-        return;
-      } catch (e) {}
+  /* ---------- 浮层发音链 ----------
+     ① window.WORD_AUDIO 词表真人发音（预生成 mp3）→ ② 本地服务 /api/tts MiMo 真人音色
+     → ③ 词典自带 mp3 → ④ 浏览器朗读。mp3 一律走原生 <audio>，再点一次同一按钮即停止。 */
+
+  var SAY_VOICE = "Chloe";   /* MiMo 音色：Mia / Chloe / Milo / Dean */
+  var SAY_STYLE = "native";
+  var curSay = null;                                 /* 正在播放的 <audio> */
+  var sayState = { key: "", via: "", pop: false };   /* 当前发音：文本 key + 实际通道 */
+
+  function stopSay() {
+    if (!sayState || !sayState.via) return;
+    var via = sayState.via;
+    var s = curSay;
+    sayState.key = "";
+    sayState.via = "";
+    sayState.pop = false;
+    curSay = null;
+    if (s && s.el) {
+      s.el.onended = null;
+      s.el.onerror = null;
+      try { s.el.pause(); } catch (e) {}
+      try { if (s.url && String(s.url).indexOf("blob:") === 0) URL.revokeObjectURL(s.url); } catch (e) {}
     }
-    sayWord(text);
+    if (via === "浏览器朗读") stopTts();
+  }
+
+  /* 原生 <audio> 播一条 mp3；放不出来（404 / 自动播放被拒）就回调 done(false) 走下一档 */
+  function playSayAudio(url, key, done) {
+    var el;
+    try { el = new Audio(url); } catch (e) { done(false); return; }
+    var settled = false;
+    function fin(ok) {
+      if (settled) return;
+      settled = true;
+      if (!ok) {
+        el.onended = null;
+        el.onerror = null;
+        done(false);
+        return;
+      }
+      curSay = { key: key, el: el, url: url };
+      done(true);
+    }
+    el.onended = function () { if (curSay && curSay.el === el) curSay = null; };
+    el.onerror = function () { fin(false); };
+    var pr;
+    try { pr = el.play(); } catch (e) { fin(false); return; }
+    if (pr && pr.then) pr.then(function () { fin(true); }, function () { fin(false); });
+    else fin(true);   /* 老浏览器不返回 Promise：按已开播处理 */
+  }
+
+  /* MiMo 真人音色：/api/tts 取 mp3（服务端自带磁盘缓存），再用 <audio> 播 */
+  function sayViaTts(text, key, done) {
+    var url = API_BASE + "/api/tts?text=" + encodeURIComponent(text) +
+      "&voice=" + encodeURIComponent(SAY_VOICE) +
+      "&style=" + encodeURIComponent(SAY_STYLE);
+    fetchBin(url, function (err, blob) {
+      if (err) { done(false); return; }
+      var u = url;
+      try {
+        if (blob && window.URL && URL.createObjectURL) u = URL.createObjectURL(blob);
+      } catch (e) {}
+      playSayAudio(u, key, done);
+    });
+  }
+
+  function saySmart(text, audio, fromPop) {
+    var key = norm(text);
+    /* 再点一次同一按钮 = 停止 */
+    if (sayState.via && sayState.key === key) {
+      stopSay();
+      if (popState) renderPop();
+      return;
+    }
+    stopSay();
+    if (tts.playing) stopTts();   /* 别和全文朗读叠着响 */
+
+    var steps = [];
+    var wa = window.WORD_AUDIO;
+    if (wa && wa[key]) steps.push({ url: wa[key], via: "词表真人发音" });
+    if (svc.ok) steps.push({ tts: true, via: "MiMo 真人音色" });
+    if (audio) steps.push({ url: audio, via: "词典发音" });
+
+    function setVia(via) {
+      sayState.key = key;
+      sayState.via = via;
+      sayState.pop = !!fromPop;
+      if (popState && popState.key === key) {
+        popState.saySrc = via;
+        renderPop();
+      }
+    }
+
+    var i = 0;
+    function next() {
+      if (i >= steps.length) {
+        /* 兜底：浏览器朗读 */
+        if (synth && typeof SpeechSynthesisUtterance !== "undefined") {
+          setVia("浏览器朗读");
+          sayWord(text);
+        } else {
+          toast("没有可用的发音通道（浏览器不支持语音合成）");
+        }
+        return;
+      }
+      var s = steps[i++];
+      if (s.tts) {
+        sayViaTts(text, key, function (ok) { if (ok) setVia(s.via); else next(); });
+        return;
+      }
+      playSayAudio(s.url, key, function (ok) { if (ok) setVia(s.via); else next(); });
+    }
+    next();
   }
 
   function rateLabel() {
@@ -2094,6 +2460,7 @@
   }
   route();
   updateTtsUi();
+  probeService();   /* 本地服务探活：没起来就走免费通道，第一次划词时还会再试一次 */
   if (synth) {
     bestVoice(); /* 触发 Chrome 异步加载音色列表 */
     if (typeof synth.onvoiceschanged !== "undefined") {

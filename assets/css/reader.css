@@ -563,6 +563,29 @@ body.nav-open .scrim { display: block; }
   color: #8b857b;
 }
 
+/* 短语 / 整句模式：选中内容独占一行 + 两行译文 */
+.word-pop[data-mode="phrase"],
+.word-pop[data-mode="sentence"] { width: 400px; }
+.word-pop[data-mode="phrase"] .wp-word,
+.word-pop[data-mode="sentence"] .wp-word {
+  flex: 1 1 100%;
+  font-size: 15.5px;
+  line-height: 1.55;
+}
+.word-pop .wp-word { min-width: 0; overflow-wrap: anywhere; }
+.word-pop .wp-zh {
+  color: #ffe1a3;
+  font-weight: 600;
+}
+.word-pop .wp-para .wp-zh { color: #ffd479; }
+.word-pop .wp-tr .wp-zh { color: #cfe3ff; }
+.word-pop .wp-zh.wp-miss { color: #f0a79c; font-weight: 400; }
+.word-pop .wp-svc { margin-top: 8px; line-height: 1.55; }
+.word-pop .wp-btn.playing {
+  background: rgba(240, 167, 124, .26);
+  border-color: rgba(240, 167, 124, .55);
+}
+
 /* ---------- 朗读高亮 ---------- */
 
 .article p {

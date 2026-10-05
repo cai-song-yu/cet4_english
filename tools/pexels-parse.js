@@ -1,7 +1,8 @@
 /* 解析 Pexels 搜索页的 __NEXT_DATA__：node tools/pexels-parse.js <html文件> [关键词过滤] [数量] */
 const fs = require("fs");
 const file = process.argv[2];
-const filter = (process.argv[3] || "").toLowerCase();
+/* PowerShell 里空字符串可能被传成两个引号字符，这里统一清掉 */
+const filter = (process.argv[3] || "").replace(/^["']+|["']+$/g, "").toLowerCase();
 const N = +(process.argv[4] || 20);
 const txt = fs.readFileSync(file, "utf8");
 
