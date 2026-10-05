@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Chrome 语音合成自检</title>
+<style>
+  :root { --line:#e6e2d9; --ink:#22201d; --accent:#1565c0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 34px 26px 80px;
+    background: #f4f2ee; color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-size: 15px; line-height: 1.7;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; }
+  h1 { font-size: 24px; margin: 0 0 6px; }
+  .sub { color: #7c766c; font-size: 13.5px; margin-bottom: 22px; }
+  .card {
+    background: #fff; border: 1px solid var(--line); border-radius: 14px;
+    padding: 20px 22px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(35,33,30,.05);
+  }
+  h2 { font-size: 16px; margin: 0 0 12px; }
+  button {
+    font: inherit; font-size: 14px; cursor: pointer;
+    border: 1px solid var(--line); background: #fff; color: var(--ink);
+    border-radius: 10px; padding: 9px 15px; margin: 0 8px 8px 0;
+    transition: border-color .15s, color .15s;
+  }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  button.stop { color: #b3261e; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid #f0eee8; vertical-align: top; }
+  th { font-size: 12px; color: #7c766c; text-transform: uppercase; letter-spacing: .06em; }
+  td button { padding: 4px 10px; font-size: 12.5px; margin: 0; }
+  .net { color: #b3261e; font-weight: 600; }
+  .loc { color: #2e7d32; font-weight: 600; }
+  #log {
+    background: #1b1a18; color: #d7d2c8; font-family: Consolas, "Courier New", monospace;
+    font-size: 12.5px; line-height: 1.7; padding: 14px 16px; border-radius: 10px;
+    max-height: 320px; overflow: auto; white-space: pre-wrap; margin: 0;
+  }
+  .verdict { font-weight: 700; }
+  .ok { color: #2e7d32; }
+  .bad { color: #b3261e; }
+  code { background: #f4f1ea; padding: 1px 6px; border-radius: 5px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>语音合成（TTS）自检</h1>
+  <div class="sub">用来判断「点朗读没声音」是浏览器/音色问题还是阅读器问题。逐个点按钮，看日志里的 <code>onerror</code> 和最后的结论。</div>
+
+  <div class="card">
+    <h2>① 基础测试</h2>
+    <button id="t1">1. 手势内直接朗读（Hello!）</button>
+    <button id="t2">2. 延迟 90ms 朗读（复现阅读器调用方式）</button>
+    <button id="t3">3. 最佳本地音色 vs 网络音色对比</button>
+    <button id="t4">4. 长文本约 60 秒（测中途截断）</button>
+    <button class="stop" id="stop">⏹ 全部停止</button>
+    <div id="verdict" class="verdict"></div>
+  </div>
+
+  <div class="card">
+    <h2>② 环境信息</h2>
+    <div id="info">读取中…</div>
+  </div>
+
+  <div class="card">
+    <h2>③ 音色列表（点 ▶ 单独试听）</h2>
+    <table>
+      <thead><tr><th>音色</th><th>语言</th><th>类型</th><th></th></tr></thead>
+      <tbody id="voices"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>④ 日志</h2>
+    <pre id="log"></pre>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+  var synth = window.speechSynthesis;
+  var logEl = document.getElementById("log");
+  var infoEl = document.getElementById("info");
+  var verdictEl = document.getElementById("verdict");
+  var okCount = 0, doneCount = 0;
+
+  function log(msg, cls) {
+    var t = new Date().toTimeString().slice(0, 8);
+    logEl.textContent += "[" + t + "] " + msg + "\n";
+    logEl.scrollTop = logEl.scrollHeight;
+    if (cls) { /* 预留 */ }
+  }
+
+  function verdict(ok, msg) {
+    doneCount++;
+    if (ok) okCount++;
+    verdictEl.innerHTML = '<span class="' + (ok ? "ok" : "bad") + '">' +
+      (ok ? "✔" : "✘") + " " + msg + "</span>";
+    if (doneCount >= 1) {
+      verdictEl.innerHTML += '<br><span style="font-weight:400;color:#7c766c">' +
+        "累计成功 " + okCount + "/" + doneCount + " 项测试</span>";
+    }
+  }
+
+  if (!synth || typeof SpeechSynthesisUtterance === "undefined") {
+    infoEl.innerHTML = '<b class="bad">当前浏览器不支持 speechSynthesis</b>，请换 Chrome / Edge。';
+    document.querySelectorAll("button").forEach(function (b) { b.disabled = true; });
+    return;
+  }
+
+  function speak(opts) {
+    var u = new SpeechSynthesisUtterance(opts.text);
+    if (opts.voice) { u.voice = opts.voice; u.lang = opts.voice.lang; }
+    else u.lang = opts.lang || "en-US";
+    u.rate = opts.rate || 1;
+    var label = opts.label;
+    log("speak(" + label + ") → voice=" + (opts.voice ? opts.voice.name : "（默认）"));
+    u.onstart = function () { log("  onstart(" + label + ")"); };
+    u.onend = function () {
+      log("  onend(" + label + ")");
+      if (opts.cb) opts.cb(true);
+    };
+    u.onerror = function (e) {
+      log("  ✘ onerror(" + label + ") error=" + ((e && e.error) || "?") +
+          " utteranceError=" + ((e && e.utteranceError) || "-"));
+      if (opts.cb) opts.cb(false);
+    };
+    synth.speak(u);
+    try { synth.resume(); } catch (e) {}
+    return u;
+  }
+
+  var LONG = "The quick brown fox jumps over the lazy dog. ".repeat(60);
+
+  document.getElementById("t1").onclick = function () {
+    log("— 测试 1：点击处理函数内直接 speak —");
+    synth.cancel();
+    speak({ text: "Hello! This is test one. If you hear this, speech works.", label: "T1",
+      cb: function (ok) { verdict(ok, ok ? "测试 1 通过：直接调用能出声" : "测试 1 失败：直接调用也没声音"); } });
+  };
+
+  document.getElementById("t2").onclick = function () {
+    log("— 测试 2：setTimeout 90ms 后 speak（复现阅读器） —");
+    synth.cancel();
+    setTimeout(function () {
+      speak({ text: "Hello! This is test two, delayed.", label: "T2",
+        cb: function (ok) { verdict(ok, ok ? "测试 2 通过：延迟调用也能出声" : "测试 2 失败：延迟后被 Chrome 拦截"); } });
+    }, 90);
+  };
+
+  document.getElementById("t3").onclick = function () {
+    log("— 测试 3：本地音色 vs 网络音色 —");
+    synth.cancel();
+    var cands = candsOf();
+    var local = cands.filter(function (v) { return v.localService !== false; })[0];
+    var net = cands.filter(function (v) { return v.localService === false; })[0];
+    if (!local && !net) { verdict(false, "测试 3 跳过：没有英文音色"); return; }
+    log("  本地=" + (local ? local.name : "无") + " / 网络=" + (net ? net.name : "无"));
+    if (local) {
+      speak({ text: "This is the local voice.", voice: local, label: "local",
+        cb: function (ok) {
+          if (net) {
+            speak({ text: "This is the network voice.", voice: net, label: "network",
+              cb: function (ok2) {
+                verdict(ok, (ok ? "本地音色可用" : "本地音色也失败") +
+                  "；网络音色" + (ok2 ? "可用" : "不可用（国内常见）"));
+              } });
+          } else {
+            verdict(ok, ok ? "本地音色可用（只有本地音色）" : "本地音色失败");
+          }
+        } });
+    } else {
+      speak({ text: "This is the network voice.", voice: net, label: "network",
+        cb: function (ok) { verdict(ok, ok ? "只有网络音色且可用" : "只有网络音色且不可用——这就是没声音的原因"); } });
+    }
+  };
+
+  document.getElementById("t4").onclick = function () {
+    log("— 测试 4：约 60 秒长文本（看是否中途断掉） —");
+    synth.cancel();
+    var t0 = Date.now();
+    speak({ text: LONG, label: "T4-long", rate: 1.6,
+      cb: function (ok) {
+        var sec = ((Date.now() - t0) / 1000).toFixed(1);
+        verdict(ok && sec > 5, "长文本在 " + sec + " 秒后结束" + (ok ? "（正常读完）" : "（报错中断）"));
+      } });
+  };
+
+  document.getElementById("stop").onclick = function () { synth.cancel(); log("cancel()"); };
+
+  function candsOf() {
+    var all = [];
+    try { all = synth.getVoices() || []; } catch (e) {}
+    return all.filter(function (v) { return /^en/i.test(v.lang || ""); });
+  }
+
+  function renderVoices() {
+    var all = [];
+    try { all = synth.getVoices() || []; } catch (e) {}
+    var en = all.filter(function (v) { return /^en/i.test(v.lang || ""); });
+    var tb = document.getElementById("voices");
+    tb.innerHTML = "";
+    if (!en.length) {
+      tb.innerHTML = '<tr><td colspan="4" class="bad">未检测到英文音色（这很可能就是没声音的原因）</td></tr>';
+    }
+    en.forEach(function (v, i) {
+      var isNet = v.localService === false;
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + v.name + "</td><td>" + v.lang + "</td>" +
+        '<td class="' + (isNet ? "net" : "loc") + '">' + (isNet ? "网络（国内可能不可达）" : "本地") + "</td>" +
+        '<td><button data-i="' + i + '">▶ 试听</button></td>';
+      tr.querySelector("button").onclick = function () {
+        synth.cancel();
+        speak({ text: "Hello, this is " + v.name + ".", voice: v, label: v.name,
+          cb: function (ok) { verdict(ok, (ok ? "✔ " : "✘ ") + v.name + (ok ? " 可用" : " 不可用")); } });
+      };
+      tb.appendChild(tr);
+    });
+
+    var local = en.filter(function (v) { return v.localService !== false; }).length;
+    var net = en.length - local;
+    var ua = navigator.userAgent.match(/Chrome\/[\d.]+/);
+    infoEl.innerHTML =
+      "浏览器：<b>" + (ua ? ua[0] : navigator.userAgent) + "</b><br>" +
+      "speechSynthesis：<b>支持</b><br>" +
+      "英文音色：共 <b>" + en.length + "</b> 个（本地 <b>" + local + "</b> / 网络 <b>" + net + "</b>）" +
+      (net && !local ? ' <span class="bad">← 只有网络音色，国内大概率静默失败</span>' : "") +
+      "<br>当前阅读器选用：" + (candsOf()[0] ? "<b>" + candsOf()[0].name + "</b>" : "<b>（无，走默认）</b>");
+    log("voiceschanged：英文音色 " + en.length + " 个（本地 " + local + " / 网络 " + net + "）");
+  }
+
+  if (typeof synth.onvoiceschanged !== "undefined") synth.onvoiceschanged = renderVoices;
+  renderVoices();
+  if (!synth.getVoices || !synth.getVoices().length) log("音色列表还在异步加载…稍后会自动刷新");
+})();
+</script>
+</body>
+</html>
