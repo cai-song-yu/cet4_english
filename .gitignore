@@ -18,3 +18,10 @@ desktop.ini
 # 本地起的静态服务产物
 .cache/
 dist/
+
+# MiMo TTS 本地 key 与试听样本（tools/gen-tts.mjs 用，绝不提交）
+tools/.mimo-key
+tools/samples/
+
+# 文章生成中间产物（build/parts 分片入库后自动归档到 build/done）
+build/

@@ -84,6 +84,15 @@
   2. 帮助弹窗的「工具说明」由 4 条扩到 6 条，补上 **🈶 逐段译文**（默认隐藏、L 显隐、不参与朗读、不混进正文）与 **🎯 推荐完成度**（7 条达标线怎么用、勾选如何算完成度）；朗读那条同步注明「译文不参与朗读」。
   质量验证：`node --check` 通过；jsdom 冒烟 **141/141**（帮助弹窗的工具说明断言由 4 条改为 6 条，并新增译文 / 达标线 / 快捷键 L 三条）；`final-check` **30/30**。
 
+- 2026-10-05（v5.4）：**MiMo 真人朗读：离线预生成音频接入（站点运行时零调用、零费用风险）**。
+  1. **生成脚本 `tools/gen-tts.mjs`**：读 `articles.js` → 剥掉 `<span data-cn>` 等标注只留可见英文 → 调小米 MiMo TTS（`mimo-v2.5-tts`，限时免费，`chat/completions` + `audio.format=mp3`）逐段生成 → `assets/audio/<slug>/p<N>.mp3`；**只有整篇齐全的文章才写入 `assets/audio/manifest.js`**（站内要么整篇真人、要么整篇浏览器朗读，不搞半吊子混排）。**接口按 key 前缀自动选端点**：`sk-` → `api.xiaomimimo.com`（按量付费），`tp-`/`ttp-` → `token-plan-cn.xiaomimimo.com`（Token Plan 订阅），两者域名不通用、用错一律 401；也可用 `--base` / `MIMO_BASE_URL` 覆盖。参数：`sample` 试听 / `--article` / `--voice` / `--style` / `--concurrency` / `--force` / `--dry-run`；429 与网络错误指数退避重试 4 次，401/403 立即中止；key 取 `MIMO_API_KEY` 或 `tools/.mimo-key`（已 gitignore）。换音色重跑会识别"旧文件是别的音色"自动重做，不必手动 `--force`；单篇补做（`--article 3`）不会把清单里其他篇挤掉。
+  2. **音色与"地道"**：英文正文只用英文内置音色（Mia / Chloe / Milo / Dean，**不用** `mimo_default`——国内集群=冰糖，中文音读英文会串味），口音/语感由风格指令控制（`native` / `calm` / `story` / `british`）。先 `node tools/gen-tts.mjs sample` 出 7 个候选试听，最终定为**按篇交替**：单数篇 `Chloe/native`（美音自然朗读）、双数篇 `Mia/british`（英式 RP），`--voice Chloe,Mia --style native,british` 一次跑完 10 篇。
+  3. **app.js 播放层**：`window.AUDIO_MANIFEST` 有整篇 → 按段走原生 `<audio>` 队列，**暂停 / 停止 / 变速全部原生可靠**（不再依赖 speechSynthesis 的 pause/cancel 手感）；音频 404 或被自动播放策略拦截时就地回退语音合成、每篇只提示一次，被拦过则本篇其余段直接走语音合成；清单段数与正文不符（文章改过）→ 整篇回退；提示条显示「真人朗读 · N 段 · MiMo 音色 XXX」。
+  4. **挂载与工程**：`index.html` 在 `articles.js` 后插入 `assets/audio/manifest.js`，资源版本升至 `?v=5.4`；`.gitignore` 忽略 `tools/.mimo-key` 与 `tools/samples/`，key 与试听样本不入库。
+  使用：`node tools/gen-tts.mjs sample` 挑音色 → `node tools/gen-tts.mjs --voice Chloe,Mia --style native,british`（60 段一次跑完，失败段重跑自动续）。
+  实际产出：**60/60 段成功 · 0 失败 · 10 篇全部入册 · 音频共 7.2MB**（抽样验过 mp3 帧头 `FF F3`）。
+  质量验证：`node --check` 通过；jsdom 冒烟含 **21 条音频模式断言**（不调语音合成 / 段尾接续 / 暂停冻结 / 原位续播 / 即时变速 / 停止不再推进 / 坏段回退 / 清单过期回退）**77/77**；项目 smoke **141/141**；final-check 更新至 5.4（4 处）后全过。
+
 ## 六、格式规范文件
 
 - `course/style-guide.md` — 每次生成文章前必须对照执行

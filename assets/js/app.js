@@ -1423,10 +1423,34 @@
   var synth = window.speechSynthesis || null;
   var RATE_KEY = "reader-tts-rate";
   var RATES = [0.8, 1, 1.2, 1.5];
-  var tts = { queue: [], i: 0, curEl: null, playing: false, paused: false, pauseHard: false, gen: 0, rate: 1 };
+  var tts = { queue: [], i: 0, curEl: null, playing: false, paused: false, pauseHard: false, audioFell: false, gen: 0, rate: 1 };
 
   var _rate = parseFloat(localStorage.getItem(RATE_KEY));
   if (RATES.indexOf(_rate) !== -1) tts.rate = _rate;
+
+  /* ---------- 预生成真人音频 ----------
+     tools/gen-tts.mjs 用 MiMo TTS 离线生成整篇 mp3（assets/audio/manifest.js 列出可用篇目）。
+     走原生 <audio>：暂停 / 停止 / 变速 100% 可靠，且完全不依赖浏览器语音引擎与网络；
+     没有清单、清单过期或某段音频放不出来时，自动退回上面的 Web Speech 路径。 */
+  var curAudio = null;   /* 正在播放的预生成音频；null 表示当前走语音合成 */
+
+  function audioEntry() {
+    var r = currentRoute();
+    if (r.name !== "article" || !window.AUDIO_MANIFEST) return null;
+    var e = window.AUDIO_MANIFEST[String(r.a.id)];
+    if (!e || !e.files || !e.files.length) return null;
+    return e;
+  }
+
+  function killAudio() {
+    var a = curAudio;
+    curAudio = null;
+    if (!a) return;
+    a.onended = null;
+    a.onerror = null;
+    try { a.pause(); } catch (e) {}
+    try { a.currentTime = 0; } catch (e) {}
+  }
 
   /* 音色候选：本地音色优先。
      ⚠ Chrome 的 Google 网络音色在国内不可达，会静默失败（高亮走但无声），
@@ -1504,6 +1528,15 @@
     return q;
   }
 
+  /* 预生成音频队列：一段一句子 → 一段一整段（原文留着，音频坏了可原地退回朗读） */
+  function buildAudioQueue(ps, files) {
+    var q = [];
+    for (var i = 0; i < ps.length; i++) {
+      q.push({ el: ps[i], text: (ps[i].textContent || "").trim(), url: files[i] });
+    }
+    return q;
+  }
+
   /* 逐句朗读：音色按候选顺序降级，出错原因上浮到提示条 */
   function speakItem(item, attempt) {
     if (tts.paused) return;                 /* 暂停中冻结：续读由 resumeTts 负责触发 */
@@ -1531,21 +1564,68 @@
     try { synth.resume(); } catch (e) {}
   }
 
+  /* 单段预生成音频；放不出来（404 / 自动播放被拒）就地退回语音合成，不打断整篇 */
+  var audioBlocked = false;   /* 一旦被浏览器拦过一次，本篇后面直接走语音合成，避免逐段试错 */
+
+  /* 音频不可用时的统一去处：能朗读就朗读，读不了就跳过，绝不卡住队列 */
+  function afterAudioFail(item, msg) {
+    var canSpeak = !!synth && typeof SpeechSynthesisUtterance !== "undefined";
+    if (msg && !tts.audioFell) {
+      tts.audioFell = true;
+      toast(msg + (canSpeak ? "，改用浏览器朗读" : "，且浏览器不支持语音合成"));
+    }
+    if (canSpeak) speakItem(item, 0);
+    else advance();
+  }
+
+  function playAudioItem(item) {
+    if (audioBlocked) { afterAudioFail(item, null); return; }
+    var g = tts.gen;
+    var a;
+    try { a = new Audio(item.url); } catch (e) { afterAudioFail(item, "这段音频放不出来"); return; }
+    curAudio = a;
+    a.playbackRate = tts.rate;
+    var fell = false;
+    function fallback(msg) {
+      if (fell || g !== tts.gen || tts.paused) return;
+      fell = true;
+      if (curAudio === a) curAudio = null;
+      item.url = null;
+      afterAudioFail(item, msg);
+    }
+    a.onended = function () { if (g === tts.gen && !tts.paused) advance(); };
+    a.onerror = function () { fallback("这段音频放不出来"); };
+    clearStopWatch();           /* 已开读：解除停止补刀 */
+    var p;
+    try { p = a.play(); } catch (e) { fallback("这段音频放不出来"); return; }
+    if (p && p.catch) p.catch(function () {
+      audioBlocked = true;
+      fallback("浏览器拦了音频自动播放");
+    });
+  }
+
   function advance() { tts.i++; speakNext(); }
 
   function playArticle() {
-    if (!synth || typeof SpeechSynthesisUtterance === "undefined") {
+    var entry = audioEntry();
+    var haveSynth = !!synth && typeof SpeechSynthesisUtterance !== "undefined";
+    if (!haveSynth && !entry) {
       toast("当前浏览器不支持语音合成，请用 Chrome / Edge 打开");
       return;
     }
     var ps = document.querySelectorAll("#view .article p:not(.tr)");
     if (!ps.length) return;
+    /* 清单段数和正文对不上（文章改过了）→ 这篇退回语音合成 */
+    if (entry && entry.files.length !== ps.length) entry = null;
     clearStopWatch();
     clearPauseWatch();
     tts.pauseHard = false;
-    var restarting = synth.speaking || synth.pending;
+    tts.audioFell = false;
+    audioBlocked = false;
+    killAudio();                        /* 上一轮的预生成音频必须掐掉 */
+    var restarting = haveSynth && (synth.speaking || synth.pending);
     if (restarting) synth.cancel();
-    var queue = buildQueue(ps);
+    var queue = entry ? buildAudioQueue(ps, entry.files) : buildQueue(ps);
     if (!queue.length) return;
     tts.queue = queue;
     tts.i = 0;
@@ -1555,13 +1635,15 @@
     tts.gen++;
     updateTtsUi();
     var v = bestVoice();
-    toast("▶ 开始朗读 · " + ps.length + " 段 · 音色：" + (v ? v.name : "系统默认"));
+    toast(entry
+      ? "▶ 真人朗读 · " + ps.length + " 段 · MiMo 音色" + (entry.voice ? " " + entry.voice : "")
+      : "▶ 开始朗读 · " + ps.length + " 段 · 音色：" + (v ? v.name : "系统默认"));
     if (restarting) {
       /* 刚 cancel() 完立刻 speak 可能被 Chrome 吞掉，稍等一帧 */
       var g = tts.gen;
       setTimeout(function () { if (g === tts.gen) speakNext(); }, 120);
     } else {
-      /* 在用户点击的调用栈内直接 speak，规避 Chrome 手势限制 */
+      /* 在用户点击的调用栈内直接开读，规避 Chrome 手势限制 */
       speakNext();
     }
   }
@@ -1571,10 +1653,11 @@
     if (tts.i >= tts.queue.length) { finishTts(); return; }
     var item = tts.queue[tts.i];
     if (item.el !== tts.curEl) { tts.curEl = item.el; highlight(item.el); }
-    speakItem(item, 0);
+    if (item.url) playAudioItem(item); else speakItem(item, 0);
   }
 
   function finishTts() {
+    killAudio();                     /* 预生成音频：清掉引用，避免残留计时器推进队列 */
     tts.playing = false;
     tts.paused = false;
     tts.pauseHard = false;
@@ -1601,16 +1684,21 @@
   }
 
   function togglePause() {
-    if (!synth || !tts.playing) return;
+    if (!tts.playing) return;
     if (tts.paused) resumeTts(); else pauseTts();
   }
 
   function pauseTts() {
-    if (!synth || !tts.playing || tts.paused) return;
+    if (!tts.playing || tts.paused) return;
     tts.paused = true;
     tts.pauseHard = false;
     updateTtsUi();
     toast("⏸ 已暂停");
+    if (curAudio) {
+      try { curAudio.pause(); } catch (e) {}
+      return;                        /* 预生成音频：原生 pause，没有"被忽略"一说 */
+    }
+    if (!synth) return;
     try { synth.pause(); } catch (e) {}
     var tries = 0;
     clearPauseWatch();
@@ -1636,6 +1724,15 @@
     updateTtsUi();
     toast("▶ 继续朗读");
     if (!tts.playing) return;
+
+    if (curAudio) {
+      /* 预生成音频：从原位置继续，无延迟、不重读 */
+      try {
+        var p = curAudio.play();
+        if (p && p.catch) p.catch(function () { if (tts.playing && !tts.paused) speakNext(); });
+      } catch (e) { speakNext(); }
+      return;
+    }
 
     if (!hard && synth.paused) {
       /* 引擎正常暂停过：交给它继续，150ms 还没读就手动续（防 resume 静默失效） */
@@ -1670,7 +1767,8 @@
 
   function stopTts() {
     var wasPlaying = tts.playing;
-    if (!synth) { finishTts(); return; }
+    killAudio();                     /* 预生成音频：原生停止，必定生效 */
+    if (!synth) { finishTts(); if (wasPlaying) toast("⏹ 已停止朗读"); return; }
     clearPauseWatch();
     /* 暂停态下直接 cancel 可能被吞，先恢复再取消 */
     if (tts.paused) { try { synth.resume(); } catch (e) {} }
@@ -1727,7 +1825,7 @@
       return;
     }
 
-    if (!synth || typeof SpeechSynthesisUtterance === "undefined") {
+    if ((!synth || typeof SpeechSynthesisUtterance === "undefined") && !audioEntry()) {
       /* 保持 ▶ 可点：点击时用提示条说明原因，比灰按钮更直观 */
       if (play) { play.disabled = false; play.title = "当前浏览器不支持语音合成（建议用 Chrome / Edge）"; }
       if (rate) rate.title = "当前浏览器不支持语音合成（建议用 Chrome / Edge）";
@@ -1928,7 +2026,8 @@
       tts.rate = RATES[i];
       localStorage.setItem(RATE_KEY, String(tts.rate));
       updateTtsUi();
-      if (tts.playing && !tts.paused) { stopTts(); playArticle(); } /* 新语速从头读 */
+      if (curAudio) curAudio.playbackRate = tts.rate;               /* 预生成音频：原生即时变速 */
+      else if (tts.playing && !tts.paused) { stopTts(); playArticle(); } /* 语音合成：新语速从头读 */
     });
   }
 

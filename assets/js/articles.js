@@ -1788,5 +1788,362 @@ window.ARTICLES = [
         { k: "复现", v: "点划正文里 10 处灰点旧词，说出其中 3 个的意思；并能用一句话总结阶段一的收获", lvl: "加分" }
       ]
     }
+  },
+{
+    id: 11,
+    slug: '011-the-weekend-i-said-yes',
+    title: 'The Weekend I Said Yes',
+    titleCn: '我说“好”的那个周末',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 270 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.0%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/011.jpg',
+    coverCredit: 'Photo: 待补 / Pexels',
+    body: [
+      'My <span class="w-cet4" data-cn="典型的、平常的">typical</span> weekend used to look the same. I stayed at home and slept late. When friends asked me out, I would <span class="w-phrase" data-cn="拒绝（邀请、提议）">turn down</span> almost every invitation. The truth was that I was <span class="w-rev">nervous</span> about new things.',
+      'One Thursday, my neighbor asked me to <span class="w-phrase" data-cn="报名参加">sign up for</span> a <span class="w-rev">community</span> activity: getting an old garden ready for spring. My first answer was no, as usual. Then she said, “Just say yes this once.” I <span class="w-rev">decided</span> to go.',
+      'I arrived early on Saturday and felt <span class="w-cet4" data-cn="尴尬的、不自在的">awkward</span> at once, because I knew no one there. An older neighbor <span class="w-rev">offered</span> me tea, and we talked while we worked. Little by little I began to <span class="w-cet4" data-cn="放松、休息">relax</span>, and our <span class="w-cet4" data-cn="交谈、谈话">conversation</span> became easy.',
+      'By noon we had cleared the stones and planted trees. I tried to <span class="w-phrase" data-cn="帮忙、搭把手">help out</span> and <span class="w-cet4" data-cn="意识到、认识到">realized</span> how fast the hours went. <span class="w-sentence">By the time we finished, the garden looked bright and new, and I could not remember why I had stayed at home.</span>',
+      '<span class="w-sentence">What surprised me most was not the garden, but the way I felt at the end of the day.</span> I was <span class="w-synonym" data-cn="＝ pleased / happy 的替换词">glad</span> and a little <span class="w-rev">proud</span> of our work, and <span class="w-cet4" data-cn="好奇的">curious</span> about the people there. It turned out better than I <span class="w-rev">expected</span>.',
+      '<span class="w-writing" data-cn="从那以后……（引出后续变化）">Ever since then</span>, I have learned to <span class="w-phrase" data-cn="对……说好、答应">say yes to</span> more things: a book club, a weekend hike, an <span class="w-cet4" data-cn="机会">opportunity</span> to help at a school. I still say no sometimes, but now I <span class="w-cet4" data-cn="犹豫、迟疑">hesitate</span> less, and I am <span class="w-cet4" data-cn="感激的、感谢的">grateful</span> for every yes.',
+      '<span class="w-writing" data-cn="回头看……（引出回顾与感悟）">Looking back</span>, that one yes cost me a morning, but the <span class="w-rev">benefit</span> was clear. I never <span class="w-cet4" data-cn="后悔、遗憾">regretted</span> it. Before you say no, ask yourself what you might <span class="w-cet4" data-cn="发现、发觉">discover</span>.'
+    ],
+    translation: [
+      '我平常的周末总是老样子：待在家里，睡到很晚。朋友约我出门，我几乎每次都会拒绝邀请。我说自己很忙，可真正的原因是，我害怕任何新鲜事。',
+      '一个星期四，邻居让我报名参加一个社区活动：把一座老园子收拾好，准备迎接春天。我的第一反应是拒绝，像往常一样。然后她说：「这次就答应一次吧。」我决定去了。',
+      '周六早上我到得很早，一下子就感到不自在，因为我谁都不认识。一位上了年纪的邻居给我倒了茶，我们一边干活一边聊天。慢慢地，我放松下来，聊起天来也自在了。',
+      '中午时，我们已经清走了石块，种下了树苗。我尽力搭把手，也意识到时间过得有多快。等我们收工时，那座园子看上去又明亮又新鲜，我怎么也想不明白，自己为什么在家待了那么久。',
+      '最让我惊讶的不是那座园子，而是一天结束时我自己的感受。我为我们的活儿感到高兴，甚至有点自豪，也对身边的人好奇起来。结果比我预想的还要好。',
+      '从那以后，我学会了对更多的事说好：一个读书会、一次周末徒步、一个去小学帮忙的机会。我有时还是会说不，但现在我犹豫得少了，也对每一次「好」心怀感激。',
+      '回头看，那一次「好」只花了一个上午，可它带来的好处清清楚楚。我从没后悔过。在说「不」之前，先问问自己，可能会发现什么。'
+    ],
+    vocabulary: [
+      {
+        w: 'typical',
+        ph: '/ˈtɪpɪkl/',
+        pos: 'adj.',
+        cn: '典型的、平常的',
+        col: 'a typical weekend — 一个平常的周末；be typical of sb. — 是某人的一贯作风',
+        ex: 'This photo is a typical example of her style.'
+      },
+      {
+        w: 'hesitate',
+        ph: '/ˈhezɪteɪt/',
+        pos: 'v.',
+        cn: '犹豫、迟疑',
+        col: 'hesitate to do sth. — 犹豫做某事；without hesitation — 毫不犹豫地',
+        ex: 'She hesitated before she opened the door.'
+      },
+      {
+        w: 'awkward',
+        ph: '/ˈɔːkwəd/',
+        pos: 'adj.',
+        cn: '尴尬的、不自在的',
+        col: 'feel awkward — 感到不自在；an awkward moment — 尴尬的时刻',
+        ex: 'There was an awkward silence after his question.'
+      },
+      {
+        w: 'conversation',
+        ph: '/ˌkɒnvəˈseɪʃn/',
+        pos: 'n.',
+        cn: '交谈、谈话',
+        col: 'have a conversation — 交谈；start a conversation — 打开话匣子',
+        ex: 'We had a long conversation about our plans.'
+      },
+      {
+        w: 'relax',
+        ph: '/rɪˈlæks/',
+        pos: 'v.',
+        cn: '放松、休息',
+        col: 'relax for a while — 放松一会儿；relax and enjoy — 放松下来享受',
+        ex: 'I like to relax with a book on Sundays.'
+      },
+      {
+        w: 'discover',
+        ph: '/dɪˈskʌvə/',
+        pos: 'v.',
+        cn: '发现、发觉',
+        col: 'discover that … — 发现……；discover a place — 发现一个地方',
+        ex: 'You may discover a new hobby by accident.'
+      },
+      {
+        w: 'opportunity',
+        ph: '/ˌɒpəˈtjuːnəti/',
+        pos: 'n.',
+        cn: '机会',
+        col: 'an opportunity to do sth. — 做某事的机会；take the opportunity — 抓住机会',
+        ex: 'This trip is a good opportunity to practice speaking.'
+      },
+      {
+        w: 'realize',
+        ph: '/ˈrɪəlaɪz/',
+        pos: 'v.',
+        cn: '意识到、认识到',
+        col: 'realize that … — 意识到……；realize one’s mistake — 意识到自己的错误',
+        ex: 'I did not realize how late it was.'
+      },
+      {
+        w: 'grateful',
+        ph: '/ˈɡreɪtfl/',
+        pos: 'adj.',
+        cn: '感激的、感谢的',
+        col: 'be grateful to sb. for sth. — 因某事感激某人；feel grateful — 心怀感激',
+        ex: 'I am grateful to my neighbor for her help.'
+      },
+      {
+        w: 'regret',
+        ph: '/rɪˈɡret/',
+        pos: 'v./n.',
+        cn: '后悔、遗憾',
+        col: 'regret doing sth. — 后悔做过某事（后接动名词）；have no regrets — 没有遗憾',
+        ex: 'She regretted turning down the invitation.'
+      },
+      {
+        w: 'curious',
+        ph: '/ˈkjʊəriəs/',
+        pos: 'adj.',
+        cn: '好奇的',
+        col: 'be curious about — 对……感到好奇；be curious to know — 想知道',
+        ex: 'Children are often curious about everything.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'say yes to',
+        cn: '对……说“好”、答应',
+        ex: 'I want to say yes to more things this year.'
+      },
+      {
+        en: 'turn down',
+        cn: '拒绝（邀请、提议）',
+        ex: 'He turned down the invitation because he was busy.'
+      },
+      {
+        en: 'sign up for',
+        cn: '报名参加',
+        ex: 'She signed up for a weekend class.'
+      },
+      {
+        en: 'help out',
+        cn: '帮忙、搭把手',
+        ex: 'Can you help out in the kitchen?'
+      },
+      {
+        en: 'get along with',
+        cn: '与……相处融洽',
+        ex: 'I get along with my neighbors.'
+      },
+      {
+        en: 'look forward to',
+        cn: '期待、盼望（to 是介词，后接名词或动名词）',
+        ex: 'I am looking forward to the weekend.'
+      },
+      {
+        en: 'by the end of',
+        cn: '到……结束的时候',
+        ex: 'By the end of the day, we were all happy.'
+      },
+      {
+        en: 'on one’s own',
+        cn: '独自、靠自己',
+        ex: 'She finished the work on her own.'
+      },
+      {
+        en: 'as usual',
+        cn: '像往常一样',
+        ex: 'As usual, he arrived first.'
+      },
+      {
+        en: 'make friends with',
+        cn: '与……交朋友',
+        ex: 'I made friends with two neighbors that day.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'Ever since then, ...',
+        cn: '从那以后……',
+        meaning: '用过去发生的某件事作为起点，引出此后持续到现在的变化，后面常接现在完成时。',
+        context: '经历类记叙文的转折段或结尾段：先写那件事，再用它带出之后的改变。',
+        alts: [
+          {
+            t: 'From then on, ...',
+            n: '更口语，后面可接一般过去时'
+          },
+          {
+            t: 'Since that day, ...',
+            n: '强调从某一天开始'
+          },
+          {
+            t: 'After that, ...',
+            n: '最简单，时态不限'
+          }
+        ],
+        register: '中性，记叙文里最常用的过渡句式。',
+        example: 'Ever since then, I have said yes to more things.'
+      },
+      {
+        expr: 'Looking back, ...',
+        cn: '回头看……',
+        meaning: '把视角拉回现在，对过去的经历做一句总结或感悟。',
+        context: '全文最后一段的开头，用来点明这段经历带来的收获。',
+        alts: [
+          {
+            t: 'Looking back on it, ...',
+            n: '更完整'
+          },
+          {
+            t: 'When I look back, ...',
+            n: '完整从句形式'
+          },
+          {
+            t: 'In hindsight, ...',
+            n: '更书面，以后阶段常用'
+          }
+        ],
+        register: '中性偏书面，结尾收束最合适。',
+        example: 'Looking back, saying yes was easier than I thought.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'By the time we finished, the garden looked bright and new, and I could not remember why I had stayed at home.',
+        points: [
+          '<b>主干</b>：the garden looked bright and new 与 I could not remember … 由 and 连接成两个并列分句；句首的 By the time we finished 是时间状语从句。',
+          '<b>By the time + 从句</b>：意思是「到……的时候为止」，主句通常写「到那时已经发生的事」，是记叙文交代时间节点的常用开头。',
+          '<b>why I had stayed at home</b>：why 引导宾语从句，用过去完成时（had stayed）表示「在那之前一直待在家」，时间层次比 could not remember 更早一层。',
+          '<b>为什么值得学</b>：一句话里叠了时间从句、并列句、宾语从句三层结构，是四级阅读里最常见的长句模型，也是记叙文「前后对比」的好句式。',
+          '<b>常见变体</b>：By the time 从句也可以放到句尾 —— I could not remember why I had stayed at home by the time we finished.'
+        ]
+      },
+      {
+        text: 'What surprised me most was not the garden, but the way I felt at the end of the day.',
+        points: [
+          '<b>主干</b>：What surprised me most was the way I felt …（主语 + 系动词 + 表语）。',
+          '<b>What 引导主语从句</b>：What 相当于 the thing that，整个从句作主语，谓语用单数 was。写作里可以照抄这个开头：What I learned was that …。',
+          '<b>not … but …</b>：不是……而是……，用来否定前者、突出后者，这里连接两个并列表语：the garden 与 the way I felt。',
+          '<b>the way I felt</b>：the way 后面跟一个省略了引导词的定语从句，表示「我感受的方式」，比 how I felt 更像地道英文。',
+          '<b>为什么值得学</b>：这是记叙文的「升华句」模板——把故事的意义从「事情」转到「人的变化」，放在结尾段前面，立意立刻不一样。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the writer usually do at weekends before this experience?',
+        cn: '在这次经历之前，作者周末通常做什么？',
+        ans: 'He stayed at home, slept late, and turned down almost every invitation from friends.',
+        ansCn: '他待在家里，睡到很晚，几乎每次都会拒绝朋友的邀请。'
+      },
+      {
+        en: 'What did the neighbor ask the writer to do that Thursday?',
+        cn: '那个星期四，邻居请作者去做什么？',
+        ans: 'She asked him to sign up for a community activity: getting an old garden ready for spring.',
+        ansCn: '她请他报名参加一个社区活动：把一座老园子收拾好，迎接春天。'
+      },
+      {
+        en: 'What can we infer about the writer’s weekends now?',
+        cn: '从文中可以推出作者现在的周末是什么样的？',
+        ans: 'They are much fuller than before, because he now says yes to things like a book club, a weekend hike and helping at a school.',
+        ansCn: '比从前丰富得多，因为他现在会答应读书会、周末徒步、去小学帮忙这样的事。'
+      },
+      {
+        en: 'What is the function of the first paragraph in the story?',
+        cn: '第一段在故事里起什么作用？',
+        ans: 'It describes the writer’s old habit of always saying no, so that the change after that weekend stands out.',
+        ansCn: '它写出作者过去总说「不」的老习惯，好让那个周末之后的变化显得格外明显。'
+      },
+      {
+        en: 'In the last paragraph, what does “that one yes” refer to?',
+        cn: '最后一段中的「那一次『好』」指的是什么？',
+        ans: 'It refers to the writer’s decision to say yes to the neighbor and go to the community activity.',
+        ansCn: '指的是作者答应邻居、去参加社区活动的那个决定。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a time you said yes to something new.',
+      hints: [
+        'I used to ...',
+        'One day, ... asked me to ...',
+        'Ever since then, ...',
+        'Looking back, ...'
+      ],
+      hintCn: '用 4–6 句话写一次「答应新事物」的经历：先写过去的老习惯，再写那次邀请和过程中的感受，最后写现在的变化。',
+      req: '至少使用 1 个本篇学过的词或搭配（hesitate / opportunity / turn down / say yes to / ever since then）。'
+    },
+    speakingTask: {
+      en: 'Would you like to say yes more often? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答会或不会，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'In my opinion, I would like to say yes more often. That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 11 个</b>：<span class=\'en\'>typical, hesitate, awkward, conversation, relax, discover, opportunity, realize, grateful, regret, curious</span> —— 其中 <b>hesitate / opportunity / realize</b> 是四级写作高频词；记住 <span class=\'en\'>hesitate to do sth.</span>（犹豫做某事）、<span class=\'en\'>an opportunity to do sth.</span>（做某事的机会），<span class=\'en\'>regret</span> 表示「后悔做过」时后面接动名词。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>benefit</span>（the benefit was clear）、第 2 篇的 <span class=\'en\'>nervous</span>（nervous about new things）、第 5 篇的 <span class=\'en\'>decide / expect</span>（decided to go, better than I expected）、第 9 篇的 <span class=\'en\'>community / offer</span>（a community activity, offered me tea）、第 10 篇的 <span class=\'en\'>proud</span>（proud of our work）—— 都是换了新语境再认一次，看到灰点先自己说意思。',
+      '<b>叙事骨架</b>：老习惯（总说不）→ 邀请与犹豫（一句话推动）→ 体验与转变（从尴尬到放松）→ 现在的变化 → 结尾点题。写经历类短文照这个顺序排材料，转折点只需要一个。',
+      '<b>两个写作表达</b>：<span class=\'en\'>Ever since then, …</span> 放在「从那以后」的段首，后面常跟现在完成时；<span class=\'en\'>Looking back, …</span> 放在结尾段开头，引出回顾与感悟。一前一后，正好撑起一篇经历类短文。',
+      '<b>题型提醒</b>：段落作用题（第 4 题）要答「写了什么 + 为什么这样写」两层；指代题（第 5 题）把指代短语还原成具体的人、事或决定，答案一般就在本段或上一段。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 11 个核心词遮住中文说出 ≥ 8 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 11 个核心词中的 8 个（hesitate、opportunity、realize、regret …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 8 个，能各造一句（say yes to、turn down、sign up for …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 By the time we finished, … 的时间状语从句与 not … but … 结构，并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 4、5 题要能答出段落作用与指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 Ever since then, … 或 Looking back, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清「要不要多说好」的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 7 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
   }
 ];
