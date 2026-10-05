@@ -43,8 +43,18 @@
 | 28 | The Cost of Being Always Online | 阶段三 · 中级 | assets/js/articles.js（第 28 条） | assets/covers/028.jpg |
 | 29 | Eating Well on a Small Budget | 阶段三 · 中级 | assets/js/articles.js（第 29 条） | assets/covers/029.jpg |
 | 30 | Half a Year of Small Changes | 阶段三 · 中级（节点篇） | assets/js/articles.js（第 30 条） | assets/covers/030.jpg |
+| 31 | Why We Remember Stories, Not Facts | 阶段四 · 中级提高 | assets/js/articles.js（第 31 条） | assets/covers/031.jpg |
+| 32 | The Science of a Good Night’s Sleep | 阶段四 · 中级提高 | assets/js/articles.js（第 32 条） | assets/covers/032.jpg |
+| 33 | How Praise Changes Children | 阶段四 · 中级提高 | assets/js/articles.js（第 33 条） | assets/covers/033.jpg |
+| 34 | The Quiet Power of Body Language | 阶段四 · 中级提高 | assets/js/articles.js（第 34 条） | assets/covers/034.jpg |
+| 35 | Where Does Our Garbage Go? | 阶段四 · 中级提高 | assets/js/articles.js（第 35 条） | assets/covers/035.jpg |
+| 36 | The Rise of the 15-Minute City | 阶段四 · 中级提高 | assets/js/articles.js（第 36 条） | assets/covers/036.jpg |
+| 37 | A Short History of the Umbrella | 阶段四 · 中级提高 | assets/js/articles.js（第 37 条） | assets/covers/037.jpg |
+| 38 | Why Some Habits Never Stick | 阶段四 · 中级提高 | assets/js/articles.js（第 38 条） | assets/covers/038.jpg |
+| 39 | Homework: More Is Not Always Better | 阶段四 · 中级提高 | assets/js/articles.js（第 39 条） | assets/covers/039.jpg |
+| 40 | Learning from Mistakes at Work | 阶段四 · 中级提高（节点篇） | assets/js/articles.js（第 40 条） | assets/covers/040.jpg |
 
-**封面授权**：001 取自 Wikimedia Commons；002–030 取自 Pexels（Pexels License，可商用、免署名），
+**封面授权**：001 取自 Wikimedia Commons；002–040 取自 Pexels（Pexels License，可商用、免署名），
 署名已逐条记录在 `articles.js` 的 `coverCredit` 字段，并显示在文章页封面右上角。
 
 **朗读音色**：按篇交替 —— 单数篇 Chloe（美音 native）、双数篇 Mia（英式 RP），课文与词表发音统一。
