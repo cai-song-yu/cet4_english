@@ -188,6 +188,22 @@ function parseJsonLoose(s) {
   }
 }
 
+/* 与课程词表格式对齐：音标包 / /，搭配写成「搭配 — 中文意思」（读缓存也要走一遍） */
+function normalizeEntry(entry) {
+  if (entry.ph) entry.ph = "/" + String(entry.ph).replace(/^\/+|\/+$/g, "") + "/";
+  if (entry.col) {
+    entry.col = String(entry.col).split(/[；;]/).map((s) => s.trim()).filter(Boolean).map((s) => {
+      s = s.replace(/^[—\-–]+\s*/, "");              /* 去掉开头的破折号 */
+      if (!/[—\-–]/.test(s)) {                       /* 没有分隔符则在首个中文前补一条 */
+        const m = /[\u4e00-\u9fff]/.exec(s);
+        if (m) s = s.slice(0, m.index).trim() + " — " + s.slice(m.index).trim();
+      }
+      return s;
+    }).join("；");
+  }
+  return entry;
+}
+
 /* ---------- HTTP ---------- */
 function cors(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -273,25 +289,14 @@ async function handleApi(req, res, u) {
     if (!word) return json(res, 400, { ok: false, error: "missing word" });
     if (word.length > 60) return json(res, 400, { ok: false, error: "word too long" });
     const hit = cacheGet("define", word, ".json");
-    if (hit) return json(res, 200, { ok: true, entry: JSON.parse(hit.buf.toString("utf8")), cached: true });
+    if (hit) return json(res, 200, { ok: true, entry: normalizeEntry(JSON.parse(hit.buf.toString("utf8"))), cached: true });
     if (!key) return json(res, 503, { ok: false, error: "no api key（tools/.mimo-key）" });
     try {
       const model = await resolveChatModel(key);
       const out = await mimoChat(key, dictPrompt(word), { model });
       const entry = parseJsonLoose(out) || { w: word, cn: (out || "").slice(0, 120), ph: "", pos: "", col: "", ex: "" };
       entry.w = entry.w || word;
-      /* 与课程词表格式对齐：音标包 / /，搭配写成「搭配 — 中文意思」 */
-      if (entry.ph) entry.ph = "/" + String(entry.ph).replace(/^\/+|\/+$/g, "") + "/";
-      if (entry.col) {
-        entry.col = String(entry.col).split(/[；;]/).map((s) => s.trim()).filter(Boolean).map((s) => {
-          s = s.replace(/^[—\-–]+\s*/, "");            /* 去掉开头的破折号 */
-          if (!/[—\-–]/.test(s)) {                     /* 没有分隔符则在首个中文前补一条 */
-            const m = /[\u4e00-\u9fff]/.exec(s);
-            if (m) s = s.slice(0, m.index).trim() + " — " + s.slice(m.index).trim();
-          }
-          return s;
-        }).join("；");
-      }
+      normalizeEntry(entry);
       cachePut("define", word, ".json", Buffer.from(JSON.stringify(entry)));
       return json(res, 200, { ok: true, entry, model, cached: false });
     } catch (e) {
