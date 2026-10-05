@@ -104,6 +104,16 @@
   7. **本地增强服务 `tools/serve.js`**：静态站 + `/api/ping` `/api/tts` `/api/translate` `/api/define` `/api/word-audio`，把 MiMo TTS / 模型词典 / 模型翻译代理给前端（**key 永远只在 `tools/.mimo-key`，绝不进浏览器**），全部带 CORS（`file://` 直接打开也能调）、结果磁盘缓存到 `build/cache/`（已 gitignore）；`tools/api-test.js` 八项自测全绿（翻译质量明显优于 MyMemory，查词返回音标/词性/中文/搭配/例句）。
   质量验证：`node --check` 通过；`tools/validate.js` 20 篇 0 失败；`tools/check-audio.js` 20 篇 / 130 段全绿；`tools/api-test.js` 8/8。
 
+- 2026-10-05（v5.6）：**划词查词 / 划词翻译浮层重构（句子友好 + 你的 MiMo 音色 + 模型词典）**。用户反馈三点：划词不好用、对句子不友好、发音想用自己的 TTS 而非浏览器语音合成。
+  1. **三种模式**：选区按 `1 词 / 2–6 词 / >6 词或以 .?! 结尾` 分成 word / phrase / sentence；**选区上限从 80 字符提到 300**（此前长句直接被丢弃，是"对句子不友好"的主因之一）。超过 300 不弹浮层。
+  2. **句子模式两路结果**：① **本段译文**——选区落在正文段落里时，按渲染时写入的 `data-pi` 精确取 `translation[]` 对应段（**离线、零请求、逐字人译**），这是句子翻译质量的兜底；② **整句翻译**——本地服务 `/api/translate`（MiMo 模型）优先，不可用回退 MyMemory，选中内容含中文则自动中→英。词典接口（有道 suggest / Free Dictionary）此前对句子返回垃圾，现在句子模式不再走它们。
+  3. **发音链（四级降级，浮层底部标明实际通道）**：`window.WORD_AUDIO` 词表真人发音（**离线可用**，`assets/audio/words/` 378 条预生成 mp3）→ 本地服务 `/api/tts`（任意词/句，MiMo 真人音色，服务端磁盘缓存）→ 词典自带 mp3 → 浏览器朗读。mp3 一律走原生 `<audio>`，再点一次即停止；与「朗读全文」互斥不叠音。
+  4. **模型词典**：word 模式 = 本地词库（零网络）→ `/api/define`（MiMo 模型给音标/词性/中文/搭配/例句，格式与课程词表对齐）→ 有道 suggest → Free Dictionary。查词与翻译结果分别进 `reader-dict-cache` / `reader-tr-cache`（上限 300 条）。
+  5. **服务探测**：启动打一次 `/api/ping`（2.5s 超时），失败则在第一次划词时再试一次（服务后开也能用上）；未运行时浮层给出一行提示`本地服务未运行：发音与翻译走免费通道（运行 node tools/serve.js 可启用 MiMo 真人音色与模型翻译）`，**功能不减、只是降级**。
+  6. **性能调优**：聊天模型按 `flash > pro > 基础版` 选取（`mimo-v2.6-flash` 实测查词 3.6–5 秒，`pro` 要 7–25 秒、浮层等不起），可用 `MIMO_CHAT_MODEL` 覆盖；查词返回做格式归一（音标补 `//`、搭配统一成「搭配 — 中文意思」）。
+  挂载：`index.html` 新增 `assets/audio/words/manifest.js`，资源版本升至 `?v=5.6`。
+  质量验证：`node --check assets/js/app.js` 通过；新增 `tools/smoke.js`（jsdom，真实 index.html DOM + 真实 app.js + 假 fetch/Audio/SpeechSynthesis 注入）**9/9**——三模式判定 / 词库零网络命中 / 本段译文 / 服务可用走 translate+tts / 不可用回退 / >300 不弹 / 词表发音优先于 tts / 生词本回归 / 课文朗读回归；`tools/api-test.js` 8/8。
+
 ## 六、格式规范文件
 
 - `course/style-guide.md` — 每次生成文章前必须对照执行

@@ -1122,6 +1122,9 @@
 
   var API_BASE = "http://127.0.0.1:8777";
   var NET_TIMEOUT = 6500;
+  /* 模型翻译与合成朗读要给足时间：/api/translate、/api/tts 冷缓存实测 3.6s–10s+，
+     用 NET_TIMEOUT 会「明明有服务却退回 MyMemory / 浏览器语音」 */
+  var LONG_TIMEOUT = 15000;
   var PING_TIMEOUT = 2500;
   var CACHE_KEY = "reader-dict-cache";
   var CACHE_MAX = 600;
@@ -1202,7 +1205,7 @@
     }).then(function (j) { fin(null, j); }).catch(function (e) { fin(e); });
   }
 
-  function postJson(url, body, done) {
+  function postJson(url, body, done, timeout) {
     if (!window.fetch) return done(new Error("no fetch"));
     var settled = false;
     function fin(err, data) {
@@ -1210,7 +1213,7 @@
       settled = true;
       done(err, data);
     }
-    setTimeout(function () { fin(new Error("timeout")); }, NET_TIMEOUT);
+    setTimeout(function () { fin(new Error("timeout")); }, timeout || NET_TIMEOUT);
     window.fetch(url, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -1222,7 +1225,7 @@
   }
 
   /* 二进制（mp3）：服务失败时返回 JSON {ok:false,error}，这里一并识别成失败 */
-  function fetchBin(url, done) {
+  function fetchBin(url, done, timeout) {
     if (!window.fetch) return done(new Error("no fetch"));
     var settled = false;
     function fin(err, blob) {
@@ -1230,7 +1233,7 @@
       settled = true;
       done(err, blob);
     }
-    setTimeout(function () { fin(new Error("timeout")); }, NET_TIMEOUT);
+    setTimeout(function () { fin(new Error("timeout")); }, timeout || NET_TIMEOUT);
     window.fetch(url).then(function (r) {
       if (!r.ok) throw new Error("http " + r.status);
       var ct = (r.headers && r.headers.get && r.headers.get("content-type")) || "";
@@ -1397,7 +1400,7 @@
       postJson(API_BASE + "/api/translate", { text: text, to: to }, function (err, j) {
         if (!err && j && j.ok && j.text) fin(null, String(j.text), to === "en" ? "本地模型翻译（中→英）" : "本地模型翻译");
         else mymemory();
-      });
+      }, LONG_TIMEOUT);
     } else {
       mymemory();
     }
@@ -1604,13 +1607,13 @@
     popState = {
       key: key, q: text, mode: mode, rect: rect,
       paraTr: mode === "word" ? "" : (paraTr || ""),
-      data: data, settled: false,
+      data: data, settled: !!data.cn,
       tr: "", trSrc: "", trFailed: false, saySrc: ""
     };
     renderPop();
 
     if (mode === "word") {
-      if (data.cn) { popState.settled = true; return; }   /* 本地词条已够用，不联网 */
+      if (data.cn) return;   /* 本地词条已够用，不联网 */
       var cached = dictCache[key];
       if (cached) {
         applyPatch(popState, cached);
@@ -2119,7 +2122,7 @@
         if (blob && window.URL && URL.createObjectURL) u = URL.createObjectURL(blob);
       } catch (e) {}
       playSayAudio(u, key, done);
-    });
+    }, LONG_TIMEOUT);
   }
 
   function saySmart(text, audio, fromPop) {
