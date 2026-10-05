@@ -77,10 +77,11 @@ async function main() {
     return j;
   });
 
-  await timed("GET /api/word-audio（未预生成时应 404）", async () => {
+  await timed("GET /api/word-audio（词表发音）", async () => {
     const r = await fetch(BASE + "/api/word-audio?w=hesitate");
-    console.log("    HTTP", r.status);
-    return null;
+    const b = Buffer.from(await r.arrayBuffer());
+    console.log("    HTTP", r.status, (b.length / 1024).toFixed(0) + "KB");
+    if (r.status !== 200 || b.length < 1000) throw new Error("词表发音应可用（先跑 node tools/gen-words.mjs）");
   });
 }
 

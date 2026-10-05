@@ -76,7 +76,7 @@ function cachePut(kind, key, ext, buf) {
 }
 
 /* ---------- MiMo 调用 ---------- */
-async function mimoChat(key, messages, { model, temperature = 0.2, timeoutMs = 30000 }) {
+async function mimoChat(key, messages, { model, temperature = 0.2, timeoutMs = 20000 }) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   try {
@@ -144,8 +144,13 @@ async function resolveChatModel(key) {
     });
     clearTimeout(t);
     const data = await res.json();
-    const ids = ((data && data.data) || []).map((m) => m.id);
-    const pick = ids.find((i) => /mimo/i.test(i) && !/tts|embed|audio/i.test(i)) || ids[0];
+    const ids = ((data && data.data) || []).map((m) => m.id).filter((i) => !/tts|embed|audio|asr/i.test(i));
+    /* 浮层查词/翻译要"快"：优先 flash（1–2s），其次 pro（更准但 7–25s），
+       需要更高质量可设 MIMO_CHAT_MODEL=mimo-v2.5-pro 覆盖 */
+    const pick = ids.find((i) => /mimo/i.test(i) && /flash/i.test(i))
+      || ids.find((i) => /mimo/i.test(i) && /pro/i.test(i))
+      || ids.find((i) => /mimo/i.test(i))
+      || ids[0];
     chatModel = pick || "mimo-v2.6-pro";
     console.log("聊天模型：" + chatModel + "（可用：" + ids.slice(0, 8).join(", ") + "）");
   } catch (e) {
@@ -276,11 +281,16 @@ async function handleApi(req, res, u) {
       const entry = parseJsonLoose(out) || { w: word, cn: (out || "").slice(0, 120), ph: "", pos: "", col: "", ex: "" };
       entry.w = entry.w || word;
       /* 与课程词表格式对齐：音标包 / /，搭配写成「搭配 — 中文意思」 */
-      if (entry.ph && !/^\//.test(entry.ph)) entry.ph = "/" + entry.ph.replace(/^\/+|\/+$/g, "") + "/";
+      if (entry.ph) entry.ph = "/" + String(entry.ph).replace(/^\/+|\/+$/g, "") + "/";
       if (entry.col) {
-        entry.col = String(entry.col).split(/[；;]/).map((s) => s.trim()).filter(Boolean).map((s) =>
-          /^[—\-–]/.test(s) ? s.replace(/^[—\-–]+\s*/, "") : s
-        ).join("；");
+        entry.col = String(entry.col).split(/[；;]/).map((s) => s.trim()).filter(Boolean).map((s) => {
+          s = s.replace(/^[—\-–]+\s*/, "");            /* 去掉开头的破折号 */
+          if (!/[—\-–]/.test(s)) {                     /* 没有分隔符则在首个中文前补一条 */
+            const m = /[\u4e00-\u9fff]/.exec(s);
+            if (m) s = s.slice(0, m.index).trim() + " — " + s.slice(m.index).trim();
+          }
+          return s;
+        }).join("；");
       }
       cachePut("define", word, ".json", Buffer.from(JSON.stringify(entry)));
       return json(res, 200, { ok: true, entry, model, cached: false });
