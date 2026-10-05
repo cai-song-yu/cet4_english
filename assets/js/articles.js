@@ -1815,7 +1815,7 @@ window.ARTICLES = [
       }
     ],
     cover: 'assets/covers/011.jpg',
-    coverCredit: 'Photo: 待补 / Pexels',
+    coverCredit: 'Photo: Zack Gilbert / Pexels',
     body: [
       'My <span class="w-cet4" data-cn="典型的、平常的">typical</span> weekend used to look the same. I stayed at home and slept late. When friends asked me out, I would <span class="w-phrase" data-cn="拒绝（邀请、提议）">turn down</span> almost every invitation. The truth was that I was <span class="w-rev">nervous</span> about new things.',
       'One Thursday, my neighbor asked me to <span class="w-phrase" data-cn="报名参加">sign up for</span> a <span class="w-rev">community</span> activity: getting an old garden ready for spring. My first answer was no, as usual. Then she said, “Just say yes this once.” I <span class="w-rev">decided</span> to go.',
@@ -2141,6 +2141,1094 @@ window.ARTICLES = [
         {
           k: '复现',
           v: '点划正文里 7 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 12,
+    slug: '012-my-first-part-time-job',
+    title: 'My First Part-Time Job',
+    titleCn: '我的第一份兼职',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 275 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.0%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/012.jpg',
+    coverCredit: 'Photo: Thới Nam Cao / Pexels',
+    body: [
+      'Last summer I got my first part-time job at a coffee shop near my school. I wanted to earn my own money. Then the manager left me at the counter, and I felt <span class="w-rev">nervous</span> at once.',
+      'My job was to <span class="w-phrase" data-cn="记下客人点的餐和饮料">take orders</span>. <span class="w-cet4" data-cn="顾客">Customers</span> came in waves during the morning <span class="w-phrase" data-cn="（上下班）高峰时段">rush hour</span>. One morning I <span class="w-phrase" data-cn="犯错">made a mistake</span> and put the wrong names on three cups. A man came back <span class="w-synonym" data-cn="＝ angry 的替换词">annoyed</span> and made a loud <span class="w-cet4" data-cn="抱怨、投诉">complaint</span>.',
+      'The manager walked over, listened to the man, and gave him a <span class="w-cet4" data-cn="折扣">discount</span>. Then she turned to me and said, “It happens. Apologize first, and then fix it.” I <span class="w-cet4" data-cn="道歉">apologized</span> to the man, and his face changed.',
+      'After that I <span class="w-cet4" data-cn="记住、熟记">memorized</span> the whole menu. I <span class="w-phrase" data-cn="对……负责">took responsibility for</span> every cup and <span class="w-cet4" data-cn="重复、复述">repeated</span> the <span class="w-rev">order</span> back to each customer. <span class="w-writing" data-cn="说实话……">To be honest</span>, the step felt slow, but it saved me from another mistake.',
+      'One Saturday the shop was busy, and I <span class="w-rev">wasted</span> two minutes looking for the right <span class="w-cet4" data-cn="托盘">tray</span>. The manager stopped me: “Do the small things well first.” <span class="w-sentence">When I stopped trying to do everything at once and did each small thing carefully, the busy hours became much easier.</span>',
+      'Two months later the manager put me on the evening <span class="w-cet4" data-cn="轮班、班次">shift</span>. I learned to <span class="w-cet4" data-cn="处理、应付">handle</span> the busy hours and <span class="w-cet4" data-cn="推荐">recommend</span> drinks. I stayed <span class="w-rev">patient</span> with the slow ones and felt <span class="w-rev">proud</span> of my work. My <span class="w-cet4" data-cn="态度">attitude</span> had clearly changed.',
+      '<span class="w-writing" data-cn="即便如此……">Even so</span>, the best lesson was not about coffee. <span class="w-sentence">I still make mistakes now and then, but I no longer worry about them the way I did on that first morning.</span> The job was small, but the <span class="w-rev">effort</span> I put into it changed my work.'
+    ],
+    translation: [
+      '去年夏天，我在学校附近的一家咖啡店找到了第一份兼职。我想自己挣钱。然后店长把我留在柜台前，我一下子就紧张起来。',
+      '我的工作是记下客人点的东西。早上高峰时段，顾客一波接一波地来。一天早上我犯了错，把三只杯子上的名字都写错了。一个男人气冲冲地回来，大声抱怨。',
+      '店长走过去，听那位顾客说完，给了他一点折扣。然后她转向我说：“这很正常。先道歉，再去解决。”我向那位顾客道了歉，他的脸色缓和了下来。',
+      '从那以后，我把整份菜单都背了下来。每一杯我都认真负责，还会把客人点的东西复述一遍。说实话，这一步做起来很慢，但它让我没有再犯错。',
+      '有一个周六店里很忙，我为了找对托盘浪费了两分钟。店长叫住我：“先把小事做好。”当我不再想着一次做完所有事，而是认真做好每一件小事的时候，忙碌的时段就变得容易多了。',
+      '两个月后，店长把我排进了晚班。我学会了应付忙碌的时段，也会给客人推荐饮品。对动作慢的顾客，我变得有耐心，也为自己做的工作感到骄傲。我的态度明显变了。',
+      '即便如此，这两个月里最深的教训并不在咖啡上。我偶尔还是会犯错，但再也不会像第一天早上那样为它们担心了。这份工作很小，但我为它付出的努力改变了我做事的方式。'
+    ],
+    vocabulary: [
+      {
+        w: 'customer',
+        ph: '/ˈkʌstəmə(r)/',
+        pos: 'n.',
+        cn: '顾客',
+        col: 'a regular customer — 老顾客；customer service — 顾客服务',
+        ex: 'The customer asked for a large coffee.'
+      },
+      {
+        w: 'complaint',
+        ph: '/kəmˈpleɪnt/',
+        pos: 'n.',
+        cn: '抱怨、投诉',
+        col: 'make a complaint — 提出投诉；listen to a complaint — 听取投诉',
+        ex: 'The manager listened to the complaint and said sorry.'
+      },
+      {
+        w: 'apologize',
+        ph: '/əˈpɒlədʒaɪz/',
+        pos: 'vi.',
+        cn: '道歉',
+        col: 'apologize to sb. — 向某人道歉；apologize for sth. — 为某事道歉',
+        ex: 'I apologized to the customer for the wrong drink.'
+      },
+      {
+        w: 'memorize',
+        ph: '/ˈmeməraɪz/',
+        pos: 'vt.',
+        cn: '记住、熟记',
+        col: 'memorize the menu — 熟记菜单；memorize a poem — 背下一首诗',
+        ex: 'She memorized the whole menu in one evening.'
+      },
+      {
+        w: 'recommend',
+        ph: '/ˌrekəˈmend/',
+        pos: 'vt.',
+        cn: '推荐',
+        col: 'recommend sth. to sb. — 向某人推荐某物；recommend doing sth. — 建议做某事',
+        ex: 'He recommended the tea to the new customer.'
+      },
+      {
+        w: 'handle',
+        ph: '/ˈhændl/',
+        pos: 'vt.',
+        cn: '处理、应付',
+        col: 'handle a problem — 处理问题；handle pressure — 应对压力',
+        ex: 'She handled the busy hour without help.'
+      },
+      {
+        w: 'attitude',
+        ph: '/ˈætɪtjuːd/',
+        pos: 'n.',
+        cn: '态度',
+        col: 'a good attitude — 良好的态度；one’s attitude to sth. — 某人对某事的态度',
+        ex: 'Your attitude to small things matters.'
+      },
+      {
+        w: 'repeat',
+        ph: '/rɪˈpiːt/',
+        pos: 'v.',
+        cn: '重复、复述',
+        col: 'repeat an order — 复述点单；repeat after sb. — 跟某人朗读',
+        ex: 'Please repeat the question after me.'
+      },
+      {
+        w: 'discount',
+        ph: '/ˈdɪskaʊnt/',
+        pos: 'n.',
+        cn: '折扣',
+        col: 'give sb. a discount — 给某人打折；at a discount — 打折出售',
+        ex: 'The shop gave him a discount on the next drink.'
+      },
+      {
+        w: 'shift',
+        ph: '/ʃɪft/',
+        pos: 'n.',
+        cn: '轮班、班次',
+        col: 'the evening shift — 晚班；work a shift — 上一个班',
+        ex: 'I work the evening shift on Fridays.'
+      },
+      {
+        w: 'tray',
+        ph: '/treɪ/',
+        pos: 'n.',
+        cn: '托盘',
+        col: 'carry a tray — 端托盘；a coffee tray — 咖啡托盘',
+        ex: 'He carried three trays at the same time.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'take orders',
+        cn: '记下客人点的餐和饮料',
+        ex: 'It is my job to take orders at the counter.'
+      },
+      {
+        en: 'rush hour',
+        cn: '（上下班）高峰时段',
+        ex: 'The shop is always busy during rush hour.'
+      },
+      {
+        en: 'make a mistake',
+        cn: '犯错',
+        ex: 'Everyone makes a mistake sometimes.'
+      },
+      {
+        en: 'get … wrong',
+        cn: '把……弄错',
+        ex: 'I got the order wrong and said sorry.'
+      },
+      {
+        en: 'take responsibility for',
+        cn: '对……负责',
+        ex: 'A good worker takes responsibility for his own work.'
+      },
+      {
+        en: 'clean up',
+        cn: '打扫干净、收拾',
+        ex: 'Please clean up the table after the meeting.'
+      },
+      {
+        en: 'keep doing sth.',
+        cn: '一直做某事',
+        ex: 'Keep trying and you will improve.'
+      },
+      {
+        en: 'learn from one’s mistakes',
+        cn: '从错误中学习',
+        ex: 'We learn from our mistakes.'
+      },
+      {
+        en: 'pay attention to',
+        cn: '注意、专心于',
+        ex: 'Pay attention to the small things.'
+      },
+      {
+        en: 'be busy with',
+        cn: '忙于',
+        ex: 'She is busy with her homework.'
+      },
+      {
+        en: 'now and then',
+        cn: '偶尔、有时',
+        ex: 'Now and then we eat out.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To be honest, ...',
+        cn: '说实话……',
+        meaning: '引出真心话，承认某个不太光彩的事实或真实感受，让叙述更可信。',
+        context: '记叙文或感想段的段中：先写事实，再用它带出自己真实的想法。',
+        alts: [
+          {
+            t: 'Honestly speaking, ...',
+            n: '更书面'
+          },
+          {
+            t: 'To tell the truth, ...',
+            n: '语气更坦白'
+          },
+          {
+            t: 'Frankly, ...',
+            n: '更正式，议论文常用'
+          }
+        ],
+        register: '中性偏口语，写作里常放段首。',
+        example: 'To be honest, I was afraid of the busy hours at first.'
+      },
+      {
+        expr: 'Even so, ...',
+        cn: '即便如此……',
+        meaning: '先承认前文所说的困难或不足，仍然引出相反的结论，用作转折收束。',
+        context: '结尾段开头：前一句写困难或遗憾，用它引出仍然成立的收获。',
+        alts: [
+          {
+            t: 'Even then, ...',
+            n: '强调“即使到了那一步”'
+          },
+          {
+            t: 'Still, ...',
+            n: '更简短'
+          },
+          {
+            t: 'Nevertheless, ...',
+            n: '书面、正式'
+          }
+        ],
+        register: '中性偏书面，适合放在结尾。',
+        example: 'The job was tiring. Even so, I learned a lot from it.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'When I stopped trying to do everything at once and did each small thing carefully, the busy hours became much easier.',
+        points: [
+          '<b>主干</b>：the busy hours became much easier（主语 + 系动词 + 表语），句首整块是 When 引导的时间状语从句。',
+          '<b>从句里的并列谓语</b>：stopped trying to do everything at once 与 did each small thing carefully 由 and 连接，主语都是 I，两个动作一先一后。',
+          '<b>try to do</b>：trying 后面接 to do 作宾语；at once 在这里是“一下子、同时”，不是“立刻”的意思。',
+          '<b>为什么值得学</b>：一句话里同时有时间从句、并列谓语和系表结构，是四级阅读里最常见的长句骨架，也正好讲出本文的转折点。',
+          '<b>常见变体</b>：从句可以放到句末——The busy hours became much easier when I did one small thing at a time.'
+        ]
+      },
+      {
+        text: 'I still make mistakes now and then, but I no longer worry about them the way I did on that first morning.',
+        points: [
+          '<b>主干</b>：两个并列分句 I still make mistakes 与 I no longer worry about them，由 but 连接，形成前后对照。',
+          '<b>no longer</b>：表示“不再”，放在实义动词之前（I no longer worry），如果句子里有 be 动词则放在 be 之后。',
+          '<b>the way I did ...</b>：the way 后面跟一个省略了引导词的定语从句，表示“像我那天早上那样”，比 as I did 更口语、更自然。',
+          '<b>指代</b>：them 指代前面的 mistakes，读完回头还原指代对象，是阅读题的常考点（本篇第 5 题就考这里）。',
+          '<b>常见变体</b>：worry about them the way I used to，把 did 换成 used to，语气更强调今昔对比。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What was the writer’s job at the coffee shop?',
+        cn: '作者在咖啡店的工作是什么？',
+        ans: 'His job was to take orders at the front counter and make coffee.',
+        ansCn: '他的工作是在前台记下客人点的东西并做咖啡。'
+      },
+      {
+        en: 'What did the manager do after the customer’s complaint?',
+        cn: '顾客投诉后，店长是怎么做的？',
+        ans: 'She gave the customer a discount and told the writer to apologize first and then fix it.',
+        ansCn: '她给了那位顾客一点折扣，并告诉作者先道歉，再去解决问题。'
+      },
+      {
+        en: 'What can we infer about the writer two months later?',
+        cn: '从文中可以推出作者两个月后是什么样子的？',
+        ans: 'He had become a skilled worker: he handled busy hours, recommended drinks and worked the evening shift.',
+        ansCn: '他已经是一名熟练的店员了：能应付忙碌的时段、给客人推荐饮品，还上了晚班。'
+      },
+      {
+        en: 'What does the paragraph about the busy Saturday do in the story?',
+        cn: '写那个忙碌周六的段落在故事里起什么作用？',
+        ans: 'It shows the turning point: the manager’s words taught the writer to do the small things well first.',
+        ansCn: '它写出故事的转折点：店长那句话让作者学会先把小事做好。'
+      },
+      {
+        en: 'In the last paragraph, what does “them” refer to?',
+        cn: '最后一段中的“them”指什么？',
+        ans: 'It refers to the mistakes the writer still makes now and then.',
+        ansCn: '指作者偶尔还会犯的那些错误。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a small job you did or a small thing you learned to do well.',
+      hints: [
+        'At first, I thought ... would be easy.',
+        'One morning, I ...',
+        'Then someone told me, “...”',
+        'Even so, ...'
+      ],
+      hintCn: '用 4 句左右写一次“觉得容易 → 做错了 → 被一句话点醒 → 后来做好了”的经历，最后一句写收获。',
+      req: '至少使用 1 个本篇学过的词或搭配（apologize / memorize / repeat / take orders / make a mistake / take responsibility for）。'
+    },
+    speakingTask: {
+      en: 'Should students take a part-time job? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答应该或不应该，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'In my opinion, students should ... That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 11 个</b>：<span class=\'en\'>customer, complaint, apologize, memorize, recommend, handle, attitude, repeat, discount, shift, tray</span> —— 其中 <b>apologize / recommend / handle</b> 是高频动词：apologize to sb.（向某人道歉）、recommend sth. to sb.（向某人推荐）、handle 后面直接跟事情（handle the busy hour）。',
+      '<b>本篇复现的旧词</b>：第 2 篇的 <span class=\'en\'>nervous</span>（felt nervous at once）、第 3 篇的 <span class=\'en\'>patient</span>（patient with the slow ones）、第 6 篇的 <span class=\'en\'>waste</span>（wasted two minutes）、第 7 篇的 <span class=\'en\'>order</span>（repeated the order back）、第 10 篇的 <span class=\'en\'>effort / proud</span>（the effort I put into it / proud of my work）—— 都是换到打工语境再认一次，看到灰点先自己说意思。',
+      '<b>叙事骨架</b>：上手（觉得容易）→ 出错（记错订单、被投诉）→ 一句话点醒（Do the small things well first.）→ 改正（熟记菜单、复述点单）→ 收获。经历类短文照这个顺序排材料，转折点只需要一个。',
+      '<b>两个写作表达</b>：<span class=\'en\'>To be honest, …</span> 放在段中引出真心话；<span class=\'en\'>Even so, …</span> 放在结尾段开头，承认不足之后仍然得出收获。一中一尾，正好撑起一篇经历类短文。',
+      '<b>题型提醒</b>：指代题（第 5 题）把 them 还原成上一句的具体名词；段落作用题（第 4 题）要答“写了什么 + 为什么这样写”两层，只答“写了一个周六”不给分。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 11 个核心词遮住中文说出 ≥ 8 · 11 个搭配掌握 8 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 11 个核心词中的 8 个（customer、complaint、apologize、memorize、handle、shift …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（take orders、make a mistake、take responsibility for …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 2 个长难句的结构（When 时间状语从句 + 并列谓语；but 连接的并列分句 + the way 比较），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要能指出 them 的指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按第 07 节写 60–80 词，至少用上 To be honest, … 或 Even so, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清“学生该不该做兼职”的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 6 处灰点旧词，说出其中 4 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 13,
+    slug: '013-a-message-i-almost-sent',
+    title: 'A Message I Almost Sent',
+    titleCn: '差点发出去的那条消息',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 280 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 3.9%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/013.jpg',
+    coverCredit: 'Photo: RDNE Stock project / Pexels',
+    body: [
+      'My best friend and I message each other every day. One Friday I asked if we were still going to the library on Saturday. He read my message but did not <span class="w-cet4" data-cn="回复、答复">reply</span>. It was the start of a small <span class="w-cet4" data-cn="误会、误解">misunderstanding</span>.',
+      'That evening I saw a photo of my classmates at a party without me. I felt <span class="w-phrase" data-cn="觉得被冷落">left out</span> and <span class="w-cet4" data-cn="难过的、不高兴的">upset</span>. I <span class="w-cet4" data-cn="假定、以为">assumed</span> the worst: he did not want me there.',
+      'I opened the chat and wrote a long, angry message: “If you want to <span class="w-cet4" data-cn="忽视、不理睬">ignore</span> me, just say so. I am tired of being the last to know.” I read it twice and was about to press send.',
+      'Then I remembered the day I failed an exam and he sat beside me. <span class="w-sentence">I had written a message that I would regret sending, but something stopped me before I pressed send.</span> <span class="w-writing" data-cn="转念一想……">On second thoughts</span>, I put the phone face down and went to bed.',
+      'The next morning he waited at the library with two coffees. We finally talked <span class="w-phrase" data-cn="当面、亲自">in person</span>. <span class="w-writing" data-cn="令我惊讶的是……">To my surprise</span>, his <span class="w-cet4" data-cn="解释、说明">explanation</span> was <span class="w-synonym" data-cn="＝ short 的替换词">brief</span> but <span class="w-cet4" data-cn="真诚的">sincere</span>: the party was for my birthday, and it was a secret. His phone had died before he could write back.',
+      'At first it felt <span class="w-rev">awkward</span>, but we sat down and had an <span class="w-rev">honest</span> <span class="w-rev">conversation</span>. I wanted to <span class="w-phrase" data-cn="向某人道歉">say sorry to</span> him, and he wanted to <span class="w-rev">apologize</span> to me. In the end nobody <span class="w-cet4" data-cn="责怪">blamed</span> anyone, and the <span class="w-cet4" data-cn="争论、争吵">argument</span> never started.',
+      'I <span class="w-cet4" data-cn="删除">deleted</span> the message that evening. <span class="w-sentence">I knew at that moment that the angry words on a screen had almost cost me a friendship.</span> Now, before I send anything, I wait until I am <span class="w-cet4" data-cn="冷静的">calm</span> and <span class="w-phrase" data-cn="（做某事前）三思">think twice</span>. I would have <span class="w-rev">regretted</span> those words.'
+    ],
+    translation: [
+      '我和最好的朋友每天都互发消息。一个星期五，我问他周六是否还去图书馆。他看了消息却没有回复。这是一场小小误会的开始。',
+      '那天晚上，我看到一张照片：同学们在参加聚会，却没有我。我觉得被冷落，心里很难受。我认定最坏的可能：他是不想让我去。',
+      '我打开聊天窗口，写了一段很长、很生气的话：“如果你不想理我，就直说。我讨厌总是最后一个知道。”我读了两遍，几乎就要按下发送键。',
+      '这时我想起考试失利的那天，他什么也没说，只是陪在我身边。我已经写好了一段发出去就会后悔的话，但有什么东西拦住了我，没让我按下发送。转念一想，我把手机屏幕朝下放好，就去睡了。',
+      '第二天一早，他拿着两杯咖啡在图书馆等我。我们终于当面谈了。令我惊讶的是，他的解释很短，却很真诚：那场聚会是为我准备的生日惊喜，而且要保密。他的手机没电了，没能回消息。',
+      '起初有点尴尬，但我们坐下来，坦诚地聊了一次。我想向他道歉，他也想向我道歉。最后谁也没有责怪谁，我们设想中的那场争吵根本没有发生。',
+      '那天晚上，我把那条消息删掉了。那一刻我明白，屏幕上的几句话险些让我失去一段友谊。现在，发送任何消息之前，我都会等自己冷静下来，再三思。那些话如果发了出去，我会后悔很多年。'
+    ],
+    vocabulary: [
+      {
+        w: 'reply',
+        ph: '/rɪˈplaɪ/',
+        pos: 'v./n.',
+        cn: '回复、答复',
+        col: 'reply to sb. — 回复某人；a quick reply — 很快的回复',
+        ex: 'He read the message but did not reply.'
+      },
+      {
+        w: 'misunderstanding',
+        ph: '/ˌmɪsʌndəˈstændɪŋ/',
+        pos: 'n.',
+        cn: '误会、误解',
+        col: 'a small misunderstanding — 一场小误会；clear up a misunderstanding — 消除误会',
+        ex: 'The misunderstanding started with one short message.'
+      },
+      {
+        w: 'upset',
+        ph: '/ʌpˈset/',
+        pos: 'adj.',
+        cn: '难过的、不高兴的',
+        col: 'be upset about sth. — 为某事难过；get upset — 变得不高兴',
+        ex: 'She was upset about the bad news.'
+      },
+      {
+        w: 'assume',
+        ph: '/əˈsjuːm/',
+        pos: 'vt.',
+        cn: '假定、以为',
+        col: 'assume that … — 以为……；assume the worst — 往最坏处想',
+        ex: 'Do not assume that he is angry.'
+      },
+      {
+        w: 'ignore',
+        ph: '/ɪɡˈnɔː(r)/',
+        pos: 'vt.',
+        cn: '忽视、不理睬',
+        col: 'ignore a message — 不理睬一条消息；ignore sb.’s advice — 无视某人的建议',
+        ex: 'He ignored the question and walked away.'
+      },
+      {
+        w: 'explanation',
+        ph: '/ˌekspləˈneɪʃn/',
+        pos: 'n.',
+        cn: '解释、说明',
+        col: 'give an explanation — 作出解释；a simple explanation — 一个简单的说明',
+        ex: 'His explanation was short but clear.'
+      },
+      {
+        w: 'sincere',
+        ph: '/sɪnˈsɪə(r)/',
+        pos: 'adj.',
+        cn: '真诚的',
+        col: 'a sincere apology — 真诚的道歉；be sincere about sth. — 对某事真心实意',
+        ex: 'She gave me a sincere answer.'
+      },
+      {
+        w: 'blame',
+        ph: '/bleɪm/',
+        pos: 'vt.',
+        cn: '责怪',
+        col: 'blame sb. for sth. — 为某事责怪某人；nobody to blame — 怪不了谁',
+        ex: 'Do not blame others for your own mistake.'
+      },
+      {
+        w: 'argument',
+        ph: '/ˈɑːɡjumənt/',
+        pos: 'n.',
+        cn: '争论、争吵',
+        col: 'have an argument — 吵了一架；start an argument — 挑起争论',
+        ex: 'They had an argument about money.'
+      },
+      {
+        w: 'delete',
+        ph: '/dɪˈliːt/',
+        pos: 'vt.',
+        cn: '删除',
+        col: 'delete a message — 删除一条消息；delete files — 删除文件',
+        ex: 'I deleted the message before anyone saw it.'
+      },
+      {
+        w: 'calm',
+        ph: '/kɑːm/',
+        pos: 'adj./v.',
+        cn: '冷静的；使冷静',
+        col: 'stay calm — 保持冷静；calm down — 冷静下来',
+        ex: 'Keep calm and think before you speak.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'feel left out',
+        cn: '觉得被冷落',
+        ex: 'He felt left out when his friends went without him.'
+      },
+      {
+        en: 'in person',
+        cn: '当面、亲自',
+        ex: 'It is better to talk in person.'
+      },
+      {
+        en: 'say sorry to',
+        cn: '向某人道歉',
+        ex: 'She said sorry to her friend the next day.'
+      },
+      {
+        en: 'think twice',
+        cn: '（做某事前）三思、再想一想',
+        ex: 'Think twice before you send an angry message.'
+      },
+      {
+        en: 'keep in touch',
+        cn: '保持联系',
+        ex: 'We keep in touch by message every day.'
+      },
+      {
+        en: 'get in touch with',
+        cn: '与……取得联系',
+        ex: 'I got in touch with my old teacher last week.'
+      },
+      {
+        en: 'write back',
+        cn: '回信、回复',
+        ex: 'He wrote back within an hour.'
+      },
+      {
+        en: 'press send',
+        cn: '按下发送键',
+        ex: 'She pressed send before she thought twice.'
+      },
+      {
+        en: 'again and again',
+        cn: '一再地、反复地',
+        ex: 'He read the letter again and again.'
+      },
+      {
+        en: 'be about to do sth.',
+        cn: '刚要做某事',
+        ex: 'I was about to leave when the phone rang.'
+      },
+      {
+        en: 'calm down',
+        cn: '冷静下来',
+        ex: 'Take a minute and calm down first.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'On second thoughts, ...',
+        cn: '转念一想……',
+        meaning: '写到一半改变主意，用它把前一个念头收住，引出新的决定。',
+        context: '记叙文里“差点做某事”之后：先写原来的冲动，再用它转折成新的选择。',
+        alts: [
+          {
+            t: 'On second thought, ...',
+            n: '单数形式，美式口语更常见'
+          },
+          {
+            t: 'Then again, ...',
+            n: '语气更随意'
+          },
+          {
+            t: 'After a second thought, ...',
+            n: '更完整的书面形式'
+          }
+        ],
+        register: '中性偏口语，写作里放在转折处。',
+        example: 'I was about to send the message. On second thoughts, I put the phone down.'
+      },
+      {
+        expr: 'To my surprise, ...',
+        cn: '令我惊讶的是……',
+        meaning: '引出与预期相反的事实，把“没想到”的感觉写出来。',
+        context: '记叙文的关键信息之前：前面先写自己的猜测，再用它引出真相。',
+        alts: [
+          {
+            t: 'What surprised me was ...',
+            n: '后面接句子'
+          },
+          {
+            t: 'Surprisingly, ...',
+            n: '更简短、更书面'
+          },
+          {
+            t: 'To my amazement, ...',
+            n: '惊讶程度更强'
+          }
+        ],
+        register: '中性，写作和口语里都很自然。',
+        example: 'To my surprise, he was waiting at the gate with two coffees.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'I had written a message that I would regret sending, but something stopped me before I pressed send.',
+        points: [
+          '<b>主干</b>：两个并列分句 I had written a message 与 something stopped me，由 but 连接，前半写“写好了”，后半写“没发出去”。',
+          '<b>that I would regret sending</b>：定语从句修饰 a message；regret 后面接动名词 sending，表示“后悔发出（这条消息）”。',
+          '<b>had written</b>：过去完成时，表示“在那个晚上想起来之前就已经写好”，比 wrote 多一层更早的时间。',
+          '<b>before I pressed send</b>：时间状语从句，交代“没发出去”的关键时机，整句正好是全文的转折点。',
+          '<b>常见变体</b>：a message I would regret（省略 that 从句的开头）；press send 也常说 hit send。'
+        ]
+      },
+      {
+        text: 'I knew at that moment that the angry words on a screen had almost cost me a friendship.',
+        points: [
+          '<b>主干</b>：I knew + that 宾语从句；at that moment 是插入的时间状语，强调“就在那一刻”。',
+          '<b>从句主干</b>：the angry words had almost cost me a friendship（主语 + 谓语 + 双宾语），cost 的过去式、过去分词与原形同形。',
+          '<b>had cost</b>：过去完成时，表示“在我意识到之前，差一点就已经失去”；almost 表示“险些、差一点”。',
+          '<b>为什么值得学</b>：cost sb. sth.（让某人付出……的代价）是高频搭配，一句话里还有宾语从句和双宾语结构。',
+          '<b>常见变体</b>：cost me a friendship 可以换成 cost me a friend，意思更口语。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'Why did the writer feel left out that Friday evening?',
+        cn: '那个星期五晚上，作者为什么觉得被冷落？',
+        ans: 'Because his friend read his message but did not reply, and a photo showed their classmates at a party without him.',
+        ansCn: '因为朋友看了消息却没有回复，而且一张照片里同学们在参加聚会，却没有他。'
+      },
+      {
+        en: 'Why didn’t the friend write back to the message?',
+        cn: '朋友为什么没有回复那条消息？',
+        ans: 'Because his phone had died before he could write back, and the party was a secret plan for the writer’s birthday.',
+        ansCn: '因为他的手机没电了，没能回复；而且那场聚会是为作者准备的生日惊喜，必须保密。'
+      },
+      {
+        en: 'What can we infer about the message the writer wrote on Friday night?',
+        cn: '从文中可以推出作者周五晚上写的那条消息是什么样的？',
+        ans: 'It was angry and unfair, and the writer would have regretted sending it.',
+        ansCn: '那是一条气话，说得并不公平；如果发出去，作者会后悔。'
+      },
+      {
+        en: 'What does the paragraph that begins “Then I remembered” do in the story?',
+        cn: '以“这时我想起”开头的段落在故事里起什么作用？',
+        ans: 'It is the turning point: remembering how his friend had helped him stopped the writer from sending the angry message.',
+        ansCn: '它是故事的转折点：想起朋友曾经的陪伴，让作者没有把那条气话发出去。'
+      },
+      {
+        en: 'In the last paragraph, what does “those words” refer to?',
+        cn: '最后一段中的“those words”指什么？',
+        ans: 'It refers to the angry words in the message the writer wrote but never sent.',
+        ansCn: '指作者写下、却始终没有发出去的那条消息里的气话。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a message you almost sent or a misunderstanding with a friend.',
+      hints: [
+        'I was sure that ...',
+        'I wrote a message that ...',
+        'On second thoughts, ...',
+        'Now, before I send anything, I ...'
+      ],
+      hintCn: '用 4 句左右写一次“误会 → 写了气话 → 忍住没发 → 当面说清”的经历，最后一句写现在的做法。',
+      req: '至少使用 1 个本篇学过的词或搭配（reply / assume / explanation / in person / think twice）。'
+    },
+    speakingTask: {
+      en: 'Should we answer a message right away when we are angry? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答该不该马上回，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'In my opinion, we should not ... That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 11 个</b>：<span class=\'en\'>reply, misunderstanding, upset, assume, ignore, explanation, sincere, blame, argument, delete, calm</span> —— 重点记搭配：<span class=\'en\'>reply to sb.</span>（回复某人）、<span class=\'en\'>assume that …</span>（以为……）、<span class=\'en\'>blame sb. for sth.</span>（为某事责怪某人）；<span class=\'en\'>calm</span> 既是形容词也是动词（calm down）。',
+      '<b>本篇复现的旧词</b>：第 3 篇的 <span class=\'en\'>honest</span>（an honest conversation）、第 11 篇的 <span class=\'en\'>awkward / conversation / regret</span>（felt awkward, had a conversation, would have regretted）、第 12 篇的 <span class=\'en\'>apologize</span>（wanted to apologize to me）—— 都是换到“网络沟通”的语境再认一次，看到灰点先自己说意思。',
+      '<b>叙事骨架</b>：误会起因（没回消息）→ 情绪升级（照片）→ 差点发出狠话 → 一个回忆拦住我 → 当面说清 → 收获。和第 12 篇一样只留一个转折点，但这次转折是“内心的停顿”。',
+      '<b>两个写作表达</b>：<span class=\'en\'>On second thoughts, …</span> 放在“差点做某事”之后，引出改变主意的决定；<span class=\'en\'>To my surprise, …</span> 放在真相揭晓之前，引出与猜测相反的事实。',
+      '<b>题型提醒</b>：指代题（第 5 题）把 those words 还原成“没发出去的那条消息里的气话”；推断题（第 3 题）要答出“会后悔”这一层，只答“很生气”不完整。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 11 个核心词遮住中文说出 ≥ 8 · 11 个搭配掌握 8 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 11 个核心词中的 8 个（reply、assume、explanation、argument、calm …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（feel left out、in person、think twice …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 2 个长难句的结构（regret 后接动名词的定语从句；cost sb. sth. 的双宾结构），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要能指出 those words 的指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按第 07 节写 60–80 词，至少用上 On second thoughts, … 或 To my surprise, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清“生气时该不该马上回消息”的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 5 处灰点旧词，说出其中 3 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 14,
+    slug: '014-what-my-grandfather-kept',
+    title: 'What My Grandfather Kept',
+    titleCn: '爷爷留下的东西',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 285 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.2%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/014.jpg',
+    coverCredit: 'Photo: furkanfdemir / Pexels',
+    body: [
+      'Last month my family cleaned out my grandfather’s old house. In the <span class="w-cet4" data-cn="阁楼">attic</span> I found a <span class="w-cet4" data-cn="布满灰尘的">dusty</span> <span class="w-cet4" data-cn="木制的">wooden</span> box. My mother said it was all rubbish and I could throw it out.',
+      'I put the box on the floor and began to <span class="w-phrase" data-cn="翻看、逐一查看">look through</span> it. It was <span class="w-phrase" data-cn="充满">full of</span> small things that <span class="w-cet4" data-cn="属于">belonged</span> to him: old tickets, a little notebook, some <span class="w-cet4" data-cn="邮票">stamps</span>, and an <span class="w-cet4" data-cn="未拆开的">unopened</span> letter. Nothing there looked <span class="w-cet4" data-cn="珍贵的、值钱的">valuable</span>.',
+      'My mother watched from the door and told me to <span class="w-rev">throw them away</span>. I was <span class="w-phrase" data-cn="刚要做某事">about to</span> do it when I <span class="w-rev">noticed</span> the <span class="w-cet4" data-cn="笔迹">handwriting</span> on the notebook. It was my grandfather’s, small and neat, and every page was dated.',
+      'The notebook was not a diary. It listed the days he took a train to see my grandmother, and small notes about his <span class="w-cet4" data-cn="童年">childhood</span> and each trip. Then I opened the letter at the bottom of the box.',
+      '<span class="w-writing" data-cn="最打动我的是……">What touched me most was</span> the letter to his brother. He wrote it, but he never sent it. My mother read it and went quiet. <span class="w-sentence">She told me that he kept every little thing because each one carried a moment he was not ready to lose.</span>',
+      '<span class="w-sentence">What he left us was not money or gold, but small things that told the story of his life.</span> The tickets were <span class="w-synonym" data-cn="＝ of no value 的替换说法">worthless</span>, and the stamps were common. But the <span class="w-cet4" data-cn="记忆">memories</span> in that box were <span class="w-cet4" data-cn="珍贵的">precious</span>, and that is all that <span class="w-rev">matters</span>.',
+      'I decided to <span class="w-phrase" data-cn="保留、不放手">hold on to</span> the box. <span class="w-writing" data-cn="即使今天">Even today</span>, I open it when I miss him. These small things <span class="w-cet4" data-cn="提醒、使想起">remind</span> me of the man he was, and I am <span class="w-rev">grateful</span> I did not throw them away. One day I will <span class="w-rev">share</span> his stories and <span class="w-phrase" data-cn="把……传给后代">pass down</span> what he kept.'
+    ],
+    translation: [
+      '上个月，我们全家整理爷爷留下的老房子。在阁楼里，我发现一个落满灰尘的木箱。妈妈说里面全是垃圾，我可以把它扔掉。',
+      '我把箱子放在地上，开始一件件翻看。里面装满了属于他的小东西：旧车票、一个小笔记本、几张邮票，还有一封没有拆开的信。看上去没有一样值钱。',
+      '妈妈站在门口看着，让我把这些东西都扔掉。我正要动手，忽然注意到笔记本上的笔迹。那是爷爷的字，又小又整齐，每一页都写着日期。',
+      '这个笔记本并不是日记。它只记着他坐火车去看奶奶的那些日子，还有关于他童年和每次出门的小记事。然后我打开了箱子最底下的那封信。',
+      '最打动我的是那封写给他兄弟的信。他写了，却一直没有寄出去。妈妈读完信，沉默了。她说，爷爷什么都留着，因为每件东西都带着一个他舍不得丢掉的时刻。',
+      '他留给我们的不是钱，也不是金银，而是一些讲出他一生的小东西。车票不值钱，邮票也很普通。但那个箱子里的回忆无比珍贵，而这才是最重要的。',
+      '我决定把这个箱子留下来。直到今天，想他的时候我还会打开它。这些小东西让我想起他这个人。我很庆幸自己没有把它们扔掉。总有一天，我会把他的故事讲给别人听，把他留下的东西传下去。'
+    ],
+    vocabulary: [
+      {
+        w: 'attic',
+        ph: '/ˈætɪk/',
+        pos: 'n.',
+        cn: '阁楼',
+        col: 'in the attic — 在阁楼里；an attic room — 顶楼房间',
+        ex: 'We found an old box in the attic.'
+      },
+      {
+        w: 'wooden',
+        ph: '/ˈwʊdn/',
+        pos: 'adj.',
+        cn: '木制的',
+        col: 'a wooden box — 木箱；a wooden chair — 木椅子',
+        ex: 'The wooden door was painted brown.'
+      },
+      {
+        w: 'dusty',
+        ph: '/ˈdʌsti/',
+        pos: 'adj.',
+        cn: '布满灰尘的',
+        col: 'a dusty room — 落满灰尘的房间；get dusty — 落上灰尘',
+        ex: 'The books on the shelf were dusty.'
+      },
+      {
+        w: 'belong',
+        ph: '/bɪˈlɒŋ/',
+        pos: 'vi.',
+        cn: '属于',
+        col: 'belong to sb. — 属于某人（不用被动）；belong with — 和……放在一起',
+        ex: 'This bag belongs to my sister.'
+      },
+      {
+        w: 'stamp',
+        ph: '/stæmp/',
+        pos: 'n.',
+        cn: '邮票',
+        col: 'collect stamps — 集邮；a stamp album — 集邮册',
+        ex: 'He put a stamp on the envelope.'
+      },
+      {
+        w: 'unopened',
+        ph: '/ˌʌnˈəʊpənd/',
+        pos: 'adj.',
+        cn: '未拆开的',
+        col: 'an unopened letter — 未拆开的信；leave sth. unopened — 让某物原封不动',
+        ex: 'The letter stayed unopened for twenty years.'
+      },
+      {
+        w: 'valuable',
+        ph: '/ˈvæljuəbl/',
+        pos: 'adj.',
+        cn: '珍贵的、值钱的',
+        col: 'valuable to sb. — 对某人很珍贵；a valuable lesson — 有价值的一课',
+        ex: 'The box was valuable to my family.'
+      },
+      {
+        w: 'handwriting',
+        ph: '/ˈhændraɪtɪŋ/',
+        pos: 'n.',
+        cn: '笔迹、手写的字',
+        col: 'in one’s handwriting — 用某人的笔迹；neat handwriting — 工整的字',
+        ex: 'I knew the handwriting at once.'
+      },
+      {
+        w: 'childhood',
+        ph: '/ˈtʃaɪldhʊd/',
+        pos: 'n.',
+        cn: '童年',
+        col: 'in one’s childhood — 在某人的童年；childhood memories — 童年的回忆',
+        ex: 'He wrote about his childhood in the village.'
+      },
+      {
+        w: 'memory',
+        ph: '/ˈmeməri/',
+        pos: 'n.',
+        cn: '记忆、回忆',
+        col: 'a happy memory — 一段快乐的回忆；bring back memories — 唤起回忆',
+        ex: 'This song brings back memories.'
+      },
+      {
+        w: 'precious',
+        ph: '/ˈpreʃəs/',
+        pos: 'adj.',
+        cn: '珍贵的',
+        col: 'precious to sb. — 对某人很珍贵；precious moments — 珍贵的时刻',
+        ex: 'Time with my grandparents is precious.'
+      },
+      {
+        w: 'remind',
+        ph: '/rɪˈmaɪnd/',
+        pos: 'vt.',
+        cn: '提醒、使想起',
+        col: 'remind sb. of sth. — 使某人想起某事；remind sb. to do sth. — 提醒某人做某事',
+        ex: 'The photo reminds me of him.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'look through',
+        cn: '翻看、逐一查看',
+        ex: 'She looked through the old photos after dinner.'
+      },
+      {
+        en: 'be full of',
+        cn: '充满',
+        ex: 'The box is full of old tickets.'
+      },
+      {
+        en: 'sort out',
+        cn: '整理、归类',
+        ex: 'We sorted out the books on the shelf.'
+      },
+      {
+        en: 'pass down',
+        cn: '把……传给后代',
+        ex: 'These stories are passed down from father to son.'
+      },
+      {
+        en: 'hold on to',
+        cn: '保留、不放手',
+        ex: 'She held on to the old photos for years.'
+      },
+      {
+        en: 'throw … away',
+        cn: '把……扔掉',
+        ex: 'Do not throw the box away.'
+      },
+      {
+        en: 'clean up',
+        cn: '打扫干净、收拾',
+        ex: 'Let us clean up the room first.'
+      },
+      {
+        en: 'piece by piece',
+        cn: '一件一件地',
+        ex: 'We took the box out piece by piece.'
+      },
+      {
+        en: 'be about to do sth.',
+        cn: '刚要做某事',
+        ex: 'I was about to leave when he called.'
+      },
+      {
+        en: 'think of',
+        cn: '想到、想起',
+        ex: 'I often think of my grandfather.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'What touched me most was ...',
+        cn: '最打动我的是……',
+        meaning: '从一堆细节里挑出最触动自己的那一点，把它提到句首，成为一段的情感焦点。',
+        context: '记叙文的感悟段开头：前面先写看到、读到的内容，再用它点出最打动自己的部分。',
+        alts: [
+          {
+            t: 'What moved me most was ...',
+            n: 'moved 与 touched 同义'
+          },
+          {
+            t: 'What impressed me most was ...',
+            n: '偏“留下深刻印象”'
+          },
+          {
+            t: 'The thing that touched me most was ...',
+            n: '更完整的名词结构'
+          }
+        ],
+        register: '中性，写经历和读后感都好用。',
+        example: 'What touched me most was the letter he never sent.'
+      },
+      {
+        expr: 'Even today, ...',
+        cn: '即使今天……',
+        meaning: '把过去的经历延伸到现在，说明某个动作或感受一直延续，适合收尾。',
+        context: '全文最后一段：先写当年的事，再用它写现在的做法或感受。',
+        alts: [
+          {
+            t: 'To this day, ...',
+            n: '更书面'
+          },
+          {
+            t: 'Still today, ...',
+            n: '语气稍弱'
+          },
+          {
+            t: 'Even now, ...',
+            n: '强调“到了现在也一样”'
+          }
+        ],
+        register: '中性偏书面，结尾收束最自然。',
+        example: 'Even today, I open the box when I miss him.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'What he left us was not money or gold, but small things that told the story of his life.',
+        points: [
+          '<b>主干</b>：What he left us was small things（主语从句 + 系动词 + 表语）。',
+          '<b>What 引导主语从句</b>：What 相当于 the things that，整个从句作主语，谓语用单数 was；写作里可以照抄这个开头：What he taught me was …。',
+          '<b>not … but …</b>：不是……而是……，否定前者、突出后者，这里连接两个并列表语：money or gold 与 small things。',
+          '<b>that told the story of his life</b>：定语从句修饰 small things，把“旧物”提升成“他的一生”，是记叙文的升华句。',
+          '<b>常见变体</b>：What he left behind was …（他留下来的）；What he gave me was not … but …。'
+        ]
+      },
+      {
+        text: 'She told me that he kept every little thing because each one carried a moment he was not ready to lose.',
+        points: [
+          '<b>主干</b>：She told me + that 宾语从句，told sb. that … 表示“告诉某人……”。',
+          '<b>从句结构</b>：he kept every little thing 是主句，because 引导原因状语从句，解释“为什么什么都留着”。',
+          '<b>he was not ready to lose</b>：定语从句修饰 a moment，省略了关系代词 that；be not ready to do 表示“还没有准备好做某事”。',
+          '<b>为什么值得学</b>：一句话里有宾语从句、原因状语从句和定语从句三层，是四级阅读里的典型长句。',
+          '<b>常见变体</b>：a moment he could not give up（他放不下的时刻）意思相近，语气更强。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'Where did the writer find the wooden box?',
+        cn: '作者在哪里发现了那个木箱？',
+        ans: 'He found it in the attic of his grandfather’s old house.',
+        ansCn: '他在爷爷老房子的阁楼里发现了它。'
+      },
+      {
+        en: 'What was inside the box?',
+        cn: '箱子里有什么？',
+        ans: 'Old tickets, a little notebook, some stamps and an unopened letter.',
+        ansCn: '旧车票、一个小笔记本、几张邮票，还有一封没有拆开的信。'
+      },
+      {
+        en: 'What can we infer about the little notebook?',
+        cn: '从文中可以推出那个小笔记本是什么样的？',
+        ans: 'It was not a diary but a record of the trips he took to see the writer’s grandmother and notes about his childhood, so it kept the small things of his life.',
+        ansCn: '它不是日记，而是记录他坐火车去看奶奶的日子和童年小事的本子，留下的是他生活里的点点滴滴。'
+      },
+      {
+        en: 'What is the function of the paragraph that begins “What touched me most”?',
+        cn: '以“最打动我的是”开头的段落在故事里起什么作用？',
+        ans: 'It is the turning point: the letter and the mother’s words explain why the grandfather kept all these small things.',
+        ansCn: '它是故事的转折点：那封信和妈妈的话解释了爷爷为什么舍不得扔这些东西。'
+      },
+      {
+        en: 'In the last paragraph, what does “what he kept” refer to?',
+        cn: '最后一段中的“what he kept”指什么？',
+        ans: 'It refers to the small things in the wooden box: the tickets, the notebook, the stamps and the letter.',
+        ansCn: '指木箱里的那些小东西：车票、笔记本、邮票和那封信。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about something old your family keeps and why it is important.',
+      hints: [
+        'In the corner of ..., there is ...',
+        'What touched me most was ...',
+        'Even today, ...'
+      ],
+      hintCn: '用 3–4 句写一件家里的旧物：它是什么、关于它的故事、它为什么舍不得扔，最后一句写它今天的意义。',
+      req: '至少使用 1 个本篇学过的词或搭配（memory / remind / precious / look through / hold on to / pass down）。'
+    },
+    speakingTask: {
+      en: 'Should we keep old things from our family? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答该不该留，再给一个理由，最后举一件自己家里的旧物当例子。',
+      skeleton: 'In my opinion, we should ... That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 12 个</b>：<span class=\'en\'>attic, wooden, dusty, belong, stamp, unopened, valuable, handwriting, childhood, memory, precious, remind</span> —— 重点记搭配：<span class=\'en\'>belong to sb.</span>（属于某人，不用被动）、<span class=\'en\'>remind sb. of sth.</span>（使某人想起）、<span class=\'en\'>memory</span> 是可数名词（a memory / memories）。',
+      '<b>本篇复现的旧词</b>：第 4 篇的 <span class=\'en\'>throw … away</span>（throw them away）、第 3 篇的 <span class=\'en\'>share</span>（share his stories）、第 9 篇的 <span class=\'en\'>notice</span>（noticed the handwriting）、第 10 篇的 <span class=\'en\'>matter</span>（all that matters）、第 11 篇的 <span class=\'en\'>grateful</span>（grateful I did not）—— 都是换到“旧物”语境再认一次。',
+      '<b>叙事骨架</b>：发现旧物 → 差点扔掉 → 注意到细节（笔迹）→ 读出内容（笔记本与信）→ 一句话点题（每件东西都是一个时刻）→ 收束（留下来、传下去）。和第 12、13 篇一样只有一个转折点，这次是“一个细节改变决定”。',
+      '<b>两个写作表达</b>：<span class=\'en\'>What touched me most was …</span> 放在感悟段开头，点出情感焦点；<span class=\'en\'>Even today, …</span> 放在结尾段，把当年的事延伸到现在。',
+      '<b>题型提醒</b>：指代题（第 5 题）把 what he kept 还原成“箱子里的旧物”；段落作用题（第 4 题）要答“转折 + 解释原因”两层，只答“写了一封信”不完整。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 12 个核心词遮住中文说出 ≥ 9 · 10 个搭配掌握 8 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 12 个核心词中的 9 个（attic、handwriting、memory、precious、remind …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '10 个高频搭配掌握 8 个，能各造一句（look through、hold on to、pass down …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 2 个长难句的结构（What 主语从句 + not … but …；宾语从句里套原因从句和定语从句），并各仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要能指出 what he kept 的指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按第 07 节写 60–80 词，至少用上 What touched me most was … 或 Even today, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清“该不该保留家里的旧物”的立场，并给出一个理由和一件旧物作为例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 5 处灰点旧词，说出其中 3 个的意思，并查到它首次出现的篇目',
           lvl: '加分'
         }
       ]

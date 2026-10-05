@@ -9,7 +9,9 @@
 - 新增一篇文章的步骤：
   1. 在 `assets/js/articles.js` 的 `window.ARTICLES` 数组末尾追加一个对象（字段参照第 1 篇）；
   2. 下载主题封面图到 `assets/covers/00N.jpg`（真实摄影作品，Wikimedia Commons 等 CC 授权来源，禁止二次元图片）；
-  3. 同步更新 `articles/README.md` 索引和 `course/progress.md` 日志。
+  3. **生成真人朗读音频**：`node tools/gen-tts.mjs --voice Chloe,Mia --style native,british`（自动只补缺的篇目，音色按篇交替：单数篇 Chloe 美音 / 双数篇 Mia 英式；生成 `assets/audio/<slug>/p<N>.mp3` 并重写 `assets/audio/manifest.js`），
+     跑完用 `node tools/check-audio.js` 校验整篇齐全、段数与正文一致、mp3 有效——**缺音频的文章不算交付完成**；
+  4. 同步更新 `articles/README.md` 索引和 `course/progress.md` 日志。
 - 数据字段：`id / slug / title / titleCn / stage / stageRange / meta[] / cover / coverCredit / body[]（纯英文段落）/ translation[]（逐段中文译文，与 body 等长）/ vocabulary[] / phrases[] / writings[] / sentences[] / questions[] / writingTask / speakingTask / focus[] / standard（推荐完成度达标线）`
 
 ## 1. 文章正文：纯净原则（对应 `body` 字段）
