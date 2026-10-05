@@ -3233,5 +3233,2184 @@ window.ARTICLES = [
         }
       ]
     }
+  },
+{
+    id: 15,
+    slug: '015-cooking-with-my-roommate',
+    title: 'Cooking with My Roommate',
+    titleCn: '和室友下厨',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 290 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.1%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/015.jpg',
+    coverCredit: 'Photo: Kampus Production / Pexels',
+    body: [
+      'My roommate and I moved into our small apartment last September, and we soon ran into one problem: neither of us could <span class="w-rev">cook</span>. So we <span class="w-rev">ordered</span> takeout almost every night and spent too much money on food.',
+      'One Friday we decided to make dinner ourselves. We <span class="w-phrase" data-cn="挑选">picked out</span> a simple <span class="w-cet4" data-cn="食谱">recipe</span> and bought <span class="w-rev">fresh</span> <span class="w-rev">ingredients</span>, but ten minutes later the noodles were <span class="w-cet4" data-cn="烧糊的">burned</span> black. The kitchen was a <span class="w-cet4" data-cn="一团糟">mess</span>, and we were both <span class="w-rev">hungry</span> and angry.',
+      'We almost <span class="w-rev">gave up</span> that night. Then my roommate said that we should <span class="w-phrase" data-cn="尽最大努力">try our best</span> one more time. <span class="w-sentence">We wrote down what went wrong: the fire was too strong, nobody stirred the noodles, and nobody watched the time.</span>',
+      'The next week we tried again, and this time we <span class="w-cet4" data-cn="分配、分担">divided</span> the work. He washed and <span class="w-cet4" data-cn="切碎、剁">chopped</span> the vegetables; I <span class="w-phrase" data-cn="照看、盯着">kept an eye on</span> the <span class="w-cet4" data-cn="煮着的、沸腾的">boiling</span> soup and <span class="w-cet4" data-cn="尝、品尝">tasted</span> it every few minutes. Little by little, our <span class="w-cet4" data-cn="菜肴">dishes</span> began to look like real food.',
+      'Now we cook at home three times a week. Before we start, we read the recipe together and <span class="w-phrase" data-cn="列一张……的清单">make a list of</span> what we need. The rule is simple: one person cooks, the other cleans, and we never leave the kitchen in a mess.',
+      'Last Saturday we made a <span class="w-rev">whole</span> dinner — soup, chicken and vegetables — and <span class="w-cet4" data-cn="端上饭菜、招待">served</span> it to two <span class="w-cet4" data-cn="客人">guests</span> we had <span class="w-phrase" data-cn="邀请……来家里做客">invited over</span>. <span class="w-writing" data-cn="令我惊讶的是……">To my surprise</span>, they <span class="w-synonym" data-cn="＝ ask 的替换词">wondered</span> who had cooked it, and we looked at each other and laughed.',
+      'That burned pot of noodles cost us one evening, and it took time and <span class="w-rev">effort</span> to get better. <span class="w-sentence">Learning to cook was not the only gain; learning to divide tasks and trust my roommate mattered just as much.</span> <span class="w-writing" data-cn="结果、因此……">As a result</span>, we now cook together every Sunday.'
+    ],
+    translation: [
+      '我和室友去年九月搬进了我们的小公寓，很快就碰上一个难题：我们俩谁都不会做饭。于是我们几乎每晚都点外卖，在吃上面花了太多钱。',
+      '一个星期五，我们决定自己做晚饭。我们挑了一份简单的食谱，买了新鲜的食材，可十分钟后面条就糊成了黑炭。厨房里一团糟，我们俩又饿又气。',
+      '那天晚上我们差点就放弃了。室友说，我们应该再尽一次最大努力。我们把出问题的地方写了下来：火太大，没人搅拌面条，也没人看着时间。',
+      '第二周我们又试了一次，这次我们分了工。他洗菜、切菜；我盯着锅里滚着的汤，每隔几分钟尝一口。慢慢地，我们做的菜开始像样了。',
+      '现在我们每周在家做三次饭。开始之前，我们一起看食谱，把需要的东西列成清单。规矩很简单：一个人做饭，另一个人收拾，厨房绝不留到一团糟。',
+      '上个星期六我们做了一整顿饭——汤、鸡肉和蔬菜——还请了两位客人来家里。令我惊讶的是，他们问这饭是谁做的，我们俩对视一眼，笑了起来。',
+      '那锅烧糊的面花掉了我们一个晚上，厨艺变好也花了不少时间和力气。学会做饭不是唯一的收获；学会分担任务、信任室友，同样重要。结果，我们现在每周日一起做饭。'
+    ],
+    vocabulary: [
+      {
+        w: 'recipe',
+        ph: '/ˈresəpi/',
+        pos: 'n.',
+        cn: '食谱',
+        col: 'follow a recipe — 照着食谱做；a simple recipe — 一份简单的食谱',
+        ex: 'She found a simple recipe for tomato soup.'
+      },
+      {
+        w: 'stir',
+        ph: '/stɜː/',
+        pos: 'v.',
+        cn: '搅拌',
+        col: 'stir the soup — 搅拌汤；stir … into … — 把……搅进……',
+        ex: 'Please stir the noodles while they are cooking.'
+      },
+      {
+        w: 'boil',
+        ph: '/bɔɪl/',
+        pos: 'v.',
+        cn: '煮沸、烧开',
+        col: 'boil water — 烧开水；keep … boiling — 让……保持沸腾',
+        ex: 'Boil the eggs for eight minutes.'
+      },
+      {
+        w: 'burn',
+        ph: '/bɜːn/',
+        pos: 'v.',
+        cn: '烧糊、燃烧',
+        col: 'burn the food — 把食物烧糊；burned black — 糊成黑色',
+        ex: 'I burned the rice because the fire was too strong.'
+      },
+      {
+        w: 'mess',
+        ph: '/mes/',
+        pos: 'n.',
+        cn: '一团糟、杂乱',
+        col: 'make a mess — 弄得一团糟；in a mess — 乱糟糟的',
+        ex: 'The kitchen was a mess after dinner.'
+      },
+      {
+        w: 'divide',
+        ph: '/dɪˈvaɪd/',
+        pos: 'v.',
+        cn: '分开、分配',
+        col: 'divide the work — 分工；divide … into … — 把……分成……',
+        ex: 'We divided the work and finished early.'
+      },
+      {
+        w: 'task',
+        ph: '/tɑːsk/',
+        pos: 'n.',
+        cn: '任务',
+        col: 'a simple task — 一项简单的任务；share tasks — 分担任务',
+        ex: 'Each of us has one task tonight.'
+      },
+      {
+        w: 'taste',
+        ph: '/teɪst/',
+        pos: 'v./n.',
+        cn: '尝、品尝；味道',
+        col: 'taste the soup — 尝一口汤；have a sweet taste — 有甜味',
+        ex: 'Taste the soup and tell me if it needs salt.'
+      },
+      {
+        w: 'dish',
+        ph: '/dɪʃ/',
+        pos: 'n.',
+        cn: '菜肴、盘子',
+        col: 'a cold dish — 一道凉菜；do the dishes — 洗碗',
+        ex: 'This dish is the best one on the table.'
+      },
+      {
+        w: 'chop',
+        ph: '/tʃɒp/',
+        pos: 'v.',
+        cn: '切碎、剁',
+        col: 'chop up the vegetables — 把菜切碎；chop … into … — 把……切成……',
+        ex: 'He chopped the onions into small pieces.'
+      },
+      {
+        w: 'serve',
+        ph: '/sɜːv/',
+        pos: 'v.',
+        cn: '端上饭菜、招待',
+        col: 'serve dinner — 上菜；serve tea to guests — 给客人上茶',
+        ex: 'Dinner is ready. Let me serve it.'
+      },
+      {
+        w: 'guest',
+        ph: '/ɡest/',
+        pos: 'n.',
+        cn: '客人',
+        col: 'have guests — 有客人来；a guest at dinner — 饭桌上的客人',
+        ex: 'We had two guests for dinner last night.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'pick out',
+        cn: '挑选',
+        ex: 'She picked out a dress for the party.'
+      },
+      {
+        en: 'make a list of',
+        cn: '列一张……的清单',
+        ex: 'Make a list of the things you need.'
+      },
+      {
+        en: 'keep an eye on',
+        cn: '照看、盯着（留意）',
+        ex: 'Keep an eye on the soup while I answer the phone.'
+      },
+      {
+        en: 'try your best',
+        cn: '尽最大努力（所有格可随人称更换）',
+        ex: 'I will try my best to finish on time.'
+      },
+      {
+        en: 'invite … over',
+        cn: '邀请……来家里做客',
+        ex: 'We invited our neighbors over for dinner.'
+      },
+      {
+        en: 'cut up',
+        cn: '切碎',
+        ex: 'Cut up the fruit before you eat it.'
+      },
+      {
+        en: 'go wrong',
+        cn: '出错、出问题',
+        ex: 'Something went wrong with the machine.'
+      },
+      {
+        en: 'clean up',
+        cn: '收拾干净、打扫',
+        ex: 'Please clean up the kitchen after cooking.'
+      },
+      {
+        en: 'start over',
+        cn: '重新开始',
+        ex: 'The cake failed, so we started over.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To my surprise, ...',
+        cn: '令我惊讶的是……',
+        meaning: '用来引出与预期相反的结果，把“我没想到”这件事直接写出来。',
+        context: '记叙文的中段或结尾：前面先写原本的预料，后面用它引出实际发生的事。',
+        alts: [
+          {
+            t: 'To my amazement, ...',
+            n: '更书面'
+          },
+          {
+            t: 'What surprised me was that ...',
+            n: '后面接完整从句'
+          },
+          {
+            t: 'I was surprised to find that ...',
+            n: '主语换成自己'
+          }
+        ],
+        register: '中性，记叙文里最常见的转折引导。',
+        example: 'To my surprise, the second try was much better than the first.'
+      },
+      {
+        expr: 'As a result, ...',
+        cn: '结果、因此……',
+        meaning: '承接上文的原因，直接写出随之而来的结果。',
+        context: '段首或句首：前面写原因或变化，后面用它收出结果。',
+        alts: [
+          {
+            t: 'As a consequence, ...',
+            n: '更书面'
+          },
+          {
+            t: 'Therefore, ...',
+            n: '正式'
+          },
+          {
+            t: 'So ...',
+            n: '口语化'
+          }
+        ],
+        register: '中性偏书面，写作里最稳的因果连接。',
+        example: 'We divided the work. As a result, dinner was ready in thirty minutes.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'We wrote down what went wrong: the fire was too strong, nobody stirred the noodles, and nobody watched the time.',
+        points: [
+          '<b>主干</b>：We wrote down …（主语 + 谓语 + 宾语），冒号后面三小句都是对“出问题的地方”的具体说明。',
+          '<b>what went wrong</b>：what 引导宾语从句，作 wrote down 的宾语；what 相当于 the thing that，不能换成 that。',
+          '<b>冒号 + 三个并列句</b>：the fire was too strong / nobody stirred the noodles / nobody watched the time 用逗号和并列连词排成三项，节奏清楚，是四级写作里“列举原因”的标准写法。',
+          '<b>为什么值得学</b>：把“哪里出了错”一次说清，比写三句独立的短句更紧凑；记叙文复盘、议论文分析原因都能照这个结构写。',
+          '<b>常见变体</b>：冒号可以换成 that is 或 that is to say，但列举的力度会弱一些。'
+        ]
+      },
+      {
+        text: 'Learning to cook was not the only gain; learning to divide tasks and trust my roommate mattered just as much.',
+        points: [
+          '<b>主干</b>：Learning to cook was not the gain 与 learning to divide tasks … mattered just as much 两个分句用分号连接。',
+          '<b>动名词作主语</b>：Learning to cook 与 learning to divide tasks and trust my roommate 都是动名词短语作主语，谓语都用单数形式（was / mattered）。',
+          '<b>just as much</b>：表示“同样多、同样重要”，这里把“做饭”和“分工与信任”放在天平两端。',
+          '<b>为什么值得学</b>：这是记叙文的升华句模板——把收获从“事情”写到“人和方法”，放在结尾段前面，立意立刻不一样。',
+          '<b>注意</b>：分号前后必须是两个完整的句子，不能像逗号那样接半个句子。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'Why did the two roommates order takeout almost every night at first?',
+        cn: '一开始两个室友为什么几乎每晚都点外卖？',
+        ans: 'Because neither of them could cook.',
+        ansCn: '因为他们俩谁都不会做饭。'
+      },
+      {
+        en: 'What mistakes did they make with the first pot of noodles?',
+        cn: '第一锅面他们犯了哪些错误？',
+        ans: 'The fire was too strong, nobody stirred the noodles, and nobody watched the time, so the noodles were burned black.',
+        ansCn: '火太大，没人搅拌面条，也没人看着时间，结果面条糊成了黑炭。'
+      },
+      {
+        en: 'What can we infer about how the two roommates live now?',
+        cn: '从文中可以推出两个室友现在是怎么生活的？',
+        ans: 'They cook at home several times a week and share the work, so they no longer rely on takeout.',
+        ansCn: '他们每周在家做几次饭，而且分工合作，不再靠外卖过日子。'
+      },
+      {
+        en: 'What does the second paragraph mainly do in the story?',
+        cn: '第二段在故事里主要起什么作用？',
+        ans: 'It describes their failed first attempt at cooking, which leads to the changes they make later.',
+        ansCn: '它写出两人第一次下厨的失败，才引出后面的改进和分工。'
+      },
+      {
+        en: 'In the last paragraph, what does “That burned pot of noodles” refer to?',
+        cn: '最后一段里的“那锅烧糊的面”指的是什么？',
+        ans: 'It refers to their failed first attempt at making dinner together on that Friday.',
+        ansCn: '指的是那个星期五两人第一次合作做晚饭却做砸了的那次。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a time you learned to do something together with someone.',
+      hints: [
+        'Neither of us could ... at first.',
+        'We divided the work: ...',
+        'To my surprise, ...',
+        'As a result, ...'
+      ],
+      hintCn: '用 4–6 句话写一次和别人合作做事的经历：先写起初的困难，再写怎么分工，最后写结果和收获。',
+      req: '至少使用 1 个本篇学过的词或搭配（divide / dish / keep an eye on / try one’s best / to my surprise）。'
+    },
+    speakingTask: {
+      en: 'Is it better to cook at home or to eat out? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答哪种更好，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'In my opinion, cooking at home is better. That is because ... For example, last week ...'
+    },
+    focus: [
+      '<b>新授核心词 12 个</b>：<span class=\'en\'>recipe, stir, boil, burn, mess, divide, task, taste, dish, chop, serve, guest</span> —— <b>divide the work</b>（分工）与 <b>divide … into …</b>（把……分成……）要分清；<b>taste</b> 既作动词“尝”也作名词“味道”；<b>dish</b> 可数，指“一道菜”，洗碗说 <b>do the dishes</b>；<b>burn</b> 的过去式写 burned 或 burnt 都可以。',
+      '<b>本篇复现的旧词</b>：第 7 篇的 <span class=\'en\'>cook / ingredient / fresh / hungry / order / whole</span>（煮面、买食材、点外卖、做一整顿饭的场景）、第 10 篇的 <span class=\'en\'>effort</span>（进步要花力气），以及旧短语 <span class=\'en\'>give up</span>（差点放弃）—— 都是厨房语境里再认一次，看到灰点先自己说意思。',
+      '<b>叙事骨架</b>：困难（不会做饭）→ 失败（煮糊一锅面）→ 复盘（写下哪里出错）→ 分工（一人做饭一人收拾）→ 收获（升华到信任）。写经历类短文照这个顺序排材料，失败只需要写一次。',
+      '<b>两个写作表达</b>：<span class=\'en\'>To my surprise, …</span> 引出和预期相反的结果；<span class=\'en\'>As a result, …</span> 收出结果。一个制造波折，一个收束因果，正好一前一后。',
+      '<b>题型提醒</b>：段落作用题（第 4 题）要答“写了什么 + 为什么这样写”两层；推断题（第 3 题）要回到“现在每周做三次饭、一人做饭一人收拾”这两句找依据。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 12 个核心词遮住中文说出 ≥ 9 · 9 个搭配掌握 7 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 12 个核心词中的 9 个（recipe、divide、serve、guest …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '9 个高频搭配掌握 7 个，能各造一句（keep an eye on、cut up、try one’s best …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 We wrote down what went wrong: … 的宾语从句与冒号列举结构，并用动名词作主语仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断的依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 To my surprise, … 或 As a result, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清「自己做饭还是外食」的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 16,
+    slug: '016-the-bus-stop-conversation',
+    title: 'The Bus Stop Conversation',
+    titleCn: '公交站的对话',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 295 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 4.0%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/016.jpg',
+    coverCredit: 'Photo: Emre Bilgiç / Pexels',
+    body: [
+      'It rains a lot in early summer, and I never carry an <span class="w-cet4" data-cn="雨伞">umbrella</span>. Last Tuesday the rain came down hard at six in the evening, and the bus stop was the only <span class="w-cet4" data-cn="避雨处、遮蔽处">shelter</span> on the street.',
+      'Ten minutes later a <span class="w-rev">notice</span> on the sign said that buses would stop for two hours because of the <span class="w-cet4" data-cn="暴风雨">storm</span>. Some people complained, and the rest of us <span class="w-phrase" data-cn="被困住、动弹不得">got stuck</span> there. I watched the rain <span class="w-cet4" data-cn="倾泻、下个不停">pour</span> down.',
+      'I noticed an old man beside me. <span class="w-sentence">I had seen this old man at the bus stop almost every morning for two years, but we had never said a word to each other.</span> His face was <span class="w-cet4" data-cn="熟悉的">familiar</span>, yet he was still a <span class="w-rev">stranger</span> to me.',
+      'I decided to <span class="w-phrase" data-cn="和……攀谈起来">strike up a conversation</span> with him. <span class="w-writing" data-cn="说实话……">To be honest</span>, I only asked about the <span class="w-rev">weather</span>, but he answered with a smile, and soon we were talking like old friends. His voice was <span class="w-rev">kind</span>.',
+      'He <span class="w-cet4" data-cn="提到、说起">mentioned</span> that he had worked in a factory in our <span class="w-cet4" data-cn="街区、社区">neighborhood</span> for forty years and had <span class="w-cet4" data-cn="退休">retired</span> last spring. Now he still walked through the old <span class="w-rev">community</span> every morning, because he did not like staying at home alone.',
+      'I listened and <span class="w-cet4" data-cn="点头">nodded</span>, and the <span class="w-cet4" data-cn="沉默、寂静">silence</span> between us disappeared. We talked for forty minutes. He was <span class="w-rev">patient</span> with my questions, and I <span class="w-phrase" data-cn="了解到、查明">found out</span> that he had three grandchildren. He <span class="w-rev">offered</span> me one piece of advice: “Talk to the people around you before it is too late.”',
+      'When the bus finally came, we got on together. <span class="w-sentence">He talked about the street where he had grown up, and I understood why he still walked past it every morning.</span> <span class="w-writing" data-cn="实情是……、说真的……">The truth is that</span> a <span class="w-cet4" data-cn="一生、终生">lifetime</span> of stories can hide behind a familiar face. Now we <span class="w-phrase" data-cn="（与……）保持联系">keep in touch</span>, and that rainy <span class="w-cet4" data-cn="记忆、回忆">memory</span> stays with me.'
+    ],
+    translation: [
+      '初夏雨水很多，可我从来不带伞。上周二傍晚六点雨下得很大，公交站是这条街上唯一能避雨的地方。',
+      '十分钟后，站牌上的一则通知说，因为暴风雨，公交车要停运两个小时。有人抱怨，其余的人就这么被困在了那里。我看着雨下个不停。',
+      '我注意到身边站着一位老人。这两年来，我几乎每天早上都在这个公交站见到他，可我们从来没说过一句话。他的面孔很熟悉，可他对我来说仍然是个陌生人。',
+      '我决定和他攀谈起来。说实话，我问的不过是天气，可他笑着回答，很快我们就像老朋友一样聊了起来。他的声音很和善。',
+      '他提到，他在我们街区的一家工厂干了四十年，去年春天退休了。如今他每天早上仍会走过这片老街区，因为他不喜欢一个人待在家里。',
+      '我听着，不时点头，我们之间的沉默消失了。我们聊了四十分钟。他很有耐心地回答我的问题，我了解到他有三个孙辈。他给了我一句忠告：「趁还来得及，多和身边的人说说话。」',
+      '公交车终于来了，我们一起上了车。他讲起他从小长大的那条街，我也明白了他为什么每天早上还从那条街走过。说真的，一生的故事可以藏在一张熟悉的面孔后面。现在我们保持着联系，那个雨天的回忆会一直陪着我。'
+    ],
+    vocabulary: [
+      {
+        w: 'umbrella',
+        ph: '/ʌmˈbrelə/',
+        pos: 'n.',
+        cn: '雨伞',
+        col: 'take an umbrella — 带伞；under an umbrella — 在伞下',
+        ex: 'Take an umbrella with you; it may rain.'
+      },
+      {
+        w: 'shelter',
+        ph: '/ˈʃeltə/',
+        pos: 'n./v.',
+        cn: '遮蔽处、躲避处；躲避',
+        col: 'take shelter from the rain — 躲雨；a bus shelter — 公交候车亭',
+        ex: 'We took shelter under a tree.'
+      },
+      {
+        w: 'storm',
+        ph: '/stɔːm/',
+        pos: 'n.',
+        cn: '暴风雨',
+        col: 'a heavy storm — 一场大暴风雨；after the storm — 暴风雨之后',
+        ex: 'The storm stopped all the buses.'
+      },
+      {
+        w: 'pour',
+        ph: '/pɔː/',
+        pos: 'v.',
+        cn: '倾泻、下个不停',
+        col: 'pour down — 倾泻而下；the rain pours — 大雨倾盆',
+        ex: 'It was pouring all night.'
+      },
+      {
+        w: 'familiar',
+        ph: '/fəˈmɪliə/',
+        pos: 'adj.',
+        cn: '熟悉的',
+        col: 'look familiar — 看着眼熟；be familiar to sb. — 为某人所熟悉',
+        ex: 'His face looks familiar to me.'
+      },
+      {
+        w: 'mention',
+        ph: '/ˈmenʃn/',
+        pos: 'v.',
+        cn: '提到、说起',
+        col: 'mention that … — 提到……；not to mention — 更不用说',
+        ex: 'She mentioned that she was busy that day.'
+      },
+      {
+        w: 'neighborhood',
+        ph: '/ˈneɪbəhʊd/',
+        pos: 'n.',
+        cn: '街区、社区',
+        col: 'in the neighborhood — 在附近；an old neighborhood — 老街区',
+        ex: 'This neighborhood is quiet in the morning.'
+      },
+      {
+        w: 'retire',
+        ph: '/rɪˈtaɪə/',
+        pos: 'v.',
+        cn: '退休',
+        col: 'retire from a job — 从工作岗位退休；retire last year — 去年退休',
+        ex: 'My father retired after forty years of work.'
+      },
+      {
+        w: 'nod',
+        ph: '/nɒd/',
+        pos: 'v.',
+        cn: '点头',
+        col: 'nod one’s head — 点头；nod with a smile — 微笑着点头',
+        ex: 'He nodded and said nothing.'
+      },
+      {
+        w: 'silence',
+        ph: '/ˈsaɪləns/',
+        pos: 'n.',
+        cn: '沉默、寂静',
+        col: 'a long silence — 长久的沉默；in silence — 沉默地',
+        ex: 'There was a short silence after the question.'
+      },
+      {
+        w: 'lifetime',
+        ph: '/ˈlaɪftaɪm/',
+        pos: 'n.',
+        cn: '一生、终生',
+        col: 'in one’s lifetime — 在某人一生中；a lifetime of work — 一辈子的工作',
+        ex: 'He told stories from a lifetime of work.'
+      },
+      {
+        w: 'memory',
+        ph: '/ˈmeməri/',
+        pos: 'n.',
+        cn: '记忆、回忆',
+        col: 'keep a memory — 留住一段回忆；bring back memories — 唤起回忆',
+        ex: 'That trip is a happy memory for me.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'take shelter (from)',
+        cn: '躲避（风雨等）',
+        ex: 'We took shelter from the rain under a tree.'
+      },
+      {
+        en: 'strike up a conversation',
+        cn: '和……攀谈起来',
+        ex: 'He struck up a conversation with the man next to him.'
+      },
+      {
+        en: 'get stuck',
+        cn: '被困住、动弹不得',
+        ex: 'We got stuck at the bus stop for two hours.'
+      },
+      {
+        en: 'for a while',
+        cn: '一会儿、一阵子',
+        ex: 'We waited for a while and then walked home.'
+      },
+      {
+        en: 'on foot',
+        cn: '步行',
+        ex: 'The buses stopped, so we went home on foot.'
+      },
+      {
+        en: 'by accident',
+        cn: '偶然、无意中',
+        ex: 'We met by accident at the bus stop.'
+      },
+      {
+        en: 'keep in touch (with)',
+        cn: '（与……）保持联系',
+        ex: 'We have kept in touch ever since.'
+      },
+      {
+        en: 'find out',
+        cn: '了解到、查明',
+        ex: 'I found out that he grew up here.'
+      },
+      {
+        en: 'chat with',
+        cn: '和……闲聊',
+        ex: 'She chatted with her neighbors for a while.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'To be honest, ...',
+        cn: '说实话……',
+        meaning: '先说出自己真实的想法或感受，再讲原因，语气真诚。',
+        context: '观点类口语或记叙文的自我评价处：先表态，再解释。',
+        alts: [
+          {
+            t: 'Honestly speaking, ...',
+            n: '更书面'
+          },
+          {
+            t: 'To tell the truth, ...',
+            n: '同义，稍长'
+          },
+          {
+            t: 'Actually, ...',
+            n: '最口语化'
+          }
+        ],
+        register: '中性偏口语，写作里也常见。',
+        example: 'To be honest, I was afraid to speak to him first.'
+      },
+      {
+        expr: 'The truth is that ...',
+        cn: '实情是……、说真的……',
+        meaning: '用一句话点破事情的真相或自己的真实看法。',
+        context: '结尾段或段落末尾：故事讲完之后，用它收出一句实话。',
+        alts: [
+          {
+            t: 'The fact is that ...',
+            n: '更强调事实'
+          },
+          {
+            t: 'What is true is that ...',
+            n: '语气稍缓'
+          },
+          {
+            t: 'In fact, ...',
+            n: '最简单'
+          }
+        ],
+        register: '中性，口语和写作都好用。',
+        example: 'The truth is that a short talk can change the way you see a person.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'I had seen this old man at the bus stop almost every morning for two years, but we had never said a word to each other.',
+        points: [
+          '<b>主干</b>：I had seen this old man 与 we had never said a word 由 but 连接成两个并列分句，前后形成对比。',
+          '<b>时态层次</b>：前半句用过去完成时 had seen，表示“在开口之前那两年里一直见到”；后半句 had never said 同样是过去完成时，强调“到那时为止从没说过话”。',
+          '<b>时间状语</b>：almost every morning 与 for two years 分别交代频率和长度，让“从没说过话”这件小事更有分量。',
+          '<b>为什么值得学</b>：这是记叙文写“熟悉却陌生”的经典句式，两个完成时分句就把人物关系交代清楚了。',
+          '<b>常见变体</b>：I often saw him, but we never spoke.（更简单，全用一般过去时）'
+        ]
+      },
+      {
+        text: 'He talked about the street where he had grown up, and I understood why he still walked past it every morning.',
+        points: [
+          '<b>主干</b>：He talked about the street 与 I understood … 由 and 连接成并列句。',
+          '<b>where he had grown up</b>：定语从句修饰 the street，where 相当于 in which，过去完成时表示“在更早之前长大”。',
+          '<b>why he still walked past it every morning</b>：作 understood 的宾语从句，回答“明白了什么”。',
+          '<b>为什么值得学</b>：一句话里同时出现定语从句和宾语从句，是四级长句的典型结构，写人记事时可以用它把人物、地方和习惯串起来。',
+          '<b>注意</b>：it 指代上文的 the street，写同类句子时先把被指代的名词放在前面。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'Why did the buses stop running that evening?',
+        cn: '那天晚上为什么公交车停运了？',
+        ans: 'Because a storm hit the city and buses stopped for two hours.',
+        ansCn: '因为暴风雨袭击了城市，公交车要停运两个小时。'
+      },
+      {
+        en: 'How long had the writer seen the old man at the bus stop before they spoke?',
+        cn: '在开口说话之前，作者在公交站见到这位老人多久了？',
+        ans: 'For two years, almost every morning.',
+        ansCn: '两年了，几乎每天早上都见到他。'
+      },
+      {
+        en: 'What can we infer about the old man’s life now?',
+        cn: '从文中可以推出这位老人现在的生活是什么样的？',
+        ans: 'He is retired and lives alone, and he keeps walking through the old neighborhood every morning because he does not like staying at home alone.',
+        ansCn: '他已经退休、一个人住，每天早上仍去老街区走走，因为他不喜欢独自待在家里。'
+      },
+      {
+        en: 'What is the function of the second paragraph in the story?',
+        cn: '第二段在故事里起什么作用？',
+        ans: 'It explains why everyone had to stay at the bus stop for a long time, which gave the writer the chance to talk to the old man.',
+        ansCn: '它交代大家为什么要在公交站待很久，这才给了作者和老人说话的机会。'
+      },
+      {
+        en: 'In the last paragraph, what does “it” in “walked past it every morning” refer to?',
+        cn: '最后一段里“每天早上从它旁边走过”的“它”指的是什么？',
+        ans: 'It refers to the street where the old man had grown up.',
+        ansCn: '指的是老人从小长大的那条街。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a conversation with someone you see often but never talk to.',
+      hints: [
+        'I had seen ... for ..., but ...',
+        'To be honest, ...',
+        'He mentioned that ...',
+        'The truth is that ...'
+      ],
+      hintCn: '用 4–6 句话写一次和“熟悉的陌生人”的交谈：先写见过多久却没说过话，再写怎么开口、聊了什么，最后写一句自己的真实感受。',
+      req: '至少使用 1 个本篇学过的词或搭配（familiar / stranger / mention / strike up a conversation / keep in touch）。'
+    },
+    speakingTask: {
+      en: 'Do you often talk to strangers? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答会不会，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'To be honest, I ... That is because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 12 个</b>：<span class=\'en\'>umbrella, shelter, storm, pour, familiar, mention, neighborhood, retire, nod, silence, lifetime, memory</span> —— <b>familiar</b> 只作表语或定语，说“对某人熟悉”用 <b>be familiar to sb.</b>；<b>mention</b> 后面直接跟宾语或从句，不加介词；<b>memory</b> 可数，一段回忆就是 a memory；<b>retire</b> 常说 retire from …。',
+      '<b>本篇复现的旧词</b>：第 3 篇的 <span class=\'en\'>patient</span>（耐心回答）、第 5 篇的 <span class=\'en\'>weather</span>（从天气聊起）、第 9 篇的 <span class=\'en\'>notice / stranger / community / offer / kind</span>（公交站里的邻里场景）—— 都是“人与人”场景里的老词，看到灰点先自己说意思。',
+      '<b>叙事骨架</b>：环境（大雨、停运）→ 熟悉却陌生（两年没说话）→ 开口（从天气聊起）→ 听到故事（工厂、老街）→ 收束（一生的故事藏在一张脸后面）。写“和陌生人的一次交谈”就照这个顺序。',
+      '<b>两个写作表达</b>：<span class=\'en\'>To be honest, …</span> 先真诚表态；<span class=\'en\'>The truth is that …</span> 收出一句实话。一个放在开口处，一个放在结尾段。',
+      '<b>题型提醒</b>：指代题（第 5 题）把代词还原成具体名词，答案一般就在本句或上一句；段落作用题（第 4 题）要答“写了什么 + 为什么这样写”两层。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 12 个核心词遮住中文说出 ≥ 9 · 9 个搭配掌握 7 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 12 个核心词中的 9 个（familiar、mention、silence、lifetime …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '9 个高频搭配掌握 7 个，能各造一句（strike up a conversation、get stuck、keep in touch …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 I had seen … but we had never … 的过去完成时对比，并仿写一句“见过却没说过话”的句子',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断的依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 To be honest, … 或 The truth is that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清「会不会和陌生人说话」的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 7 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 17,
+    slug: '017-when-the-internet-was-gone',
+    title: 'When the Internet Was Gone',
+    titleCn: '断网的那两天',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 300 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 3.7%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/017.jpg',
+    coverCredit: 'Photo: Matthias Polen / Pexels',
+    body: [
+      'At six o’clock on Friday evening, a typhoon hit our city, and the Internet in our building was <span class="w-phrase" data-cn="中断、被切断">cut off</span>. I did not think it was a big problem at first, because I still had power, food and a warm bed.',
+      'But twenty minutes later, I picked up my phone for the tenth time. Nothing loaded. The <span class="w-cet4" data-cn="信号">signal</span> was gone, my <span class="w-cet4" data-cn="设备">devices</span> were useless, and I felt <span class="w-synonym" data-cn="＝ nervous 的替换词">anxious</span> without knowing why.',
+      'The first night was long. I walked around the room and checked the <span class="w-cet4" data-cn="网络连接">connection</span> again and again, hoping it would <span class="w-phrase" data-cn="恢复正常">go back to normal</span> by itself. It made me think about how much time I usually <span class="w-rev">waste</span> online.',
+      '<span class="w-writing" data-cn="随着时间推移……">As time went by</span>, I stopped watching the clock. <span class="w-sentence">With no messages to answer and no endless videos to watch, I made breakfast slowly, tidied my room, and finished the book that had been on my desk for a month.</span>',
+      'In the afternoon, my neighbor’s two children came to our home because they were <span class="w-cet4" data-cn="无聊的">bored</span>. We <span class="w-phrase" data-cn="轮流">took turns</span> telling stories, and the little boy asked me to <span class="w-phrase" data-cn="陪伴某人">keep him company</span> while he drew. For two hours nobody looked at a <span class="w-cet4" data-cn="屏幕">screen</span>, and nothing <span class="w-rev">distracted</span> us.',
+      '<span class="w-writing" data-cn="就在那时我意识到……">That is when I realized</span> something <span class="w-cet4" data-cn="有价值的">valuable</span>: the problem was not my phone but my <span class="w-cet4" data-cn="日常习惯、生活节奏">routine</span>. So I wrote a simple <span class="w-rev">schedule</span> for my evenings: study first, read for half an hour, and <span class="w-phrase" data-cn="关掉（电器、屏幕）">turn off</span> the screen before bed. I also wanted to <span class="w-rev">balance</span> study and rest, so life could move at a slower <span class="w-cet4" data-cn="节奏">pace</span>.',
+      'The Internet came back on Sunday afternoon, and hundreds of <span class="w-cet4" data-cn="最新消息、动态">updates</span> poured in at once. <span class="w-sentence">It was only when the Internet was gone that I noticed the books on my desk.</span> Now I <span class="w-cet4" data-cn="更喜欢">prefer</span> reading to videos, my <span class="w-rev">mood</span> is better, and I am learning to <span class="w-rev">reduce</span> the time I spend online.'
+    ],
+    translation: [
+      '星期五傍晚六点，台风袭击了我们城市，我们楼里的网络被切断了。我起初没觉得是多大的问题，因为我还有电、有吃的、有温暖的床。',
+      '可二十分钟后，我第十次拿起了手机。什么也刷不出来。信号没了，我的设备全成了摆设，我也说不清为什么，只觉得焦虑。',
+      '第一夜很难熬。我在房间里走来走去，一遍又一遍地检查网络连接，盼着它自己恢复正常。这让我想到，平时我在网上浪费了多少时间。',
+      '随着时间过去，我不再盯着钟看。没有消息要回，也没有没完没了的视频要看，我慢慢做了一顿早饭，收拾了房间，还读完了那本在桌上放了一个月的书。',
+      '下午，邻居家的两个孩子来我们家，因为他们觉得无聊。我们轮流讲故事，小男孩让我陪着他画画。整整两个小时，没有人看屏幕，也没有任何事让我们分心。',
+      '就在那时我意识到一件很有价值的事：问题不在手机，而在我的日常习惯。于是我给晚上写了一份简单的安排：先学习，读半小时书，睡前关掉屏幕。我也想把学习和休息平衡好，让生活以更慢的节奏往前走。',
+      '星期天下午，网络恢复了，成百上千条消息一下子涌了进来。只有当网络断掉的时候，我才注意到桌上的那些书。现在我更喜欢读书而不是看视频，心情也好多了，我正在慢慢减少上网的时间。'
+    ],
+    vocabulary: [
+      {
+        w: 'signal',
+        ph: '/ˈsɪɡnəl/',
+        pos: 'n.',
+        cn: '信号',
+        col: 'lose the signal — 失去信号；a weak signal — 微弱的信号',
+        ex: 'There was no signal inside the building.'
+      },
+      {
+        w: 'device',
+        ph: '/dɪˈvaɪs/',
+        pos: 'n.',
+        cn: '设备、装置',
+        col: 'an electronic device — 电子设备；use a device — 使用设备',
+        ex: 'My devices were useless without the Internet.'
+      },
+      {
+        w: 'connection',
+        ph: '/kəˈnekʃn/',
+        pos: 'n.',
+        cn: '连接、网络连接',
+        col: 'lose the connection — 断网；a slow connection — 网速慢',
+        ex: 'The connection came back on Sunday.'
+      },
+      {
+        w: 'endless',
+        ph: '/ˈendləs/',
+        pos: 'adj.',
+        cn: '没完没了的',
+        col: 'endless messages — 没完没了的消息；seem endless — 显得没完没了',
+        ex: 'I was tired of the endless videos.'
+      },
+      {
+        w: 'bored',
+        ph: '/bɔːd/',
+        pos: 'adj.',
+        cn: '无聊的、厌倦的',
+        col: 'get bored — 变得无聊；be bored with — 对……感到厌倦',
+        ex: 'The children were bored on rainy afternoons.'
+      },
+      {
+        w: 'screen',
+        ph: '/skriːn/',
+        pos: 'n.',
+        cn: '屏幕',
+        col: 'look at the screen — 看屏幕；turn off the screen — 关掉屏幕',
+        ex: 'Do not look at the screen before bed.'
+      },
+      {
+        w: 'routine',
+        ph: '/ruːˈtiːn/',
+        pos: 'n.',
+        cn: '日常习惯、生活节奏',
+        col: 'a daily routine — 日常作息；break the routine — 打破习惯',
+        ex: 'A good routine helps you sleep well.'
+      },
+      {
+        w: 'valuable',
+        ph: '/ˈvæljuəbl/',
+        pos: 'adj.',
+        cn: '有价值的',
+        col: 'a valuable lesson — 有价值的一课；valuable advice — 有价值的建议',
+        ex: 'He gave me some valuable advice.'
+      },
+      {
+        w: 'pace',
+        ph: '/peɪs/',
+        pos: 'n.',
+        cn: '节奏、步速',
+        col: 'at a slow pace — 以缓慢的节奏；keep pace with — 跟上……的步伐',
+        ex: 'Life moved at a slower pace that weekend.'
+      },
+      {
+        w: 'update',
+        ph: '/ˈʌpdeɪt/',
+        pos: 'n./v.',
+        cn: '更新、最新消息',
+        col: 'check for updates — 查看更新；the latest update — 最新消息',
+        ex: 'Hundreds of updates poured in when the Internet returned.'
+      },
+      {
+        w: 'prefer',
+        ph: '/prɪˈfɜː/',
+        pos: 'v.',
+        cn: '更喜欢',
+        col: 'prefer A to B — 更喜欢前者而不是后者；prefer doing sth. — 更喜欢做某事',
+        ex: 'I prefer reading to watching videos.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'cut off',
+        cn: '中断、切断',
+        ex: 'The storm cut off the electricity in our street.'
+      },
+      {
+        en: 'go back to normal',
+        cn: '恢复正常',
+        ex: 'Everything went back to normal after the storm.'
+      },
+      {
+        en: 'take turns',
+        cn: '轮流',
+        ex: 'We took turns telling stories.'
+      },
+      {
+        en: 'keep … company',
+        cn: '陪伴……',
+        ex: 'I kept the little boy company while he drew.'
+      },
+      {
+        en: 'turn off',
+        cn: '关掉（电器、屏幕）',
+        ex: 'Turn off the screen before you go to bed.'
+      },
+      {
+        en: 'make up for',
+        cn: '弥补',
+        ex: 'I want to make up for the time I wasted.'
+      },
+      {
+        en: 'sooner or later',
+        cn: '迟早',
+        ex: 'The Internet will come back sooner or later.'
+      },
+      {
+        en: 'come up with',
+        cn: '想出（办法、主意）',
+        ex: 'She came up with a good plan.'
+      },
+      {
+        en: 'be used to doing sth.',
+        cn: '习惯于做某事',
+        ex: 'I am used to reading before bed.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'As time went by, ...',
+        cn: '随着时间推移……',
+        meaning: '表示时间一点点过去，后面接随之发生的变化，谓语常用一般过去时。',
+        context: '记叙文的中段过渡：先写某个状态，再写它慢慢改变。',
+        alts: [
+          {
+            t: 'As time passed, ...',
+            n: '同义'
+          },
+          {
+            t: 'Gradually, ...',
+            n: '更短，直接修饰动词'
+          },
+          {
+            t: 'Little by little, ...',
+            n: '强调变化缓慢'
+          }
+        ],
+        register: '中性，记叙文和议论文都能用。',
+        example: 'As time went by, I stopped checking my phone.'
+      },
+      {
+        expr: 'That is when I realized that ...',
+        cn: '就在那时我意识到……',
+        meaning: '把“某个时刻 + 顿悟”写成一句话，强调认识发生的时间点。',
+        context: '经历类文章的转折处或结尾之前：先写发生了什么，再写明白了什么。',
+        alts: [
+          {
+            t: 'It was then that I realized that ...',
+            n: '强调句，更书面'
+          },
+          {
+            t: 'That is the moment when I knew that ...',
+            n: '更完整'
+          },
+          {
+            t: 'Only then did I realize that ...',
+            n: '倒装，语气更强'
+          }
+        ],
+        register: '中性偏书面，结尾升华最好用。',
+        example: 'That is when I realized that the problem was my routine.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'With no messages to answer and no endless videos to watch, I made breakfast slowly, tidied my room, and finished the book that had been on my desk for a month.',
+        points: [
+          '<b>主干</b>：I made breakfast, tidied my room, and finished the book，三个并列谓语用逗号和 and 排开，是典型的动作列举。',
+          '<b>with + 名词 + to do</b>：With no messages to answer and no endless videos to watch 是介词 with 的复合结构作状语，说明当时的状态，可以译成“没有……要……”。',
+          '<b>that had been on my desk for a month</b>：定语从句修饰 the book，过去完成时表示“在那之前已经放了一个月”。',
+          '<b>为什么值得学</b>：一句话把“没有网络时做了什么”交代完整，是四级写作里“背景 + 三个动作”的实用模板。',
+          '<b>常见变体</b>：With no messages to answer, I made breakfast slowly.（只留一个动作，句子更短）'
+        ]
+      },
+      {
+        text: 'It was only when the Internet was gone that I noticed the books on my desk.',
+        points: [
+          '<b>强调句型</b>：It was … that … 用来强调句子的某一部分，这里强调的是时间状语从句 only when the Internet was gone。',
+          '<b>还原句子主干</b>：去掉强调框架后是 I noticed the books on my desk when the Internet was gone；only 提前后语气是“直到……才……”。',
+          '<b>时态呼应</b>：前面的 was 与后面的 noticed 都在过去，强调句的时态要和原句一致。',
+          '<b>为什么值得学</b>：强调句是四级写作与翻译的高频句型，比 It was not until … that … 更容易掌握，可以先练这一句式。',
+          '<b>注意</b>：强调句里的 that 不能换成 when，只有强调的成分本身是时间状语从句时，从句里才会有 when。'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'How long was the Internet in the writer’s building cut off?',
+        cn: '作者楼里的网络断了多久？',
+        ans: 'From Friday evening to Sunday afternoon, about two days.',
+        ansCn: '从星期五傍晚到星期天下午，大约两天。'
+      },
+      {
+        en: 'What did the writer do on Saturday morning instead of going online?',
+        cn: '星期六上午作者没上网，做了些什么？',
+        ans: 'He made breakfast slowly, tidied his room, and finished a book.',
+        ansCn: '他慢慢做了一顿早饭，收拾了房间，还读完了一本书。'
+      },
+      {
+        en: 'What can we infer about the writer’s evenings before the typhoon?',
+        cn: '从文中可以推出台风之前作者的晚上是怎么过的？',
+        ans: 'Most of his evening went to messages and videos online, so he had little time left for reading.',
+        ansCn: '晚上大部分时间都花在上网回消息、看视频上，几乎没时间读书。'
+      },
+      {
+        en: 'What is the function of the fifth paragraph in the passage?',
+        cn: '第五段在全文里起什么作用？',
+        ans: 'It gives an example of how the writer spent the afternoon with people instead of a screen, which shows the change the outage brought.',
+        ansCn: '它用一个具体例子写出作者下午是和人而不是和屏幕一起度过的，说明断网带来的变化。'
+      },
+      {
+        en: 'In the third paragraph, what does “it” in “hoping it would go back to normal” refer to?',
+        cn: '第三段里“盼着它自己恢复正常”的“它”指的是什么？',
+        ans: 'It refers to the Internet connection in the writer’s building.',
+        ansCn: '指的是作者楼里的网络连接。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a day or two without your phone or the Internet.',
+      hints: [
+        'At first, I ...',
+        'As time went by, ...',
+        'That is when I realized that ...',
+        'Now I ...'
+      ],
+      hintCn: '用 4–6 句话写一次“没网”的一天或两天：先写起初的不安，再写后来做了什么，最后写自己明白了什么、现在有什么改变。',
+      req: '至少使用 1 个本篇学过的词或搭配（routine / pace / turn off / cut off / go back to normal）。'
+    },
+    speakingTask: {
+      en: 'Would life be better without the Internet? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答会不会更好，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'In my opinion, life would be better without the Internet because ... For example, ...'
+    },
+    focus: [
+      '<b>新授核心词 11 个</b>：<span class=\'en\'>signal, device, connection, endless, bored, screen, routine, valuable, pace, update, prefer</span> —— <b>prefer A to B</b>（更喜欢 A 而不是 B）里的 to 是介词，后面接名词或动名词；<b>device</b> 可数；<b>update</b> 作名词指“更新、最新消息”；<b>pace</b> 常用搭配是 at a … pace。',
+      '<b>本篇复现的旧词</b>：第 6 篇的 <span class=\'en\'>waste / distract / schedule / balance</span>（时间管理老词）、第 8 篇的 <span class=\'en\'>mood / reduce</span>（状态与减少）—— 正好是本篇主题词，看到灰点先自己说意思，再查它首次出现的篇目。',
+      '<b>叙事骨架</b>：意外（断网）→ 焦虑（反复刷手机）→ 转折（时间变多）→ 观察（和人在一起）→ 重新安排（写下晚间安排）→ 收束（改变留下）。写“戒掉一种依赖”的经历，就照这条线排材料。',
+      '<b>两个写作表达</b>：<span class=\'en\'>As time went by, …</span> 引出缓慢的变化；<span class=\'en\'>That is when I realized that …</span> 把“时刻 + 顿悟”写成一句，放在结尾段前最有力。',
+      '<b>题型提醒</b>：指代题（第 5 题）要还原成本句或上一句里的具体名词（这里是网络连接）；推断题（第 3 题）的依据在“消息和视频”与“桌上放了一个月的书”这两处对比里。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 11 个核心词遮住中文说出 ≥ 8 · 9 个搭配掌握 7 个 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 11 个核心词中的 8 个（routine、pace、prefer、valuable …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '9 个高频搭配掌握 7 个，能各造一句（cut off、go back to normal、take turns …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 It was only when … that … 的强调句结构，并用它仿写一句自己的经历',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断的依据',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 As time went by, … 或 That is when I realized that …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清「没有网络生活会不会更好」的立场，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 6 处灰点旧词，说出其中 4 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 18,
+    slug: '018-a-choice-between-two-clubs',
+    title: 'A Choice Between Two Clubs',
+    titleCn: '两个社团之间的选择',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 305 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 3.6%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/018.jpg',
+    coverCredit: 'Photo: Monstera Production / Pexels',
+    body: [
+      'Last month I did something new: I <span class="w-cet4" data-cn="申请">applied</span> to two clubs at school in the same week. Both <span class="w-cet4" data-cn="接受">accepted</span> me, but instead of feeling happy, I felt worried. I had never made such a big choice.',
+      'For a whole week I could not <span class="w-rev">decide</span>. Both <span class="w-cet4" data-cn="选项">options</span> looked good, so my friends gave different <span class="w-rev">advice</span>: the drama club was exciting, the hiking club was better for my health. I <span class="w-rev">compared</span> them again and again.',
+      'Then an older student told me a simple <span class="w-cet4" data-cn="方法">method</span>: do not ask what you will get; ask what you will pay. The real question was how much time and <span class="w-rev">effort</span> each club would <span class="w-phrase" data-cn="占用（时间、精力）">take up</span> in my week.',
+      'So I <span class="w-phrase" data-cn="列一张清单">made a list</span> for each club: meetings, homework and money. The drama club wanted three evenings a week. The hiking club wanted one weekend a month and money for a bus ticket. Then I put the two lists <span class="w-phrase" data-cn="并排、并排放着">side by side</span>. The <span class="w-cet4" data-cn="数量">amount</span> of work was clear, and so was my time <span class="w-cet4" data-cn="限度、限制">limit</span>.',
+      '<span class="w-sentence">When I saw the two lists together, the choice became easy, because I knew what each club would ask of me.</span> That night I <span class="w-synonym" data-cn="＝ at last 的替换词">finally</span> <span class="w-phrase" data-cn="下定决心">made up my mind</span>.',
+      'I <span class="w-cet4" data-cn="更偏好、更喜欢">preferred</span> the drama club, but three evenings a week was too much this term. <span class="w-writing" data-cn="因此、结果">As a result</span>, I chose the hiking club and wrote an <span class="w-rev">honest</span> letter to <span class="w-rev">turn down</span> the other place. My parents said the <span class="w-cet4" data-cn="决定">decision</span> was mine, as long as I was <span class="w-cet4" data-cn="负责的">responsible</span> for it. I made a <span class="w-cet4" data-cn="承诺">promise</span> to myself: one club only.',
+      '<span class="w-writing" data-cn="说到底、其实">The truth is that</span> a good choice is not about getting everything; it is about knowing what you give up. <span class="w-sentence">It is better to do one thing well than to do two things badly.</span> The <span class="w-rev">benefit</span> is real: I <span class="w-cet4" data-cn="重视、珍惜">value</span> my free time, and I never <span class="w-rev">waste</span> my evenings again.'
+    ],
+    translation: [
+      '上个月我做了一件新鲜事：同一周里，我向学校的两个社团递交了申请。两个社团都接受了我，可我非但不高兴，反而很担心。我从没做过这么大的一个选择。',
+      '整整一个星期我都定不下来。两个选项看上去都不错，朋友们给出的意见也各不相同：话剧社更刺激，徒步社对身体更好。我把它们比较了一遍又一遍。',
+      '后来一位学姐教了我一个简单的办法：别问你能得到什么，要问你要付出什么。真正的问题是，每个社团会从我的一周里占用多少时间和精力。',
+      '于是我给每个社团列了一张清单：开会、作业和钱。话剧社要求每周三个晚上。徒步社要求每月一个周末，还要一点买车票的钱。然后我把两张清单并排放好。工作量清清楚楚，我的时间限制也是。',
+      '等我把两张清单放在一起看，选择一下子变容易了，因为我明白了每个社团会向我要什么。那天晚上我终于下定了决心。',
+      '我更喜欢话剧社，可这学期每周三个晚上实在太多。于是我选了徒步社，写了一封真诚的信，婉拒了另一个名额。父母说，这个决定是我的，只要我为它负责就好。我对自己许下承诺：只参加一个社团。',
+      '说到底，好的选择不是什么都得到，而是知道自己放弃了什么。宁可把一件事做好，也不要两件事都做砸。好处实在：我现在珍惜自己的空闲时间，再也不浪费一个个晚上。'
+    ],
+    vocabulary: [
+      {
+        w: 'apply',
+        ph: '/əˈplaɪ/',
+        pos: 'v.',
+        cn: '申请；应用',
+        col: 'apply for sth. — 申请某物；apply a rule — 应用一条规则',
+        ex: 'I applied to two clubs last month.'
+      },
+      {
+        w: 'accept',
+        ph: '/əkˈsept/',
+        pos: 'vt.',
+        cn: '接受',
+        col: 'accept an offer — 接受邀请；accept the result — 接受结果',
+        ex: 'Both clubs accepted me in the same week.'
+      },
+      {
+        w: 'option',
+        ph: '/ˈɒpʃn/',
+        pos: 'n.',
+        cn: '选项、可选择的东西',
+        col: 'two options — 两个选项；have no option — 别无选择',
+        ex: 'Both options looked good at first.'
+      },
+      {
+        w: 'prefer',
+        ph: '/prɪˈfɜː(r)/',
+        pos: 'v.',
+        cn: '更喜欢、偏好',
+        col: 'prefer A to B — 喜欢甲胜过乙；prefer to do sth. — 更愿意做某事',
+        ex: 'I preferred the drama club, but I chose the other one.'
+      },
+      {
+        w: 'method',
+        ph: '/ˈmeθəd/',
+        pos: 'n.',
+        cn: '方法、办法',
+        col: 'a simple method — 一个简单的方法；by this method — 用这个办法',
+        ex: 'She told me a simple method for making a choice.'
+      },
+      {
+        w: 'amount',
+        ph: '/əˈmaʊnt/',
+        pos: 'n.',
+        cn: '数量、总额',
+        col: 'the amount of … — ……的数量；a large amount of — 大量的',
+        ex: 'The amount of work was clear on the paper.'
+      },
+      {
+        w: 'limit',
+        ph: '/ˈlɪmɪt/',
+        pos: 'n./v.',
+        cn: '限度、限制；限制',
+        col: 'a time limit — 时间上的限制；limit the cost — 限制花费',
+        ex: 'My free time has a limit.'
+      },
+      {
+        w: 'responsible',
+        ph: '/rɪˈspɒnsəbl/',
+        pos: 'adj.',
+        cn: '负责的、有责任心的',
+        col: 'be responsible for … — 对……负责（介词用 for）；a responsible person — 一个有责任心的人',
+        ex: 'I am responsible for my own decision.'
+      },
+      {
+        w: 'decision',
+        ph: '/dɪˈsɪʒn/',
+        pos: 'n.',
+        cn: '决定、决心',
+        col: 'make a decision — 做决定；a hard decision — 一个艰难的决定',
+        ex: 'In the end, my decision was clear.'
+      },
+      {
+        w: 'promise',
+        ph: '/ˈprɒmɪs/',
+        pos: 'n./v.',
+        cn: '承诺、答应',
+        col: 'make a promise — 做出承诺；promise to do sth. — 承诺做某事',
+        ex: 'I made a promise to myself.'
+      },
+      {
+        w: 'value',
+        ph: '/ˈvæljuː/',
+        pos: 'n./v.',
+        cn: '价值；重视、珍惜',
+        col: 'value your time — 珍惜你的时间；be of great value — 很有价值',
+        ex: 'I value my free time more now.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'apply for',
+        cn: '申请（名额、机会等）',
+        ex: 'I applied for a place in the club.'
+      },
+      {
+        en: 'make a list',
+        cn: '列一张清单',
+        ex: 'Make a list before you decide.'
+      },
+      {
+        en: 'side by side',
+        cn: '并排、并排放在一起',
+        ex: 'I put the two lists side by side.'
+      },
+      {
+        en: 'take up',
+        cn: '占用（时间、空间）',
+        ex: 'The job takes up too much of my week.'
+      },
+      {
+        en: 'make up my mind',
+        cn: '下定决心、拿定主意',
+        ex: 'I finally made up my mind.'
+      },
+      {
+        en: 'turn down',
+        cn: '拒绝（邀请、提议）',
+        ex: 'He turned down the place with a letter.'
+      },
+      {
+        en: 'in the end',
+        cn: '最后、最终',
+        ex: 'In the end, I chose the hiking club.'
+      },
+      {
+        en: 'be responsible for',
+        cn: '对……负责',
+        ex: 'You must be responsible for your choice.'
+      },
+      {
+        en: 'make a promise',
+        cn: '做出承诺',
+        ex: 'She made a promise to herself.'
+      },
+      {
+        en: 'give up',
+        cn: '放弃',
+        ex: 'A good choice is about knowing what you give up.'
+      },
+      {
+        en: 'as long as',
+        cn: '只要',
+        ex: 'You can join as long as you come every week.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'The truth is that ...',
+        cn: '说到底、其实……',
+        meaning: '用一个固定的判断句开头，把前文的具体叙述收束成一句结论。',
+        context: '记叙文或观点文的结尾段，后面直接写你想说的道理。',
+        alts: [
+          {
+            t: 'In fact, ...',
+            n: '更中性，语气稍弱'
+          },
+          {
+            t: 'The point is that ...',
+            n: '重点在于……'
+          },
+          {
+            t: 'What is true is that ...',
+            n: '更书面，主语从句版'
+          }
+        ],
+        register: '中性，写作与口语都常用。',
+        example: 'The truth is that a good choice is not about getting everything.'
+      },
+      {
+        expr: 'As a result, ...',
+        cn: '因此、结果……',
+        meaning: '承接前一句的原因，引出结果；前后必须真的是因果关系，不能随便当过渡词用。',
+        context: '段落中间的过渡句：先写原因，再用它引出结果。',
+        alts: [
+          {
+            t: 'Therefore, ...',
+            n: '更书面'
+          },
+          {
+            t: 'So, ...',
+            n: '最口语'
+          },
+          {
+            t: 'That is why ...',
+            n: '第 2 篇已学，后接结果句'
+          }
+        ],
+        register: '中性偏书面，因果段必备。',
+        example: 'Three evenings a week was too much. As a result, I chose the other club.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'When I saw the two lists together, the choice became easy, because I knew what each club would ask of me.',
+        points: [
+          '<b>主干</b>：the choice became easy（主语 + 系动词 + 表语）。句首的 When I saw the two lists together 是<b>时间状语从句</b>。',
+          '<b>because 引导原因状语从句</b>：说明「变容易」的原因不是题目变简单了，而是我弄清了每个选项的代价。',
+          '<b>what each club would ask of me</b> 是 knew 后面的<b>宾语从句</b>；what 同时作 ask 的宾语（ask sth. of sb. 向某人要某物）。',
+          '<b>为什么值得学</b>：一句话里叠了时间从句、原因从句、宾语从句三层，是四级阅读长句最常见的模型；写「做决定」的作文可以直接套。',
+          '<b>常见变体</b>：把原因从句提到句首 —— Because I knew what each club would ask of me, the choice became easy.'
+        ]
+      },
+      {
+        text: 'It is better to do one thing well than to do two things badly.',
+        points: [
+          '<b>主干</b>：It is better to do A than to do B。it 是<b>形式主语</b>，真正的主语是后面的不定式短语。',
+          '<b>better … than …</b>：两者之间取舍；than 前后结构要对称（to do … than to do …），这是比较句的硬要求。',
+          '<b>为什么值得学</b>：这是「取舍类」作文的万能句，把「不要贪多」说得又短又有力，比用两个否定句更像地道英文。',
+          '<b>注意</b>：than 后面的 to 可以省略（than do two things badly），但考试写作里写全更稳妥。',
+          '<b>常见变体</b>：It is better to give up one thing than to fail at both. / It is better to start early than to hurry at the last minute.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the older student tell the writer to ask?',
+        cn: '那位学姐让作者问自己什么问题？',
+        ans: 'Not what he would get from a club, but what he would pay — how much time and effort each club would take up in his week.',
+        ansCn: '别问能从社团得到什么，要问自己要付出什么——每个社团会占用一周里多少时间和精力。'
+      },
+      {
+        en: 'What did the drama club and the hiking club each want from a member?',
+        cn: '话剧社和徒步社各自要求成员付出什么？',
+        ans: 'The drama club wanted three evenings a week, while the hiking club wanted one weekend a month and some money for a bus ticket.',
+        ansCn: '话剧社要每周三个晚上；徒步社要每月一个周末，外加一点买车票的钱。'
+      },
+      {
+        en: 'Why did the writer choose the hiking club in the end?',
+        cn: '作者最后为什么选了徒步社？',
+        ans: 'Because he knew what each club would cost and decided that three evenings a week was too much this term, so he gave up the club he liked more.',
+        ansCn: '因为他看清了两个社团各自的代价，觉得这学期每周三个晚上太多，于是放弃了自己更喜欢的那一个。'
+      },
+      {
+        en: 'What is the function of the third paragraph in the passage?',
+        cn: '第三段在全文中起什么作用？',
+        ans: 'It brings in the new question — what you will pay — which turns a hard choice into an easy one and leads to the two lists in the next paragraph.',
+        ansCn: '它引出「你要付出什么」这个新问题，把难做的选择变简单，并引出下一段的两张清单。'
+      },
+      {
+        en: 'In paragraph 6, what does “it” in “as long as I was responsible for it” refer to?',
+        cn: '第六段里「只要我为它负责」中的「它」指的是什么？',
+        ans: 'It refers to the writer’s own decision about which club to join.',
+        ansCn: '指的是作者自己做出的那个决定——参加哪一个社团。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a choice you had to make between two things.',
+      hints: [
+        'Last month I ...',
+        'The truth is that ...',
+        'It is better to ... than to ...',
+        'As a result, ...'
+      ],
+      hintCn: '用 4–6 句话写一次「二选一」：先写两个选项各要你付出什么，再写你用什么办法下决心，最后写你明白了什么。',
+      req: '至少使用 2 个本篇学过的词或搭配（apply / option / take up / make up my mind / the truth is that）。'
+    },
+    speakingTask: {
+      en: 'When you have to choose between two things, do you decide quickly or slowly? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答「快」还是「慢」，再给一个理由，最后举一个自己的小例子。',
+      skeleton: 'I usually decide ... because ... For example, when I had to choose between ... and ..., I ...'
+    },
+    focus: [
+      '<b>新授核心词 11 个</b>：<span class=\'en\'>apply, accept, option, prefer, method, amount, limit, responsible, decision, promise, value</span> —— 注意 <span class=\'en\'>decide → decision</span> 的词性转换；<span class=\'en\'>be responsible for</span> 的介词只能用 for；<span class=\'en\'>promise</span> 名词动词两用（make a promise / promise to do）。',
+      '<b>本篇复现的旧词</b>：第 1 篇的 <span class=\'en\'>benefit</span>、第 3 篇的 <span class=\'en\'>advice / honest</span>、第 4 篇的 <span class=\'en\'>compare</span>、第 5 篇的 <span class=\'en\'>decide</span>、第 6 篇的 <span class=\'en\'>waste</span>、第 10 篇的 <span class=\'en\'>effort</span>、第 11 篇的 <span class=\'en\'>turn down</span> —— 灰点 8 处，看到灰点先自己说意思再往下读。',
+      '<b>取舍句型</b>：<span class=\'en\'>It is better to do one thing well than to do two things badly.</span> 形式主语 it + 比较结构，than 前后结构必须对称；凡是写「二选一」的作文都能套这一句。',
+      '<b>决策三件套搭配</b>：<span class=\'en\'>take up</span>（占用时间）、<span class=\'en\'>make a list</span>（列清单）、<span class=\'en\'>make up my mind</span>（下决心）—— 再加 <span class=\'en\'>side by side</span>（并排对比），就是完整的决策流程。',
+      '<b>全文逻辑线与题型提醒</b>：纠结一周 → 学来新问法（问代价）→ 列清单对比 → 取舍（放弃更喜欢的）→ 收束（好的选择是知道自己放弃了什么）。段落作用题答「写了什么 + 为什么这样写」两层；指代题把代词还原成本段里的具体名词。'
+    ],
+    standard: {
+      time: '约 30 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 11 个核心词遮住中文说出 ≥ 8 · 会用 It is better to … than to … · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 11 个核心词中的 8 个（apply、option、prefer、decision、responsible …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（take up、make a list、make up my mind …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 When I saw the two lists together, … 的三层结构（时间从句 + 原因从句 + 宾语从句），并仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要指对指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 The truth is that … 或 It is better to … than to …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清自己「快决定还是慢决定」，并给出一个理由和一个小例子',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 19,
+    slug: '019-the-neighbors-garden',
+    title: 'The Neighbors’ Garden',
+    titleCn: '邻居们的花园',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 315 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 3.8%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/019.jpg',
+    coverCredit: 'Photo: Berna / Pexels',
+    body: [
+      'The <span class="w-cet4" data-cn="空的、没人用的">empty</span> <span class="w-cet4" data-cn="角落">corner</span> under my building has looked the same for years: broken chairs, old bags, and a lot of <span class="w-cet4" data-cn="垃圾">rubbish</span>. Every time I passed it, I <span class="w-rev">noticed</span> it, and then I forgot it. Nobody thought it could be anything else.',
+      'One Saturday morning, three <span class="w-cet4" data-cn="志愿者">volunteers</span> from the building came down with bags and <span class="w-cet4" data-cn="工具">tools</span>. They <span class="w-rev">offered</span> me gloves, but I said I was busy and went back to my window. From there I watched them <span class="w-cet4" data-cn="收拾、整理">tidy</span> the corner.',
+      '<span class="w-sentence">I told myself that a garden was something other people built, not something a passer-by like me could help with.</span> Every weekend they came back and worked for hours. Little by little they <span class="w-phrase" data-cn="把……变成……">turned the corner into</span> a place for young <span class="w-cet4" data-cn="植物">plants</span>, and every green leaf showed their <span class="w-rev">effort</span>.',
+      'One evening an older neighbor asked me to <span class="w-phrase" data-cn="照料、照顾">take care of</span> the young plants for a week, because her family was away. It was a <span class="w-synonym" data-cn="＝ small 的替换词">tiny</span> job, but I said yes. Every evening I went down with a bottle of water and began to <span class="w-cet4" data-cn="想象">imagine</span> how the corner would look in summer.',
+      'The next Saturday I <span class="w-phrase" data-cn="参加">took part in</span> the work myself. We <span class="w-rev">supported</span> one another with heavy bags, and an old man <span class="w-rev">encouraged</span> me when I wanted to stop. It was <span class="w-cet4" data-cn="令人愉快的">cheerful</span> work, and no one was in a hurry.',
+      '<span class="w-writing" data-cn="随着时间推移">As time went by</span>, the corner became a real garden. We <span class="w-cet4" data-cn="修理">repaired</span> the broken fence, the flowers <span class="w-cet4" data-cn="生长">grew</span>, and on warm evenings people <span class="w-cet4" data-cn="聚集">gathered</span> there to talk. <span class="w-sentence">What surprised me was not the flowers themselves, but the people who now stopped there every evening.</span> I was <span class="w-rev">proud</span> of it, though I had done less than the others.',
+      '<span class="w-writing" data-cn="更重要的是">More importantly</span>, the garden changed me. I went from my window to the flower bed, and our <span class="w-rev">community</span> felt closer. A small corner is now a good place to plant something — and to grow a little yourself.'
+    ],
+    translation: [
+      '我楼下那个空角落多年来一个样：破椅子、旧袋子，还有一大堆垃圾。每次路过我都看它一眼，然后就忘了。没人想过它还能变成别的样子。',
+      '一个星期六的早上，楼里的三个志愿者带着袋子和工具下来了。他们递给我手套，可我说自己很忙，又回到了窗前。我就在那儿看着他们把角落收拾干净。',
+      '我告诉自己，花园是别人建的东西，不是我这样的路人能帮上忙的。每个周末他们都会回来干上几个小时。慢慢地，他们把角落变成了一块种小苗的地方，每一片绿叶都看得出他们付出的心血。',
+      '一天傍晚，一位上了年纪的邻居请我照料这些小苗一个星期，因为她一家要出门。活儿很小，可我答应了。每天傍晚我都拎着一瓶水下楼，开始想象这个角落到了夏天会是什么样子。',
+      '下一个周六，我亲自参加了劳动。我们互相帮着搬重袋子，我想停下的时候，一位老人会给我鼓劲。这是令人愉快的活儿，谁也不慌不忙。',
+      '随着时间推移，这个角落真的变成了花园。我们修好了破栅栏，花儿长了起来，天气暖和的傍晚，人们聚在那里聊天。最让我惊讶的不是花，而是那些如今每天傍晚都会在那里停一停的人。我为它感到自豪，虽然我干的活儿比别人都少。',
+      '更重要的是，花园改变了我。我从窗前走到了花坛边，邻里之间也亲近多了。一个小小的角落，如今是种点什么的好地方——也是让自己长一点的地方。'
+    ],
+    vocabulary: [
+      {
+        w: 'empty',
+        ph: '/ˈempti/',
+        pos: 'adj.',
+        cn: '空的、没人用的',
+        col: 'an empty corner — 一个空着的角落；an empty room — 一间空屋子',
+        ex: 'The empty corner was full of old bags.'
+      },
+      {
+        w: 'rubbish',
+        ph: '/ˈrʌbɪʃ/',
+        pos: 'n.',
+        cn: '垃圾',
+        col: 'pick up the rubbish — 捡起垃圾；a pile of rubbish — 一堆垃圾',
+        ex: 'There was a lot of rubbish under the tree.'
+      },
+      {
+        w: 'corner',
+        ph: '/ˈkɔːnə(r)/',
+        pos: 'n.',
+        cn: '角落、拐角',
+        col: 'on the corner of … — 在……的拐角；around the corner — 在附近',
+        ex: 'We sat in the corner of the room.'
+      },
+      {
+        w: 'volunteer',
+        ph: '/ˌvɒlənˈtɪə(r)/',
+        pos: 'n./v.',
+        cn: '志愿者；自愿做',
+        col: 'a volunteer — 一名志愿者；volunteer to do sth. — 自愿做某事',
+        ex: 'Three volunteers came down with tools.'
+      },
+      {
+        w: 'tool',
+        ph: '/tuːl/',
+        pos: 'n.',
+        cn: '工具',
+        col: 'a garden tool — 园艺工具；tool box — 工具箱',
+        ex: 'He brought two tools for the work.'
+      },
+      {
+        w: 'tidy',
+        ph: '/ˈtaɪdi/',
+        pos: 'v./adj.',
+        cn: '收拾整洁；整洁的',
+        col: 'tidy up — 收拾整齐；keep sth. tidy — 保持某物整洁',
+        ex: 'They tidied the corner all morning.'
+      },
+      {
+        w: 'plant',
+        ph: '/plɑːnt/',
+        pos: 'v./n.',
+        cn: '种植；植物',
+        col: 'plant trees — 种树；a young plant — 一株幼苗',
+        ex: 'It is a good place to plant flowers.'
+      },
+      {
+        w: 'imagine',
+        ph: '/ɪˈmædʒɪn/',
+        pos: 'v.',
+        cn: '想象',
+        col: 'imagine doing sth. — 想象做某事；it is hard to imagine — 很难想象',
+        ex: 'I imagine the corner will be beautiful in summer.'
+      },
+      {
+        w: 'cheerful',
+        ph: '/ˈtʃɪəfl/',
+        pos: 'adj.',
+        cn: '令人愉快的、快乐的',
+        col: 'cheerful work — 令人愉快的活儿；a cheerful voice — 快活的声音',
+        ex: 'It was cheerful work for everyone.'
+      },
+      {
+        w: 'repair',
+        ph: '/rɪˈpeə(r)/',
+        pos: 'v.',
+        cn: '修理',
+        col: 'repair a fence — 修理栅栏；under repair — 在修理中',
+        ex: 'We repaired the broken fence together.'
+      },
+      {
+        w: 'grow',
+        ph: '/ɡrəʊ/',
+        pos: 'v.',
+        cn: '生长、种植',
+        col: 'grow flowers — 种花；grow up — 长大',
+        ex: 'The flowers grew quickly after the rain.'
+      },
+      {
+        w: 'gather',
+        ph: '/ˈɡæðə(r)/',
+        pos: 'v.',
+        cn: '聚集、聚拢',
+        col: 'gather together — 聚在一起；gather information — 收集信息',
+        ex: 'People gather there on warm evenings.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'turn … into …',
+        cn: '把……变成……',
+        ex: 'They turned the corner into a garden.'
+      },
+      {
+        en: 'take care of',
+        cn: '照料、照顾',
+        ex: 'She takes care of the young plants.'
+      },
+      {
+        en: 'take part in',
+        cn: '参加（活动、劳动）',
+        ex: 'I took part in the work myself.'
+      },
+      {
+        en: 'show up',
+        cn: '出现、到场',
+        ex: 'Three neighbors showed up with tools.'
+      },
+      {
+        en: 'at first',
+        cn: '起初、一开始',
+        ex: 'At first I only watched from my window.'
+      },
+      {
+        en: 'little by little',
+        cn: '一点一点地、逐渐地',
+        ex: 'Little by little, the corner changed.'
+      },
+      {
+        en: 'be pleased with',
+        cn: '对……感到满意',
+        ex: 'The neighbors were pleased with the new garden.'
+      },
+      {
+        en: 'get rid of',
+        cn: '摆脱、扔掉',
+        ex: 'We got rid of the broken chairs.'
+      },
+      {
+        en: 'by the end of',
+        cn: '到……结束的时候',
+        ex: 'By the end of the month, the work was done.'
+      },
+      {
+        en: 'in the middle of',
+        cn: '在……中间',
+        ex: 'There is a small seat in the middle of the garden.'
+      },
+      {
+        en: 'as usual',
+        cn: '像往常一样',
+        ex: 'As usual, he came first and left last.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'As time went by, ...',
+        cn: '随着时间推移……',
+        meaning: '用时间作主语，把「慢慢变化」的过程压缩成一句开头，后面常接一般过去时或完成时。',
+        context: '写变化类记叙文的中段或转折处：先交代起点，再用它带出变化。',
+        alts: [
+          {
+            t: 'With time, ...',
+            n: '更短，书面'
+          },
+          {
+            t: 'As time passed, ...',
+            n: 'passed 比 went by 更书面'
+          },
+          {
+            t: 'Time went by, ...',
+            n: '直接用时间作主语'
+          }
+        ],
+        register: '中性，记叙文与说明文都好用。',
+        example: 'As time went by, the corner became a real garden.'
+      },
+      {
+        expr: 'More importantly, ...',
+        cn: '更重要的是……',
+        meaning: '在前一层意思之上再推进一层，通常从「事情」推到「人」或「道理」。',
+        context: '结尾段开头：先写看得见的变化，再用它点出更重要的收获。',
+        alts: [
+          {
+            t: 'What is more, ...',
+            n: '并列递进，语气稍弱'
+          },
+          {
+            t: 'Above all, ...',
+            n: '最重要的是，语气最强'
+          },
+          {
+            t: 'Even more importantly, ...',
+            n: '强调程度更高'
+          }
+        ],
+        register: '中性偏书面，收束段必备。',
+        example: 'More importantly, the garden changed me.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'I told myself that a garden was something other people built, not something a passer-by like me could help with.',
+        points: [
+          '<b>主干</b>：I told myself that …，that 引导<b>宾语从句</b>；从句的主干是 a garden was something。',
+          '<b>省略关系代词的定语从句</b>：something <b>(that)</b> other people built 修饰 something；后半句 not something (that) a passer-by like me could help with 与它结构对称。',
+          '<b>not …, not …</b>：两个否定句并排，先否定「别人做的事」，再否定「我能帮上忙的事」，把「旁观者」的心理写得很具体。',
+          '<b>为什么值得学</b>：something + 定语从句是四级阅读里最常见的「模糊指代 + 修饰」结构；写心理活动时可以照抄这个句式。',
+          '<b>常见变体</b>：It was not something I could help with. / I told myself that it was none of my business.'
+        ]
+      },
+      {
+        text: 'What surprised me was not the flowers themselves, but the people who now stopped there every evening.',
+        points: [
+          '<b>主干</b>：What surprised me was the people …；<b>What 引导主语从句</b>（相当于 the thing that），谓语用单数 was。',
+          '<b>not A but B</b>：不是甲而是乙，否定「花」、突出「人」，是记叙文把立意从「物」转到「人」的标准句式。',
+          '<b>the people who now stopped there every evening</b> 是 who 引导的<b>定语从句</b>，修饰 the people。',
+          '<b>为什么值得学</b>：和第 11 篇的 What surprised me most was not …, but … 是同一句型的升级版：把收获落在「人」上，结尾立刻有分量。',
+          '<b>常见变体</b>：What changed was not the garden, but me.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What did the corner under the building look like at the beginning?',
+        cn: '一开始，楼下的空角落是什么样子？',
+        ans: 'It had looked the same for years, with broken chairs, old bags and a lot of rubbish.',
+        ansCn: '多年来都是老样子：破椅子、旧袋子，还有一大堆垃圾。'
+      },
+      {
+        en: 'What did the older neighbor ask the writer to do one evening?',
+        cn: '一天傍晚，那位上了年纪的邻居请作者做什么？',
+        ans: 'She asked him to take care of the young plants for a week, because her family was away.',
+        ansCn: '请他照料那些小苗一个星期，因为她一家要出门。'
+      },
+      {
+        en: 'Why did the writer say he was busy when the volunteers first offered him gloves?',
+        cn: '志愿者第一次递给作者手套时，他为什么说自己很忙？',
+        ans: 'Because he still thought a garden was something other people built and that a passer-by like him could not help, so he stayed a watcher at the window.',
+        ansCn: '因为他当时还认为花园是别人建的东西，自己这样的路人帮不上忙，所以只肯留在窗前旁观。'
+      },
+      {
+        en: 'What does the last paragraph do in the passage?',
+        cn: '最后一段在全文中起什么作用？',
+        ans: 'It turns the story into a lesson: the garden changed the writer from a watcher into a participant and brought the neighbors closer.',
+        ansCn: '它把故事收成一个收获：花园让作者从旁观者变成参与者，也让邻里更亲近。'
+      },
+      {
+        en: 'In paragraph 6, what does “it” in “I was proud of it” refer to?',
+        cn: '第六段里「我为它感到自豪」中的「它」指的是什么？',
+        ans: 'It refers to the garden that the neighbors had made in the corner.',
+        ansCn: '指的是邻居们在那个角落里建起来的花园。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a place near your home that changed little by little.',
+      hints: [
+        'At first, ...',
+        'As time went by, ...',
+        'More importantly, ...'
+      ],
+      hintCn: '用 4–6 句话写一处慢慢变化的地方：先写它原来的样子，再写人们做了什么，最后写更重要的收获。',
+      req: '至少使用 2 个本篇学过的词或搭配（turn … into … / take care of / gather / volunteer / as time went by）。'
+    },
+    speakingTask: {
+      en: 'Would you like to help change a place near your home? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先明确回答想不想，再给一个理由，最后举一个自己能做的小事。',
+      skeleton: 'Yes, I would like to ... because ... For example, I could ...'
+    },
+    focus: [
+      '<b>新授核心词 12 个</b>：<span class=\'en\'>empty, rubbish, corner, volunteer, tool, tidy, plant, imagine, cheerful, repair, grow, gather</span> —— <span class=\'en\'>plant / grow / gather</span> 都能当动词用；<span class=\'en\'>cheerful</span> 是 cheer + ful；<span class=\'en\'>volunteer to do sth.</span> 里的 to 不省。',
+      '<b>本篇复现的旧词</b>：第 3 篇的 <span class=\'en\'>support / encourage</span>、第 9 篇的 <span class=\'en\'>notice / offer</span>、第 10 篇的 <span class=\'en\'>effort / proud</span>、第 9 篇的 <span class=\'en\'>community</span> —— 灰点 7 处，都在新的故事里换了语境。',
+      '<b>两个要背的句型</b>：<span class=\'en\'>something (that) other people built</span>（省略关系代词的定语从句）与 <span class=\'en\'>What … was not A, but B</span>（把收获从「物」转到「人」的升华句）—— 一写心理、一写立意。',
+      '<b>动词搭配四连</b>：<span class=\'en\'>turn … into …</span>（把……变成……）、<span class=\'en\'>take care of</span>（照料）、<span class=\'en\'>take part in</span>（参加）、<span class=\'en\'>show up</span>（到场）—— 社区劳动场景最常见的四个动作。',
+      '<b>全文逻辑线与题型提醒</b>：旁观（看一眼就忘）→ 别人动手（我只在窗前看）→ 被托付小事（照料小苗）→ 亲自参与 → 变化与升华（从窗前到花坛边）。推断题要抓住「行为背后的想法」，指代题把代词还原成本段的具体名词。'
+    ],
+    standard: {
+      time: '约 32 分钟',
+      bar: '阅读题 5 题对 ≥ 4 · 12 个核心词遮住中文说出 ≥ 9 · 会用 What … was not A, but B · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 12 个核心词中的 9 个（volunteer、gather、imagine、cheerful、repair …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '11 个高频搭配掌握 8 个，能各造一句（turn … into …、take care of、take part in …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 What surprised me was not …, but … 的主语从句与对比结构，并仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要指对指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 As time went by, … 或 More importantly, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说清「想不想参与改变住处附近的一个地方」，并给出一个理由和一件小事',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 7 处灰点旧词，说出其中 5 个的意思，并查到它首次出现的篇目',
+          lvl: '加分'
+        }
+      ]
+    }
+  },
+{
+    id: 20,
+    slug: '020-three-lessons-from-a-bad-week',
+    title: 'Three Lessons from a Bad Week',
+    titleCn: '糟糕一周的三个教训',
+    stage: '阶段二 · 基础过渡',
+    stageRange: '第 11–20 篇',
+    meta: [
+      {
+        k: '篇幅',
+        v: '约 315 词'
+      },
+      {
+        k: '新词密度',
+        v: '约 3.8%'
+      },
+      {
+        k: '长难句',
+        v: '2 处'
+      },
+      {
+        k: '阅读题',
+        v: '5 题'
+      }
+    ],
+    cover: 'assets/covers/020.jpg',
+    coverCredit: 'Photo: cottonbro studio / Pexels',
+    body: [
+      'Last week started badly and got worse. On Monday I <span class="w-cet4" data-cn="掉落、摔落">dropped</span> my phone and the screen was <span class="w-cet4" data-cn="损坏">damaged</span>. On Wednesday I lost my <span class="w-cet4" data-cn="钱包">wallet</span> on the bus. On Friday I <span class="w-cet4" data-cn="失败、考砸">failed</span> a test I had <span class="w-rev">expected</span> to pass.',
+      'By Friday evening I felt <span class="w-rev">disappointed</span> and <span class="w-synonym" data-cn="＝ very tired 的替换词">exhausted</span>. <span class="w-cet4" data-cn="幸运地">Luckily</span>, a friend gave me some <span class="w-rev">advice</span>: write down what happened, and look at the week again on Sunday.',
+      'On Sunday I <span class="w-phrase" data-cn="把……记录下来">kept a record of</span> the three bad days and <span class="w-rev">reviewed</span> the week. <span class="w-sentence">When I looked at the three days on paper, I saw that two of the three problems had started with something small.</span> A full desk, an open bag, and late revision were the real causes.',
+      'What did that week teach me? <span class="w-writing" data-cn="教训是……">The lesson is that</span> small <span class="w-cet4" data-cn="细节">details</span> can <span class="w-cet4" data-cn="阻止、预防">prevent</span> big problems: a clean desk, a closed bag, and one hour of revision a day would have stopped all three. I now pay attention to the little things before they grow.',
+      'The second lesson is about feelings. When everything goes wrong at once, the first step is to <span class="w-phrase" data-cn="冷静下来">calm down</span> and think. A bad week does not need a bad <span class="w-cet4" data-cn="态度">attitude</span>. I stay in <span class="w-cet4" data-cn="控制">control</span> of my day and look for a <span class="w-cet4" data-cn="解决办法">solution</span> before I say anything I might <span class="w-rev">regret</span>.',
+      'The third lesson is about preparation. My <span class="w-rev">schedule</span> was a mess: I left everything to the last minute. Now I write things down and <span class="w-cet4" data-cn="准备">prepare</span> early, because a small note can <span class="w-cet4" data-cn="提醒">remind</span> me at the right time. That way I can <span class="w-phrase" data-cn="弥补">make up for</span> a bad day instead of losing a whole week.',
+      '<span class="w-writing" data-cn="简而言之">In short</span>, a bad week is not a bad life. <span class="w-sentence">I could not stop every problem that week, but I could change what I did after each one, and that made all the difference.</span> Using these lessons costs little <span class="w-rev">effort</span>, and I have <span class="w-phrase" data-cn="吸取教训">learned a lesson</span>: I will not <span class="w-rev">waste</span> what that week taught me.'
+    ],
+    translation: [
+      '上周一开头就不顺，之后越来越糟。周一我摔了手机，屏幕摔坏了。周三我在公交车上丢了钱包。周五，一场我本以为能考过的考试，我考砸了。',
+      '到周五晚上，我又失望，又筋疲力尽。幸好一位朋友给了我一些建议：把发生的事写下来，周日再回头看这一周。',
+      '周日我照做了：把这三个糟糕的日子记录下来，又回顾了一遍。当我把这三天摊在纸上来看，我发现三个问题里有两个都是从小事开始的。一张堆满东西的书桌、一个敞开的包、拖到最后一刻才复习——这些才是真正的原因。',
+      '那一周教会了我什么？教训是：小细节能防住大麻烦。一张干净的书桌、一个拉好的包、每天一小时的复习，本可以把这三件事都挡在外面。现在我会在小事变大之前就留意它们。',
+      '第二条教训和情绪有关。当所有事一下子都出错，第一步是冷静下来想一想。糟糕的一周不需要糟糕的态度。我要管住自己的一天，在说出可能后悔的话之前，先找解决办法。',
+      '第三条教训是关于准备。我的时间安排一团糟：什么事都拖到最后一刻。现在我会把要做的事写下来，早早准备，因为一张小纸条能在合适的时候提醒我。这样，糟糕的一天就能补回来，不至于丢掉一整周。',
+      '简而言之，糟糕的一周不等于糟糕的人生。那一周里的问题我一个也拦不住，但每件事之后怎么做，我可以改变，而这一点带来天壤之别。用上这些教训并不费力，我也已经吸取了教训：那一周教给我的东西，我不会白白浪费。'
+    ],
+    vocabulary: [
+      {
+        w: 'fail',
+        ph: '/feɪl/',
+        pos: 'v.',
+        cn: '失败、不及格',
+        col: 'fail a test — 考试不及格；fail to do sth. — 未能做成某事',
+        ex: 'He failed the test by three points.'
+      },
+      {
+        w: 'damage',
+        ph: '/ˈdæmɪdʒ/',
+        pos: 'v./n.',
+        cn: '损坏、损害',
+        col: 'be damaged — 被损坏了；do damage to — 对……造成损害',
+        ex: 'The screen was damaged in the fall.'
+      },
+      {
+        w: 'wallet',
+        ph: '/ˈwɒlɪt/',
+        pos: 'n.',
+        cn: '钱包',
+        col: 'lose one’s wallet — 丢钱包；an open wallet — 敞开的钱包',
+        ex: 'I lost my wallet on the bus.'
+      },
+      {
+        w: 'drop',
+        ph: '/drɒp/',
+        pos: 'v.',
+        cn: '掉落、摔落；降低',
+        col: 'drop one’s phone — 摔手机；drop to the floor — 掉到地上',
+        ex: 'I dropped my phone on Monday.'
+      },
+      {
+        w: 'luckily',
+        ph: '/ˈlʌkɪli/',
+        pos: 'adv.',
+        cn: '幸运地、幸好',
+        col: 'luckily for sb. — 某人幸运的是；luckily, … — 幸好……',
+        ex: 'Luckily, a friend gave me some advice.'
+      },
+      {
+        w: 'prevent',
+        ph: '/prɪˈvent/',
+        pos: 'vt.',
+        cn: '阻止、预防',
+        col: 'prevent sth. from happening — 防止某事发生；prevent problems — 预防问题',
+        ex: 'Small details can prevent big problems.'
+      },
+      {
+        w: 'detail',
+        ph: '/ˈdiːteɪl/',
+        pos: 'n.',
+        cn: '细节、详情',
+        col: 'pay attention to details — 注意细节；in detail — 详细地',
+        ex: 'The lesson is about small details.'
+      },
+      {
+        w: 'attitude',
+        ph: '/ˈætɪtjuːd/',
+        pos: 'n.',
+        cn: '态度、心态',
+        col: 'a bad attitude — 消极的态度；one’s attitude to … — 对……的态度',
+        ex: 'A bad week does not need a bad attitude.'
+      },
+      {
+        w: 'control',
+        ph: '/kənˈtrəʊl/',
+        pos: 'n./v.',
+        cn: '控制；控制住',
+        col: 'stay in control of … — 管住、掌控……；lose control — 失去控制',
+        ex: 'I must stay in control of my day.'
+      },
+      {
+        w: 'solution',
+        ph: '/səˈluːʃn/',
+        pos: 'n.',
+        cn: '解决办法',
+        col: 'find a solution — 找到解决办法；the solution to … — ……的解决办法',
+        ex: 'We looked for a solution before we spoke.'
+      },
+      {
+        w: 'remind',
+        ph: '/rɪˈmaɪnd/',
+        pos: 'vt.',
+        cn: '提醒',
+        col: 'remind sb. to do sth. — 提醒某人做某事；remind sb. of … — 使某人想起……',
+        ex: 'A small note can remind me at the right time.'
+      },
+      {
+        w: 'prepare',
+        ph: '/prɪˈpeə(r)/',
+        pos: 'v.',
+        cn: '准备',
+        col: 'prepare for sth. — 为某事做准备；prepare early — 早点准备',
+        ex: 'I prepare early now.'
+      }
+    ],
+    phrases: [
+      {
+        en: 'keep a record of',
+        cn: '把……记录下来',
+        ex: 'I keep a record of my bad days.'
+      },
+      {
+        en: 'calm down',
+        cn: '冷静下来',
+        ex: 'Calm down before you answer.'
+      },
+      {
+        en: 'make up for',
+        cn: '弥补、补偿',
+        ex: 'One good day can make up for a bad one.'
+      },
+      {
+        en: 'learn a lesson',
+        cn: '吸取教训',
+        ex: 'I learned a lesson from that week.'
+      },
+      {
+        en: 'make a mistake',
+        cn: '犯一个错误',
+        ex: 'Everyone makes a mistake sometimes.'
+      },
+      {
+        en: 'take … seriously',
+        cn: '认真对待……',
+        ex: 'Take the little things seriously.'
+      },
+      {
+        en: 'run out of',
+        cn: '用完、耗尽',
+        ex: 'We ran out of time before the test.'
+      },
+      {
+        en: 'as usual',
+        cn: '像往常一样',
+        ex: 'As usual, he left everything to the last minute.'
+      },
+      {
+        en: 'at least',
+        cn: '至少',
+        ex: 'At least one of the problems was easy to stop.'
+      },
+      {
+        en: 'in the end',
+        cn: '最后、最终',
+        ex: 'In the end, the bad week taught me a lot.'
+      },
+      {
+        en: 'pay attention to',
+        cn: '注意、留意',
+        ex: 'I now pay attention to the little things.'
+      },
+      {
+        en: 'by the end of',
+        cn: '到……结束的时候',
+        ex: 'By the end of the week, I was tired.'
+      }
+    ],
+    writings: [
+      {
+        expr: 'The lesson is that ...',
+        cn: '教训是……',
+        meaning: '用「教训」作主语直接引出道理，比 I learned that 更突出「这件事换来的经验」。',
+        context: '复盘类文章的主体段或结尾段：先写事实，再用它点出道理。',
+        alts: [
+          {
+            t: 'What I have learned is that ...',
+            n: '第 10 篇已学，更强调过程'
+          },
+          {
+            t: 'The point is that ...',
+            n: '重点在于……'
+          },
+          {
+            t: 'It teaches me that ...',
+            n: '它让我明白……'
+          }
+        ],
+        register: '中性，总结段最好用。',
+        example: 'The lesson is that small details can prevent big problems.'
+      },
+      {
+        expr: 'In short, ...',
+        cn: '简而言之……',
+        meaning: '把前文的几层意思压缩成一句话收尾，是结尾段最常见的开头。',
+        context: '全文最后一段的首句，后面写一到两句结论。',
+        alts: [
+          {
+            t: 'In a word, ...',
+            n: '一句话概括'
+          },
+          {
+            t: 'To sum up, ...',
+            n: '更书面，演讲常用'
+          },
+          {
+            t: 'All in all, ...',
+            n: '总而言之'
+          }
+        ],
+        register: '中性偏书面，收束全文。',
+        example: 'In short, a bad week is not a bad life.'
+      }
+    ],
+    sentences: [
+      {
+        text: 'When I looked at the three days on paper, I saw that two of the three problems had started with something small.',
+        points: [
+          '<b>主干</b>：I saw that …（主语 + 谓语 + <b>宾语从句</b>）；句首的 When I looked at the three days on paper 是时间状语从句。',
+          '<b>on paper</b>：写到纸上、落在文字上；呼应第 10 篇的 on paper —— 事情写下来才看得清。',
+          '<b>had started</b> 是<b>过去完成时</b>：问题「开始」发生在 saw 之前，比一般过去时早一个时间层次。',
+          '<b>something small</b>：形容词<b>后置</b>修饰不定代词（something wrong / nothing new），这是固定语序，不能说 small something。',
+          '<b>为什么值得学</b>：复盘类文章的万能句式，把「倒霉事件」变成「可以分析的对象」，是写出深度的第一步。'
+        ]
+      },
+      {
+        text: 'I could not stop every problem that week, but I could change what I did after each one, and that made all the difference.',
+        points: [
+          '<b>主干</b>：由 but 和 and 连接的三个分句层层递进：不能阻止问题 → 能改变应对方式 → 带来巨大改变。',
+          '<b>what I did after each one</b> 是 change 的<b>宾语从句</b>，what 同时作 did 的宾语；each one 回指前面的 every problem。',
+          '<b>make all the difference</b>：起决定性作用、差别巨大，比 very important 更地道，是四级写作的高频加分短语。',
+          '<b>为什么值得学</b>：把「无能为力」和「有能为力」分开写，是总结段的高级思路；结构可以直接照抄。',
+          '<b>常见变体</b>：I cannot control what happens, but I can control what I do.'
+        ]
+      }
+    ],
+    questions: [
+      {
+        en: 'What three things went wrong during the writer’s week?',
+        cn: '那一周作者遇到了哪三件倒霉事？',
+        ans: 'He dropped his phone and the screen was damaged, he lost his wallet on the bus, and he failed a test.',
+        ansCn: '他摔了手机、屏幕摔坏了，在公交车上丢了钱包，还有一场考试考砸了。'
+      },
+      {
+        en: 'What did the writer do on Sunday?',
+        cn: '作者周日做了什么？',
+        ans: 'He kept a record of the three bad days, reviewed the week, and looked at the three days on paper.',
+        ansCn: '他把三个糟糕的日子记录下来，回顾了这一周，并把这三天摊在纸上看。'
+      },
+      {
+        en: 'What can we infer about how the writer dealt with problems before that week?',
+        cn: '从文中可以推出，作者在那之前是怎么处理问题的？',
+        ans: 'He probably paid little attention to small details and left everything to the last minute, so small problems grew into big ones.',
+        ansCn: '他大概不太注意小细节，什么事都拖到最后一刻，于是小问题变成了大麻烦。'
+      },
+      {
+        en: 'What does the fourth paragraph do in the passage?',
+        cn: '第四段在全文中起什么作用？',
+        ans: 'It states the first lesson — small details can prevent big problems — and gives examples from that week before the other two lessons follow.',
+        ansCn: '它点出第一条教训——小细节能防住大麻烦——并用那一周的例子说明，后面再接另外两条教训。'
+      },
+      {
+        en: 'In the sentence “I could not stop every problem that week ...”, what does “each one” refer to?',
+        cn: '在「那一周里的问题我一个也拦不住……」这句话里，「每一件」指的是什么？',
+        ans: 'It refers to each problem in that bad week.',
+        ansCn: '指的是那糟糕一周里的每一个问题。'
+      }
+    ],
+    writingTask: {
+      en: 'Write 60–80 words about a difficult week or day and what it taught you.',
+      hints: [
+        'Last week, ...',
+        'The lesson is that ...',
+        'In short, ...'
+      ],
+      hintCn: '用 4–6 句话写一次不顺的经历：先写发生了什么，再写你总结出的教训，最后用一句话收尾。',
+      req: '至少使用 2 个本篇学过的词或搭配（prevent / detail / calm down / make up for / the lesson is that）。'
+    },
+    speakingTask: {
+      en: 'What is the most useful lesson from a difficult experience? Answer the question in 45 seconds and give one reason.',
+      points: [
+        'Your answer',
+        'One reason',
+        'One small example'
+      ],
+      pointCn: '先说出你认为最有用的一条经验，再给一个理由，最后举一件自己的小事。',
+      skeleton: 'The most useful lesson for me is that ... because ... For example, when I ..., I ...'
+    },
+    focus: [
+      '<b>新授核心词 12 个</b>：<span class=\'en\'>fail, damage, wallet, drop, luckily, prevent, detail, attitude, control, solution, remind, prepare</span> —— <span class=\'en\'>fail</span> 既是「失败」也是「不及格」；<span class=\'en\'>prevent … from doing</span> 的 from 不省；<span class=\'en\'>the solution to</span> 的介词用 to；<span class=\'en\'>remind sb. to do</span> 与 <span class=\'en\'>remind sb. of</span> 意思不同。',
+      '<b>本篇复现的旧词（本篇是节点篇，复现密度最高）</b>：第 3 篇的 <span class=\'en\'>advice</span>、第 5 篇的 <span class=\'en\'>expected / disappointed</span>、第 6 篇的 <span class=\'en\'>schedule / waste</span>、第 10 篇的 <span class=\'en\'>effort / review</span>、第 11 篇的 <span class=\'en\'>regret</span> —— 灰点 8 处，覆盖阶段一、二两批重点旧词。',
+      '<b>复盘的写法</b>：先摆事实（三件倒霉事）→ 再写分析（摊在纸上找原因）→ 逐条给教训 → 一句话收束。<span class=\'en\'>The lesson is that …</span> 与 <span class=\'en\'>In short, …</span> 一开一合，正好撑起这类短文。',
+      '<b>动词搭配四连</b>：<span class=\'en\'>keep a record of</span>（记录）、<span class=\'en\'>calm down</span>（冷静）、<span class=\'en\'>make up for</span>（弥补）、<span class=\'en\'>learn a lesson</span>（吸取教训）—— 复盘场景的四个必备动作。',
+      '<b>全文逻辑线与题型提醒</b>：糟糕一周 → 周日复盘 → 教训一（细节防大问题）→ 教训二（情绪要管住）→ 教训三（提前准备）→ 收束（糟糕的一周不等于糟糕的人生）。推断题要抓「从前的行为」；段落作用题答「本段写了什么 + 为下文做了什么铺垫」。',
+      '<b>⭐ 本阶段复盘 · 词汇抽查</b>：请盖住释义，认一认这 10 个阶段一、二的旧词 —— <span class=\'en\'>afford, benefit, suggest, improve, encourage, support, compare, decide, effort, hesitate</span>。任何两个想不起来的，写进下一阶段的复习清单，会安排在第 21–25 篇里再次复现。',
+      '<b>⭐ 本阶段复盘 · 下阶段难度确认</b>：阶段三（第 21–30 篇）会一次上调五个维度 —— 篇幅 300→400 词、新词密度 4–6%、每篇 12–18 个新词、<b>定语从句与被动语态正式登场</b>、<b>同义替换标注系统出现</b>（阅读题开始考「题目换一种说法」）。<b>如果这一篇你读起来「刚好」或「偏简单」，就按计划推进；如果偏难，第 21 篇只下调新词密度，其余维度照旧。</b>请给一个 1–5 的难度自评：1＝偏难，3＝刚好，5＝偏简单。'
+    ],
+    standard: {
+      time: '约 35 分钟',
+      bar: '阶段二复盘：阅读题 5 题对 ≥ 4 · 12 个核心词遮住中文说出 ≥ 9 · 能说出三条教训 · 完成 60–80 词写作与 45 秒口语',
+      items: [
+        {
+          k: '词汇',
+          v: '遮住中文能说出 12 个核心词中的 9 个（prevent、detail、attitude、solution、remind …）',
+          lvl: '必达'
+        },
+        {
+          k: '搭配',
+          v: '12 个高频搭配掌握 9 个，能各造一句（keep a record of、calm down、make up for …）',
+          lvl: '建议'
+        },
+        {
+          k: '长难句',
+          v: '说出 I could not stop every problem … 的三分句递进结构与 make all the difference，并仿写一句',
+          lvl: '必达'
+        },
+        {
+          k: '阅读题',
+          v: '5 题至少对 4 题；第 3 题要能说出推断依据，第 5 题要指对指代对象',
+          lvl: '必达'
+        },
+        {
+          k: '写作',
+          v: '按 07 节写 60–80 词，至少用上 The lesson is that … 或 In short, …',
+          lvl: '必达'
+        },
+        {
+          k: '口语',
+          v: '45 秒说出「一次不顺经历里最有用的一条经验」，并给出一个理由和一件小事',
+          lvl: '建议'
+        },
+        {
+          k: '复现',
+          v: '点划正文里 8 处灰点旧词，说出其中 6 个的意思，并在心里给阶段二的收获打一个 1–5 分',
+          lvl: '加分'
+        }
+      ]
+    }
   }
 ];

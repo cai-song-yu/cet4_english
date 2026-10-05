@@ -2,6 +2,7 @@
 
 > 📖 **阅读方式**：双击根目录 `index.html` 打开前端阅读器（所有文章在此浏览）。
 > 文章内容存于 `assets/js/articles.js`（数据），封面图在 `assets/covers/`。
+> 每篇含 **真人朗读音频** `assets/audio/<slug>/pN.mp3`（MiMo 预生成，清单在 `assets/audio/manifest.js`，缺篇时前端自动回退浏览器朗读）。
 > 本目录的 `.md` 文件为第 1 篇的存档备份；**从第 2 篇起以 `articles.js` 数据为唯一来源**。
 > 每篇含 **逐段中文译文**（`translation[]`，与正文等长、默认隐藏，点 🈶 或按 `L` 显隐）
 > 与 **推荐完成度达标线**（`standard`，第 09 板块，7 条可勾选的验收标准）。
@@ -19,8 +20,20 @@
 | 8 | Twenty Minutes a Day | 阶段一 · 基础 | assets/js/articles.js（第 8 条） | assets/covers/008.jpg |
 | 9 | The New Neighbor | 阶段一 · 基础 | assets/js/articles.js（第 9 条） | assets/covers/009.jpg |
 | 10 | What One Month Taught Me | 阶段一 · 基础（节点篇） | assets/js/articles.js（第 10 条） | assets/covers/010.jpg |
+| 11 | The Weekend I Said Yes | 阶段二 · 基础过渡 | assets/js/articles.js（第 11 条） | assets/covers/011.jpg |
+| 12 | My First Part-Time Job | 阶段二 · 基础过渡 | assets/js/articles.js（第 12 条） | assets/covers/012.jpg |
+| 13 | A Message I Almost Sent | 阶段二 · 基础过渡 | assets/js/articles.js（第 13 条） | assets/covers/013.jpg |
+| 14 | What My Grandfather Kept | 阶段二 · 基础过渡 | assets/js/articles.js（第 14 条） | assets/covers/014.jpg |
+| 15 | Cooking with My Roommate | 阶段二 · 基础过渡 | assets/js/articles.js（第 15 条） | assets/covers/015.jpg |
+| 16 | The Bus Stop Conversation | 阶段二 · 基础过渡 | assets/js/articles.js（第 16 条） | assets/covers/016.jpg |
+| 17 | When the Internet Was Gone | 阶段二 · 基础过渡 | assets/js/articles.js（第 17 条） | assets/covers/017.jpg |
+| 18 | A Choice Between Two Clubs | 阶段二 · 基础过渡 | assets/js/articles.js（第 18 条） | assets/covers/018.jpg |
+| 19 | The Neighbors' Garden | 阶段二 · 基础过渡 | assets/js/articles.js（第 19 条） | assets/covers/019.jpg |
+| 20 | Three Lessons from a Bad Week | 阶段二 · 基础过渡（节点篇） | assets/js/articles.js（第 20 条） | assets/covers/020.jpg |
 
-**封面授权**：001 取自 Wikimedia Commons；002–010 取自 Pexels（Pexels License，可商用、免署名），
+**封面授权**：001 取自 Wikimedia Commons；002–020 取自 Pexels（Pexels License，可商用、免署名），
 署名已逐条记录在 `articles.js` 的 `coverCredit` 字段，并显示在文章页封面右上角。
+
+**朗读音色**：按篇交替 —— 单数篇 Chloe（美音 native）、双数篇 Mia（英式 RP），课文与词表发音统一。
 
 （每完成一篇由老师追加）
